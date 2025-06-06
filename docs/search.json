@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Suparno Bhattacharyya",
+    "section": "",
+    "text": "About Me\nI hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.\n\n\n\nResearch Focus\nMy doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.\nAt Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\n- Data-driven discovery of structural vibration models using neural ODEs\nCurrently, I am a Postdoctoral Research Associate at the TAMIDS Digital Twin Lab, working with: - Dr. Jian Tao\n- Dr. Jean Ragusa\n- Dr. Eduardo Gildin\nMy work focuses on nonlinear reduced-order modeling for complex systems.\n\n\n\nCertifications & Skills\n\nCertified in Machine Learning\nCertified in Online Teaching\nSkilled in reduced-order modeling, optimization, and data-driven simulation\n\n\n\n🎶 Beyond Research\nI am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes."
+  },
+  {
+    "objectID": "Research.html",
+    "href": "Research.html",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Bhattacharyya, S., Khawale, R., Rai, R., Dargush, G. (2024). Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation. Computers & Structures, 299, 107371. https://doi.org/10.1016/j.compstruc.2024.107371\nAbstract\nAdditive manufacturing is revolutionizing hierarchical structure design with applications in compliant, auxetic, and band-gap structures. This paper presents a dynamic topology optimization framework for printable lattice structures aimed at reducing wave propagation within specific frequency bands. By using parametrically defined filament-based unit cells, bandgaps are tailored to mitigate resonance.\nOur method employs a complementary energy formulation to derive flexibility and stiffness matrices analytically, significantly reducing finite element discretization needs and enabling rapid exploration of meso-structures.\nHighlights: - New structural analysis technique for parametrically defined lattice structures. - Optimization speed increased by over 25x via complementary energy-based stiffness computations. - Achieved a &gt;250% increase in bandgap width within lattice structures.\n\n\n\nBhattacharyya, S., Cusumano, J. (Submitted). Model Reduction of a Piecewise Nonlinear Mechanical Oscillator. Proceedings of the Royal Society A. Preprint\nAbstract\nThis work explores model reduction of a hybrid nonlinear oscillator subjected to position-triggered electromagnetic kicks. We observed a range of bifurcation behaviors—both periodic and chaotic. Using proper orthogonal decomposition (POD) and an energy-closure criterion, we derived reduced-order models (ROMs) accurately capturing these dynamics.\nWatch on YouTube\n\n\n\nBhattacharyya, S., Cusumano, J. P. (2022). Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling. ASME Journal of Vibration and Acoustics, 144(5): 051007. https://doi.org/10.1115/1.4054295\nAbstract\nReduced-order models (ROMs) provide efficient approximations of complex dynamical systems, but their accuracy depends on dimensional estimation. We demonstrate how the energy closure criterion can be implemented experimentally to estimate ROM dimension using POD.\nUsing a periodically kicked Euler-Bernoulli beam, we developed a method for determining the ROM dimension based on convergence of system energy. Our approach is shown to be robust against discretization errors and measurement noise.\n\n\n\nBhattacharyya, S., Cusumano, J. (2021). An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam. ASME Journal of Vibration and Acoustics, 143(4): 041001. https://doi.org/10.1115/1.4048663\nAbstract\nThis paper assesses the effectiveness of POD for model reduction of a beam system under impulsive loading. We find that variance-based mode selection may yield inaccurate ROMs under high impulsivity due to energy imbalance. Our proposed energy closure analysis offers a better strategy, resulting in more energetically consistent and accurate ROMs.\nSpotlight: This paper was nominated for an ASME spotlight presentation at the 2021 IDETC."
+  },
+  {
+    "objectID": "Research.html#efficient-dynamic-topology-optimization-of-2d-metamaterials",
+    "href": "Research.html#efficient-dynamic-topology-optimization-of-2d-metamaterials",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Bhattacharyya, S., Khawale, R., Rai, R., Dargush, G. (2024). Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation. Computers & Structures, 299, 107371. https://doi.org/10.1016/j.compstruc.2024.107371\nAbstract\nAdditive manufacturing is revolutionizing hierarchical structure design with applications in compliant, auxetic, and band-gap structures. This paper presents a dynamic topology optimization framework for printable lattice structures aimed at reducing wave propagation within specific frequency bands. By using parametrically defined filament-based unit cells, bandgaps are tailored to mitigate resonance.\nOur method employs a complementary energy formulation to derive flexibility and stiffness matrices analytically, significantly reducing finite element discretization needs and enabling rapid exploration of meso-structures.\nHighlights: - New structural analysis technique for parametrically defined lattice structures. - Optimization speed increased by over 25x via complementary energy-based stiffness computations. - Achieved a &gt;250% increase in bandgap width within lattice structures."
+  },
+  {
+    "objectID": "Research.html#model-reduction-of-a-piecewise-nonlinear-mechanical-oscillator",
+    "href": "Research.html#model-reduction-of-a-piecewise-nonlinear-mechanical-oscillator",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Bhattacharyya, S., Cusumano, J. (Submitted). Model Reduction of a Piecewise Nonlinear Mechanical Oscillator. Proceedings of the Royal Society A. Preprint\nAbstract\nThis work explores model reduction of a hybrid nonlinear oscillator subjected to position-triggered electromagnetic kicks. We observed a range of bifurcation behaviors—both periodic and chaotic. Using proper orthogonal decomposition (POD) and an energy-closure criterion, we derived reduced-order models (ROMs) accurately capturing these dynamics.\nWatch on YouTube"
+  },
+  {
+    "objectID": "Research.html#experimental-implementation-of-energy-closure-analysis-for-reduced-order-modeling",
+    "href": "Research.html#experimental-implementation-of-energy-closure-analysis-for-reduced-order-modeling",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Bhattacharyya, S., Cusumano, J. P. (2022). Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling. ASME Journal of Vibration and Acoustics, 144(5): 051007. https://doi.org/10.1115/1.4054295\nAbstract\nReduced-order models (ROMs) provide efficient approximations of complex dynamical systems, but their accuracy depends on dimensional estimation. We demonstrate how the energy closure criterion can be implemented experimentally to estimate ROM dimension using POD.\nUsing a periodically kicked Euler-Bernoulli beam, we developed a method for determining the ROM dimension based on convergence of system energy. Our approach is shown to be robust against discretization errors and measurement noise."
+  },
+  {
+    "objectID": "Research.html#an-energy-closure-criterion-for-model-reduction-of-a-kicked-euler-bernoulli-beam",
+    "href": "Research.html#an-energy-closure-criterion-for-model-reduction-of-a-kicked-euler-bernoulli-beam",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Bhattacharyya, S., Cusumano, J. (2021). An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam. ASME Journal of Vibration and Acoustics, 143(4): 041001. https://doi.org/10.1115/1.4048663\nAbstract\nThis paper assesses the effectiveness of POD for model reduction of a beam system under impulsive loading. We find that variance-based mode selection may yield inaccurate ROMs under high impulsivity due to energy imbalance. Our proposed energy closure analysis offers a better strategy, resulting in more energetically consistent and accurate ROMs.\nSpotlight: This paper was nominated for an ASME spotlight presentation at the 2021 IDETC."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Education.html",
+    "href": "Education.html",
+    "title": "Education",
+    "section": "",
+    "text": "🎓 Education\n\nPhD, Engineering Science and Mechanics\n(2021)\nMinor: Computational Science\nThe Pennsylvania State University, PA, USA\nThesis: Model Reduction of Dynamical Systems Subjected to Impacts and Discontinuity\n\n\n\nM.Tech, Mechanical Engineering (Solid Mechanics)\n(2014)\nIndian Institute of Technology Kanpur, India\nThesis: Experimental study of damping enhancement in aluminum rods by knurling\n\n\n\nBE, Mechanical Engineering\n(2012)\nJadavpur University, Kolkata, India"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.\n\n\nResearch Focus\nMy doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.\nAt Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\n- Data-driven discovery of structural vibration models using neural ODEs\nCurrently, I am a Postdoctoral Research Associate at the TAMIDS Digital Twin Lab, working with: - Dr. Jian Tao\n- Dr. Jean Ragusa\n- Dr. Eduardo Gildin\nMy work focuses on nonlinear reduced-order modeling for complex systems.\n\n\n\nCertifications & Skills\n\nCertified in Machine Learning\nCertified in Online Teaching\nSkilled in reduced-order modeling, optimization, and data-driven simulation\n\n\n\n🎶 Beyond Research\nI am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes."
+  },
+  {
+    "objectID": "Contact.html",
+    "href": "Contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
+  },
+  {
+    "objectID": "index_old.html",
+    "href": "index_old.html",
+    "title": "my_website",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 3, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]

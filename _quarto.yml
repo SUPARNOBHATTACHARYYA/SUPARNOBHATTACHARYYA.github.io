@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: "docs"
+website:
+  title: "Suparno Bhattacharyya"
+  navbar:
+    left: 
+      - text: "Home"
+        file: index.qmd
+      - text: "Education"
+        file: Education.qmd
+      - text: "Research"
+        file: Research.qmd
+      - text: "Teaching"
+        file: Teaching.qmd
+      - text: "Contact"
+        file: Contact.qmd
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+
+

@@ -1,0 +1,29 @@
+---
+title: "Education"
+format:
+  html:
+    theme: cosmo
+    toc: false
+    css: styles.css
+---
+
+# 🎓 Education
+
+### PhD, *Engineering Science and Mechanics*  
+**(2021)**  
+**Minor:** Computational Science  
+*The Pennsylvania State University, PA, USA*  
+**Thesis:** [Model Reduction of Dynamical Systems Subjected to Impacts and Discontinuity](#)
+
+---
+
+### M.Tech, *Mechanical Engineering (Solid Mechanics)*  
+**(2014)**  
+*Indian Institute of Technology Kanpur, India*  
+**Thesis:** [Experimental study of damping enhancement in aluminum rods by knurling](#)
+
+---
+
+### BE, *Mechanical Engineering*  
+**(2012)**  
+*Jadavpur University, Kolkata, India*

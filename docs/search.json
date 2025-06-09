@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Suparno Bhattacharyya",
+    "title": "About",
     "section": "",
-    "text": "About Me\nI hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.\n\n\n\nResearch Focus\nMy doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.\nAt Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\n- Data-driven discovery of structural vibration models using neural ODEs\nCurrently, I am a Postdoctoral Research Associate at the TAMIDS Digital Twin Lab, working with: - Dr. Jian Tao\n- Dr. Jean Ragusa\n- Dr. Eduardo Gildin\nMy work focuses on nonlinear reduced-order modeling for complex systems.\n\n\n\nCertifications & Skills\n\nCertified in Machine Learning\nCertified in Online Teaching\nSkilled in reduced-order modeling, optimization, and data-driven simulation\n\n\n\n🎶 Beyond Research\nI am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes."
+    "text": "I hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.\n\n\nResearch Focus\nMy doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.\nAt Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\n- Data-driven discovery of structural vibration models using neural ODEs\nCurrently, I am a Assistant Research Scientist at the TAMIDS Digital Twin Lab, working with: - Dr. Jian Tao\n- Dr. Jean Ragusa\n- Dr. Eduardo Gildin\nMy work focuses on nonlinear reduced-order modeling for complex systems.\n\n\n\nCertifications & Skills\n\nCertified in Machine Learning\nCertified in Online Teaching\nSkilled in reduced-order modeling, optimization, and data-driven simulation\n\n\n\n\nBeyond Research\nI am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes."
   },
   {
     "objectID": "Research.html",
@@ -60,7 +60,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.\n\n\nResearch Focus\nMy doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.\nAt Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\n- Data-driven discovery of structural vibration models using neural ODEs\nCurrently, I am a Postdoctoral Research Associate at the TAMIDS Digital Twin Lab, working with: - Dr. Jian Tao\n- Dr. Jean Ragusa\n- Dr. Eduardo Gildin\nMy work focuses on nonlinear reduced-order modeling for complex systems.\n\n\n\nCertifications & Skills\n\nCertified in Machine Learning\nCertified in Online Teaching\nSkilled in reduced-order modeling, optimization, and data-driven simulation\n\n\n\n🎶 Beyond Research\nI am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes."
+    "text": "I hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.\n\n\nResearch Focus\nMy doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.\nAt Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\n- Data-driven discovery of structural vibration models using neural ODEs\nCurrently, I am a Postdoctoral Research Associate at the TAMIDS Digital Twin Lab, working with: - Dr. Jian Tao\n- Dr. Jean Ragusa\n- Dr. Eduardo Gildin\nMy work focuses on nonlinear reduced-order modeling for complex systems.\n\n\n\nCertifications & Skills\n\nCertified in Machine Learning\nCertified in Online Teaching\nSkilled in reduced-order modeling, optimization, and data-driven simulation\n\n\n\n\nBeyond Research\nI am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes."
   },
   {
     "objectID": "Contact.html",
@@ -82,5 +82,138 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "About Me",
+    "section": "Research",
+    "text": "Research\nResearch interests: I am interested in [describe your main research focus and methodological interests].\nWhy should we care? [Provide 2-3 sentences explaining the broader importance of your research area]:\n\n[Key research challenge or application area 1]\n[Key research challenge or application area 2]\n[Key research challenge or application area 3]\n[Additional methodological or empirical challenge]\n\n[Conclude with 1-2 sentences about why your methods/approach matters for addressing these challenges]."
+  },
+  {
+    "objectID": "index.html#blog",
+    "href": "index.html#blog",
+    "title": "About Me",
+    "section": "Blog",
+    "text": "Blog\nI occasionally blog about [your topics - e.g., data, statistics, programming, research methods]. Check out some recent posts:\n\n[Blog Post Title 1]\n[Brief description of the blog post content and key insights] Continue reading [Blog Post Title 1]\n\n\n[Blog Post Title 2]\n[Brief description of the blog post content and key insights] Continue reading [Blog Post Title 2]\n\n\n[Blog Post Title 3]\n[Brief description of the blog post content and key insights] Continue reading [Blog Post Title 3]\n\n\n[Blog Post Title 4]\n[Brief description of the blog post content and key insights] Continue reading [Blog Post Title 4]"
+  },
+  {
+    "objectID": "index3.html",
+    "href": "index3.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a Assistant Research Scientist at the TAMIDS Digital Twin Lab. I hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from the Indian Institute of Technology, Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India."
+  },
+  {
+    "objectID": "index3.html#research",
+    "href": "index3.html#research",
+    "title": "About Me",
+    "section": "Research",
+    "text": "Research\nResearch interests: I am interested in [describe your main research focus and methodological interests].\nWhy should we care? [Provide 2-3 sentences explaining the broader importance of your research area]:\n\n[Key research challenge or application area 1]\n[Key research challenge or application area 2]\n[Key research challenge or application area 3]\n[Additional methodological or empirical challenge]\n\n[Conclude with 1-2 sentences about why your methods/approach matters for addressing these challenges]."
+  },
+  {
+    "objectID": "index3.html#blog",
+    "href": "index3.html#blog",
+    "title": "About Me",
+    "section": "Blog",
+    "text": "Blog\nI occasionally blog about [your topics - e.g., data, statistics, programming, research methods]. Check out some recent posts:\n\n[Blog Post Title 1]\n[Brief description of the blog post content and key insights] Continue reading [Blog Post Title 1]\n\n\n[Blog Post Title 2]\n[Brief description of the blog post content and key insights] Continue reading [Blog Post Title 2]\n\n\n[Blog Post Title 3]\n[Brief description of the blog post content and key insights] Continue reading [Blog Post Title 3]\n\n\n[Blog Post Title 4]\n[Brief description of the blog post content and key insights] Continue reading [Blog Post Title 4]"
+  },
+  {
+    "objectID": "docs/research.html",
+    "href": "docs/research.html",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Bhattacharyya, S., Khawale, R., Rai, R., Dargush, G. (2024). Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation. Computers & Structures, 299, 107371. https://doi.org/10.1016/j.compstruc.2024.107371\nAbstract\nAdditive manufacturing is revolutionizing hierarchical structure design with applications in compliant, auxetic, and band-gap structures. This paper presents a dynamic topology optimization framework for printable lattice structures aimed at reducing wave propagation within specific frequency bands. By using parametrically defined filament-based unit cells, bandgaps are tailored to mitigate resonance.\nOur method employs a complementary energy formulation to derive flexibility and stiffness matrices analytically, significantly reducing finite element discretization needs and enabling rapid exploration of meso-structures.\nHighlights: - New structural analysis technique for parametrically defined lattice structures. - Optimization speed increased by over 25x via complementary energy-based stiffness computations. - Achieved a &gt;250% increase in bandgap width within lattice structures.\n\n\n\nBhattacharyya, S., Cusumano, J. (Submitted). Model Reduction of a Piecewise Nonlinear Mechanical Oscillator. Proceedings of the Royal Society A. Preprint\nAbstract\nThis work explores model reduction of a hybrid nonlinear oscillator subjected to position-triggered electromagnetic kicks. We observed a range of bifurcation behaviors—both periodic and chaotic. Using proper orthogonal decomposition (POD) and an energy-closure criterion, we derived reduced-order models (ROMs) accurately capturing these dynamics.\nWatch on YouTube\n\n\n\nBhattacharyya, S., Cusumano, J. P. (2022). Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling. ASME Journal of Vibration and Acoustics, 144(5): 051007. https://doi.org/10.1115/1.4054295\nAbstract\nReduced-order models (ROMs) provide efficient approximations of complex dynamical systems, but their accuracy depends on dimensional estimation. We demonstrate how the energy closure criterion can be implemented experimentally to estimate ROM dimension using POD.\nUsing a periodically kicked Euler-Bernoulli beam, we developed a method for determining the ROM dimension based on convergence of system energy. Our approach is shown to be robust against discretization errors and measurement noise.\n\n\n\nBhattacharyya, S., Cusumano, J. (2021). An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam. ASME Journal of Vibration and Acoustics, 143(4): 041001. https://doi.org/10.1115/1.4048663\nAbstract\nThis paper assesses the effectiveness of POD for model reduction of a beam system under impulsive loading. We find that variance-based mode selection may yield inaccurate ROMs under high impulsivity due to energy imbalance. Our proposed energy closure analysis offers a better strategy, resulting in more energetically consistent and accurate ROMs.\nSpotlight: This paper was nominated for an ASME spotlight presentation at the 2021 IDETC."
+  },
+  {
+    "objectID": "docs/research.html#efficient-dynamic-topology-optimization-of-2d-metamaterials",
+    "href": "docs/research.html#efficient-dynamic-topology-optimization-of-2d-metamaterials",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Bhattacharyya, S., Khawale, R., Rai, R., Dargush, G. (2024). Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation. Computers & Structures, 299, 107371. https://doi.org/10.1016/j.compstruc.2024.107371\nAbstract\nAdditive manufacturing is revolutionizing hierarchical structure design with applications in compliant, auxetic, and band-gap structures. This paper presents a dynamic topology optimization framework for printable lattice structures aimed at reducing wave propagation within specific frequency bands. By using parametrically defined filament-based unit cells, bandgaps are tailored to mitigate resonance.\nOur method employs a complementary energy formulation to derive flexibility and stiffness matrices analytically, significantly reducing finite element discretization needs and enabling rapid exploration of meso-structures.\nHighlights: - New structural analysis technique for parametrically defined lattice structures. - Optimization speed increased by over 25x via complementary energy-based stiffness computations. - Achieved a &gt;250% increase in bandgap width within lattice structures."
+  },
+  {
+    "objectID": "docs/research.html#model-reduction-of-a-piecewise-nonlinear-mechanical-oscillator",
+    "href": "docs/research.html#model-reduction-of-a-piecewise-nonlinear-mechanical-oscillator",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Bhattacharyya, S., Cusumano, J. (Submitted). Model Reduction of a Piecewise Nonlinear Mechanical Oscillator. Proceedings of the Royal Society A. Preprint\nAbstract\nThis work explores model reduction of a hybrid nonlinear oscillator subjected to position-triggered electromagnetic kicks. We observed a range of bifurcation behaviors—both periodic and chaotic. Using proper orthogonal decomposition (POD) and an energy-closure criterion, we derived reduced-order models (ROMs) accurately capturing these dynamics.\nWatch on YouTube"
+  },
+  {
+    "objectID": "docs/research.html#experimental-implementation-of-energy-closure-analysis-for-reduced-order-modeling",
+    "href": "docs/research.html#experimental-implementation-of-energy-closure-analysis-for-reduced-order-modeling",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Bhattacharyya, S., Cusumano, J. P. (2022). Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling. ASME Journal of Vibration and Acoustics, 144(5): 051007. https://doi.org/10.1115/1.4054295\nAbstract\nReduced-order models (ROMs) provide efficient approximations of complex dynamical systems, but their accuracy depends on dimensional estimation. We demonstrate how the energy closure criterion can be implemented experimentally to estimate ROM dimension using POD.\nUsing a periodically kicked Euler-Bernoulli beam, we developed a method for determining the ROM dimension based on convergence of system energy. Our approach is shown to be robust against discretization errors and measurement noise."
+  },
+  {
+    "objectID": "docs/research.html#an-energy-closure-criterion-for-model-reduction-of-a-kicked-euler-bernoulli-beam",
+    "href": "docs/research.html#an-energy-closure-criterion-for-model-reduction-of-a-kicked-euler-bernoulli-beam",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Bhattacharyya, S., Cusumano, J. (2021). An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam. ASME Journal of Vibration and Acoustics, 143(4): 041001. https://doi.org/10.1115/1.4048663\nAbstract\nThis paper assesses the effectiveness of POD for model reduction of a beam system under impulsive loading. We find that variance-based mode selection may yield inaccurate ROMs under high impulsivity due to energy imbalance. Our proposed energy closure analysis offers a better strategy, resulting in more energetically consistent and accurate ROMs.\nSpotlight: This paper was nominated for an ASME spotlight presentation at the 2021 IDETC."
+  },
+  {
+    "objectID": "index2.html",
+    "href": "index2.html",
+    "title": "Suparno Bhattacharyya",
+    "section": "",
+    "text": "About Me\nI hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.\n\n\n\nResearch Focus\nMy doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.\nAt Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\n- Data-driven discovery of structural vibration models using neural ODEs\nCurrently, I am a Postdoctoral Research Associate at the TAMIDS Digital Twin Lab, working with: - Dr. Jian Tao\n- Dr. Jean Ragusa\n- Dr. Eduardo Gildin\nMy work focuses on nonlinear reduced-order modeling for complex systems.\n\n\n\nCertifications & Skills\n\nCertified in Machine Learning\nCertified in Online Teaching\nSkilled in reduced-order modeling, optimization, and data-driven simulation\n\n\n\n🎶 Beyond Research\nI am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes."
+  },
+  {
+    "objectID": "docs/contact.html",
+    "href": "docs/contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "publications",
+    "section": "",
+    "text": "Publications will go here"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "people",
+    "section": "",
+    "text": "List of people will go here"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "gallery",
+    "section": "",
+    "text": "phographs will go here"
+  },
+  {
+    "objectID": "collaborators.html",
+    "href": "collaborators.html",
+    "title": "collaborators",
+    "section": "",
+    "text": "collaborators will go here"
+  },
+  {
+    "objectID": "opportunities.html",
+    "href": "opportunities.html",
+    "title": "opportunities",
+    "section": "",
+    "text": "opportunities notifications will go here"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "projects",
+    "section": "",
+    "text": "projects will go here"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
   }
 ]

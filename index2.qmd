@@ -1,14 +1,14 @@
 ---
-title: "About"
+title: "Suparno Bhattacharyya"
 format:
   html:
+    theme: cosmo
+    toc: false
     css: styles.css
-image: profile.jpg
-about:
-  template: jolla
  
-
 ---
+
+# About Me
 
 I hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.
 
@@ -39,30 +39,23 @@ My work focuses on **nonlinear reduced-order modeling** for complex systems.
 
 ---
 
-# Beyond Research
+### 🎶 Beyond Research
 
 I am an **Indian classical vocalist** and a passionate traveler who enjoys exploring **diverse cultures and landscapes**.
 
 ---
+
 <style>
-
-/* Left-align all text */
+h1, h2, h3 {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+}
 body {
-  text-align: left !important;
-}
-
-/* Ensure paragraphs, headings, and lists are left-aligned */
-p, h1, h2, h3, h4, h5, h6, ul, ol {
-  text-align: left !important;
-}
-
-/* Remove Bootstrap's default centering */
-.container, .main-content {
-  text-align: left !important;
-}
-
-/* Optional: Fix alignment for specific sections */
-#about, #research-focus, #certifications {
-  text-align: left !important;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
 }
 </style>

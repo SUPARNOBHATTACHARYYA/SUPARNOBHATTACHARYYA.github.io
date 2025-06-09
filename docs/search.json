@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "About",
     "section": "",
-    "text": "I hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.\n\n\nResearch Focus\nMy doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.\nAt Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\n- Data-driven discovery of structural vibration models using neural ODEs\nCurrently, I am a Assistant Research Scientist at the TAMIDS Digital Twin Lab, working with: - Dr. Jian Tao\n- Dr. Jean Ragusa\n- Dr. Eduardo Gildin\nMy work focuses on nonlinear reduced-order modeling for complex systems.\n\n\n\nCertifications & Skills\n\nCertified in Machine Learning\nCertified in Online Teaching\nSkilled in reduced-order modeling, optimization, and data-driven simulation\n\n\n\n\nBeyond Research\nI am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes."
+    "text": "I hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.\n\n\nResearch Focus\nMy doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.\nAt Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\n- Data-driven discovery of structural vibration models using neural ODEs\nCurrently, I am a Assistant Research Scientist at the TAMIDS Digital Twin Lab, working with:\n\nDr. Jian Tao\n\nDr. Jean Ragusa\n\nDr. Eduardo Gildin\n\nMy work focuses on nonlinear reduced-order modeling for complex systems.\n\n\n\nCertifications & Skills\n\nCertified in Machine Learning\nCertified in Online Teaching\nSkilled in reduced-order modeling, optimization, and data-driven simulation\n\n\n\n\nBeyond Research\nI am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes."
   },
   {
     "objectID": "Research.html",
@@ -165,7 +165,7 @@
     "href": "docs/contact.html",
     "title": "Contact",
     "section": "",
-    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
+    "text": "Contact\nSuparno Bhattacharyya\n\n\n&lt;span class=\"label\"&gt;Email:&lt;/span&gt;\n&lt;a href=\"mailto:suparno.bhattacharyya@gmail.com\"&gt;suparno.bhattacharyya@gmail.com&lt;/a&gt; /\n&lt;a href=\"mailto:suparnob@tamu.edu\"&gt;suparnob@tamu.edu&lt;/a&gt;\n\n\n&lt;span class=\"label\"&gt;LinkedIn:&lt;/span&gt;\n&lt;a href=\"https://www.linkedin.com/in/suparno-bhattacharyya-phd/\"&gt;Suparno Bhattacharyya, Ph.D.&lt;/a&gt;"
   },
   {
     "objectID": "publications.html",

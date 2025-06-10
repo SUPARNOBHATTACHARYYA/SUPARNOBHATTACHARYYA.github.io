@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -73,68 +71,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publications-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-authors','listing-article','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-year","listing-authors"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publications-listing'] = new List('listing-publications-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="publications.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -337,16 +278,16 @@ window.Quarto = {
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./gallery.html"> 
-<span class="menu-text">Gallery</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./opportunities.html"> 
 <span class="menu-text">Opportunities</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -374,14 +315,20 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Categories</h2>
+   
+  <ul class="collapse">
+  <li><a href="#sec-journal" id="toc-sec-journal" class="nav-link active" data-scroll-target="#sec-journal">Journal Articles</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -391,7 +338,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -403,109 +350,310 @@ window.Quarto = {
 </header>
 
 
+<style>
+/* General styling for the page */
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
 
+/* Main content area */
+.quarto-body-content {
+  padding-top: 1rem !important;
+}
 
+/* Style for each publication entry */
+.publication {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
 
+/* Left column for the preview image */
+.pub-image {
+  flex: 0 0 200px;
+  margin-right: 1.5rem;
+}
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-publications-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-publications-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-publications-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-authors" data-direction="asc">
-        Authors
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+.pub-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Right column for the publication details */
+.pub-details {
+  flex: 1;
+}
+
+.pub-details .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.pub-details .authors {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.pub-details .venue {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+/* Style for the links (Paper, Code, etc.) */
+.pub-links a {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 5px 12px;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.pub-links a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.pub-links i {
+  margin-right: 5px;
+}
+
+/* Styling for the collapsible abstract and bibtex */
+details {
+  margin-top: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.5rem;
+  outline: none; /* Hide the default focus outline */
+}
+
+details[open] > summary {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 0.5rem;
+}
+
+.bibtex {
+  font-family: monospace;
+  font-size: 0.85rem;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-top: 0.5rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .publication {
+    flex-direction: column;
+  }
+  .pub-image {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    max-width: 250px; /* Or adjust as needed */
+  }
+  .quarto-toc-toggle {
+    display: block; /* Ensure TOC toggle is visible on mobile */
+  }
+}
+</style>
+<p>Welcome to my publication page. You can use the categories on the left to navigate to the relevant sections.</p>
+<hr>
+<section id="sec-journal" class="level2">
+<h2 class="anchored" data-anchor-id="sec-journal">Journal Articles</h2>
+<div class="pub-details">
+<div class="title">
+<strong>Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation</strong>
 </div>
-<table class="quarto-listing-table table table-hover">
-<thead>
-<tr>
+<div class="authors">
+<em>Raj Pradip Khawale, Suparno Bhattacharyya,Rahul Rai,Gary F. Dargush</em>
+</div>
+<div class="venue">
+<strong>Computers &amp; Structures</strong> (IF: 4.4, acceptance rate 8%), vol.&nbsp;299, pp.&nbsp;107371, 2024
+</div>
+<details>
+<summary>
+Abstract
+</summary>
+<p>
+This paper presents an innovative approach to developing and solving a dynamic topology optimization framework aimed at designing printable lattice (metamaterial) structures. By using a complementary-energy formulation and focusing on 2D metamaterials, the method efficiently accounts for dynamic behavior, enabling the creation of structures optimized for both static stiffness and dynamic performance. Numerical examples demonstrate printable, high-performing lattice topologies, highlighting the effectiveness of the complementary-energy–based framework for manufacturing-ready metamaterials
+</p>
+</details>
+<details>
+<summary>
+BibTeX
+</summary>
+<div class="bibtex">
+<p><span class="citation" data-cites="article">@article</span>{khawale2024efficient, title = {Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation}, author = {Raj Pradip Khawale and Suparno Bhattacharyya and Rahul Rai and Gary F. Dargush}, journal = {Computers &amp; Structures}, year = {2024}, pages = {107371}, doi = {10.1016/j.compstruc.2024.107371}, publisher = {Elsevier} }</p>
+</div>
+</details>
+<div class="pub-details">
+<div class="title">
+<strong>Experimental implementation of energy closure analysis for reduced order modeling</strong>
+</div>
+<div class="authors">
+<em>Suparno Bhattacharyya, Joseph Cusumano</em>
+</div>
+<div class="venue">
+<strong>ASME, Journal of Vibration and Acoustics</strong> (IF: 1.7), 144(5): 051007, 2022.
+</div>
+<details>
+<summary>
+Abstract
+</summary>
+<p>
+This study experimentally implements the energy-closure criterion—an approach previously developed for reduced-order modeling—to quantify and enforce the energy balance within truncated dynamic systems. Through vibration testing on a multi-degree-of-freedom structure, the authors demonstrate how carefully selected reduced-order representations can preserve system energy behavior. The results validate that energy-closure conditions accurately identify modal contributions and yield reliable reduced-order models for structural dynamics.
+</p>
+</details>
+<details>
+<summary>
+BibTeX
+</summary>
+<div class="bibtex">
+<p><span class="citation" data-cites="article">@article</span>{bhattacharyya2022experimental, title = {Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling}, author = {Suparno Bhattacharyya and Joseph P. Cusumano}, journal = {Journal of Vibration and Acoustics}, volume = {144}, number = {5}, pages = {051007}, year = {2022}, publisher = {ASME}, doi = {10.1115/1.4054295}, url = {https://doi.org/10.1115/1.4054295} }</p>
+</div>
+</details>
+<div class="pub-details">
+<div class="title">
+<strong>An energy closure criterion for model reduction of a kicked Euler–Bernoulli beam</strong>
+</div>
+<div class="authors">
+<em>Suparno Bhattacharyya, Joseph Cusumano</em>
+</div>
+<div class="venue">
+<strong>ASME, Journal of Vibration and Acoustics</strong> (IF: 1.7, 2.1 at the time of submission),143(4): 041001, 2021..
+</div>
+<details>
+<summary>
+Abstract
+</summary>
+<p>
+This paper introduces an energy-closure criterion applied to model reduction of a kicked Euler–Bernoulli beam. By employing an energy-based metric, the authors establish a systematic way to determine which system modes should be retained in a reduced-order model. Results for impulsively excited beams demonstrate that the method accurately preserves important dynamic and energetic behaviors while significantly cutting down on computational cost.
+</p>
+</details>
+<details>
+<summary>
+BibTeX
+</summary>
+<div class="bibtex">
+<p><span class="citation" data-cites="article">@article</span>{bhattacharyya2021energy, title = {An Energy-Closure Criterion for Model Reduction of a Kicked Euler–Bernoulli Beam}, author = {Suparno Bhattacharyya and Joseph P. Cusumano}, journal = {Journal of Vibration and Acoustics}, volume = {143}, number = {4}, pages = {041001}, year = {2021}, publisher = {ASME}, doi = {10.1115/1.4049780}, url = {https://doi.org/10.1115/1.4049780} }</p>
+</div>
+</details>
+<!-- Add another journal article entry here -->
+<section id="sec-conference" class="level2">
+<h2 class="anchored" data-anchor-id="sec-conference">Conference Papers</h2>
+<div class="publication">
+<div class="pub-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://placehold.co/400x250/28a745/ffffff?text=Conference+Paper.png" class="img-fluid figure-img"></p>
+<figcaption>Publication Preview</figcaption>
+</figure>
+</div>
+</div>
+<div class="pub-details">
+<div class="title">
+Real-Time Anomaly Detection in Streaming Time-Series Data
+</div>
+<div class="authors">
+<em>Alex Ray, <strong>Your Name</strong></em>
+</div>
+<div class="venue">
+In <em>Proceedings of the 25th International Conference on Artificial Intelligence (ICAI)</em>, 2023.
+</div>
+<div class="pub-links">
+<p><a href="#" target="_blank"><i class="fa-solid fa-file-pdf"></i> Paper</a> <a href="#" target="_blank"><i class="fa-solid fa-person-chalkboard"></i> Slides</a> <a href="#" target="_blank"><i class="fa-solid fa-video"></i> Video</a></p>
+</div>
+<details>
+<summary>
+Abstract
+</summary>
+<p>
+We present a lightweight and highly efficient algorithm for detecting anomalies in real-time for large-scale time-series data streams. The model utilizes a combination of seasonal decomposition and a recurrent neural network to predict expected values and flag significant deviations. We show that our method outperforms state-of-the-art techniques in both accuracy and computational speed.
+</p>
+</details>
+<details>
+<summary>
+BibTeX
+</summary>
+<div class="bibtex">
+<p><span class="citation" data-cites="inproceedings">@inproceedings</span>{ray2023realtime, title={Real-Time Anomaly Detection in Streaming Time-Series Data}, author={Ray, Alex and Your Name}, booktitle={Proceedings of the 25th International Conference on Artificial Intelligence (ICAI)}, year={2023} }</p>
+</div>
+</details>
+</div>
+</div>
+</section>
+<section id="sec-book" class="level2">
+<h2 class="anchored" data-anchor-id="sec-book">Book Chapters</h2>
+<div class="publication">
+<div class="pub-image">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://placehold.co/400x250/ffc107/333333?text=Book+Chapter.png" class="img-fluid figure-img"></p>
+<figcaption>Publication Preview</figcaption>
+</figure>
+</div>
+</div>
+<div class="pub-details">
+<div class="title">
+The Ethics of AI in Autonomous Systems
+</div>
+<div class="authors">
+<strong><em>Your Name</em></strong>
+</div>
+<div class="venue">
+In <em>AI for a Better Future</em>, pp.&nbsp;88-110. Edited by S. Rogers, University Press, 2022.
+</div>
+<div class="pub-links">
+<p><a href="#" target="_blank"><i class="fa-solid fa-file-pdf"></i> Chapter PDF</a> <a href="#" target="_blank"><i class="fa-solid fa-book"></i> View Book</a></p>
+</div>
+<details>
+<summary>
+Abstract
+</summary>
+<p>
+This chapter explores the critical ethical considerations surrounding the deployment of artificial intelligence in autonomous systems, such as self-driving cars and drones. We discuss frameworks for ethical decision-making, the problem of algorithmic bias, and the societal implications of ceding control to intelligent agents.
+</p>
+</details>
+<details>
+<summary>
+BibTeX
+</summary>
+<div class="bibtex">
+<p><span class="citation" data-cites="incollection">@incollection</span>{yourname2022ethics, title={The Ethics of AI in Autonomous Systems}, author={Your Name}, booktitle={AI for a Better Future}, pages={88–110}, year={2022}, publisher={University Press}, editor={Rogers, S.} }</p>
+</div>
+</details>
+</div>
+</div>
 
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
 
-<th>
-<a class="sort" data-sort="listing-authors" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Authors</a>
-</th>
+</section>
+</div>
+</div>
+</div>
+</section>
 
-<th>
-Article
-</th>
-
-<th>
-Publication Date
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1704067200000" data-listing-title-sort="Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7ZsPlgYAAAAJ&amp;sortby=pubdate&amp;citation_for_view=7ZsPlgYAAAAJ:0EnyYjriUFMC" class="title listing-title">Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation</a>
-</td>
-<td>
-<span class="listing-authors">Raj Pradip Khawale, Suparno Bhattacharyya, Rahul Rai, Gary F Dargush</span>
-</td>
-<td>
-<span class="listing-article">Computers &amp; Structures (IF: 4.4, acceptance rate 8%)</span>
-</td>
-<td>
-<span class="listing-date">Jan 1, 2024</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="1640995200000" data-listing-title-sort="Experimental implementation of energy closure analysis for reduced order modeling" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7ZsPlgYAAAAJ&amp;sortby=pubdate&amp;citation_for_view=7ZsPlgYAAAAJ:eQOLeE2rZwMC" class="title listing-title">Experimental implementation of energy closure analysis for reduced order modeling</a>
-</td>
-<td>
-<span class="listing-authors">Suparno Bhattacharyya, Joseph Cusumano</span>
-</td>
-<td>
-<span class="listing-article">ASME, Journal of Vibration and Acoustics (IF: 1.7)</span>
-</td>
-<td>
-<span class="listing-date">Jan 1, 2022</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-date-sort="1610044200000" data-listing-title-sort="An energy closure criterion for model reduction of a kicked Euler–Bernoulli beam" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7ZsPlgYAAAAJ&amp;sortby=pubdate&amp;citation_for_view=7ZsPlgYAAAAJ:Y0pCki6q_DkC" class="title listing-title">An energy closure criterion for model reduction of a kicked Euler–Bernoulli beam</a>
-</td>
-<td>
-<span class="listing-authors">Suparno Bhattacharyya, Joseph P Cusumano</span>
-</td>
-<td>
-<span class="listing-article">ASME, Journal of Vibration and Acoustics (IF: 1.7, 2.1 at the time of submission)</span>
-</td>
-<td>
-<span class="listing-date">Jan 8, 2021</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -941,4 +1089,5 @@ Publication Date
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

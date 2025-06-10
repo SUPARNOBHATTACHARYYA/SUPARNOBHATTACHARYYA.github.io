@@ -1,16 +1,16 @@
 /* css styles */
 
 body {
-  font-family: 'Lora', serif;
+  font-family: "Lora", Noto Sans, Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Adobe Garamond', serif;
+  font-family: "Lora", Roboto Slab, Helvetica, Arial, sans-serif;
 }
 
 .navbar-nav > li > a,
 .navbar-brand {
-  font-family: 'Inter', Sans-Serif;
+  font-family: "Lora", Roboto Slab, Helvetica, Arial, sans-serif;
 }
 
 p {

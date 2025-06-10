@@ -6,44 +6,44 @@ format:
 image: profile.jpg
 about:
   template: jolla
-
 ---
 
 I hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.
 
----
+------------------------------------------------------------------------
 
 # Research Focus
 
 My doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.
 
-At Clemson University, I pursued postdoctoral research in:
-- Topology optimization for bandgap maximization in 2D lattice structures  
+At Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\
 - Data-driven discovery of structural vibration models using neural ODEs
 
 Currently, I am a Assistant Research Scientist at the TAMIDS Digital Twin Lab, working with:
 
-- Dr. Jian Tao  
-- Dr. Jean Ragusa  
-- Dr. Eduardo Gildin  
+-   Dr. Jian Tao\
+-   Dr. Jean Ragusa\
+-   Dr. Eduardo Gildin
 
 My work focuses on nonlinear reduced-order modeling for complex systems.
 
----
+------------------------------------------------------------------------
 
 # Certifications & Skills
 
-- Certified in Machine Learning
-- Certified in Online Teaching
-- Skilled in reduced-order modeling, optimization, and data-driven simulation
+-   Certified in Machine Learning
+-   Certified in Online Teaching
+-   Skilled in reduced-order modeling, optimization, and data-driven simulation
 
----
+------------------------------------------------------------------------
 
 # Beyond Research
 
 I am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes.
 
----
+------------------------------------------------------------------------
+
+```{=html}
 <style>
 
 /* Ensure paragraphs, headings, and lists are left-aligned */
@@ -61,3 +61,4 @@ h1, h2, h3, h4, h5, h6, ul, ol {
   text-align: left !important;
 }
 </style>
+```

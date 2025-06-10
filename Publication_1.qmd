@@ -1,0 +1,15 @@
+---
+title: "Publication_1"
+format: html
+---
+---
+title: "Density-Adaptive Fuzzy Clustering with Isolation Kernel"
+authors:
+  - P Tiwari
+  - R Kachroo
+  - P Rathore
+article: "Density-Adaptive Fuzzy Clustering with Isolation Kernel"
+date: "2025"
+type: conference
+---
+

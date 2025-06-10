@@ -165,14 +165,14 @@
     "href": "docs/contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Contact\nSuparno Bhattacharyya\n\n\n&lt;span class=\"label\"&gt;Email:&lt;/span&gt;\n&lt;a href=\"mailto:suparno.bhattacharyya@gmail.com\"&gt;suparno.bhattacharyya@gmail.com&lt;/a&gt; /\n&lt;a href=\"mailto:suparnob@tamu.edu\"&gt;suparnob@tamu.edu&lt;/a&gt;\n\n\n&lt;span class=\"label\"&gt;LinkedIn:&lt;/span&gt;\n&lt;a href=\"https://www.linkedin.com/in/suparno-bhattacharyya-phd/\"&gt;Suparno Bhattacharyya, Ph.D.&lt;/a&gt;"
+    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "publications",
+    "title": "Publications",
     "section": "",
-    "text": "Publications will go here"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Authors\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nAuthors\n\n\n\nArticle\n\n\n\nPublication Date\n\n\n\n\n\n\n\n\nEfficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation\n\n\nRaj Pradip Khawale, Suparno Bhattacharyya, Rahul Rai, Gary F Dargush\n\n\nComputers & Structures (IF: 4.4, acceptance rate 8%)\n\n\nJan 1, 2024\n\n\n\n\n\n\nExperimental implementation of energy closure analysis for reduced order modeling\n\n\nSuparno Bhattacharyya, Joseph Cusumano\n\n\nASME, Journal of Vibration and Acoustics (IF: 1.7)\n\n\nJan 1, 2022\n\n\n\n\n\n\nAn energy closure criterion for model reduction of a kicked Euler–Bernoulli beam\n\n\nSuparno Bhattacharyya, Joseph P Cusumano\n\n\nASME, Journal of Vibration and Acoustics (IF: 1.7, 2.1 at the time of submission)\n\n\nJan 8, 2021\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html",
@@ -215,5 +215,12 @@
     "title": "Contact",
     "section": "",
     "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
+  },
+  {
+    "objectID": "publications_old.html",
+    "href": "publications_old.html",
+    "title": "Publications",
+    "section": "",
+    "text": "DensityEfficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation\n\n\n\nJan 1, 2024\n\n\n\n\n\n\nauthors\n\n\nRaj Pradip Khawale,Suparno Bhattacharyya,Rahul Rai,Gary F Dargush\n\n\n\n\n\narticle\n\n\nComputers & Structures (IF: 4.4, acceptance rate 8%)\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

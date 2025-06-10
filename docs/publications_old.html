@@ -76,20 +76,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publications-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-article','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-authors','listing-article','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-year","listing-authors"],
+      searchColumns: ["listing-title","listing-authors","listing-article","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publications-listing'] = new List('listing-publications-listing', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -134,7 +134,6 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="publications.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -321,7 +320,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+    <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -374,14 +373,14 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -391,7 +390,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -407,103 +406,51 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-publications-listing">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-publications-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-publications-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-authors" data-direction="asc">
-        Authors
-      </option>
-    </select>
-  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table table-hover">
-<thead>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1704067200000">
+<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7ZsPlgYAAAAJ&amp;sortby=pubdate&amp;citation_for_view=7ZsPlgYAAAAJ:0EnyYjriUFMC" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DensityEfficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jan 1, 2024
+</div>
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+authors
+</td>
+<td class="authors">
+Raj Pradip Khawale,Suparno Bhattacharyya,Rahul Rai,Gary F Dargush
+</td>
+</tr>
+
 <tr>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-authors" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Authors</a>
-</th>
-
-<th>
-Article
-</th>
-
-<th>
-Publication Date
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1704067200000" data-listing-title-sort="Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
 <td>
-<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7ZsPlgYAAAAJ&amp;sortby=pubdate&amp;citation_for_view=7ZsPlgYAAAAJ:0EnyYjriUFMC" class="title listing-title">Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation</a>
+article
 </td>
-<td>
-<span class="listing-authors">Raj Pradip Khawale, Suparno Bhattacharyya, Rahul Rai, Gary F Dargush</span>
+<td class="article">
+Computers &amp; Structures (IF: 4.4, acceptance rate 8%)
 </td>
-<td>
-<span class="listing-article">Computers &amp; Structures (IF: 4.4, acceptance rate 8%)</span>
-</td>
-<td>
-<span class="listing-date">Jan 1, 2024</span>
-</td>
-
 </tr>
 
-<tr data-index="1" data-listing-date-sort="1640995200000" data-listing-title-sort="Experimental implementation of energy closure analysis for reduced order modeling" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7ZsPlgYAAAAJ&amp;sortby=pubdate&amp;citation_for_view=7ZsPlgYAAAAJ:eQOLeE2rZwMC" class="title listing-title">Experimental implementation of energy closure analysis for reduced order modeling</a>
-</td>
-<td>
-<span class="listing-authors">Suparno Bhattacharyya, Joseph Cusumano</span>
-</td>
-<td>
-<span class="listing-article">ASME, Journal of Vibration and Acoustics (IF: 1.7)</span>
-</td>
-<td>
-<span class="listing-date">Jan 1, 2022</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-date-sort="1610044200000" data-listing-title-sort="An energy closure criterion for model reduction of a kicked Euler–Bernoulli beam" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=7ZsPlgYAAAAJ&amp;sortby=pubdate&amp;citation_for_view=7ZsPlgYAAAAJ:Y0pCki6q_DkC" class="title listing-title">An energy closure criterion for model reduction of a kicked Euler–Bernoulli beam</a>
-</td>
-<td>
-<span class="listing-authors">Suparno Bhattacharyya, Joseph P Cusumano</span>
-</td>
-<td>
-<span class="listing-article">ASME, Journal of Vibration and Acoustics (IF: 1.7, 2.1 at the time of submission)</span>
-</td>
-<td>
-<span class="listing-date">Jan 8, 2021</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
+</tbody></table>
+</div>
+</div></a>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

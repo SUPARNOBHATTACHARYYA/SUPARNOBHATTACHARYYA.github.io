@@ -51,8 +51,7 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, custom.scss]
-      dark: [darkly, custom.scss]
+      {light: cosmo, dark: darkly}
     css: styles.css
     toc: true
     toc-location: right
@@ -61,7 +60,8 @@ format:
     theme-toggle: true
     ##mainfont: "Lora"
     ##heading-font: "Playfair Display"
-    
+    format:
+
 execute:
   freeze: auto
 

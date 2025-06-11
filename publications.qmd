@@ -14,72 +14,46 @@ resources:
   - publications-script.html
 ---
 
-<!-- # Publications            ← no change -->
+::: pub-controls
+<select id="pub-type"> <option value="">All Types</option> <option>Journal</option> <option>Conference</option> <option>Preprint</option> </select>
 
-<div class="pub-controls">
+<select id="pub-year"> <option value="">All Years</option> <option>2023</option> <option>2022</option> </select>
+:::
 
-  <select id="pub-type">
-    <option value="">All Types</option>
-    <option>Journal</option>
-    <option>Conference</option>
-    <option>Preprint</option>
-  </select>
-
-  <select id="pub-year">
-    <option value="">All Years</option>
-    <option>2023</option>
-    <option>2022</option>
-  </select>
-</div>
 <!-- your publications table starts here … -->
+## Journal
+:::: {.pub-item data-year="2023" data-type="Journal"}
+[📄]{.pub-icon}
 
-
-
-
-
-
-
-::: {.pub-item data-year="2023" data-type="Journal"}
-<span class="pub-icon">📄</span>
-
-:::{.pub-content}
-**Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023J).**  
-_Physical Review Materials._  
+::: pub-content
+**Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023J).**\
+*Physical Review Materials.*\
 [Real-time characterization of dislocation slip and twinning…](https://doi.org/...){target="_blank"}
 
-[Cite](#){.btn .btn-primary}  [DOI](https://doi.org/...){.btn .btn-outline target="_blank"}  [URL](https://example.com){.btn .btn-outline target="_blank"}
+[Cite](#){.btn .btn-primary} [DOI](https://doi.org/...){.btn .btn-outline target="_blank"} [URL](https://example.com){.btn .btn-outline target="_blank"}
 :::
-:::
+::::
 
+:::: {.pub-item data-year="2022" data-type="Journal"}
+[📄]{.pub-icon}
 
-
-
-
-::: {.pub-item data-year="2022" data-type="Journal"}
-<span class="pub-icon">📄</span>
-
-:::{.pub-content}
-**Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2022J).**  
-_Physical Review Materials._  
+::: pub-content
+**Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2022J).**\
+*Physical Review Materials.*\
 [Real-time characterization of dislocation slip and twinning…](https://doi.org/...){target="_blank"}
 
-[Cite](#){.btn .btn-primary}  [DOI](https://doi.org/...){.btn .btn-outline target="_blank"}  [URL](https://example.com){.btn .btn-outline target="_blank"}
+[Cite](#){.btn .btn-primary} [DOI](https://doi.org/...){.btn .btn-outline target="_blank"} [URL](https://example.com){.btn .btn-outline target="_blank"}
 :::
-:::
+::::
+## Conference
+:::: {.pub-item data-year="2023" data-type="Conference"}
+[📄]{.pub-icon}
 
-
-
-
-
-
-::: {.pub-item data-year="2023" data-type="Conference"}
-<span class="pub-icon">📄</span>
-
-:::{.pub-content}
-**Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023C).**  
-_Physical Review Materials._  
+::: pub-content
+**Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023C).**\
+*Physical Review Materials.*\
 [Real-time characterization of dislocation slip and twinning…](https://doi.org/...){target="_blank"}
 
-[Cite](#){.btn .btn-primary}  [DOI](https://doi.org/...){.btn .btn-outline target="_blank"}  [URL](https://example.com){.btn .btn-outline target="_blank"}
+[Cite](#){.btn .btn-primary} [DOI](https://doi.org/...){.btn .btn-outline target="_blank"} [URL](https://example.com){.btn .btn-outline target="_blank"}
 :::
-:::
+::::

@@ -172,7 +172,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "All Types Journal Conference Preprint \n All Years 2023 2022 \n\n\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023J).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL\n\n\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2022J).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL\n\n\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023C).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL"
+    "text": "All Types Journal Conference Preprint \n All Years 2023 2022"
   },
   {
     "objectID": "people.html",
@@ -460,5 +460,19 @@
     "title": "Publications",
     "section": "",
     "text": "Title\n\n\n\nAuthors\n\n\n\nArticle\n\n\n\nPublication Date\n\n\n\n\n\n\n\n\nEfficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation\n\n\nRaj Pradip Khawale, Suparno Bhattacharyya, Rahul Rai, Gary F Dargush\n\n\nComputers & Structures (IF: 4.4, acceptance rate 8%)\n\n\nDec 31, 2023\n\n\n\n\n\n\nExperimental implementation of energy closure analysis for reduced order modeling\n\n\nSuparno Bhattacharyya, Joseph Cusumano\n\n\nASME, Journal of Vibration and Acoustics (IF: 1.7)\n\n\nDec 31, 2021\n\n\n\n\n\n\nAn energy closure criterion for model reduction of a kicked Euler–Bernoulli beam\n\n\nSuparno Bhattacharyya, Joseph P Cusumano\n\n\nASME, Journal of Vibration and Acoustics (IF: 1.7, 2.1 at the time of submission)\n\n\nJan 8, 2021\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html#journal",
+    "href": "publications.html#journal",
+    "title": "Publications",
+    "section": "Journal",
+    "text": "Journal\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023J).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL\n\n\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2022J).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL"
+  },
+  {
+    "objectID": "publications.html#conference",
+    "href": "publications.html#conference",
+    "title": "Publications",
+    "section": "Conference",
+    "text": "Conference\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023C).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL"
   }
 ]

@@ -53,6 +53,12 @@ format:
     theme:
       {light: cosmo, dark: darkly}
     css: styles.css
+    
+    # include-in-header:
+    #   - head.html         # <-- your Lucide loader
+    # include-after-body:
+    #   - publications.js   # <-- your filter/sort logic
+      
     toc: true
     toc-location: right
     page-layout: article
@@ -60,9 +66,10 @@ format:
     theme-toggle: true
     ##mainfont: "Lora"
     ##heading-font: "Playfair Display"
-    format:
 
 execute:
   freeze: auto
 
 editor: visual
+
+

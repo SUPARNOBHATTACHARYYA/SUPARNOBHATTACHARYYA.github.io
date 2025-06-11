@@ -1,0 +1,337 @@
+---
+title: "Publications"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-location: right
+    toc-title: "Categories"
+    smooth-scroll: true
+    css: styles.css
+# Add Font Awesome for icons
+include-in-header:
+  - text: |
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+---
+
+```{=html}
+<style>
+/* General styling for the page */
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+/* Main content area */
+.quarto-body-content {
+  padding-top: 1rem !important;
+}
+
+/* Style for each publication entry */
+.publication {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Left column for the preview image */
+.pub-image {
+  flex: 0 0 200px;
+  margin-right: 1.5rem;
+}
+
+.pub-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Right column for the publication details */
+.pub-details {
+  flex: 1;
+}
+
+.pub-details .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.pub-details .authors {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.pub-details .venue {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+/* Style for the links (Paper, Code, etc.) */
+.pub-links a {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 5px 12px;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.pub-links a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.pub-links i {
+  margin-right: 5px;
+}
+
+/* Styling for the collapsible abstract and bibtex */
+details {
+  margin-top: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.5rem;
+  outline: none; /* Hide the default focus outline */
+}
+
+details[open] > summary {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 0.5rem;
+}
+
+.bibtex {
+  font-family: monospace;
+  font-size: 0.85rem;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-top: 0.5rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .publication {
+    flex-direction: column;
+  }
+  .pub-image {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    max-width: 250px; /* Or adjust as needed */
+  }
+  .quarto-toc-toggle {
+    display: block; /* Ensure TOC toggle is visible on mobile */
+  }
+}
+</style>
+```
+
+Welcome to my publication page. You can use the categories on the left to navigate to the relevant sections.
+
+------------------------------------------------------------------------
+
+## Journal Articles {#sec-journal}
+
+::::::::::::::::::::::::::::::::: pub-details
+::: title
+**Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation**
+:::
+
+::: authors
+*Raj Pradip Khawale, Suparno Bhattacharyya,Rahul Rai,Gary F. Dargush*
+:::
+
+::: venue
+**Computers & Structures** (IF: 4.4, acceptance rate 8%), vol. 299, pp. 107371, 2024
+:::
+
+<details>
+
+<summary>Abstract</summary>
+
+<p>This paper presents an innovative approach to developing and solving a dynamic topology optimization framework aimed at designing printable lattice (metamaterial) structures. By using a complementary-energy formulation and focusing on 2D metamaterials, the method efficiently accounts for dynamic behavior, enabling the creation of structures optimized for both static stiffness and dynamic performance. Numerical examples demonstrate printable, high-performing lattice topologies, highlighting the effectiveness of the complementary-energy–based framework for manufacturing-ready metamaterials</p>
+
+</details>
+
+<details>
+
+<summary>BibTeX</summary>
+
+::: bibtex
+@article{khawale2024efficient, title = {Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation}, author = {Raj Pradip Khawale and Suparno Bhattacharyya and Rahul Rai and Gary F. Dargush}, journal = {Computers & Structures}, year = {2024}, pages = {107371}, doi = {10.1016/j.compstruc.2024.107371}, publisher = {Elsevier} }
+:::
+
+</details>
+
+:::::::::::::::::::::::::::: pub-details
+::: title
+**Experimental implementation of energy closure analysis for reduced order modeling**
+:::
+
+::: authors
+*Suparno Bhattacharyya, Joseph Cusumano*
+:::
+
+::: venue
+**ASME, Journal of Vibration and Acoustics** (IF: 1.7), 144(5): 051007, 2022.
+:::
+
+<details>
+
+<summary>Abstract</summary>
+
+<p>This study experimentally implements the energy-closure criterion—an approach previously developed for reduced-order modeling—to quantify and enforce the energy balance within truncated dynamic systems. Through vibration testing on a multi-degree-of-freedom structure, the authors demonstrate how carefully selected reduced-order representations can preserve system energy behavior. The results validate that energy-closure conditions accurately identify modal contributions and yield reliable reduced-order models for structural dynamics.</p>
+
+</details>
+
+<details>
+
+<summary>BibTeX</summary>
+
+::: bibtex
+@article{bhattacharyya2022experimental, title = {Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling}, author = {Suparno Bhattacharyya and Joseph P. Cusumano}, journal = {Journal of Vibration and Acoustics}, volume = {144}, number = {5}, pages = {051007}, year = {2022}, publisher = {ASME}, doi = {10.1115/1.4054295}, url = {https://doi.org/10.1115/1.4054295} }
+:::
+
+</details>
+
+::::::::::::::::::::::: pub-details
+::: title
+**An energy closure criterion for model reduction of a kicked Euler–Bernoulli beam**
+:::
+
+::: authors
+*Suparno Bhattacharyya, Joseph Cusumano*
+:::
+
+::: venue
+**ASME, Journal of Vibration and Acoustics** (IF: 1.7, 2.1 at the time of submission),143(4): 041001, 2021..
+:::
+
+<details>
+
+<summary>Abstract</summary>
+
+<p>This paper introduces an energy-closure criterion applied to model reduction of a kicked Euler–Bernoulli beam. By employing an energy-based metric, the authors establish a systematic way to determine which system modes should be retained in a reduced-order model. Results for impulsively excited beams demonstrate that the method accurately preserves important dynamic and energetic behaviors while significantly cutting down on computational cost.</p>
+
+</details>
+
+<details>
+
+<summary>BibTeX</summary>
+
+::: bibtex
+@article{bhattacharyya2021energy, title = {An Energy-Closure Criterion for Model Reduction of a Kicked Euler–Bernoulli Beam}, author = {Suparno Bhattacharyya and Joseph P. Cusumano}, journal = {Journal of Vibration and Acoustics}, volume = {143}, number = {4}, pages = {041001}, year = {2021}, publisher = {ASME}, doi = {10.1115/1.4049780}, url = {https://doi.org/10.1115/1.4049780} }
+:::
+
+</details>
+
+<!-- Add another journal article entry here -->
+
+## Conference Papers {#sec-conference}
+
+:::::::::: publication
+::: pub-image
+![Publication Preview](https://placehold.co/400x250/28a745/ffffff?text=Conference+Paper)
+:::
+
+:::::::: pub-details
+::: title
+Real-Time Anomaly Detection in Streaming Time-Series Data
+:::
+
+::: authors
+*Alex Ray, **Your Name***
+:::
+
+::: venue
+In *Proceedings of the 25th International Conference on Artificial Intelligence (ICAI)*, 2023.
+:::
+
+::: pub-links
+<a href="#" target="_blank"><i class="fa-solid fa-file-pdf"></i> Paper</a> <a href="#" target="_blank"><i class="fa-solid fa-person-chalkboard"></i> Slides</a> <a href="#" target="_blank"><i class="fa-solid fa-video"></i> Video</a>
+:::
+
+<details>
+
+<summary>Abstract</summary>
+
+<p>We present a lightweight and highly efficient algorithm for detecting anomalies in real-time for large-scale time-series data streams. The model utilizes a combination of seasonal decomposition and a recurrent neural network to predict expected values and flag significant deviations. We show that our method outperforms state-of-the-art techniques in both accuracy and computational speed.</p>
+
+</details>
+
+<details>
+
+<summary>BibTeX</summary>
+
+::: bibtex
+@inproceedings{ray2023realtime, title={Real-Time Anomaly Detection in Streaming Time-Series Data}, author={Ray, Alex and Your Name}, booktitle={Proceedings of the 25th International Conference on Artificial Intelligence (ICAI)}, year={2023} }
+:::
+
+</details>
+::::::::
+::::::::::
+
+## Book Chapters {#sec-book}
+
+:::::::::: publication
+::: pub-image
+![Publication Preview](https://placehold.co/400x250/ffc107/333333?text=Book+Chapter)
+:::
+
+:::::::: pub-details
+::: title
+The Ethics of AI in Autonomous Systems
+:::
+
+::: authors
+***Your Name***
+:::
+
+::: venue
+In *AI for a Better Future*, pp. 88-110. Edited by S. Rogers, University Press, 2022.
+:::
+
+::: pub-links
+<a href="#" target="_blank"><i class="fa-solid fa-file-pdf"></i> Chapter PDF</a> <a href="#" target="_blank"><i class="fa-solid fa-book"></i> View Book</a>
+:::
+
+<details>
+
+<summary>Abstract</summary>
+
+<p>This chapter explores the critical ethical considerations surrounding the deployment of artificial intelligence in autonomous systems, such as self-driving cars and drones. We discuss frameworks for ethical decision-making, the problem of algorithmic bias, and the societal implications of ceding control to intelligent agents.</p>
+
+</details>
+
+<details>
+
+<summary>BibTeX</summary>
+
+::: bibtex
+@incollection{yourname2022ethics, title={The Ethics of AI in Autonomous Systems}, author={Your Name}, booktitle={AI for a Better Future}, pages={88--110}, year={2022}, publisher={University Press}, editor={Rogers, S.} }
+:::
+
+</details>
+::::::::
+::::::::::
+:::::::::::::::::::::::
+::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::

@@ -2,6 +2,7 @@
 title: "Publication_1"
 format: html
 ---
+
 ---
 title: "Density-Adaptive Fuzzy Clustering with Isolation Kernel"
 authors:
@@ -12,4 +13,3 @@ article: "Density-Adaptive Fuzzy Clustering with Isolation Kernel"
 date: "2025"
 type: conference
 ---
-

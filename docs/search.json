@@ -65,9 +65,9 @@
   {
     "objectID": "Contact.html",
     "href": "Contact.html",
-    "title": "Contact",
+    "title": "Suparno Bhattacharyya",
     "section": "",
-    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
+    "text": "Email: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
   },
   {
     "objectID": "index_old.html",
@@ -228,7 +228,7 @@
     "href": "cv.html",
     "title": "cv",
     "section": "",
-    "text": "CV will be Uploaded here"
+    "text": "![] (docs/CV_Bhattacharyya.pdf){width=100% height=1000px}"
   },
   {
     "objectID": "publications.html#sec-journal",
@@ -499,6 +499,55 @@
   {
     "objectID": "publications.html#conference-2",
     "href": "publications.html#conference-2",
+    "title": "Publications",
+    "section": "Conference",
+    "text": "Conference\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023C).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL"
+  },
+  {
+    "objectID": "Contact.html#suparno-bhattacharyya",
+    "href": "Contact.html#suparno-bhattacharyya",
+    "title": "Suparno Bhattacharyya",
+    "section": "",
+    "text": "Email: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
+  },
+  {
+    "objectID": "updated_publications.html",
+    "href": "updated_publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "All Types Journal Conference Preprint \n All Years 2023 2022"
+  },
+  {
+    "objectID": "updated_publications.html#journal",
+    "href": "updated_publications.html#journal",
+    "title": "Publications",
+    "section": "Journal",
+    "text": "Journal\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023J).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL\n\n\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2022J).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL"
+  },
+  {
+    "objectID": "updated_publications.html#conference",
+    "href": "updated_publications.html#conference",
+    "title": "Publications",
+    "section": "Conference",
+    "text": "Conference\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023C).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL\n\n\n\nModel Reduction of a Piecewise Nonlinear Mechanical Oscillator\nBhattacharyya, S., and Cusumano, J.\nPreprint: arxiv.org/abs/2311.17947, 2024.\n\n\nExperimental study of damping enhancement in aluminium rods by knurling\nBhattacharyya, S., Chatterjee, A.\nSubmitted, in review, 2024.\n\n\nHyper-reduction Methods for Large-Scale Engineering Systems: A Tutorial Review\nBhattacharyya, S., Tao, J., Gildin, E., Ragusa, J.\nSubmitted, in review, 2024.\n\n\nEfficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation\nKhawale, R., Bhattacharyya, S., Rai, R., Dargush, G.\nComputers & Structures, vol. 299, pp. 107371*, 2024.\n\n\nExperimental Implementation of Energy Closure Analysis for Reduced Order Modeling\nBhattacharyya, S., and Cusumano, J. P.\nASME Journal of Vibration and Acoustics, 144(5): 051007, 2022.\n\n\nAn Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam\nBhattacharyya S., and Cusumano J.\nASME Journal of Vibration and Acoustics, 143(4): 041001, 2021.\n\n\nAnalysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator\nBhattacharyya S. and Naskar T.K.\nInternational Journal of Mechanical and Industrial Engineering, 1(2), pp. 51-56, 2011.\n\n\nA Complementary-energy based framework for symmetry-driven 3D lattice metamaterials\nBhattacharyya, S., Tao, J., Samuel, G.L., Bukkapatnam, S., Dargush, G.\nManuscript under preparation, 2025.\n\n\nEDM-NODE: A Neural-ODE based approach for estimating steady-state dynamics of structural systems\nAlsalih, H., Bhattacharyya, S., Rai, R.\nManuscript under preparation, 2025.\n\n\nHyperreduction for Neutron Transport\nHuhn, Q., Bhattacharyya, S., Ragusa, J.\nTransactions of the American Nuclear Society, Volume 131(1), 2024.\n\n\nEfficient Methods for Flexibility-Based Meso-scale Dynamic Modeling\nKhawale, R.P., Bhattacharyya, S., Bielecki, D., Rai, R., Dargush, G.\nConference Proceedings of the Society for Experimental Mechanics Series, Springer, SEM 2023, 2023.\n\n\nThe Importance of Energy Criteria for Selecting Modes in Reduced Order Modeling\nBhattacharyya, S., and Cusumano, J.\nProceedings of the ASME IDETC, 31st Conference on Mechanical Vibration and Noise, 2019.\n\n\nThe effect of number of knots in a polynomial trajectory on motion characteristics of robotic manipulators\nBhattacharyya, S., and Naskar, T.K.\nProceedings of the 9th International Conference on Mechanical Engineering, BUET, Dhaka, 2011.\n\n\nMethods and Materials for Advanced Manufacturing (MMAM) of MEMS/NEMS-Enabled Bio-Electronics and Wearables for Health Monitoring\nKumar A., and Bhattacharyya S.\nIn: MEMS Applications in Biology and Healthcare, AIP Publishing, 2021.\n\n\nMechanics of Materials Considerations in MEMS-Based Medical Devices\nBhattacharyya S., and Kumar, A.\nIn: MEMS Applications in Electronics and Engineering, AIP Publishing, 2023.\n\n\nScaling Law\nBasu A. K., and Bhattacharyya S.\nIn: MEMS Applications in Electronics and Engineering, AIP Publishing, 2023.\n\n\nBandgap optimization in symmetry-driven 3D lattice metamaterials\nBhattacharyya, S., Tao, J., Samuel, G.L., Bukkapatnam, S., Dargush, G.\n18th U. S. National Congress on Computational Mechanics, 2025.\n\n\nUncertainty Quantification With Hyper-Reduced Order Model\nBhattacharyya, S., Tao, J., Gildin, E., Ragusa, J.\nASME Verification, Validation, and Uncertainty Quantification Symposium, 2024.\n\n\nRole of Hyper-Reduction in Enhancing the Efficacy of Digital Twins\nBhattacharyya, S., Tao, J., Gildin, E., Ragusa, J.\nSIAM TXLA23 Annual Meeting, 2023.\n\n\nModel Reduction of a Piecewise Nonlinear Mechanical Oscillator\nBhattacharyya, S., Cusumano, J.\n17th U.S. National Congress on Computational Mechanics, 2023.\n\n\nData-Driven Model Discovery of Flexible Structures\nBhattacharyya, S., Alsalih, H., Choi, Y., Lee, K., Rai, R.\n17th U.S. National Congress on Computational Mechanics, 2023.\n\n\nEnergy criterion for enhanced accuracy of Reduced Order Models\nBhattacharyya S., Cusumano J.\nESM Today 2018, Penn State University, 2018.\n\n\nA review on corrosion control methods with electroless coatings\nKumar A., Chatterjee K., Bhattacharyya S.\nNational symposium of micro and nano characterization of materials, Jadavpur University, 2011."
+  },
+  {
+    "objectID": "publications_updated.html",
+    "href": "publications_updated.html",
+    "title": "Publications",
+    "section": "",
+    "text": "All Types Journal Conference Preprint \n All Years 2023 2022"
+  },
+  {
+    "objectID": "publications_updated.html#journal",
+    "href": "publications_updated.html#journal",
+    "title": "Publications",
+    "section": "Journal",
+    "text": "Journal\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023J).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL\n\n\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2022J).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL"
+  },
+  {
+    "objectID": "publications_updated.html#conference",
+    "href": "publications_updated.html#conference",
     "title": "Publications",
     "section": "Conference",
     "text": "Conference\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023C).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL"

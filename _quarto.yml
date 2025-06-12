@@ -32,7 +32,7 @@ website:
         text: "People"
       - href: opportunities.qmd
         text: "Opportunities"
-      - href: contact.qmd
+      - href: Contact.qmd
         text: "Contact"
       - href: cv.qmd
         text: "CV"

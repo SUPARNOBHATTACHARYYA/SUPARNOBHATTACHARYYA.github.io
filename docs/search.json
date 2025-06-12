@@ -65,9 +65,9 @@
   {
     "objectID": "Contact.html",
     "href": "Contact.html",
-    "title": "Contact",
+    "title": "Suparno Bhattacharyya",
     "section": "",
-    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
+    "text": "Email: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
   },
   {
     "objectID": "index_old.html",
@@ -228,7 +228,7 @@
     "href": "cv.html",
     "title": "cv",
     "section": "",
-    "text": "CV will be Uploaded here"
+    "text": "![] (docs/CV_Bhattacharyya.pdf){width=100% height=1000px}"
   },
   {
     "objectID": "publications.html#sec-journal",
@@ -474,5 +474,12 @@
     "title": "Publications",
     "section": "Conference",
     "text": "Conference\n\n📄\n\nVatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023C).\nPhysical Review Materials.\nReal-time characterization of dislocation slip and twinning…\nCite DOI URL"
+  },
+  {
+    "objectID": "Contact.html#suparno-bhattacharyya",
+    "href": "Contact.html#suparno-bhattacharyya",
+    "title": "Suparno Bhattacharyya",
+    "section": "",
+    "text": "Email: suparno.bhattacharyya@gmail.com / suparnob@tamu.edu\nLinkedIn: Suparno Bhattacharyya, Ph.D."
   }
 ]

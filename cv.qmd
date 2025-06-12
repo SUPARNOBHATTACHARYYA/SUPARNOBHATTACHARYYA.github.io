@@ -1,6 +1,7 @@
 ---
-title: "cv"
+title: "CV (June, 2025)"
 format: html
 ---
 
-CV will be Uploaded here
+![](docs/CV_Bhattacharyya.pdf){width=100%
+height=1000px}

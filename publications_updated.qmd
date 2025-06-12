@@ -1,0 +1,150 @@
+---
+title: "Publications"
+format:
+  html:
+    theme:
+      {light: cosmo, dark: darkly}
+    css: styles.css
+    include-in-header: head.html
+    include-after-body: publications-script.html
+    toc: false
+    page-layout: article
+resources:
+  - publications.js
+  - publications-script.html
+---
+
+::: pub-controls
+<select id="pub-type"> <option value="">All Types</option> <option>Journal</option> <option>Conference</option> <option>Preprint</option> </select>
+
+<select id="pub-year"> <option value="">All Years</option> <option>2023</option> <option>2022</option> </select>
+:::
+
+<!-- your publications table starts here … -->
+
+:::: {.pub-item data-year="2024" data-type="Journal"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Khawale, R., Bhattacharyya, S.*, Rai, R., Dargush, G. (2024).**\\
+*Computers & Structures, vol. 299, pp. 107371.*\\
+[Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation.](https://doi.org/10.1016/j.compstruc.2024.107371){target="_blank"}
+
+[Cite](#){.btn .btn-primary} [DOI](https://doi.org/10.1016/j.compstruc.2024.107371){.btn .btn-outline target="_blank"} [URL](https://doi.org/10.1016/j.compstruc.2024.107371){.btn .btn-outline target="_blank"}
+:::
+::::
+
+
+:::: {.pub-item data-year="2022" data-type="Journal"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Bhattacharyya, S., and Cusumano, J. P. (2022).**\\
+*ASME Journal of Vibration and Acoustics, 144(5): 051007.*\\
+[Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling.](https://doi.org/10.1115/1.4053665){target="_blank"}
+
+[Cite](#){.btn .btn-primary} [DOI](https://doi.org/10.1115/1.4053665){.btn .btn-outline target="_blank"} [URL](https://doi.org/10.1115/1.4053665){.btn .btn-outline target="_blank"}
+:::
+::::
+
+
+:::: {.pub-item data-year="2021" data-type="Journal"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Bhattacharyya, S., and Cusumano, J. (2021).**\\
+*ASME Journal of Vibration and Acoustics, 143(4): 041001.*\\
+[An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam](https://doi.org/10.1115/1.4049883){target="_blank"}
+
+[Cite](#){.btn .btn-primary} [DOI](https://doi.org/10.1115/1.4049883){.btn .btn-outline target="_blank"} [URL](https://doi.org/10.1115/1.4049883){.btn .btn-outline target="_blank"}
+:::
+::::
+
+
+:::: {.pub-item data-year="2011" data-type="Journal"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Bhattacharyya S. and Naskar T.K. (2011).**\\
+*International Journal of Mechanical and Industrial Engineering, 1(2), pp. 51-56.*\\
+Analysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator
+
+[Cite](#){.btn .btn-primary}  
+:::
+::::
+
+
+:::: {.pub-item data-year="2023" data-type="Conference"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Khawale, R.P., Bhattacharyya, S., Bielecki, D., Rai, R., Dargush, G. (2023).**\\
+*Special Topics in Structural Dynamics & Experimental Techniques, Volume 5. SEM 2023, Springer.*\\
+Efficient Methods for Flexibility-Based Meso-scale Dynamic Modeling
+
+[Cite](#){.btn .btn-primary}  
+:::
+::::
+
+
+:::: {.pub-item data-year="2019" data-type="Conference"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Bhattacharyya, S., and Cusumano, J. (2019).**\\
+*ASME 2019 IDETC/CIE, Anaheim, California, USA.*\\
+The Importance of Energy Criteria for Selecting Modes in Reduced Order Modeling
+
+[Cite](#){.btn .btn-primary}  
+:::
+::::
+
+
+:::: {.pub-item data-year="2023" data-type="Preprint"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Bhattacharyya, S., and Cusumano, J. (2023).**\\
+*arXiv Preprint.*\\
+[Model Reduction of a Piecewise Nonlinear Mechanical Oscillator](https://arxiv.org/abs/2311.17947){target="_blank"}
+
+[Cite](#){.btn .btn-primary}  [URL](https://arxiv.org/abs/2311.17947){.btn .btn-outline target="_blank"}
+:::
+::::
+
+## Journal
+:::: {.pub-item data-year="2023" data-type="Journal"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023J).**\
+*Physical Review Materials.*\
+[Real-time characterization of dislocation slip and twinning…](https://doi.org/...){target="_blank"}
+
+[Cite](#){.btn .btn-primary} [DOI](https://doi.org/...){.btn .btn-outline target="_blank"} [URL](https://example.com){.btn .btn-outline target="_blank"}
+:::
+::::
+
+:::: {.pub-item data-year="2022" data-type="Journal"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2022J).**\
+*Physical Review Materials.*\
+[Real-time characterization of dislocation slip and twinning…](https://doi.org/...){target="_blank"}
+
+[Cite](#){.btn .btn-primary} [DOI](https://doi.org/...){.btn .btn-outline target="_blank"} [URL](https://example.com){.btn .btn-outline target="_blank"}
+:::
+::::
+## Conference
+:::: {.pub-item data-year="2023" data-type="Conference"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023C).**\
+*Physical Review Materials.*\
+[Real-time characterization of dislocation slip and twinning…](https://doi.org/...){target="_blank"}
+
+[Cite](#){.btn .btn-primary} [DOI](https://doi.org/...){.btn .btn-outline target="_blank"} [URL](https://example.com){.btn .btn-outline target="_blank"}
+:::
+::::

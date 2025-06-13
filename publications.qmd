@@ -239,7 +239,7 @@ resources:
 ```
 :::
 
-::: {#abs-bhattacharyya_7.d-none}
+::: {#abs-bhattacharyya_7 .d-none}
 <p>We study the reduced order modeling of a nonlinear flexible oscillator in which a Bernoulli-Euler beam is subjected to a position-triggered kick force and a piecewise restoring force at its tip. The resulting nonsmooth boundary conditions can generally be expected to excite many degrees of freedom. The system is modeled as piecewise linear with different boundary conditions determining different regions of a hybrid phase space. With kick strength as parameter, its bifurcation diagram is found to exhibit a range of periodic and chaotic behaviors. Proper orthogonal decomposition (POD) is used to estimate the system's intrinsic dimensionality. However, conventional POD's purely statistical analysis of spatial covariance does not guarantee accuracy of reduced order models (ROMs). We therefore augment POD by employing a previously-developed energy closure criterion that selects ROM dimension by ensuring approximate energy balance on the reduced subspace. This physics-based criterion yields accurate ROMs with 8 degrees of freedom. Remarkably, we find that ROMs formulated at particular values of the kick strength can nevertheless reconstruct the entire bifurcation structure of the original nonlinear structural system. We thus show that energy closure analysis reliably yields effective dimension estimates and, thereby, ROMs that are robust across stability transitions, including even period doubling cascades to chaos.</p>
 :::
 :::::

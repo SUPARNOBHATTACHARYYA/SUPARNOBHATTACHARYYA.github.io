@@ -23,19 +23,18 @@ resources:
 
 ## Journals
 
-:::: {.pub-item data-year="2025" data-type="Journal"}
+:::::: {.pub-item data-year="2025" data-type="Journal"}
 [📄]{.pub-icon}
 
-::: pub-content
-**Bhattacharyya S. (corresponding author), Chatterjee A. (2025J)**\
+::::: pub-content
+**Bhattacharyya S., Chatterjee A. (2025J).**\
 *Journal of Applied Mechanics.*\
 [Experimental study of damping enhancement in aluminium rods by knurling](#){target="_blank"}
 
-<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_1">Cite</a>
-<a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_1">Abstract</a>
-<a href="https://asmedigitalcollection.asme.org/appliedmechanics/article-abstract/doi/10.1115/1.4068859/1218680/Experimental-study-of-damping-enhancement-in?redirectedFrom=fulltext" class="btn btn-outline btn-sm" target="_blank">URL</a>
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_1">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_1">Abstract</a> <a href="https://asmedigitalcollection.asme.org/appliedmechanics/article-abstract/doi/10.1115/1.4068859/1218680/Experimental-study-of-damping-enhancement-in?redirectedFrom=fulltext" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
-<div id="cite-bhattacharyya_1" class="d-none">
+::: {#cite-bhattacharyya_1 .d-none}
+```{=html}
 <pre><code>@article{Bhattacharyya2025,
   title = {Experimental study of damping enhancement in aluminum rods by knurling},
   ISSN = {1528-9036},
@@ -48,53 +47,49 @@ resources:
   month = jun,
   pages = {1–43}
 }</code></pre>
-</div>
-
-<div id="abs-bhattacharyya_1" class="d-none">
-<p>This paper is motivated by an interest in the damping behaviour of lightly damped metal components. Some anecdotal evidence suggests that near surface plastic deformation, such as in shot peening, might increase the damping of metallic components. Here we have studied the damping behaviour of slender aluminum rods in the first free-free mode, suspended at a nodal point. Three types of rods were studied: a plain rod, a knurled rod, and a plain rod wrapped with viscoelastic tape. Two rods of each type were tested. Free vibration responses of the struck rods were measured and recorded after analog and digital filtering. Damping coefficients were determined from ten measurements per rod. Results were consistent within each rod pair but significantly differed across rod types. Knurled rods exhibited approximately 1.6 times the damping of plain rods, while viscoelastic tape increased damping by a factor of 2.3. The possible role of surface roughness-induced air damping for knurled rods was investigated analytically as well as numerically (using FLUENT). It was concluded that air damping effects were weak; and that knurling, which is a near-surface deformation process, can significantly increase the damping in metal components. Although the increase is lower than it is with viscoelastic damping layers, near-surface deformation induced damping may be preferred in some applications.</p>
-</div>
-
+```
 :::
-::::
 
-:::: {.pub-item data-year="2025" data-type="Journal"}
+::: {#abs-bhattacharyya_1 .d-none}
+<p>This paper is motivated by an interest in the damping behaviour of lightly damped metal components. Some anecdotal evidence suggests that near surface plastic deformation, such as in shot peening, might increase the damping of metallic components. Here we have studied the damping behaviour of slender aluminum rods in the first free-free mode, suspended at a nodal point. Three types of rods were studied: a plain rod, a knurled rod, and a plain rod wrapped with viscoelastic tape. Two rods of each type were tested. Free vibration responses of the struck rods were measured and recorded after analog and digital filtering. Damping coefficients were determined from ten measurements per rod. Results were consistent within each rod pair but significantly differed across rod types. Knurled rods exhibited approximately 1.6 times the damping of plain rods, while viscoelastic tape increased damping by a factor of 2.3. The possible role of surface roughness-induced air damping for knurled rods was investigated analytically as well as numerically (using FLUENT). It was concluded that air damping effects were weak; and that knurling, which is a near-surface deformation process, can significantly increase the damping in metal components. Although the increase is lower than it is with viscoelastic damping layers, near-surface deformation induced damping may be preferred in some applications.</p>
+:::
+:::::
+::::::
+
+:::::: {.pub-item data-year="2025" data-type="Journal"}
 [📄]{.pub-icon}
 
-::: pub-content
-**Bhattacharyya, S.**$^\dagger$, Tao, J., Gildin, E., Ragusa, J. (2025J).\
+::::: pub-content
+**\[Bhattacharyya, S.**$^\dagger$\], Tao, J., Gildin, E., Ragusa, J. (2025J).\
 *Archives of Computational Methods in Engineering.*\
 [Hyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems](#){target="_blank"}
 
-<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_2">Cite</a>
-<a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_2">Abstract</a>
-<a href="site coming soon" class="btn btn-outline btn-sm" target="_blank">URL</a>
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_2">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_2">Abstract</a> <a href="site coming soon" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
-<div id="cite-bhattacharyya_2" class="d-none">
+::: {#cite-bhattacharyya_2 .d-none}
+```{=html}
 <pre><code>{Cite coming soon}</code></pre>
-</div>
-
-<div id="abs-bhattacharyya_2" class="d-none">
-<p>Reduced-order models (ROMs) offer compact representations of complex engineering systems governed by partial differential equations (PDEs), enabling efficient simulations of computationally intensive problems. These models are typically constructed by projecting high-dimensional governing equations onto reduced subspaces derived from techniques such as Singular Value Decomposition (SVD) or Proper Orthogonal Decomposition (POD). However, conventional ROMs struggle with nonlinear systems due to the high computational cost of repeatedly accessing high-dimensional solution spaces for non-linear term evaluations. Hyper-reduction methods address this challenge by efficiently approximating nonlinear term evaluations, significantly improving ROM performance.They are also essential for solving large parametric linear problems that lack an efficient
-parameter-affine decomposition. This paper provides a comprehensive overview of hyper-reduction algorithms, emphasizing both their theoretical foundations and practical implementations in academic research and industry. With the rapid advancement of data-driven methods, reduced-order modeling has become indispensable for analyzing and simulating large-scale systems, including fluid dynamics, thermal processes, and structural mechanics. As the demand for efficient computational tools in science and engineering continues to grow, a detailed discussion of hyper-reduction techniques is both timely and valuable. The paper explores state-of-the-art hyper-reduction techniques, including discrete empirical interpolation methods (DEIM), energy-conserving sampling and weighting (ECSW), and emerging machine learning-based approaches. A nonlinear parametric heat conduction example is presented to illustrate the implementation of these methods.The analysis evaluates their strengths and weaknesses using standard metrics, providing insights into their practical utility. Finally, the paper concludes by discussing future research directions and potential
-applications of hyper-reduction, including its integration with real-time simulations and digital twin systems.</p>
-</div>
-
+```
 :::
-::::
 
-:::: {.pub-item data-year="2024" data-type="Journal"}
+::: {#abs-bhattacharyya_2 .d-none}
+<p>Reduced-order models (ROMs) offer compact representations of complex engineering systems governed by partial differential equations (PDEs), enabling efficient simulations of computationally intensive problems. These models are typically constructed by projecting high-dimensional governing equations onto reduced subspaces derived from techniques such as Singular Value Decomposition (SVD) or Proper Orthogonal Decomposition (POD). However, conventional ROMs struggle with nonlinear systems due to the high computational cost of repeatedly accessing high-dimensional solution spaces for non-linear term evaluations. Hyper-reduction methods address this challenge by efficiently approximating nonlinear term evaluations, significantly improving ROM performance.They are also essential for solving large parametric linear problems that lack an efficient parameter-affine decomposition. This paper provides a comprehensive overview of hyper-reduction algorithms, emphasizing both their theoretical foundations and practical implementations in academic research and industry. With the rapid advancement of data-driven methods, reduced-order modeling has become indispensable for analyzing and simulating large-scale systems, including fluid dynamics, thermal processes, and structural mechanics. As the demand for efficient computational tools in science and engineering continues to grow, a detailed discussion of hyper-reduction techniques is both timely and valuable. The paper explores state-of-the-art hyper-reduction techniques, including discrete empirical interpolation methods (DEIM), energy-conserving sampling and weighting (ECSW), and emerging machine learning-based approaches. A nonlinear parametric heat conduction example is presented to illustrate the implementation of these methods.The analysis evaluates their strengths and weaknesses using standard metrics, providing insights into their practical utility. Finally, the paper concludes by discussing future research directions and potential applications of hyper-reduction, including its integration with real-time simulations and digital twin systems.</p>
+:::
+:::::
+::::::
+
+:::::: {.pub-item data-year="2024" data-type="Journal"}
 [📄]{.pub-icon}
 
-::: pub-content
-**Khawale, R., Bhattacharyya, S.**$^1$, Rai, R., Dargush, G. (2024J).\
+::::: pub-content
+**\[Khawale, R., Bhattacharyya, S.**$^1$\], Rai, R., Dargush, G. (2024J). \
 *Computers & Structures.*\
-[Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation](#){target="_blank"} 
+[Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation](#){target="_blank"}
 
-<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_3">Cite</a>
-<a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_3">Abstract</a>
-<a href="https://www.sciencedirect.com/science/article/abs/pii/S0045794924001007" class="btn btn-outline btn-sm" target="_blank">URL</a>
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_3">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_3">Abstract</a> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0045794924001007" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
-<div id="cite-bhattacharyya_3" class="d-none">
+::: {#cite-bhattacharyya_3 .d-none}
+```{=html}
 <pre><code>@article{Khawale2024,
   title = {Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation},
   volume = {299},
@@ -108,28 +103,27 @@ applications of hyper-reduction, including its integration with real-time simula
   month = aug,
   pages = {107371}
 }</code></pre>
-</div>
-
-<div id="abs-bhattacharyya_3" class="d-none">
-<p>The advent of additive manufacturing has revolutionized the design and development of hierarchical structures, with potential applications in compliant, auxetic, and band-gap structures. This paper presents an innovative approach to developing a dynamic Topology Optimization (TO) framework for designing printable lattice structures that exhibit specific dynamic properties. Utilizing parametrically defined filament-based unit cell structures for topology optimization, we achieve desired natural frequency bandgaps in the structures composed of these unit cells. To enhance computational efficiency, we employ a complementary energy-based formulation to (semi)analytically derive the flexibility and stiffness matrices of the unit cell structure, thus, eliminating extensive finite element discretization. Consequently, a wide variety of parametrically defined filament-based meso-structures can be mathematically explored. We apply this innovative framework specifically for band-gap maximization of 2D lattice structures. By tuning the geometry within each cell using TO, we maximize the band gap. Our results show the potential of this approach to create more efficient and effective hierarchical structures with desired band-gap properties.</p>
-</div>
-
+```
 :::
-::::
 
-:::: {.pub-item data-year="2022" data-type="Journal"}
+::: {#abs-bhattacharyya_3 .d-none}
+<p>The advent of additive manufacturing has revolutionized the design and development of hierarchical structures, with potential applications in compliant, auxetic, and band-gap structures. This paper presents an innovative approach to developing a dynamic Topology Optimization (TO) framework for designing printable lattice structures that exhibit specific dynamic properties. Utilizing parametrically defined filament-based unit cell structures for topology optimization, we achieve desired natural frequency bandgaps in the structures composed of these unit cells. To enhance computational efficiency, we employ a complementary energy-based formulation to (semi)analytically derive the flexibility and stiffness matrices of the unit cell structure, thus, eliminating extensive finite element discretization. Consequently, a wide variety of parametrically defined filament-based meso-structures can be mathematically explored. We apply this innovative framework specifically for band-gap maximization of 2D lattice structures. By tuning the geometry within each cell using TO, we maximize the band gap. Our results show the potential of this approach to create more efficient and effective hierarchical structures with desired band-gap properties.</p>
+:::
+:::::
+::::::
+
+:::::: {.pub-item data-year="2022" data-type="Journal"}
 [📄]{.pub-icon}
 
-::: pub-content
+::::: pub-content
 **Bhattacharyya, S., Cusumano, J. P. (2022J).**\
 *ASME Journal of Vibration and Acoustics.*\
-[Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling](#){target="_blank"} 
+[Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling](#){target="_blank"}
 
-<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_4">Cite</a>
-<a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_4">Abstract</a>
-<a href="https://www.researchgate.net/publication/359828494_Experimental_Implementation_of_Energy_Closure_Analysis_for_Reduced_Order_Modeling" class="btn btn-outline btn-sm" target="_blank">URL</a>
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_4">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_4">Abstract</a> <a href="https://www.researchgate.net/publication/359828494_Experimental_Implementation_of_Energy_Closure_Analysis_for_Reduced_Order_Modeling" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
-<div id="cite-bhattacharyya_4" class="d-none">
+::: {#cite-bhattacharyya_4 .d-none}
+```{=html}
 <pre><code>@article{Bhattacharyya2022,
   title = {Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling},
   volume = {144},
@@ -143,28 +137,27 @@ applications of hyper-reduction, including its integration with real-time simula
   year = {2022},
   month = may 
 }</code></pre>
-</div>
-
-<div id="abs-bhattacharyya_4" class="d-none">
-<p>Reduced order models (ROMs) provide an efficient, kinematically condensed representation of computationally expensive high dimensional dynamical systems; however, their accuracy depends crucially on the accurate estimation of their dimension. We here demonstrate how the energy closure criterion, developed in our prior work, can be experimentally implemented to accurately estimate the dimension of ROMs obtained using the proper orthogonal decomposition (POD). We examine the effect of using discrete data with and without measurement noise, as will typically be gathered in an experiment or numerical simulation, on estimating the degree of energy closure on a candidate reduced subspace. To this end, we used a periodically kicked Euler-Bernoulli beam with Rayleigh damping as the model system, and studied ROMs obtained by applying POD to discrete displacement field data obtained from simulated numerical experiments. An improved method for quantifying the degree of energy closure is presented: the convergence of energy input to or dissipated from the system is obtained as a function of the subspace dimension, and the dimension capturing a predefined percentage of either energy is selected as the ROM-dimension. This method was found to be more robust to data discretization error and measurement noise. The data processing necessary for the experimental application of energy closure analysis is discussed in detail. We show ROMs formulated from the simulated data using our approach accurately capture the dynamics of the beam for different sets of parameter values.</p>
-</div>
-
+```
 :::
-::::
 
-:::: {.pub-item data-year="2021" data-type="Journal"}
+::: {#abs-bhattacharyya_4 .d-none}
+<p>Reduced order models (ROMs) provide an efficient, kinematically condensed representation of computationally expensive high dimensional dynamical systems; however, their accuracy depends crucially on the accurate estimation of their dimension. We here demonstrate how the energy closure criterion, developed in our prior work, can be experimentally implemented to accurately estimate the dimension of ROMs obtained using the proper orthogonal decomposition (POD). We examine the effect of using discrete data with and without measurement noise, as will typically be gathered in an experiment or numerical simulation, on estimating the degree of energy closure on a candidate reduced subspace. To this end, we used a periodically kicked Euler-Bernoulli beam with Rayleigh damping as the model system, and studied ROMs obtained by applying POD to discrete displacement field data obtained from simulated numerical experiments. An improved method for quantifying the degree of energy closure is presented: the convergence of energy input to or dissipated from the system is obtained as a function of the subspace dimension, and the dimension capturing a predefined percentage of either energy is selected as the ROM-dimension. This method was found to be more robust to data discretization error and measurement noise. The data processing necessary for the experimental application of energy closure analysis is discussed in detail. We show ROMs formulated from the simulated data using our approach accurately capture the dynamics of the beam for different sets of parameter values.</p>
+:::
+:::::
+::::::
+
+:::::: {.pub-item data-year="2021" data-type="Journal"}
 [📄]{.pub-icon}
 
-::: pub-content
+::::: pub-content
 **Bhattacharyya, S., Cusumano, J. (2021J).**\
 *ASME Journal of Vibration and Acoustics.*\
-[An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam](#){target="_blank"} 
+[An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam](#){target="_blank"}
 
-<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_5">Cite</a>
-<a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_5">Abstract</a>
-<a href="https://asmedigitalcollection.asme.org/vibrationacoustics/article-abstract/143/4/041001/1087802/An-Energy-Closure-Criterion-for-Model-Reduction-of?redirectedFrom=fulltext" class="btn btn-outline btn-sm" target="_blank">URL</a>
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_5">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_5">Abstract</a> <a href="https://asmedigitalcollection.asme.org/vibrationacoustics/article-abstract/143/4/041001/1087802/An-Energy-Closure-Criterion-for-Model-Reduction-of?redirectedFrom=fulltext" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
-<div id="cite-bhattacharyya_5" class="d-none">
+::: {#cite-bhattacharyya_5 .d-none}
+```{=html}
 <pre><code>@article{Bhattacharyya2020,
   title = {An Energy Closure Criterion for Model Reduction of a Kicked Euler–Bernoulli Beam},
   volume = {143},
@@ -178,28 +171,27 @@ applications of hyper-reduction, including its integration with real-time simula
   year = {2020},
   month = nov 
 }</code></pre>
-</div>
-
-<div id="abs-bhattacharyya_5" class="d-none">
-<p>Reduced order models (ROMs) can be simulated with lower computational cost while being more amenable to theoretical analysis. Here, we examine the performance of the proper orthogonal decomposition (POD), a data-driven model reduction technique. We show that the accuracy of ROMs obtained using POD depends on the type of data used and, more crucially, on the criterion used to select the number of proper orthogonal modes (POMs) used for the model. Simulations of a simply supported Euler–Bernoulli beam subjected to periodic impulsive loads are used to generate ROMs via POD, which are then simulated for comparison with the full system. We assess the accuracy of ROMs obtained using steady-state displacement, velocity, and strain fields, tuning the spatiotemporal localization of applied impulses to control the number of excited modes in, and hence the dimensionality of, the system’s response. We show that conventional variance-based mode selection leads to inaccurate models for sufficiently impulsive loading and that this poor performance is explained by the energy imbalance on the reduced subspace. Specifically, the subspace of POMs capturing a fixed amount (say, 99.9%) of the total variance underestimates the energy input and dissipated in the ROM, yielding inaccurate reduced-order simulations. This problem becomes more acute as the loading becomes more spatio-temporally localized (more impulsive). Thus, energy closure analysis provides an improved method for generating ROMs with energetics that properly reflect that of the full system, resulting in simulations that accurately represent the system’s true behavior.</p>
-</div>
-
+```
 :::
-::::
 
-:::: {.pub-item data-year="2011" data-type="Journal"}
+::: {#abs-bhattacharyya_5 .d-none}
+<p>Reduced order models (ROMs) can be simulated with lower computational cost while being more amenable to theoretical analysis. Here, we examine the performance of the proper orthogonal decomposition (POD), a data-driven model reduction technique. We show that the accuracy of ROMs obtained using POD depends on the type of data used and, more crucially, on the criterion used to select the number of proper orthogonal modes (POMs) used for the model. Simulations of a simply supported Euler–Bernoulli beam subjected to periodic impulsive loads are used to generate ROMs via POD, which are then simulated for comparison with the full system. We assess the accuracy of ROMs obtained using steady-state displacement, velocity, and strain fields, tuning the spatiotemporal localization of applied impulses to control the number of excited modes in, and hence the dimensionality of, the system’s response. We show that conventional variance-based mode selection leads to inaccurate models for sufficiently impulsive loading and that this poor performance is explained by the energy imbalance on the reduced subspace. Specifically, the subspace of POMs capturing a fixed amount (say, 99.9%) of the total variance underestimates the energy input and dissipated in the ROM, yielding inaccurate reduced-order simulations. This problem becomes more acute as the loading becomes more spatio-temporally localized (more impulsive). Thus, energy closure analysis provides an improved method for generating ROMs with energetics that properly reflect that of the full system, resulting in simulations that accurately represent the system’s true behavior.</p>
+:::
+:::::
+::::::
+
+:::::: {.pub-item data-year="2011" data-type="Journal"}
 [📄]{.pub-icon}
 
-::: pub-content
+::::: pub-content
 **Bhattacharyya, S., Naskar, T.K. (2011J).**\
 *International Journal of Mechanical and Industrial Engineering.*\
-[Analysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator](#){target="_blank"} 
+[Analysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator](#){target="_blank"}
 
-<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_6">Cite</a>
-<a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_6">Abstract</a>
-<a href="https://www.researchgate.net/publication/348174810_Analysis_of_the_Effect_of_Number_of_Knots_in_a_Trajectory_on_Motion_Characteristics_of_a_3R_Planar_Manipulator" class="btn btn-outline btn-sm" target="_blank">URL</a>
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_6">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_6">Abstract</a> <a href="https://www.researchgate.net/publication/348174810_Analysis_of_the_Effect_of_Number_of_Knots_in_a_Trajectory_on_Motion_Characteristics_of_a_3R_Planar_Manipulator" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
-<div id="cite-bhattacharyya_6" class="d-none">
+::: {#cite-bhattacharyya_6 .d-none}
+```{=html}
 <pre><code>@article{Bhattacharyya2012,
   title = {Analysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator},
   ISSN = {2231-6477},
@@ -212,37 +204,46 @@ applications of hyper-reduction, including its integration with real-time simula
   month = jan,
   pages = {150–155}
 }</code></pre>
-</div>
-
-<div id="abs-bhattacharyya_6" class="d-none">
-<p>The paper presents a method of trajectory planning and motion characteristics of a robotic manipulator. Main objective is to study the motion characteristics of a manipulator and to explore the scope of minimization of jerk. 8th order polynomial is considered for the trajectory design and the effect of number of intermediate knots between start and final positions of a 3R manipulator within the workspace is studied. Displacements, velocities, accelerations and jerk of end-effectors on a linear path are presented. The simulation for motion of the manipulator is done with the help of AutoLISP on AutoCAD platform.</p>
-</div>
-
+```
 :::
-::::
+
+::: {#abs-bhattacharyya_6 .d-none}
+<p>The paper presents a method of trajectory planning and motion characteristics of a robotic manipulator. Main objective is to study the motion characteristics of a manipulator and to explore the scope of minimization of jerk. 8th order polynomial is considered for the trajectory design and the effect of number of intermediate knots between start and final positions of a 3R manipulator within the workspace is studied. Displacements, velocities, accelerations and jerk of end-effectors on a linear path are presented. The simulation for motion of the manipulator is done with the help of AutoLISP on AutoCAD platform.</p>
+:::
+:::::
+::::::
 
 ## Preprints
 
-:::: {.pub-item data-year="2025" data-type="Preprint"}
+:::::: {.pub-item data-year="2025" data-type="Preprint"}
 [📄]{.pub-icon}
 
-::: pub-content
+::::: pub-content
 **Bhattacharyya S., and Cusumano J. (2025P).**\
-*Model Reduction of a Piecewise Nonlinear Mechanical Oscillator*  (#){target="\_blank"}
+[Model Reduction of a Piecewise Nonlinear Mechanical Oscillator](#){target="_blank"}
 
-<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_7">Cite</a>
-<a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_7">Abstract</a>
-<a href="https://www.researchgate.net/publication/348174810_Analysis_of_the_Effect_of_Number_of_Knots_in_a_Trajectory_on_Motion_Characteristics_of_a_3R_Planar_Manipulator" class="btn btn-outline btn-sm" target="_blank">URL</a>
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_7">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_7">Abstract</a> <a href="https://arxiv.org/abs/2311.17947#" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
-<div id="cite-bhattacharyya_7" class="d-none">
-<pre><code>{Cite coming soon...}</code></pre>
-</div>
-
-<div id="abs-bhattacharyya_2" class="d-none">
-<p>The paper presents a method of trajectory planning and motion characteristics of a robotic manipulator. Main objective is to study the motion characteristics of a manipulator and to explore the scope of minimization of jerk. 8th order polynomial is considered for the trajectory design and the effect of number of intermediate knots between start and final positions of a 3R manipulator within the workspace is studied. Displacements, velocities, accelerations and jerk of end-effectors on a linear path are presented. The simulation for motion of the manipulator is done with the help of AutoLISP on AutoCAD platform.</p>
-</div>
+::: {#cite-bhattacharyya_7 .d-none}
+```{=html}
+<pre><code>@misc{https://doi.org/10.48550/arxiv.2311.17947,
+  doi = {10.48550/ARXIV.2311.17947},
+  url = {https://arxiv.org/abs/2311.17947},
+  author = {Bhattacharyya,  Suparno and Cusumano,  Joseph. P.},
+  keywords = {Systems and Control (eess.SY),  Chaotic Dynamics (nlin.CD),  Applied Physics (physics.app-ph),  FOS: Electrical engineering,  electronic engineering,  information engineering,  FOS: Electrical engineering,  electronic engineering,  information engineering,  FOS: Physical sciences,  FOS: Physical sciences,  I.6.5; G.1.2; J.2,  37M05},
+  title = {Model Reduction of a Flexible Nonsmooth Oscillator Recovers its Entire Bifurcation Structure},
+  publisher = {arXiv},
+  year = {2023},
+  copyright = {arXiv.org perpetual,  non-exclusive license}
+}</code></pre>
+```
 :::
-::::
+
+::: {#abs-bhattacharyya_2 .d-none}
+<p>The paper presents a method of trajectory planning and motion characteristics of a robotic manipulator. Main objective is to study the motion characteristics of a manipulator and to explore the scope of minimization of jerk. 8th order polynomial is considered for the trajectory design and the effect of number of intermediate knots between start and final positions of a 3R manipulator within the workspace is studied. Displacements, velocities, accelerations and jerk of end-effectors on a linear path are presented. The simulation for motion of the manipulator is done with the help of AutoLISP on AutoCAD platform.</p>
+:::
+:::::
+::::::
 
 ## Refereed Proceedings
 

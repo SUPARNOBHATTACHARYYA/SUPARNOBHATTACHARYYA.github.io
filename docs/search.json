@@ -172,7 +172,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "All Types Journal Conference Preprint Book Chapter Presentation \n All Years 2025 2024 2023 2022 2021 2020 2019 2011"
+    "text": "All Types Journal Preprint Refereed Proceeding Book Chapter Presentation \n All Years 2025 2024 2023 2022 2021 2020 2019 2011"
   },
   {
     "objectID": "people.html",
@@ -319,7 +319,7 @@
     "href": "publications.html#preprints",
     "title": "Publications",
     "section": "Preprints",
-    "text": "Preprints\n\nNon-Speckle-based DVC for Measuring Large Deformations in Homogeneous Solids using Laboratory X-ray CT\nZifan Wang, Akshay Joshi, Angkur Jyoti Dipanka Shaikeea, Vikram Susdhir Deshpande\narXiv, 2023\n\n\n\n\n\n\nAbstract\n\n\n\n\n\nAbstract for your preprint."
+    "text": "Preprints\n\n📄\n\nBhattacharyya S., and Cusumano J. (2025P).\nModel Reduction of a Piecewise Nonlinear Mechanical Oscillator  (#){target=“_blank”}\nCite Abstract URL"
   },
   {
     "objectID": "publications.html#books-chapters",
@@ -557,7 +557,7 @@
     "href": "publications.html#journal-publications",
     "title": "Publications",
     "section": "Journal Publications",
-    "text": "Journal Publications\n\n📄\n\nBhattacharyya, S. (corresponding author), Chatterjee, A. (2025J).\nJournal of Applied Mechanics.\nExperimental study of damping enhancement in aluminium rods by knurling\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S.\\(^\\dagger\\), Tao, J., Gildin, E., Ragusa, J. (2025J).\nArchives of Computational Methods in Engineering.\nHyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems\nCite DOI URL\n\n\n\n📄\n\nKhawale, R., Bhattacharyya, S.\\(^1\\), Rai, R., Dargush, G. (2024J).\nComputers & Structures.\nEfficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. P. (2022J).\nASME Journal of Vibration and Acoustics.\nExperimental Implementation of Energy Closure Analysis for Reduced Order Modeling\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. (2021J).\nASME Journal of Vibration and Acoustics.\nAn Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Naskar, T.K. (2011J).\nInternational Journal of Mechanical and Industrial Engineering.\nAnalysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator\nCite DOI URL"
+    "text": "Journal Publications\n\n📄\n\nBhattacharyya S. (corresponding author), Chatterjee A. (2025J)\nJournal of Applied Mechanics.\nExperimental study of damping enhancement in aluminium rods by knurling\nCite Abstract URL\n\n\n\n📄\n\nBhattacharyya, S.\\(^\\dagger\\), Tao, J., Gildin, E., Ragusa, J. (2025J).\nArchives of Computational Methods in Engineering.\nHyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems\nCite Abstract URL\n\n\n\n📄\n\nKhawale, R., Bhattacharyya, S.\\(^1\\), Rai, R., Dargush, G. (2024J).\nComputers & Structures.\nEfficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation\nCite Abstract URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. P. (2022J).\nASME Journal of Vibration and Acoustics.\nExperimental Implementation of Energy Closure Analysis for Reduced Order Modeling\nCite Abstract URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. (2021J).\nASME Journal of Vibration and Acoustics.\nAn Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam\nCite Abstract URL\n\n\n\n📄\n\nBhattacharyya, S., Naskar, T.K. (2011J).\nInternational Journal of Mechanical and Industrial Engineering.\nAnalysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator\nCite Abstract URL"
   },
   {
     "objectID": "publications.html#refereed-proceedings",
@@ -576,6 +576,48 @@
   {
     "objectID": "publications.html#presentations",
     "href": "publications.html#presentations",
+    "title": "Publications",
+    "section": "Presentations",
+    "text": "Presentations\n\n📄\n\nBhattacharyya, S., Tao, J., Bukkapatnam, S., Lodi, S.G., Dargush, G.F. (2025P).\nBandgap Optimization in Symmetry-Driven 3D Lattice Metamaterials\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Tao, J., Gildin, E., Ragusa, J. (2024P).\nUncertainty Quantification With Hyper-Reduced Order Model\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Tao, J., Gildin, E., Ragusa, J. (2023P).\nModel Reduction of a Piecewise Nonlinear Mechanical Oscillator\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. (2023P).\nModel Reduction of a Piecewise Nonlinear Mechanical Oscillator\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. (2018P).\nEnergy criterion for enhanced accuracy of Reduced Order Models\nCite DOI URL\n\n\n\n📄\n\nKumar, A., Chatterjee, K., Bhattacharyya, S. (2011P).\nA review on corrosion control methods with electroless coatings\nCite DOI URL"
+  },
+  {
+    "objectID": "publications_DOI.html",
+    "href": "publications_DOI.html",
+    "title": "Publications",
+    "section": "",
+    "text": "All Types Journal Preprint Refereed Proceeding Book Chapter Presentation \n All Years 2025 2024 2023 2022 2021 2020 2019 2011"
+  },
+  {
+    "objectID": "publications_DOI.html#journal-publications",
+    "href": "publications_DOI.html#journal-publications",
+    "title": "Publications",
+    "section": "Journal Publications",
+    "text": "Journal Publications\n\n📄\n\nBhattacharyya S. (corresponding author), Chatterjee A. (2025J)\nJournal of Applied Mechanics.\nExperimental study of damping enhancement in aluminium rods by knurling https://doi.org/10.1115/1.4068859\n\nCite Abstract URL\n\n\n\n📄\n\nBhattacharyya, S.\\(^\\dagger\\), Tao, J., Gildin, E., Ragusa, J. (2025J).\nArchives of Computational Methods in Engineering.\nHyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems https://doi.org/10.1115/1.4043450\n\nCite Abstract URL\n\n\n\n📄\n\nKhawale, R., Bhattacharyya, S.\\(^1\\), Rai, R., Dargush, G. (2024J).\nComputers & Structures.\nEfficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation https://doi.org/10.1016/j.compstruc.2024.107371\n\nCite Abstract URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. P. (2022J).\nASME Journal of Vibration and Acoustics.\nExperimental Implementation of Energy Closure Analysis for Reduced Order Modeling https://doi.org/10.1115/1.4054295\n\nCite Abstract URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. (2021J).\nASME Journal of Vibration and Acoustics.\nAn Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam https://doi.org/10.1115/1.4048663\n\nCite Abstract URL\n\n\n\n📄\n\nBhattacharyya, S., Naskar, T.K. (2011J).\nInternational Journal of Mechanical and Industrial Engineering.\nAnalysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator\nCite Abstract URL"
+  },
+  {
+    "objectID": "publications_DOI.html#preprints",
+    "href": "publications_DOI.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\n\n📄\n\nBhattacharyya S., and Cusumano J. (2025P).\nModel Reduction of a Piecewise Nonlinear Mechanical Oscillator  (#){target=“_blank”}\nCite Abstract URL"
+  },
+  {
+    "objectID": "publications_DOI.html#refereed-proceedings",
+    "href": "publications_DOI.html#refereed-proceedings",
+    "title": "Publications",
+    "section": "Refereed Proceedings",
+    "text": "Refereed Proceedings\n\n📄\n\nHuhn, Q., Bhattacharyya, S., Ragusa, J. (2024C).\nTransactions of the American Nuclear Society\nHyperreduction for Neutron Transport\nCite DOI URL\n\n\n\n📄\n\nKhawale, R.P., Bhattacharyya, S., Bielecki, D., Rai, R., Dargush, G. (2023C).\nSociety for Experimental Mechanics Series\nEfficient Methods for Flexibility-Based Meso-scale Dynamic Modeling\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. (2019C).\nProceedings of the ASME IDETC\nThe Importance of Energy Criteria for Selecting Modes in Reduced Order Modeling\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Naskar, T.K. (2011C).\nProceedings of the 9th International Conference on Mechanical Engineering\nThe effect of number of knots in a polynomial trajectory on motion characteristics of robotic manipulators\nCite DOI URL"
+  },
+  {
+    "objectID": "publications_DOI.html#book-chapters",
+    "href": "publications_DOI.html#book-chapters",
+    "title": "Publications",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\n📄\n\nKumar, A., Bhattacharyya, S. (2021B).\nMEMS Applications in Biology and Healthcare.\nMethods and Materials for Advanced Manufacturing (MMAM) of MEMS/NEMS-Enabled Bio-Electronics and Wearables for Health Monitoring\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Kumar, A. (2023B).\nMEMS Applications in Electronics and Engineering.\nMechanics of Materials Considerations in MEMS-Based Medical Devices\nCite DOI URL\n\n\n\n📄\n\nBasu, A.K., Bhattacharyya, S. (2023B).\nMEMS Applications in Electronics and Engineering.\nScaling Law\nCite DOI URL"
+  },
+  {
+    "objectID": "publications_DOI.html#presentations",
+    "href": "publications_DOI.html#presentations",
     "title": "Publications",
     "section": "Presentations",
     "text": "Presentations\n\n📄\n\nBhattacharyya, S., Tao, J., Bukkapatnam, S., Lodi, S.G., Dargush, G.F. (2025P).\nBandgap Optimization in Symmetry-Driven 3D Lattice Metamaterials\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Tao, J., Gildin, E., Ragusa, J. (2024P).\nUncertainty Quantification With Hyper-Reduced Order Model\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Tao, J., Gildin, E., Ragusa, J. (2023P).\nModel Reduction of a Piecewise Nonlinear Mechanical Oscillator\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. (2023P).\nModel Reduction of a Piecewise Nonlinear Mechanical Oscillator\nCite DOI URL\n\n\n\n📄\n\nBhattacharyya, S., Cusumano, J. (2018P).\nEnergy criterion for enhanced accuracy of Reduced Order Models\nCite DOI URL\n\n\n\n📄\n\nKumar, A., Chatterjee, K., Bhattacharyya, S. (2011P).\nA review on corrosion control methods with electroless coatings\nCite DOI URL"

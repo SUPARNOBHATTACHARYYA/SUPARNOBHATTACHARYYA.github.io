@@ -76,6 +76,35 @@ ul.task-list li input[type="checkbox"] {
 <script>document.addEventListener("DOMContentLoaded", () => lucide.replace());</script>
 
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -345,156 +374,185 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="pub-controls">
-<p><select id="pub-type"> <option value="">All Types</option> <option>Journal</option> <option>Conference</option> <option>Preprint</option> </select></p>
-<p><select id="pub-year"> <option value="">All Years</option> <option>2023</option> <option>2022</option> </select></p>
+<p><select id="pub-type"> <option value="">All Types</option> <option>Journal</option> <option>Conference</option> <option>Preprint</option> <option>Book Chapter</option> <option>Presentation</option> </select></p>
+<p><select id="pub-year"> <option value="">All Years</option> <option>2025</option> <option>2024</option> <option>2023</option> <option>2022</option> <option>2021</option> <option>2020</option> <option>2019</option> <option>2011</option> </select></p>
 </div>
 <!-- your publications table starts here … -->
-<section id="journal" class="level2">
-<h2 class="anchored" data-anchor-id="journal">Journal</h2>
-<div class="pub-item" data-year="2023" data-type="Journal">
+<section id="journal-publications" class="level2">
+<h2 class="anchored" data-anchor-id="journal-publications">Journal Publications</h2>
+<div class="pub-item" data-year="2025" data-type="Journal">
 <p><span class="pub-icon">📄</span></p>
 <div class="pub-content">
-<p><strong>Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023J).</strong><br>
-<em>Physical Review Materials.</em><br>
-<a href="https://doi.org/..." target="_blank">Real-time characterization of dislocation slip and twinning…</a></p>
-<p><a href="#" class="btn btn-primary">Cite</a> <a href="https://doi.org/..." class="btn btn-outline" target="_blank">DOI</a> <a href="https://example.com" class="btn btn-outline" target="_blank">URL</a></p>
+<p><strong>Bhattacharyya, S. (corresponding author), Chatterjee, A. (2025J).</strong><br>
+<em>Journal of Applied Mechanics.</em><br>
+<a href="https://doi.org/..." target="_blank">Experimental study of damping enhancement in aluminium rods by knurling</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="https://doi.org/..." class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
+</div>
+</div>
+<div class="pub-item" data-year="2025" data-type="Journal">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S.<span class="math inline">\(^\dagger\)</span>, Tao, J., Gildin, E., Ragusa, J. (2025J).</strong><br>
+<em>Archives of Computational Methods in Engineering.</em><br>
+<a href="#" target="_blank">Hyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
+</div>
+</div>
+<div class="pub-item" data-year="2024" data-type="Journal">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Khawale, R., Bhattacharyya, S.<span class="math inline">\(^1\)</span>, Rai, R., Dargush, G. (2024J).</strong><br>
+<em>Computers &amp; Structures.</em><br>
+<a href="#" target="_blank">Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
 </div>
 <div class="pub-item" data-year="2022" data-type="Journal">
 <p><span class="pub-icon">📄</span></p>
 <div class="pub-content">
-<p><strong>Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2022J).</strong><br>
-<em>Physical Review Materials.</em><br>
-<a href="https://doi.org/..." target="_blank">Real-time characterization of dislocation slip and twinning…</a></p>
-<p><a href="#" class="btn btn-primary">Cite</a> <a href="https://doi.org/..." class="btn btn-outline" target="_blank">DOI</a> <a href="https://example.com" class="btn btn-outline" target="_blank">URL</a></p>
+<p><strong>Bhattacharyya, S., Cusumano, J. P. (2022J).</strong><br>
+<em>ASME Journal of Vibration and Acoustics.</em><br>
+<a href="#" target="_blank">Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
+</div>
+</div>
+<div class="pub-item" data-year="2021" data-type="Journal">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S., Cusumano, J. (2021J).</strong><br>
+<em>ASME Journal of Vibration and Acoustics.</em><br>
+<a href="#" target="_blank">An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
+</div>
+</div>
+<div class="pub-item" data-year="2011" data-type="Journal">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S., Naskar, T.K. (2011J).</strong><br>
+<em>International Journal of Mechanical and Industrial Engineering.</em><br>
+<a href="#" target="_blank">Analysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
 </div>
 </section>
-<section id="conference" class="level2">
-<h2 class="anchored" data-anchor-id="conference">Conference</h2>
+<section id="refereed-proceedings" class="level2">
+<h2 class="anchored" data-anchor-id="refereed-proceedings">Refereed Proceedings</h2>
+<div class="pub-item" data-year="2024" data-type="Conference">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Huhn, Q., Bhattacharyya, S., Ragusa, J. (2024C).</strong><br>
+<em>Transactions of the American Nuclear Society</em><br>
+<a href="#" target="_blank">Hyperreduction for Neutron Transport</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
+</div>
+</div>
 <div class="pub-item" data-year="2023" data-type="Conference">
 <p><span class="pub-icon">📄</span></p>
 <div class="pub-content">
-<p><strong>Vatsa Gandhi, Suraj Ravindran, Akshay Joshi, Guruswami Ravichandran (2023C).</strong><br>
-<em>Physical Review Materials.</em><br>
-<a href="https://doi.org/..." target="_blank">Real-time characterization of dislocation slip and twinning…</a></p>
-<p><a href="#" class="btn btn-primary">Cite</a> <a href="https://doi.org/..." class="btn btn-outline" target="_blank">DOI</a> <a href="https://example.com" class="btn btn-outline" target="_blank">URL</a></p>
+<p><strong>Khawale, R.P., Bhattacharyya, S., Bielecki, D., Rai, R., Dargush, G. (2023C).</strong><br>
+<em>Society for Experimental Mechanics Series</em><br>
+<a href="#" target="_blank">Efficient Methods for Flexibility-Based Meso-scale Dynamic Modeling</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
 </div>
-<div class="pub-entry" type="Preprint" data-year="2024">
-<p><strong>Model Reduction of a Piecewise Nonlinear Mechanical Oscillator</strong><br>
-Bhattacharyya, S., and Cusumano, J.<br>
-<em>Preprint: arxiv.org/abs/2311.17947</em>, 2024.</p>
+<div class="pub-item" data-year="2019" data-type="Conference">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S., Cusumano, J. (2019C).</strong><br>
+<em>Proceedings of the ASME IDETC</em><br>
+<a href="#" target="_blank">The Importance of Energy Criteria for Selecting Modes in Reduced Order Modeling</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Preprint" data-year="2024">
-<p><strong>Experimental study of damping enhancement in aluminium rods by knurling</strong><br>
-Bhattacharyya, S., Chatterjee, A.<br>
-<em>Submitted, in review</em>, 2024.</p>
 </div>
-<div class="pub-entry" type="Preprint" data-year="2024">
-<p><strong>Hyper-reduction Methods for Large-Scale Engineering Systems: A Tutorial Review</strong><br>
-Bhattacharyya, S., Tao, J., Gildin, E., Ragusa, J.<br>
-<em>Submitted, in review</em>, 2024.</p>
+<div class="pub-item" data-year="2011" data-type="Conference">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S., Naskar, T.K. (2011C).</strong><br>
+<em>Proceedings of the 9th International Conference on Mechanical Engineering</em><br>
+<a href="#" target="_blank">The effect of number of knots in a polynomial trajectory on motion characteristics of robotic manipulators</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Journal" data-year="2024">
-<p><strong>Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation</strong><br>
-Khawale, R., Bhattacharyya, S.<em>, Rai, R., Dargush, G.<br>
-</em>Computers &amp; Structures, vol.&nbsp;299, pp.&nbsp;107371*, 2024.</p>
 </div>
-<div class="pub-entry" type="Journal" data-year="2022">
-<p><strong>Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling</strong><br>
-Bhattacharyya, S., and Cusumano, J. P.<br>
-<em>ASME Journal of Vibration and Acoustics, 144(5): 051007</em>, 2022.</p>
+</section>
+<section id="book-chapters" class="level2">
+<h2 class="anchored" data-anchor-id="book-chapters">Book Chapters</h2>
+<div class="pub-item" data-year="2021" data-type="Book Chapter">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Kumar, A., Bhattacharyya, S. (2021B).</strong><br>
+<em>MEMS Applications in Biology and Healthcare.</em><br>
+<a href="#" target="_blank">Methods and Materials for Advanced Manufacturing (MMAM) of MEMS/NEMS-Enabled Bio-Electronics and Wearables for Health Monitoring</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Journal" data-year="2021">
-<p><strong>An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam</strong><br>
-Bhattacharyya S., and Cusumano J.<br>
-<em>ASME Journal of Vibration and Acoustics, 143(4): 041001</em>, 2021.</p>
 </div>
-<div class="pub-entry" type="Journal" data-year="2011">
-<p><strong>Analysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator</strong><br>
-Bhattacharyya S. and Naskar T.K.<br>
-<em>International Journal of Mechanical and Industrial Engineering, 1(2), pp.&nbsp;51-56</em>, 2011.</p>
+<div class="pub-item" data-year="2023" data-type="Book Chapter">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S., Kumar, A. (2023B).</strong><br>
+<em>MEMS Applications in Electronics and Engineering.</em><br>
+<a href="#" target="_blank">Mechanics of Materials Considerations in MEMS-Based Medical Devices</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Preprint" data-year="2025">
-<p><strong>A Complementary-energy based framework for symmetry-driven 3D lattice metamaterials</strong><br>
-Bhattacharyya, S., Tao, J., Samuel, G.L., Bukkapatnam, S., Dargush, G.<br>
-<em>Manuscript under preparation</em>, 2025.</p>
 </div>
-<div class="pub-entry" type="Preprint" data-year="2025">
-<p><strong>EDM-NODE: A Neural-ODE based approach for estimating steady-state dynamics of structural systems</strong><br>
-Alsalih, H., Bhattacharyya, S., Rai, R.<br>
-<em>Manuscript under preparation</em>, 2025.</p>
+<div class="pub-item" data-year="2023" data-type="Book Chapter">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Basu, A.K., Bhattacharyya, S. (2023B).</strong><br>
+<em>MEMS Applications in Electronics and Engineering.</em><br>
+<a href="#" target="_blank">Scaling Law</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Conference" data-year="2024">
-<p><strong>Hyperreduction for Neutron Transport</strong><br>
-Huhn, Q., Bhattacharyya, S., Ragusa, J.<br>
-<em>Transactions of the American Nuclear Society, Volume 131(1)</em>, 2024.</p>
 </div>
-<div class="pub-entry" type="Conference" data-year="2023">
-<p><strong>Efficient Methods for Flexibility-Based Meso-scale Dynamic Modeling</strong><br>
-Khawale, R.P., Bhattacharyya, S., Bielecki, D., Rai, R., Dargush, G.<br>
-<em>Conference Proceedings of the Society for Experimental Mechanics Series, Springer, SEM 2023</em>, 2023.</p>
+</section>
+<section id="presentations" class="level2">
+<h2 class="anchored" data-anchor-id="presentations">Presentations</h2>
+<div class="pub-item" data-year="2025" data-type="Presentation">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S., Tao, J., Bukkapatnam, S., Lodi, S.G., Dargush, G.F. (2025P).</strong><br>
+<a href="#" target="_blank">Bandgap Optimization in Symmetry-Driven 3D Lattice Metamaterials</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Conference" data-year="2019">
-<p><strong>The Importance of Energy Criteria for Selecting Modes in Reduced Order Modeling</strong><br>
-Bhattacharyya, S., and Cusumano, J.<br>
-<em>Proceedings of the ASME IDETC, 31st Conference on Mechanical Vibration and Noise</em>, 2019.</p>
 </div>
-<div class="pub-entry" type="Conference" data-year="2011">
-<p><strong>The effect of number of knots in a polynomial trajectory on motion characteristics of robotic manipulators</strong><br>
-Bhattacharyya, S., and Naskar, T.K.<br>
-<em>Proceedings of the 9th International Conference on Mechanical Engineering, BUET, Dhaka</em>, 2011.</p>
+<div class="pub-item" data-year="2024" data-type="Presentation">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S., Tao, J., Gildin, E., Ragusa, J. (2024P).</strong><br>
+<a href="#" target="_blank">Uncertainty Quantification With Hyper-Reduced Order Model</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Book Chapter" data-year="2021">
-<p><strong>Methods and Materials for Advanced Manufacturing (MMAM) of MEMS/NEMS-Enabled Bio-Electronics and Wearables for Health Monitoring</strong><br>
-Kumar A., and Bhattacharyya S.<br>
-<em>In: MEMS Applications in Biology and Healthcare, AIP Publishing</em>, 2021.</p>
 </div>
-<div class="pub-entry" type="Book Chapter" data-year="2023">
-<p><strong>Mechanics of Materials Considerations in MEMS-Based Medical Devices</strong><br>
-Bhattacharyya S., and Kumar, A.<br>
-<em>In: MEMS Applications in Electronics and Engineering, AIP Publishing</em>, 2023.</p>
+<div class="pub-item" data-year="2023" data-type="Presentation">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S., Tao, J., Gildin, E., Ragusa, J. (2023P).</strong><br>
+<a href="#" target="_blank">Model Reduction of a Piecewise Nonlinear Mechanical Oscillator</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Book Chapter" data-year="2023">
-<p><strong>Scaling Law</strong><br>
-Basu A. K., and Bhattacharyya S.<br>
-<em>In: MEMS Applications in Electronics and Engineering, AIP Publishing</em>, 2023.</p>
 </div>
-<div class="pub-entry" type="Conference Presentation" data-year="2025">
-<p><strong>Bandgap optimization in symmetry-driven 3D lattice metamaterials</strong><br>
-Bhattacharyya, S., Tao, J., Samuel, G.L., Bukkapatnam, S., Dargush, G.<br>
-<em>18th U. S. National Congress on Computational Mechanics</em>, 2025.</p>
+<div class="pub-item" data-year="2023" data-type="Presentation">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S., Cusumano, J. (2023P).</strong><br>
+<a href="#" target="_blank">Model Reduction of a Piecewise Nonlinear Mechanical Oscillator</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Conference Presentation" data-year="2024">
-<p><strong>Uncertainty Quantification With Hyper-Reduced Order Model</strong><br>
-Bhattacharyya, S., Tao, J., Gildin, E., Ragusa, J.<br>
-<em>ASME Verification, Validation, and Uncertainty Quantification Symposium</em>, 2024.</p>
 </div>
-<div class="pub-entry" type="Conference Presentation" data-year="2023">
-<p><strong>Role of Hyper-Reduction in Enhancing the Efficacy of Digital Twins</strong><br>
-Bhattacharyya, S., Tao, J., Gildin, E., Ragusa, J.<br>
-<em>SIAM TXLA23 Annual Meeting</em>, 2023.</p>
+<div class="pub-item" data-year="2018" data-type="Presentation">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Bhattacharyya, S., Cusumano, J. (2018P).</strong><br>
+<a href="#" target="_blank">Energy criterion for enhanced accuracy of Reduced Order Models</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Conference Presentation" data-year="2023">
-<p><strong>Model Reduction of a Piecewise Nonlinear Mechanical Oscillator</strong><br>
-Bhattacharyya, S., Cusumano, J.<br>
-<em>17th U.S. National Congress on Computational Mechanics</em>, 2023.</p>
 </div>
-<div class="pub-entry" type="Conference Presentation" data-year="2023">
-<p><strong>Data-Driven Model Discovery of Flexible Structures</strong><br>
-Bhattacharyya, S., Alsalih, H., Choi, Y., Lee, K., Rai, R.<br>
-<em>17th U.S. National Congress on Computational Mechanics</em>, 2023.</p>
+<div class="pub-item" data-year="2011" data-type="Presentation">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Kumar, A., Chatterjee, K., Bhattacharyya, S. (2011P).</strong><br>
+<a href="#" target="_blank">A review on corrosion control methods with electroless coatings</a></p>
+<p><a href="#" class="btn btn-primary">Cite</a> <a href="#" class="btn btn-outline" target="_blank">DOI</a> <a href="#" class="btn btn-outline">URL</a></p>
 </div>
-<div class="pub-entry" type="Conference Presentation" data-year="2018">
-<p><strong>Energy criterion for enhanced accuracy of Reduced Order Models</strong><br>
-Bhattacharyya S., Cusumano J.<br>
-<em>ESM Today 2018, Penn State University</em>, 2018.</p>
-</div>
-<div class="pub-entry" type="Conference Presentation" data-year="2011">
-<p><strong>A review on corrosion control methods with electroless coatings</strong><br>
-Kumar A., Chatterjee K., Bhattacharyya S.<br>
-<em>National symposium of micro and nano characterization of materials, Jadavpur University</em>, 2011.</p>
 </div>
 
 

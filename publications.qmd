@@ -67,16 +67,14 @@ resources:
 ::: {#cite-bhattacharyya_1 .d-none}
 ```{=html}
 <pre><code>@article{Bhattacharyya2025,
-  title = {Experimental study of damping enhancement in aluminum rods by knurling},
-  ISSN = {1528-9036},
-  url = {http://dx.doi.org/10.1115/1.4068859},
-  DOI = {10.1115/1.4068859},
-  journal = {Journal of Applied Mechanics},
-  publisher = {ASME International},
-  author = {Bhattacharyya,  Suparno and Chatterjee,  Anindya},
-  year = {2025},
-  month = jun,
-  pages = {1–43}
+    author = {Bhattacharyya, Suparno and Chatterjee, Anindya},
+    title = {Experimental Study of Damping Enhancement in Aluminum Rods by Knurling},
+    journal = {Journal of Applied Mechanics},
+    volume = {92},
+    number = {10},
+    pages = {101003},
+    year = {2025},
+    month = {06}
 }</code></pre>
 ```
 :::
@@ -394,7 +392,7 @@ Khawale R.P., **Bhattacharyya S.**, Bielecki D., Rai R., Dargush G. (2023C).\
 [📄]{.pub-icon}
 
 :::: pub-content
-**Bhattacharyya, S., Kumar, A. (2023B).**\
+**Bhattacharyya S.**, Kumar, A. (2023B).\
 *MEMS Applications in Electronics and Engineering.*\
 [Mechanics of Materials Considerations in MEMS-Based Medical Devices](#){target="_blank"}
 
@@ -426,7 +424,7 @@ Khawale R.P., **Bhattacharyya S.**, Bielecki D., Rai R., Dargush G. (2023C).\
 [📄]{.pub-icon}
 
 :::: pub-content
-**Basu, A.K., Bhattacharyya, S. (2023B).**\
+Basu A.K., **Bhattacharyya S.**. (2023B).\
 *MEMS Applications in Electronics and Engineering.*\
 [Scaling Law](#){target="_blank"}
 
@@ -458,7 +456,7 @@ Khawale R.P., **Bhattacharyya S.**, Bielecki D., Rai R., Dargush G. (2023C).\
 [📄]{.pub-icon}
 
 :::: pub-content
-**Kumar, A., Bhattacharyya, S. (2021B).**\
+Kumar, A.,**Bhattacharyya S.** (2021B).\
 *MEMS Applications in Biology and Healthcare.*\
 [Methods and Materials for Advanced Manufacturing (MMAM) of MEMS/NEMS-Enabled Bio-Electronics and Wearables for Health Monitoring](#){target="_blank"}
 
@@ -492,10 +490,9 @@ Khawale R.P., **Bhattacharyya S.**, Bielecki D., Rai R., Dargush G. (2023C).\
 [📄]{.pub-icon}
 
 ::: pub-content
-**Bhattacharyya, S., Tao, J., Bukkapatnam, S., Lodi, S.G., Dargush, G.F. (2025P).**\
-[Bandgap Optimization in Symmetry-Driven 3D Lattice Metamaterials](#){target="_blank"}
-
-[Cite](#){.btn .btn-primary} [DOI](#){.btn .btn-outline target="_blank"} [URL](#){.btn .btn-outline}
+**Bhattacharyya S.**, Tao J., Bukkapatnam S., Lodi S.G., Dargush G.F. (2025P).\
+[Bandgap Optimization in Symmetry-Driven 3D Lattice Metamaterials](#){target="_blank"}\
+18th U. S. National Congress on Computational Mechanics: July 20-24, 2025, Chicago, Illinois.
 :::
 ::::
 
@@ -503,10 +500,10 @@ Khawale R.P., **Bhattacharyya S.**, Bielecki D., Rai R., Dargush G. (2023C).\
 [📄]{.pub-icon}
 
 ::: pub-content
-**Bhattacharyya, S., Tao, J., Gildin, E., Ragusa, J. (2024P).**\
-[Uncertainty Quantification With Hyper-Reduced Order Model](#){target="_blank"}
+**Bhattacharyya S.**, Tao J., Gildin E., Ragusa J. (2024P).\
+[Uncertainty Quantification With Hyper-Reduced Order Model](#){target="_blank"}\
+ASME Verification, Validation, and Uncertainty Quantification Symposium 2024: May 15-17, 2024, College Station, Texas.
 
-[Cite](#){.btn .btn-primary} [DOI](#){.btn .btn-outline target="_blank"} [URL](#){.btn .btn-outline}
 :::
 ::::
 
@@ -514,10 +511,10 @@ Khawale R.P., **Bhattacharyya S.**, Bielecki D., Rai R., Dargush G. (2023C).\
 [📄]{.pub-icon}
 
 ::: pub-content
-**Bhattacharyya, S., Tao, J., Gildin, E., Ragusa, J. (2023P).**\
-[Model Reduction of a Piecewise Nonlinear Mechanical Oscillator](#){target="_blank"}
+**Bhattacharyya S.**, Tao J., Gildin E., Ragusa J. (2023P).\
+[Model Reduction of a Piecewise Nonlinear Mechanical Oscillator](#){target="_blank"}\
+6th Annual Meeting of the SIAM Texas-Louisiana Section (TXLA23): Nov 3-5, 2023, Lafayette, Louisiana.
 
-[Cite](#){.btn .btn-primary} [DOI](#){.btn .btn-outline target="_blank"} [URL](#){.btn .btn-outline}
 :::
 ::::
 
@@ -525,10 +522,10 @@ Khawale R.P., **Bhattacharyya S.**, Bielecki D., Rai R., Dargush G. (2023C).\
 [📄]{.pub-icon}
 
 ::: pub-content
-**Bhattacharyya, S., Cusumano, J. (2023P).**\
-[Model Reduction of a Piecewise Nonlinear Mechanical Oscillator](#){target="_blank"}
+**Bhattacharyya S.**, Cusumano J. (2023P).\
+[Model Reduction of a Piecewise Nonlinear Mechanical Oscillator](#){target="_blank"}\
+17th U. S. National Congress on Computational Mechanics: July 23-27, 2023, Albuquerque, New Mexico.
 
-[Cite](#){.btn .btn-primary} [DOI](#){.btn .btn-outline target="_blank"} [URL](#){.btn .btn-outline}
 :::
 ::::
 
@@ -536,10 +533,19 @@ Khawale R.P., **Bhattacharyya S.**, Bielecki D., Rai R., Dargush G. (2023C).\
 [📄]{.pub-icon}
 
 ::: pub-content
-**Bhattacharyya, S., Cusumano, J. (2018P).**\
-[Energy criterion for enhanced accuracy of Reduced Order Models](#){target="_blank"}
+**Bhattacharyya S.**, Alsalih H.∗, Choi Y., Lee K., Rai R. (2023P).\
+[Data-Driven Model Discovery of Flexible Structures](#){target="_blank"}\
+17th U. S. National Congress on Computational Mechanics: July 23-27, 2023, Albuquerque, New Mexico.
+:::
+::::
 
-[Cite](#){.btn .btn-primary} [DOI](#){.btn .btn-outline target="_blank"} [URL](#){.btn .btn-outline}
+:::: {.pub-item data-year="2018" data-type="Presentation"}
+[📄]{.pub-icon}
+
+::: pub-content
+**Bhattacharyya S.**, Cusumano J. (2018P).\
+[Energy criterion for enhanced accuracy of Reduced Order Models](#){target="_blank"}\
+ESM Today 2018, Penn State University, USA.
 :::
 ::::
 
@@ -547,9 +553,8 @@ Khawale R.P., **Bhattacharyya S.**, Bielecki D., Rai R., Dargush G. (2023C).\
 [📄]{.pub-icon}
 
 ::: pub-content
-**Kumar, A., Chatterjee, K., Bhattacharyya, S. (2011P).**\
-[A review on corrosion control methods with electroless coatings](#){target="_blank"}
-
-[Cite](#){.btn .btn-primary} [DOI](#){.btn .btn-outline target="_blank"} [URL](#){.btn .btn-outline}
+Kumar A., Chatterjee K., **Bhattacharyya S.** (2011P).\
+[A review on corrosion control methods with electroless coatings](#){target="_blank"}\
+National symposium of micro and nano characterization of materials 2011, Jadavpur University, India. (Obtained 2nd prize)
 :::
 ::::

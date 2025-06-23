@@ -1,4 +1,14 @@
+---
+title: "Contact"
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+---
+
 ## SUPARNO BHATTACHARYYA
 
-Email: [suparno.bhattacharyya\@gmail.com](mailto:suparno.bhattacharyya@gmail.com) / [suparnob\@tamu.edu](mailto:suparnob@tamu.edu)\
+Email: [suparno.bhattacharyya\@gmail.com](mailto:suparno.bhattacharyya@gmail.com) / [suparnob\@tamu.edu](mailto:suparnob@tamu.edu)
+
 LinkedIn: [Suparno Bhattacharyya, Ph.D.](https://www.linkedin.com/in/suparnob/)

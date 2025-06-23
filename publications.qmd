@@ -27,7 +27,7 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**Bhattacharyya S., and Cusumano J. (2025J).**\
+**Bhattacharyya S.**, and Cusumano J. (2025J).\
 *Journal of Nonlinear Mechanics (accepted, in press)*\
 [Model Reduction of a Piecewise Nonlinear Mechanical Oscillator](#){target="_blank"}
 
@@ -58,7 +58,7 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**Bhattacharyya S., Chatterjee A. (2025J).**\
+**Bhattacharyya S.**, Chatterjee A. (2025J).\
 *Journal of Applied Mechanics.*\
 [Experimental study of damping enhancement in aluminium rods by knurling](#){target="_blank"}
 
@@ -91,7 +91,7 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**\[Bhattacharyya, S.**$^\dagger$\], Tao, J., Gildin, E., Ragusa, J. (2025J).\
+**\[Bhattacharyya S.**$^\dagger$\], Tao J., Gildin E., Ragusa J. (2025J).\
 *Archives of Computational Methods in Engineering.*\
 [Hyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems](#){target="_blank"}
 
@@ -113,7 +113,7 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**\[Khawale, R., Bhattacharyya, S.**$^1$\], Rai, R., Dargush, G. (2024J).\
+**\[Khawale R., Bhattacharyya S.**$^1$\], Rai R., Dargush G. (2024J).\
 *Computers & Structures.*\
 [Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation](#){target="_blank"}
 
@@ -147,7 +147,7 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**Bhattacharyya, S., Cusumano, J. P. (2022J).**\
+**Bhattacharyya S.**, Cusumano J. P. (2022J).\
 *ASME Journal of Vibration and Acoustics.*\
 [Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling](#){target="_blank"}
 
@@ -181,7 +181,7 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**Bhattacharyya, S., Cusumano, J. (2021J).**\
+**Bhattacharyya S.**, Cusumano J. (2021J).\
 *ASME Journal of Vibration and Acoustics.*\
 [An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam](#){target="_blank"}
 
@@ -215,7 +215,7 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**Bhattacharyya, S., Naskar, T.K. (2011J).**\
+**Bhattacharyya S.**, Naskar T.K. (2011J).\
 *International Journal of Mechanical and Industrial Engineering.*\
 [Analysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator](#){target="_blank"}
 

@@ -1,6 +1,6 @@
 ---
-title: "projects"
+title: "Projects"
 format: html
 ---
 
-projects will go here
+Projects will go here

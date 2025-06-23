@@ -1,6 +1,8 @@
 ---
 title: "Projects"
-format: html
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
 ---
-
-Projects will go here

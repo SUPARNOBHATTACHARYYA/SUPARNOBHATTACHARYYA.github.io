@@ -390,41 +390,101 @@ Khawale R.P., **Bhattacharyya S.**, Bielecki D., Rai R., Dargush G. (2023C).\
 
 ## Book Chapters
 
-:::: {.pub-item data-year="2021" data-type="Book Chapter"}
+::::: {.pub-item data-year="2023" data-type="Book Chapter"}
 [📄]{.pub-icon}
 
-::: pub-content
-**Kumar, A., Bhattacharyya, S. (2021B).**\
-*MEMS Applications in Biology and Healthcare.*\
-[Methods and Materials for Advanced Manufacturing (MMAM) of MEMS/NEMS-Enabled Bio-Electronics and Wearables for Health Monitoring](#){target="_blank"}
-
-[Cite](#){.btn .btn-primary} [DOI](#){.btn .btn-outline target="_blank"} [URL](#){.btn .btn-outline}
-:::
-::::
-
-:::: {.pub-item data-year="2023" data-type="Book Chapter"}
-[📄]{.pub-icon}
-
-::: pub-content
+:::: pub-content
 **Bhattacharyya, S., Kumar, A. (2023B).**\
 *MEMS Applications in Electronics and Engineering.*\
 [Mechanics of Materials Considerations in MEMS-Based Medical Devices](#){target="_blank"}
 
-[Cite](#){.btn .btn-primary} [DOI](#){.btn .btn-outline target="_blank"} [URL](#){.btn .btn-outline}
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bc_3">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abstract-bc_3">Abstract</a> <a href="https://www.researchgate.net/publication/368998492_Mechanics_of_Materials_Considerations_in_MEMS-Based_Medical_Devices" class="btn btn-outline btn-sm" target="_blank">URL</a>
+
+::: {#cite-bc_3 .d-none}
+```{=html}
+<pre><code>@inbook{Bhattacharyya2023,
+  title = {Mechanics of Materials Considerations in MEMS-Based Medical Devices},
+  ISBN = {9780735424395},
+  url = {http://dx.doi.org/10.1063/9780735424395_005},
+  DOI = {10.1063/9780735424395_005},
+  booktitle = {MEMS Applications in Electronics and Engineering},
+  publisher = {AIP Publishing},
+  author = {Bhattacharyya,  Suparno and Kumar,  Arkadeep},
+  year = {2023},
+  pages = {1–26}
+}</code></pre>
+```
+:::
+
+::: {#abstract-bc_3 .d-none}
+<p>DESCRIPTION In recent years, medical devices have seen unprecedented use of MEMS-based sensors. Such devices are indispensable in many invasive applications such as localized drug delivery, angioplasty, and implant-based blood pressure measurement, as well as in many non-invasive applications such as pharmaceutical research, cell culture, and medical imaging. These devices are essential for continuously monitoring critical patients, such as those with cardiac diseases, respiratory illnesses (e.g., COVID patients), etc., typically treated in Intensive Care Units. The functionality of many critical care equipment such as ventilators, heart rate monitors, and dialysis machines is based on Bio-MEMS sensors. Here, we review two Bio-MEMS sensors ubiquitously present across a variety of medical devices: MEMS pressure sensors and MEMS accelerometer sensors. We discuss the different fields of application of these sensors, describe their working principles, discuss the material selection considerations, and most importantly, analyze their reliability. Accuracy and reliability are two critical aspects of sensor performance. We discuss in detail the reliability of bio-MEMS devices from a mechanics point of view. We discuss multiple mechanical failure modes that result in the loss of reliability and functionality of these MEMS sensors. Moreover, we discuss the current challenges and prospects for future research in this field.</p>
 :::
 ::::
+:::::
 
-:::: {.pub-item data-year="2023" data-type="Book Chapter"}
+::::: {.pub-item data-year="2023" data-type="Book Chapter"}
 [📄]{.pub-icon}
 
-::: pub-content
+:::: pub-content
 **Basu, A.K., Bhattacharyya, S. (2023B).**\
 *MEMS Applications in Electronics and Engineering.*\
 [Scaling Law](#){target="_blank"}
 
-[Cite](#){.btn .btn-primary} [DOI](#){.btn .btn-outline target="_blank"} [URL](#){.btn .btn-outline}
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bc_2">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abstract-bc_2">Abstract</a> <a href="https://www.researchgate.net/publication/369000045_Scaling_Law" class="btn btn-outline btn-sm" target="_blank">URL</a>
+
+::: {#cite-bc_2 .d-none}
+```{=html}
+<pre><code>@inbook{Basu2023,
+  title = {Scaling Law},
+  ISBN = {9780735424395},
+  url = {http://dx.doi.org/10.1063/9780735424395_002},
+  DOI = {10.1063/9780735424395_002},
+  booktitle = {MEMS Applications in Electronics and Engineering},
+  publisher = {AIP Publishing},
+  author = {Basu,  Aviru Kumar and Bhattacharyya,  Suparno},
+  year = {2023},
+  pages = {1–14}
+}</code></pre>
+```
+:::
+
+::: {#abstract-bc_2 .d-none}
+<p>DESCRIPTION Miniaturization is a rapidly growing methodology to produce extremely small mechanical, electronic, and optical devices, including semiconductor chips, typically built inside computers, vehicles, microprocessors, etc. Scaling laws provide fundamentals of the miniaturization. Scaling is a significant term nowadays in the design, simulation and fabrication of sensors and devices. In this chapter, the significance of physical laws is discussed and its significance in the design of various objects and structures at microscopic scales is discussed. Scaling laws for different types of forces are also presented. Scaling laws for various types of flexural joints are also presented, as they play a fundamental role in building the micro-structural systems. This chapter discusses the fundamentals of different scaling laws applicable in different fields of science and technology.</p>
 :::
 ::::
+:::::
+
+::::: {.pub-item data-year="2021" data-type="Book Chapter"}
+[📄]{.pub-icon}
+
+:::: pub-content
+**Kumar, A., Bhattacharyya, S. (2021B).**\
+*MEMS Applications in Biology and Healthcare.*\
+[Methods and Materials for Advanced Manufacturing (MMAM) of MEMS/NEMS-Enabled Bio-Electronics and Wearables for Health Monitoring](#){target="_blank"}
+
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bc_1">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abstract-bc_1">Abstract</a> <a href="https://www.researchgate.net/publication/357362168_Methods_and_Materials_for_Advanced_Manufacturing_MMAM_of_MEMSNEMS-Enabled_Bioelectronics_and_Wearables_for_Health_Monitoring" class="btn btn-outline btn-sm" target="_blank">URL</a>
+
+::: {#cite-bc_1 .d-none}
+```{=html}
+<pre><code>@inbook{Kumar2021,
+  title = {Methods and Materials for Advanced Manufacturing (MMAM) of MEMS/NEMS-Enabled Bioelectronics and Wearables for Health Monitoring},
+  ISBN = {9780735423954},
+  url = {http://dx.doi.org/10.1063/9780735423954_009},
+  DOI = {10.1063/9780735423954_009},
+  booktitle = {MEMS Applications in Biology and Healthcare},
+  publisher = {AIP Publishing},
+  author = {Kumar,  Arkadeep and Bhattacharyya,  Suparno},
+  year = {2021},
+  pages = {1–24}
+}</code></pre>
+```
+:::
+
+::: {#abstract-bc_1 .d-none}
+<p>DESCRIPTION With the advent of miniaturized bioelectronics, MEMS and NEMS have become an indispensable part of designers' toolbox in many areas of application. The rise of wearable technologies in various areas such as ubiquitous computing, along with smart monitoring of human health, has given rise to new concepts such as the Internet-of-body, wearable health monitoring, etc. To meet the ever-increasing demands of continuous health monitoring, these devices should always be fully functional and be able to track multiple health parameters, and also do these at the lowest possible power consumption for highest battery life. Further, the device data management should be efficient, with a provision for onboard memory/cloud sync etc. and devices should have high reliability levels. Moreover, emerging wearable MEMS/NEMS technology enabled devices need to be capable of learning the user's preference through the use of machine learning algorithms (ML), and thus leverage benefits of artificial intelligence in routine functioning. To realize such devices, rapid development in manufacturing process and materials are critical. In this work we have reviewed the latest developments in manufacturing MEMS/NEMS-enabled bioelectronic wearable devices, and have presented perspectives and prospects of such devices along with highlighting the important research directions.</p>
+:::
+::::
+:::::
 
 ## Presentations
 

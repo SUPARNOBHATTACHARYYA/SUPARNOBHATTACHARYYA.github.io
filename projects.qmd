@@ -6,11 +6,11 @@ format:
       light: cosmo
       dark: darkly
     css: styles.css
-    toc: false
+    toc: true
     page-layout: article
 ---
 
-At the **3dS Lab**, our work is situated at the intersection of **Data-driven modeling**, **Design optimization**, and **Digital twin technologies**.  
+At the **3Ds Lab**, our work is situated at the intersection of **Data-driven modeling**, **Design optimization**, and **Digital twin technologies**.  
 We address the challenges associated with modeling, simulating, and designing complex engineering systems through the following research directions:
 
 1. *Development of physics-informed reduced-order models and surrogate frameworks to enable real-time digital twin deployment in structural and thermal systems.*
@@ -33,13 +33,12 @@ of structural damping in metallic specimens. My broader research interests span 
 
 ## Research Thrust Areas
 
-Our research at **3dS Lab** spans three core thrusts that integrate computational mechanics, machine learning, and digital twin frameworks.
-
----
+Our research at **3Ds Lab** spans three core thrusts that integrate computational mechanics, machine learning, and digital twin frameworks.
 
 ### T. A - 1 : Model Discovery and Reduction Strategies and Integration With Digital Twin Technologies 
 
 ::: {.callout-note collapse=true}
+
 **Motivation** 
 
 Reduced Order Models (ROMs) [1] improve computational efficiency in high-dimensional mechanical systems like structural, fluid, and thermal systems. These systems are governed by partial differential equations (PDEs) or large-scale ordinary differential equations (ODEs). Despite their complexity, their behavior often resides in low-dimensional sub spaces identified through data-driven approaches like proper orthogonal decomposition (POD) [2]. High-dimensional
@@ -75,11 +74,10 @@ Our approach integrates two complementary strategies:
    scientific machine learning strategies will emphasize structure-preserving neural networks. This approach combines the predictive abilities of machine learning with physical principles to preserve the critical physical and mathematical structures of the system.
 :::
 
----
-
 ### T. A - 2 : Printable Mechanical Metamaterials for Structural Lightweighting  
 
 ::: {.callout-tip collapse=true}
+
 **Motivation**  
 Mechanical metamaterials, with unique microstructures and programmable properties, open avenues for innovative applications. These ultra-light yet strong structures are ideal for sectors where weight is critical, such as space and biomedical engineering. In space engineering, reduced weight improves mobility and lowers launch costs while maintaining structural integrity. In biomedical fields, their lightweight nature is crucial for developing implants like cardiovascular stents, spinal fusion constructs, and prosthetics offering both strength and comfort.
 
@@ -109,11 +107,10 @@ Develop a comprehensive library of parametric equations to define diverse lattic
 This research aims to broaden the spectrum of manufacturable metamaterials, leveraging generative AI for design, detailed parametric equations, and thorough printability assessment, to meet a wide range of engineering needs and foster innovation in aerospace, biomedical engineering.
 :::
 
----
-
 ### T. A - 3 :Design Challenges for Multi-physics Problems  
 
 ::: {.callout-important collapse=true}
+
 **Motivation**
 
 Topology optimization often focuses on single-physics linear problems, such as structural stiffness optimization under weight constraints. Advances in computational methods have expanded its use to complex multi-functional systems with multi-physics and constraints. Examples include fluid-structure interaction in aerospace, battery electrolyte design with high stiffness and ionic conductivity, and battery packs with better heat-exchange and superior load-bearing capabilities. These models involve numerous coupled nonlinear differential equations. Despite software and

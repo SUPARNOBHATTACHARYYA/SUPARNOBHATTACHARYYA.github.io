@@ -89,7 +89,7 @@ text-justify: inter-word; /* spreads words evenly */
 
 /* Base Typography */
 body {
-  font-family: 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Lora', Roboto, sans-serif;
   line-height: 1.6;
   font-size: 17px;
   color: #333;
@@ -101,7 +101,6 @@ h2, h3, h4 {
   margin-bottom: 0.6rem;
 }
 
-/* Section Titles */
 h2 {
   font-size: 2rem;
   text-align: center;
@@ -114,7 +113,36 @@ h3 {
   margin-top: 2rem;
 }
 
-/* Research Thrust Container */
+/* ---- Custom Callout Fixes ---- */
+
+/* Hide default Quarto label & icon */
+.callout .callout-icon-container,
+.callout .callout-title-label,
+.callout .callout-title > strong {
+  display: none !important;
+}
+
+/* Custom titles injected before content */
+.callout-note .callout-title::before {
+  content: "Thrust Area - 1";
+}
+.callout-tip .callout-title::before {
+  content: "Thrust Area - 2";
+}
+.callout-important .callout-title::before {
+  content: "Thrust Area - 3";
+}
+
+/* Style the custom title */
+.callout .callout-title::before {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #003e5c;
+  display: block;
+  padding-bottom: 0.4rem;
+}
+
+/* Callout visual styling */
 .callout {
   background-color: #f9fbfc;
   border-left: 5px solid #0078a8;
@@ -124,20 +152,12 @@ h3 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
 .callout:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
-/* Callout Header Styling */
-.callout-title {
-  font-weight: 600;
-  font-size: 1.2rem;
-  color: #003e5c;
-}
-
-/* Callout Variants */
+/* Color accents per thrust area */
 .callout-note {
   border-left-color: #2e8bcb;
 }
@@ -148,8 +168,8 @@ h3 {
   border-left-color: #c0392b;
 }
 
-/* Responsive Padding */
-@media screen and (max-width: 768px) {
+/* Responsive layout */
+@media screen and (max-width: 800px) {
   .callout {
     padding: 1rem;
   }
@@ -162,7 +182,6 @@ h3 {
     font-size: 1.3rem;
   }
 }
-
 
 
 

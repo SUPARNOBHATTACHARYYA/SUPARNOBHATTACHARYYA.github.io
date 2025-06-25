@@ -87,4 +87,82 @@ text-justify: inter-word; /* spreads words evenly */
 }
 
 
+/* Base Typography */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  font-size: 17px;
+  color: #333;
+}
+
+h2, h3, h4 {
+  font-weight: 600;
+  color: #004b6d;
+  margin-bottom: 0.6rem;
+}
+
+/* Section Titles */
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Research Thrust Container */
+.callout {
+  background-color: #f9fbfc;
+  border-left: 5px solid #0078a8;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.callout:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Callout Header Styling */
+.callout-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #003e5c;
+}
+
+/* Callout Variants */
+.callout-note {
+  border-left-color: #2e8bcb;
+}
+.callout-tip {
+  border-left-color: #0c9463;
+}
+.callout-important {
+  border-left-color: #c0392b;
+}
+
+/* Responsive Padding */
+@media screen and (max-width: 768px) {
+  .callout {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+
+
+
 

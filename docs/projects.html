@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Suparno Bhattacharyya</title>
+<title>Research – Suparno Bhattacharyya</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -316,16 +316,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
@@ -342,8 +340,138 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>At the <strong>3dS Lab</strong>, our work is situated at the intersection of <strong>Data-driven modeling</strong>, <strong>Design optimization</strong>, and <strong>Digital twin technologies</strong>.<br>
+We address the challenges associated with modeling, simulating, and designing complex engineering systems through the following research directions:</p>
+<ol type="1">
+<li><p><em>Development of physics-informed reduced-order models and surrogate frameworks to enable real-time digital twin deployment in structural and thermal systems.</em></p></li>
+<li><p><em>Topology optimization and generative AI-driven inverse design of multifunctional, lattice-based metamaterials with tailored mechanical properties.</em></p></li>
+<li><p><em>Integration of machine learning-based surrogate models into multi-physics design workflows to reduce computational cost and accelerate design iterations.</em></p></li>
+</ol>
+<p><img src="images/slide_1.jpg" class="img-fluid" style="width:100.0%"></p>
+<section id="multidisciplinary-research-in-data-driven-modeling-computational-mechanics-and-topology-optimization-a-roadmap" class="level2">
+<h2 class="anchored" data-anchor-id="multidisciplinary-research-in-data-driven-modeling-computational-mechanics-and-topology-optimization-a-roadmap">Multidisciplinary Research in Data-Driven Modeling, Computational Mechanics, and Topology Optimization: A Roadmap</h2>
+<p><img src="images/goals.jpg" class="img-fluid" style="width:100.0%"></p>
+<p>My research primarily focuses on computational solid mechanics and data-driven modeling of structural vibration, with recent emphasis on hyper-reduced order models for thermal and reservoir systems aimed at digital twin development. I am aiming for a research career that reflects this multidisciplinary blend. My previous work includes data-driven modeling of vibro-impact systems and dynamic topology optimization for two-dimensional lattice structures. Throughout my Ph.D., I investigated reduced-order modeling strategies for structural systems exposed to discontinuous and non-smooth loading conditions, while my master’s research involved experimental characterization of structural damping in metallic specimens. My broader research interests span reduced-order modeling, finite element analysis, computational mechanics, and nonlinear dynamics, supported by substantial programming expertise in MATLAB, Mathematica, and Python. This interdisciplinary experience provides me with a comprehensive understanding and unique perspective on addressing theoretical and computational challenges in computational mechanics and model reduction. The research to be conducted at the 3DS1 lab consists of three main avenues discussed below.</p>
+</section>
+<section id="research-thrust-areas" class="level2">
+<h2 class="anchored" data-anchor-id="research-thrust-areas">Research Thrust Areas</h2>
+<p>Our research at <strong>3dS Lab</strong> spans three core thrusts that integrate computational mechanics, machine learning, and digital twin frameworks.</p>
+<hr>
+<section id="t.-a---1-model-discovery-and-reduction-strategies-and-integration-with-digital-twin-technologies" class="level3">
+<h3 class="anchored" data-anchor-id="t.-a---1-model-discovery-and-reduction-strategies-and-integration-with-digital-twin-technologies">T. A - 1 : Model Discovery and Reduction Strategies and Integration With Digital Twin Technologies</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Motivation</strong></p>
+<p>Reduced Order Models (ROMs) [1] improve computational efficiency in high-dimensional mechanical systems like structural, fluid, and thermal systems. These systems are governed by partial differential equations (PDEs) or large-scale ordinary differential equations (ODEs). Despite their complexity, their behavior often resides in low-dimensional sub spaces identified through data-driven approaches like proper orthogonal decomposition (POD) [2]. High-dimensional models (HDMs) are projected onto these subspaces to form ROMs, capturing dominant behaviors and enabling significant computational speedups.</p>
+<p>Data-driven surrogates are also popular when high-fidelity models are unavailable. These surrogates rely on observed quantities of interest (QOI) from experiments or HDMs. Techniques such as Gaussian-process regression, dynamic mode decomposition, and neural networks formulate these surrogates. Unlike ROMs, surrogates do not inherit the dynamic operator from HDMs but act as fast emulators, generating similar QOI data based on input.</p>
+<p>With the advent of digital twins (DT) for real-time monitoring and analysis, there is a crucial demand for rapid, precise simulations. Simulating DTs of mechanical systems is computationally costly due to the complexities involved. Surrogates and ROMs reduce these costs while maintaining the accuracy needed for effective digital twins with enhanced predictive capabilities.</p>
+<blockquote class="blockquote">
+<p><strong>Relevant Experience</strong>: Physics-informed intrusive and non-intrusive data-driven modeling [1, 3, 4, 5]; Computational sciences (minor degree).</p>
+</blockquote>
+<p><strong>Challenges</strong></p>
+<ul>
+<li><p>Nonlinear HDMs challenge ROMs because they require iterative access to the full system, leading to only moderate speedups. Hyper-reduction methods like Empirical Cubature Method, Discrete Empirical Interpolation Method, and Energy Conserving Sampling and Weighting [6] help speed up the computation of nonlinear terms but can destabilize models. Developing new hyper-reduction algorithms is essential.</p></li>
+<li><p>Data-driven methods often overlook the physics of HDMs, resulting in inaccurate and unstable ROMs. Morevoer, generating extensive data for precise models is impractical. Incorporating physics is crucial for reliable models. [7, 1]</p></li>
+</ul>
+<p><strong>Objectives</strong></p>
+<ul>
+<li><p>Address the challenges of evaluating nonlinearities in ROMs for high-dimensional systems, considering the limitations of current hyper-reduction algorithms.</p></li>
+<li><p>Enhance the accuracy and stability of data-driven ROMs by integrating physical principles..</p></li>
+<li><p>Develop ROMs suitable for digital twin technology, focusing on structural and thermal systems.</p></li>
+</ul>
+<p><strong>Methodology</strong><br>
+Our approach integrates two complementary strategies:</p>
+<p><strong>1. Projection-Based ROM Development</strong><br>
+Traditional projection-based model order reduction will focus on developing advanced closure models and applying hyper-reduction algorithms.</p>
+<p><strong>2. Scientific Machine Learning (SciML)</strong><br>
+scientific machine learning strategies will emphasize structure-preserving neural networks. This approach combines the predictive abilities of machine learning with physical principles to preserve the critical physical and mathematical structures of the system.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="t.-a---2-printable-mechanical-metamaterials-for-structural-lightweighting" class="level3">
+<h3 class="anchored" data-anchor-id="t.-a---2-printable-mechanical-metamaterials-for-structural-lightweighting">T. A - 2 : Printable Mechanical Metamaterials for Structural Lightweighting</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Motivation</strong><br>
+Mechanical metamaterials, with unique microstructures and programmable properties, open avenues for innovative applications. These ultra-light yet strong structures are ideal for sectors where weight is critical, such as space and biomedical engineering. In space engineering, reduced weight improves mobility and lowers launch costs while maintaining structural integrity. In biomedical fields, their lightweight nature is crucial for developing implants like cardiovascular stents, spinal fusion constructs, and prosthetics offering both strength and comfort.</p>
+<p>Lattice metamaterials, with porous structures consisting of tunable unit cells [2], achieve lightweight properties with specific engineering. Focus will be on printable filament structures defined using parametric equations, enabling flexible tuning of cell geometry for tailored thermal, mechanical, or negative-index properties.</p>
+<blockquote class="blockquote">
+<p><strong>Relevant Experience</strong>: Geometric optimization of mechanical meta-materials for bandgap optimization [2, 8]; Design and solid mechanics (M.Tech specialization).</p>
+</blockquote>
+<p><strong>Challenges</strong></p>
+<ul>
+<li><p>Generating unique multi-scale unit-cell filament structures and estimating their properties using computational models is challenging. Efficient inverse design approaches, like topology optimization, are needed to determine filament geometry based on predefined properties.</p></li>
+<li><p>Additionally, complex designs from these approaches may be hard to fabricate, even with advanced 3D printing techniques. Examples include biomaterial-like hierarchical lattices, enclosed cells, and movable components. Novel fabrication approaches are also required.</p></li>
+</ul>
+<p><strong>Objectives</strong></p>
+<ul>
+<li><p>Generate new parametric equations and study the properties of the corresponding structures.</p></li>
+<li><p>Develop efficient inverse-design schemes to create multifunctional multi-scale metamaterials with desired linear or nonlinear behavior.</p></li>
+<li><p>Use of AI to generate new filament geometries.</p></li>
+<li><p>Assess printability and evaluate mechanical and material properties experimentally.</p></li>
+</ul>
+<p><strong>Methodology</strong><br>
+Develop a comprehensive library of parametric equations to define diverse lattice structures, enhancing design-space exploration. Establish a theoretical framework to generate new filament geometry using generative AI. Moreover, evaluate the printability of these designs using 3D printing, focusing on manufacturing feasibility, structural stability, material compatibility, and printing resolution limits.</p>
+<p>This research aims to broaden the spectrum of manufacturable metamaterials, leveraging generative AI for design, detailed parametric equations, and thorough printability assessment, to meet a wide range of engineering needs and foster innovation in aerospace, biomedical engineering.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="t.-a---3-design-challenges-for-multi-physics-problems" class="level3">
+<h3 class="anchored" data-anchor-id="t.-a---3-design-challenges-for-multi-physics-problems">T. A - 3 :Design Challenges for Multi-physics Problems</h3>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Motivation</strong></p>
+<p>Topology optimization often focuses on single-physics linear problems, such as structural stiffness optimization under weight constraints. Advances in computational methods have expanded its use to complex multi-functional systems with multi-physics and constraints. Examples include fluid-structure interaction in aerospace, battery electrolyte design with high stiffness and ionic conductivity, and battery packs with better heat-exchange and superior load-bearing capabilities. These models involve numerous coupled nonlinear differential equations. Despite software and hardware progress, optimizing large-scale multi-physics design problems remains challenging and computationally expensive.</p>
+<p><strong>Challenges</strong></p>
+<p>The major challenge in addressing multi-physics optimization problems lies in the substantial computational demands incurred by the simultaneous solution of large-scale models representing multiple physical processes, containing numerous constraints and thousands of variables, during each optimization iteration.</p>
+<p><strong>Objectives</strong></p>
+<ul>
+<li><p>The proposed research aims to combine topology optimization and surrogate modeling to tackle multi-physics problems.</p></li>
+<li><p>Development of advanced optimization algorithms targeted towards efficiently solving multi-physics problems.</p></li>
+</ul>
+<p><strong>Methodology</strong></p>
+<p>Here also we will specifically focus on structures based on parametrically-defined lattice metamaterials. The major aim, however, will be to develop Machine learning-based surrogates to simulate one or more associated physical processes and thereby improve the computational efficiency of the overall optimization process. The surrogate models will be trained based on data generated during forward analysis with different parameters defining metamaterial geometry.</p>
+</div>
+</div>
+</div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

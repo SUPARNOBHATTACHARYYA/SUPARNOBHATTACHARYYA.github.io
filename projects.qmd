@@ -10,17 +10,28 @@ format:
     page-layout: article
 ---
 
-<div class="container">
-  <div class="hexagon hexagon-top">
-    <div class="text">LATTICE METAMATERIALS</div>
-  </div>
-  <div class="hexagon hexagon-central">
-    <div class="text">RESEARCH FOCUS</div>
-  </div>
-  <div class="hexagon hexagon-right">
-    <div class="text">DATA-DRIVEN MODELING (DDM) OF DYNAMICAL & PARAMETRIC SYSTEM</div>
-  </div>
-  <div class="hexagon hexagon-bottom-left">
-    <div class="text">EXPERIMENTAL SOLID MECHANICS</div>
-  </div>
-</div>
+::::::: container
+::: {.hexagon .hexagon-top}
+```         
+<div class="text">LATTICE METAMATERIALS</div>
+```
+:::
+
+::: {.hexagon .hexagon-central}
+```         
+<div class="text">RESEARCH FOCUS</div>
+```
+:::
+
+::: {.hexagon .hexagon-right}
+```         
+<div class="text">DATA-DRIVEN MODELING (DDM) OF DYNAMICAL & PARAMETRIC SYSTEM</div>
+```
+:::
+
+::: {.hexagon .hexagon-bottom-left}
+```         
+<div class="text">EXPERIMENTAL SOLID MECHANICS</div>
+```
+:::
+:::::::

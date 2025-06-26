@@ -58,7 +58,7 @@ format:
     #   - head.html         # <-- your Lucide loader
     # include-after-body:
     #   - publications.js   # <-- your filter/sort logic
-      
+    
     toc: true
     toc-location: right
     page-layout: article

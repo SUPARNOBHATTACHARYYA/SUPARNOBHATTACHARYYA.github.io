@@ -1,0 +1,148 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styling */
+.container {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  background-color:white; /* Light gray background for better contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Base hexagon styling */
+.hexagon {
+  position: absolute;
+  width: 200px;
+  height: calc(200px * 0.866); /* Regular hexagon height */
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-color: #1A237E; /* Dark blue */
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+/* Central hexagon (larger and yellow) */
+.hexagon-central {
+  background-color: #FFC107; /* Yellow */
+  border-color: black;
+  width: 240px;
+  height: calc(240px * 0.866);
+}
+
+/* Text styling */
+.hexagon .text {
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+}
+
+.hexagon-central .text {
+  color: white;
+}
+
+/* Positioning for large screens */
+.hexagon-top {
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, 0%);
+}
+
+.hexagon-central {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagon-right {
+  left: 70%;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.hexagon-bottom-left {
+  left: 30%;
+  top: 70%;
+  transform: translate(-50%, 0%);
+}
+
+/* Hover effects for hexagons */
+.hexagon:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Responsive design for medium screens (tablets) */
+@media (max-width: 1024px) {
+  .hexagon {
+    width: 180px;
+    height: calc(180px * 0.866);
+  }
+
+  .hexagon-central {
+    width: 220px;
+    height: calc(220px * 0.866);
+  }
+
+  .hexagon .text {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+
+/* Responsive design for small screens (mobile) */
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .hexagon {
+    position: static;
+    transform: none;
+    width: 80vw;
+    height: calc(80vw * 0.866);
+    margin: 20px 0;
+  }
+
+  .hexagon-central {
+    width: 80vw;
+    height: calc(80vw * 0.866);
+  }
+
+  .hexagon .text {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Additional styling for better readability and accessibility */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  color: #1A237E;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

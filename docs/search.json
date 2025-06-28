@@ -207,7 +207,7 @@
     "href": "projects.html",
     "title": "Research",
     "section": "",
-    "text": "&lt;div id=\"hex-top-left\" class=\"hexagon\" data-title=\"Lattice Metamaterials\" data-content=\"&lt;p&gt;Information about Lattice Metamaterials.&lt;/p&gt;\"&gt;\n    &lt;div class=\"hexagon-inner\"&gt;Lattice metamaterials&lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"hex-btm-left\" class=\"hexagon\" data-title=\"Experimental Solid Mechanics\" data-content=\"&lt;p&gt;Information about Experimental Solid Mechanics.&lt;/p&gt;\"&gt;\n    &lt;div class=\"hexagon-inner\"&gt;Experimental Solid Mechanics&lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"hex-center\" class=\"hexagon\" data-title=\"Research Focus\" data-content=\"&lt;p&gt;This section describes your primary research focus.&lt;/p&gt;\n    &lt;div class=\"hexagon-inner\"&gt;Research Focus&lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"hex-right\" class=\"hexagon\" data-title=\"Data-Driven Modeling\" data-content=\"&lt;ul&gt;&lt;li&gt;Data-Driven Modeling&lt;/li&gt;&lt;li&gt;Dynamical Systems&lt;/li&gt;&lt;li&gt;Parametric Systems&lt;/li&gt;&lt;li&gt;Numerical Simulation&lt;/li&gt;&lt;/ul&gt;\"&gt;\n    &lt;div class=\"hexagon-inner\"&gt;Data-Driven Modeling (DDM) of Dynamical & Parametric System&lt;/div&gt;\n&lt;/div&gt;\n\n\n\n&lt;div class=\"modal-content\"&gt;\n    &lt;span class=\"close-button\"&gt;&times;&lt;/span&gt;\n    &lt;h2 id=\"modal-title\"&gt;&lt;/h2&gt;\n    &lt;div id=\"modal-body\"&gt;&lt;/div&gt;\n&lt;/div&gt;"
+    "text": ":::\n\n\n\n:::"
   },
   {
     "objectID": "contact.html",

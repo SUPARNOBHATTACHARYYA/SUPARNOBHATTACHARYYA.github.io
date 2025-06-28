@@ -7,9 +7,20 @@ format:
       dark: darkly
     page-layout: article
 ---
+
 ::: {.page-screen}
 <iframe
   src="hexagons.html"
-  style="width:100vw; height:100vh; border:none; display:block;"
+  style="
+    position: fixed;
+    top: 10; left: 0;
+    width: 100vw; height: 80vh;
+    border: none;
+    margin: 0; padding: 0;
+    overflow: hidden;
+    z-index: 0;
+  "
 ></iframe>
 :::
+
+

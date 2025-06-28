@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hexagon Info Boxes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f0f0f0;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .hexagon {
+      width: 120px;
+      height: 69.28px;
+      background-color: #3498db;
+      position: relative;
+      margin: 35px 0;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transition: 0.3s ease;
+    }
+    .hexagon:before,
+    .hexagon:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+    }
+    .hexagon:before {
+      bottom: 100%;
+      border-bottom: 34.64px solid #3498db;
+    }
+    .hexagon:after {
+      top: 100%;
+      border-top: 34.64px solid #3498db;
+    }
+    .hexagon:hover {
+      background-color: #2980b9;
+    }
+    .hexagon-content {
+      z-index: 1;
+      pointer-events: none;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    .modal-content {
+      background-color: #fff;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      text-align: center;
+    }
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .close:hover {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hexagon" onclick="openModal('Info 1')"><div class="hexagon-content">Info 1</div></div>
+    <div class="hexagon" onclick="openModal('Info 2')"><div class="hexagon-content">Info 2</div></div>
+    <div class="hexagon" onclick="openModal('Info 3')"><div class="hexagon-content">Info 3</div></div>
+    <div class="hexagon" onclick="openModal('Info 4')"><div class="hexagon-content">Info 4</div></div>
+  </div>
+
+  <div id="infoModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <script>
+    function openModal(info) {
+      document.getElementById('modalText').innerText = info;
+      document.getElementById('infoModal').style.display = 'block';
+    }
+
+    function closeModal() {
+      document.getElementById('infoModal').style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById('infoModal');
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>

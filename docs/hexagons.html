@@ -8,7 +8,7 @@
     <style>
         /* Basic Body Styles */
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Lora', sans-serif;
             color: #ffffff; 
             display: flex;
             justify-content: center;
@@ -16,6 +16,7 @@
             min-height: 100vh;
             margin: 0;
             padding: 2rem;
+            overflow: auto;
             box-sizing: border-box;
         }
 
@@ -23,23 +24,25 @@
         .hexagon-layout-container {
             position: relative; /* Establishes a positioning context */
             width: 100%;
-            max-width: 900px;
-            height: 550px; /* A fixed height to contain the cluster */
+            max-width: 1200px;
+            height: 650px; /* A fixed height to contain the cluster */
             margin: auto;
         }
 
         /* Base Hexagon Style */
         .hexagon {
             position: absolute; /* Positioned relative to the container */
-            background-color: #0d2c54; /* Dark blue */
+            background-color: #01344a; /* Dark blue */
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
             display: flex;
             justify-content: center;
-            align-items: center;
+            /*padding-top: 1.5rem;*/
+            align-items: top;
             cursor: pointer;
             transition: transform 0.3s ease, filter 0.3s ease;
             filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
         }
+        
 
         .hexagon:hover {
             transform: scale(1.05);
@@ -49,9 +52,18 @@
 
         .hexagon-inner {
             text-align: center;
-            padding: 1.5rem;
+            padding: 0 1.5rem 1.5rem 1.5rem;
+            margin-top: 3.5rem;
             font-weight: 600;
-            font-size: clamp(0.9rem, 2.5vw, 1.1rem); /* Responsive font size */
+            font-size: clamp(1.2rem, 2.8vw, 1.3rem); /* Responsive font size */
+        }
+        
+        .hexagon-inner_2 {
+            text-align: center;
+            padding: 0 1.5rem 1.5rem 1.5rem;
+            margin-top: 5.00rem;
+            font-weight: 600;
+            font-size: clamp(1.5rem, 3.0vw, 1.6rem); /* Responsive font size */
         }
         
         /* Specific hexagon positioning and sizing */
@@ -59,27 +71,34 @@
             width: 240px;
             height: 277px;
             top: 0;
-            left: 10%;
+            bottom: 10%;
+            left: 18%;
         }
         #hex-btm-left {
-            width: 240px;
-            height: 277px;
-            bottom: 0;
-            left: 10%;
+            width: 200px;
+            height: 230px;
+            bottom: 5%;
+            left: 20%;
+            background-image: url('images/digital_twin_1.png');
+            background-repeat: no-repeat;
+            background-size: 70% auto;
+            /* center horizontally, 65% down vertically */
+            background-position: 50% 65%;
         }
         #hex-center {
             width: 200px; /* Reduced width */
             height: 230px; /* Reduced height to maintain shape */
             background-color: #fca311; /* Yellow */
             color: #14213d; /* Dark text */
+            /*border: 4px solid black ;*/
             top: 50%;
             left: 42%; /* Adjusted position to prevent overlap */
             transform: translateY(-50%);
             z-index: 2; /* Bring it slightly forward */
         }
         #hex-right {
-            width: 310px; /* Slightly reduced width for better spacing */
-            height: 357px; /* Adjusted height */
+            width: 357px; /* Slightly reduced width for better spacing */
+            height: 400px; /* Adjusted height */
             top: 50%;
             right: 0;
             transform: translateY(-50%);
@@ -137,11 +156,11 @@
         <div id="hex-top-left" class="hexagon" data-title="Lattice Metamaterials" data-content="<p>Information about Lattice Metamaterials.</p>">
             <div class="hexagon-inner">Lattice metamaterials</div>
         </div>
-        <div id="hex-btm-left" class="hexagon" data-title="Experimental Solid Mechanics" data-content="<p>Information about Experimental Solid Mechanics.</p>">
-            <div class="hexagon-inner">Experimental Solid Mechanics</div>
+        <div id="hex-btm-left" class="hexagon" data-title="Digital Twin" data-content="<p>Information about Experimental Solid Mechanics.</p>">
+            <div class="hexagon-inner">Digital Twin</div>
         </div>
         <div id="hex-center" class="hexagon" data-title="Research Focus" data-content="<p>This section describes your primary research focus.</p>">
-            <div class="hexagon-inner">Research Focus</div>
+            <div class="hexagon-inner_2">Research Focus</div>
         </div>
         <div id="hex-right" class="hexagon" data-title="Data-Driven Modeling" data-content="<ul><li>Data-Driven Modeling</li><li>Dynamical Systems</li><li>Parametric Systems</li><li>Numerical Simulation</li></ul>">
             <div class="hexagon-inner">Data-Driven Modeling (DDM) of Dynamical & Parametric System</div>

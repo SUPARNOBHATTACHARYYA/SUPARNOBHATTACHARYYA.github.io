@@ -1,6 +1,9 @@
 ---
 title: "people"
 format: html
+theme:
+      light: cosmo
+      dark: darkly
 ---
 
-List of people will go here
+{Coming Soon. . .}

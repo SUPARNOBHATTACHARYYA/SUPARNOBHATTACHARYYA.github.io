@@ -5,33 +5,10 @@ format:
     theme:
       light: cosmo
       dark: darkly
-    css: project_styles.css  # Link to your CSS file
-    toc: false
     page-layout: article
 ---
-
-::::::: container
-::: {.hexagon .hexagon-top}
-```         
-<div class="text">LATTICE METAMATERIALS</div>
-```
+::: {.column-screen}
+<div style="height: 100vh; width: 100%; border: none;">
+  <iframe src="hexagons.html" style="width: 100%; height: 100%; border: none;"></iframe>
+</div>
 :::
-
-::: {.hexagon .hexagon-central}
-```         
-<div class="text">RESEARCH FOCUS</div>
-```
-:::
-
-::: {.hexagon .hexagon-right}
-```         
-<div class="text">DATA-DRIVEN MODELING (DDM) OF DYNAMICAL & PARAMETRIC SYSTEM</div>
-```
-:::
-
-::: {.hexagon .hexagon-bottom-left}
-```         
-<div class="text">EXPERIMENTAL SOLID MECHANICS</div>
-```
-:::
-:::::::

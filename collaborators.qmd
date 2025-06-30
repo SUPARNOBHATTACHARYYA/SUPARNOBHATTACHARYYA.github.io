@@ -9,44 +9,55 @@ format:
     css: collab.css
 ---
 
-Collaborators
-I am proud to collaborate with leading researchers and experts in the field.
+Collaborators I am proud to collaborate with leading researchers and experts in the field.
 
-::: {.collaborator-grid}
-
+::::::::::::::: collaborator-grid
 <!-- To add a new collaborator, copy one of these blocks -->
 
 ::: {.g-col .collaborator-card}
 ![](/images/Co_1.jpg){fig-alt="Alt text for Image 1"}
 
-### [Anindya Chatterjee](https://iitk.ac.in/new/anindya-chatterjee)
+[Anindya Chatterjee](https://iitk.ac.in/new/anindya-chatterjee)
 
-PhD (Cornell University)
-Professor, Department of Mechanical Engineering
+Professor, 
+
+Department of Mechanical Engineering 
+
+IIT Kanpur
 :::
 
 ::: {.g-col .collaborator-card}
 ![](/images/Co_2.jpg){fig-alt="Alt text for Image 1"}
 
-[Dr. Evelyn Reed](https://www.tamu.edu/)
+[Joseph Cusumano](https://www.mri.psu.edu/mri/personnel-directory/jpc3)
 
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+Professor, 
+
+Engineering Science and Mechanics 
+
+Pennsylvania State University
 :::
 
 ::: {.g-col .collaborator-card}
 ![](/images/Co_3.jpg){fig-alt="Alt text for Image 1"}
 
-[Dr. Evelyn Reed](https://www.tamu.edu/)
+[Gary Dargush](https://engineering.buffalo.edu/mechanical-aerospace/people/faculty/g-dargush.html)
 
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+Professor, 
+
+Department of Mechanical and Aerospace Engineering 
+
+University at Buffalo
 :::
 
 ::: {.g-col .collaborator-card}
 ![](/images/Co_4.jpg){fig-alt="Alt text for Image 1"}
 
-[Dr. Evelyn Reed](https://www.tamu.edu/)
+[Youngsoo Choi](https://people.llnl.gov/choi15)
 
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+Research Scientist Staff
+
+Lawrence Livermore National Laboratory
 :::
 
 ::: {.g-col .collaborator-card}
@@ -112,5 +123,4 @@ Dr. Reed's work focuses on quantum entanglement and its applications in next-gen
 
 Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
 :::
-
-:::
+:::::::::::::::

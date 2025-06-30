@@ -8,10 +8,9 @@ format:
     page-layout: article
 ---
 
-::: {.page-screen}
-<iframe
-  src="hexagons.html"
-  style="
+::: page-screen
+
+<iframe src="hexagons.html" style="
     position: fixed;
     top: 10; left: 0;
     width: 100vw; height: 80vh;
@@ -19,8 +18,7 @@ format:
     margin: 0; padding: 0;
     overflow: hidden;
     z-index: 0;
-  "
-></iframe>
+  ">
+
+</iframe>
 :::
-
-

@@ -5,89 +5,112 @@ format:
     theme:
       light: cosmo
       dark: darkly
-    page-layout: article
+    page-layout: full
+    css: collab.css
 ---
 
-Here is my collection of 12 images, each with a custom two-line description.
+Collaborators
+I am proud to collaborate with leading researchers and experts in the field.
 
-::::::::::::::: {layout-ncol="4"}
-<div>
+::: {.collaborator-grid}
 
+<!-- To add a new collaborator, copy one of these blocks -->
+
+::: {.g-col .collaborator-card}
 ![](/images/Co_1.jpg){fig-alt="Alt text for Image 1"}
 
-This is the first line of text for image one.<br>And here is the second line.
+### [Anindya Chatterjee](https://iitk.ac.in/new/anindya-chatterjee)
 
-</div>
+PhD (Cornell University)
+Professor, Department of Mechanical Engineering
+:::
 
-<div>
+::: {.g-col .collaborator-card}
+![](/images/Co_2.jpg){fig-alt="Alt text for Image 1"}
 
-![](/images/Co_2.jpg){fig-alt="Alt text for Image 2"}
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-A description for the second image can go here.<br>With its second line just below.
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-</div>
+::: {.g-col .collaborator-card}
+![](/images/Co_3.jpg){fig-alt="Alt text for Image 1"}
 
-<div>
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-![](/images/Co_3.jpg){fig-alt="Alt text for Image 3"}
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-Description for the third picture in the series.<br>Line two provides more detail.
+::: {.g-col .collaborator-card}
+![](/images/Co_4.jpg){fig-alt="Alt text for Image 1"}
 
-</div>
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-<div>
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-![](/images/Co_4.jpg){fig-alt="Alt text for Image 4"}
+::: {.g-col .collaborator-card}
+![](/images/Co_5.jpg){fig-alt="Alt text for Image 1"}
 
-This is the fourth image, a stunning visual.<br>The description continues here.
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-</div>
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-<div>
+::: {.g-col .collaborator-card}
+![](/images/Co_6.jpg){fig-alt="Alt text for Image 1"}
 
-![](/images/Co_5.jpg){fig-alt="Alt text for Image 5"} Description Line 1<br>Description Line 2
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-</div>
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-<div>
+::: {.g-col .collaborator-card}
+![](/images/Co_7.jpg){fig-alt="Alt text for Image 1"}
 
-![](/images/Co_6.jpg){fig-alt="Alt text for Image 6"} Description Line 1<br>Description Line 2
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-</div>
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-<div>
+::: {.g-col .collaborator-card}
+![](/images/Co_8.jpg){fig-alt="Alt text for Image 1"}
 
-![](/images/Co_7.jpg){fig-alt="Alt text for Image 7"} Description Line 1<br>Description Line 2
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-</div>
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-<div>
+::: {.g-col .collaborator-card}
+![](/images/Co_9.jpg){fig-alt="Alt text for Image 1"}
 
-![](/images/Co_8.jpg){fig-alt="Alt text for Image 8"} Description Line 1<br>Description Line 2
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-</div>
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-<div>
+::: {.g-col .collaborator-card}
+![](/images/Co_10.jpg){fig-alt="Alt text for Image 1"}
 
-![](/images/Co_9.jpg){fig-alt="Alt text for Image 9"} Description Line 1<br>Description Line 2
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-</div>
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-<div>
+::: {.g-col .collaborator-card}
+![](/images/Co_11.jpg){fig-alt="Alt text for Image 1"}
 
-![](/images/Co_10.jpg){fig-alt="Alt text for Image 10"} Description Line 1<br>Description Line 2
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-</div>
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-<div>
+::: {.g-col .collaborator-card}
+![](/images/Co_12.jpg){fig-alt="Alt text for Image 1"}
 
-![](/images/Co_11.jpg){fig-alt="Alt text for Image 11"} Description Line 1<br>Description Line 2
+[Dr. Evelyn Reed](https://www.tamu.edu/)
 
-</div>
+Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+:::
 
-<div>
-
-![](/images/Co_12.jpg){fig-alt="Alt text for Image 12"} Description Line 1<br>Description Line 2
-
-</div>
-:::::::::::::::
+:::

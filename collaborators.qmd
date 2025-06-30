@@ -1,5 +1,4 @@
 ---
-title: "collaborators"
 format: 
   html:
     theme:
@@ -7,9 +6,13 @@ format:
       dark: darkly
     page-layout: full
     css: collab.css
+    toc: false
 ---
+::: {.page-header}
+# Collaborators
+:::
 
-Collaborators I am proud to collaborate with leading researchers and experts in the field.
+I am honored to collaborate with leading researchers and experts in the field.
 
 ::::::::::::::: collaborator-grid
 <!-- To add a new collaborator, copy one of these blocks -->
@@ -36,38 +39,6 @@ Professor, Engineering Science and Mechanics Pennsylvania State University
 [Gary Dargush](https://engineering.buffalo.edu/mechanical-aerospace/people/faculty/g-dargush.html)
 
 Professor, Department of Mechanical and Aerospace Engineering, University at Buffalo
-:::
-
-::: {.g-col .collaborator-card}
-![](/images/Co_4.jpg){fig-alt="Alt text for Image 1"}
-
-[Youngsoo Choi](https://people.llnl.gov/choi15)
-
-Research Scientist Staff Lawrence Livermore National Laboratory
-:::
-
-::: {.g-col .collaborator-card}
-![](/images/Co_6.jpg){fig-alt="Alt text for Image 1"}
-
-[Tuhin Mukherjee](https://www.engineering.iastate.edu/people/profile/tuhinm/)
-
-Assistant Professor, Department of Mechanical Engineering, Iowa State University
-:::
-
-::: {.g-col .collaborator-card}
-![](/images/Co_12.jpg){fig-alt="Alt text for Image 1"}
-
-[G.L. Samuel](https://home.iitm.ac.in/samuelgl/about.html)
-
-Professor, Department of Mechanical Engineering, IIT Madras
-:::
-
-::: {.g-col .collaborator-card}
-![](/images/Co_11.jpg){fig-alt="Alt text for Image 1"}
-
-[Kookjin Lee](https://search.asu.edu/profile/3957975)
-
-Assistant Professor, School of Computing and Augmented Intelligence, Arizona State University
 :::
 
 ::: {.g-col .collaborator-card}
@@ -120,5 +91,37 @@ Texas A&M University College of Engineering
 Professor, Industrial & Systems Engineering
 
 Texas A&M University College of Engineering
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_4.jpg){fig-alt="Alt text for Image 1"}
+
+[Youngsoo Choi](https://people.llnl.gov/choi15)
+
+Research Scientist Staff Lawrence Livermore National Laboratory
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_6.jpg){fig-alt="Alt text for Image 1"}
+
+[Tuhin Mukherjee](https://www.engineering.iastate.edu/people/profile/tuhinm/)
+
+Assistant Professor, Department of Mechanical Engineering, Iowa State University
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_12.jpg){fig-alt="Alt text for Image 1"}
+
+[G.L. Samuel](https://home.iitm.ac.in/samuelgl/about.html)
+
+Professor, Department of Mechanical Engineering, IIT Madras
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_11.jpg){fig-alt="Alt text for Image 1"}
+
+[Kookjin Lee](https://search.asu.edu/profile/3957975)
+
+Assistant Professor, School of Computing and Augmented Intelligence, Arizona State University
 :::
 :::::::::::::::

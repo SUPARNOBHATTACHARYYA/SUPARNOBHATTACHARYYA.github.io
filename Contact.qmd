@@ -1,12 +1,15 @@
 ---
-title: "Contact"
 format:
   html:
     theme:
       light: cosmo
       dark: darkly
+    css: collab.css
     toc: false
 ---
+::: {.page-header}
+# CONTACT
+:::
 
 ## SUPARNO BHATTACHARYYA
 

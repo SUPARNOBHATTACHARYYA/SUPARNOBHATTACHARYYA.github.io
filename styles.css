@@ -86,3 +86,9 @@ text-justify: inter-word; /* spreads words evenly */
   opacity: 0.85;
 }
 
+/* Add this to the end of your styles.css file */
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem; /* Adds some nice space below the header */
+}

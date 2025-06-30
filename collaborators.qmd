@@ -8,10 +8,10 @@ format:
     css: collab.css
     toc: false
 ---
-::: {.page-header}
+
+::: page-header
 # Collaborators
 :::
-
 I am honored to collaborate with leading researchers and experts in the field.
 
 ::::::::::::::: collaborator-grid

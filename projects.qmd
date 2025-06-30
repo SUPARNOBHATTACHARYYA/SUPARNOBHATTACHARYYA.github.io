@@ -1,15 +1,12 @@
 ---
+title: "Research"
 format:
   html:
     theme:
       light: cosmo
       dark: darkly
     page-layout: full
-    css: collab.css
 ---
-::: {.page-header}
-# RESEARCH
-:::
 
 ::: page-screen
 

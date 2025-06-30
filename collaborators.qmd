@@ -19,11 +19,7 @@ Collaborators I am proud to collaborate with leading researchers and experts in 
 
 [Anindya Chatterjee](https://iitk.ac.in/new/anindya-chatterjee)
 
-Professor, 
-
-Department of Mechanical Engineering 
-
-IIT Kanpur
+Professor, Department of Mechanical Engineering, IIT Kanpur
 :::
 
 ::: {.g-col .collaborator-card}
@@ -31,11 +27,7 @@ IIT Kanpur
 
 [Joseph Cusumano](https://www.mri.psu.edu/mri/personnel-directory/jpc3)
 
-Professor, 
-
-Engineering Science and Mechanics 
-
-Pennsylvania State University
+Professor, Engineering Science and Mechanics Pennsylvania State University
 :::
 
 ::: {.g-col .collaborator-card}
@@ -43,11 +35,7 @@ Pennsylvania State University
 
 [Gary Dargush](https://engineering.buffalo.edu/mechanical-aerospace/people/faculty/g-dargush.html)
 
-Professor, 
-
-Department of Mechanical and Aerospace Engineering 
-
-University at Buffalo
+Professor, Department of Mechanical and Aerospace Engineering, University at Buffalo
 :::
 
 ::: {.g-col .collaborator-card}
@@ -55,72 +43,82 @@ University at Buffalo
 
 [Youngsoo Choi](https://people.llnl.gov/choi15)
 
-Research Scientist Staff
-
-Lawrence Livermore National Laboratory
-:::
-
-::: {.g-col .collaborator-card}
-![](/images/Co_5.jpg){fig-alt="Alt text for Image 1"}
-
-[Dr. Evelyn Reed](https://www.tamu.edu/)
-
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+Research Scientist Staff Lawrence Livermore National Laboratory
 :::
 
 ::: {.g-col .collaborator-card}
 ![](/images/Co_6.jpg){fig-alt="Alt text for Image 1"}
 
-[Dr. Evelyn Reed](https://www.tamu.edu/)
+[Tuhin Mukherjee](https://www.engineering.iastate.edu/people/profile/tuhinm/)
 
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
-:::
-
-::: {.g-col .collaborator-card}
-![](/images/Co_7.jpg){fig-alt="Alt text for Image 1"}
-
-[Dr. Evelyn Reed](https://www.tamu.edu/)
-
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
-:::
-
-::: {.g-col .collaborator-card}
-![](/images/Co_8.jpg){fig-alt="Alt text for Image 1"}
-
-[Dr. Evelyn Reed](https://www.tamu.edu/)
-
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
-:::
-
-::: {.g-col .collaborator-card}
-![](/images/Co_9.jpg){fig-alt="Alt text for Image 1"}
-
-[Dr. Evelyn Reed](https://www.tamu.edu/)
-
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
-:::
-
-::: {.g-col .collaborator-card}
-![](/images/Co_10.jpg){fig-alt="Alt text for Image 1"}
-
-[Dr. Evelyn Reed](https://www.tamu.edu/)
-
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
-:::
-
-::: {.g-col .collaborator-card}
-![](/images/Co_11.jpg){fig-alt="Alt text for Image 1"}
-
-[Dr. Evelyn Reed](https://www.tamu.edu/)
-
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+Assistant Professor, Department of Mechanical Engineering, Iowa State University
 :::
 
 ::: {.g-col .collaborator-card}
 ![](/images/Co_12.jpg){fig-alt="Alt text for Image 1"}
 
-[Dr. Evelyn Reed](https://www.tamu.edu/)
+[G.L. Samuel](https://home.iitm.ac.in/samuelgl/about.html)
 
-Dr. Reed's work focuses on quantum entanglement and its applications in next-generation computing.
+Professor, Department of Mechanical Engineering, IIT Madras
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_11.jpg){fig-alt="Alt text for Image 1"}
+
+[Kookjin Lee](https://search.asu.edu/profile/3957975)
+
+Assistant Professor, School of Computing and Augmented Intelligence, Arizona State University
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_9.jpg){fig-alt="Alt text for Image 1"}
+
+[Jian Tao](https://pvfa.tamu.edu/staff/jian-tao/)
+
+Director, Digital Twin Lab, Texas A&M Institute of Data Science
+
+Texas A&M University College of Engineering
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_7.jpg){fig-alt="Alt text for Image 1"}
+
+[Jean Ragusa](https://engineering.tamu.edu/nuclear/profiles/ragusa-jean-c.html)
+
+Professor, Nuclear Engineering
+
+Associate Director, Institute for Scientific Computation (ISC)
+
+Texas A&M University College of Engineering
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_8.jpg){fig-alt="Alt text for Image 1"}
+
+[Eduardo Gildin](https://engineering.tamu.edu/petroleum/profiles/egildin.html)
+
+Associate Department Head, Graduate Studies, Petroleum Engineering
+
+Texas A&M University College of Engineering
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_10.jpg){fig-alt="Alt text for Image 1"}
+
+[Rita Esuru Okoroafor](https://engineering.tamu.edu/petroleum/profiles/okoroafor-rita-esuru.html)
+
+Assistant Professor, Petroleum Engineering
+
+Texas A&M University College of Engineering
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_5.jpg){fig-alt="Alt text for Image 1"}
+
+[Satish Bukkapatnam](https://engineering.tamu.edu/industrial/profiles/bukkapatnam-satish.html)
+
+Professor, Industrial & Systems Engineering
+
+Texas A&M University College of Engineering
 :::
 :::::::::::::::

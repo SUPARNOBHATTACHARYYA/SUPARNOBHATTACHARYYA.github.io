@@ -5,6 +5,7 @@ format:
     theme:
       light: cosmo
       dark: darkly
+    toc: false
 ---
 
 ## SUPARNO BHATTACHARYYA

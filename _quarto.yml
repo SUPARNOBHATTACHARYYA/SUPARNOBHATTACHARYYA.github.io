@@ -28,10 +28,6 @@ website:
         text: "Projects"
       - href: collaborators.qmd
         text: "Collaborators"
-      - href: people.qmd
-        text: "People"
-      - href: opportunities.qmd
-        text: "Opportunities"
       - href: Contact.qmd
         text: "Contact"
       - href: cv.qmd

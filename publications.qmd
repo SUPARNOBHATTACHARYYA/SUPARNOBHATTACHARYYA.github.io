@@ -31,19 +31,21 @@ resources:
 *Journal of Nonlinear Mechanics (accepted, in press)*\
 [Model Reduction of a Piecewise Nonlinear Mechanical Oscillator](#){target="_blank"}
 
-<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_7">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_7">Abstract</a> <a href="https://arxiv.org/abs/2311.17947#" class="btn btn-outline btn-sm" target="_blank">URL</a>
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_7">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_7">Abstract</a> <a href="https://doi.org/10.1016/j.ijnonlinmec.2025.105194" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
 ::: {#cite-bhattacharyya_7 .d-none}
 ```{=html}
-<pre><code>@misc{https://doi.org/10.48550/arxiv.2311.17947,
-  doi = {10.48550/ARXIV.2311.17947},
-  url = {https://arxiv.org/abs/2311.17947},
-  author = {Bhattacharyya,  Suparno and Cusumano,  Joseph. P.},
-  keywords = {Systems and Control (eess.SY),  Chaotic Dynamics (nlin.CD),  Applied Physics (physics.app-ph),  FOS: Electrical engineering,  electronic engineering,  information engineering,  FOS: Electrical engineering,  electronic engineering,  information engineering,  FOS: Physical sciences,  FOS: Physical sciences,  I.6.5; G.1.2; J.2,  37M05},
-  title = {Model Reduction of a Flexible Nonsmooth Oscillator Recovers its Entire Bifurcation Structure},
-  publisher = {arXiv},
-  year = {2023},
-  copyright = {arXiv.org perpetual,  non-exclusive license}
+<pre><code>@article{Bhattacharyya2025,
+  title = {Model reduction of a flexible nonsmooth oscillator recovers its entire bifurcation structure},
+  ISSN = {0020-7462},
+  url = {http://dx.doi.org/10.1016/j.ijnonlinmec.2025.105194},
+  DOI = {10.1016/j.ijnonlinmec.2025.105194},
+  journal = {International Journal of Non-Linear Mechanics},
+  publisher = {Elsevier BV},
+  author = {Bhattacharyya,  Suparno and Cusumano,  Joseph P.},
+  year = {2025},
+  month = jul,
+  pages = {105194}
 }</code></pre>
 ```
 :::

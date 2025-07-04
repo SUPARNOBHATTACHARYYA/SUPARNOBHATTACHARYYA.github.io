@@ -25,7 +25,7 @@ website:
       - href: publications.qmd
         text: "Publications"
       - href: projects.qmd
-        text: "Projects"
+        text: "Research"
       - href: collaborators.qmd
         text: "Collaborators"
       - href: Contact.qmd

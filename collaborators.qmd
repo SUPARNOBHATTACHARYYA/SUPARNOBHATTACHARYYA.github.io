@@ -18,19 +18,19 @@ It has been an honor to collaborate with leading researchers and experts in the 
 <!-- To add a new collaborator, copy one of these blocks -->
 
 ::: {.g-col .collaborator-card}
-![](/images/Co_1.jpg){fig-alt="Alt text for Image 1"}
-
-[Anindya Chatterjee](https://iitk.ac.in/new/anindya-chatterjee)
-
-Professor, Department of Mechanical Engineering, IIT Kanpur
-:::
-
-::: {.g-col .collaborator-card}
 ![](/images/Co_2.jpg){fig-alt="Alt text for Image 1"}
 
 [Joseph Cusumano](https://www.mri.psu.edu/mri/personnel-directory/jpc3)
 
 Professor, Engineering Science and Mechanics Pennsylvania State University
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Co_1.jpg){fig-alt="Alt text for Image 1"}
+
+[Anindya Chatterjee](https://iitk.ac.in/new/anindya-chatterjee)
+
+Professor, Department of Mechanical Engineering, IIT Kanpur
 :::
 
 ::: {.g-col .collaborator-card}

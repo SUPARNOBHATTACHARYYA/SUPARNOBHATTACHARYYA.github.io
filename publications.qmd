@@ -91,7 +91,7 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**\[Bhattacharyya S.]**\, Tao J., Gildin E., Ragusa J. (2025J).\
+**\[Bhattacharyya S.\]**, Tao J., Gildin E., Ragusa J. (2025J).\
 *Archives of Computational Methods in Engineering.*\
 [Hyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems](publications/hyperreduction_techniques.qmd)
 
@@ -113,7 +113,7 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**\[Khawale R., Bhattacharyya S.]**\, Rai R., Dargush G. (2024J).\
+**\[Khawale R., Bhattacharyya S.\]**, Rai R., Dargush G. (2024J).\
 *Computers & Structures.*\
 [Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation](publications/efficient_dynamic.qmd)
 
@@ -217,7 +217,7 @@ resources:
 ::::: pub-content
 **Bhattacharyya S.**, Naskar T.K. (2011J).\
 *International Journal of Mechanical and Industrial Engineering.*\
-[Analysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator](#){target="_blank"}
+[Analysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator](publications/planar_manipulator.qmd)
 
 <a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_6">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_6">Abstract</a> <a href="https://www.researchgate.net/publication/348174810_Analysis_of_the_Effect_of_Number_of_Knots_in_a_Trajectory_on_Motion_Characteristics_of_a_3R_Planar_Manipulator" class="btn btn-outline btn-sm" target="_blank">URL</a>
 

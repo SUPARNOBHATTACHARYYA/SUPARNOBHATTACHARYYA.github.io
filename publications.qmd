@@ -29,7 +29,7 @@ resources:
 ::::: pub-content
 **Bhattacharyya S.**, and Cusumano J. (2025J).\
 *Journal of Nonlinear Mechanics (accepted, in press)*\
-[Model Reduction of a Piecewise Nonlinear Mechanical Oscillator](publications/model_reduction.qmd)
+[Model reduction of a flexible nonsmooth oscillator recovers its entire bifurcation structure](publications/model_reduction.qmd)
 
 <a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_7">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_7">Abstract</a> <a href="https://doi.org/10.1016/j.ijnonlinmec.2025.105194" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
@@ -62,7 +62,7 @@ resources:
 ::::: pub-content
 **Bhattacharyya S.**, Chatterjee A. (2025J).\
 *Journal of Applied Mechanics.*\
-[Experimental study of damping enhancement in aluminium rods by knurling](#){target="_blank"}
+[Experimental study of damping enhancement in aluminium rods by knurling](publications/experimental_study.qmd)
 
 <a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_1">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_1">Abstract</a> <a href="https://asmedigitalcollection.asme.org/appliedmechanics/article-abstract/doi/10.1115/1.4068859/1218680/Experimental-study-of-damping-enhancement-in?redirectedFrom=fulltext" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
@@ -91,9 +91,9 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**\[Bhattacharyya S.**$^\dagger$\], Tao J., Gildin E., Ragusa J. (2025J).\
+**\[Bhattacharyya S.]**\, Tao J., Gildin E., Ragusa J. (2025J).\
 *Archives of Computational Methods in Engineering.*\
-[Hyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems](#){target="_blank"}
+[Hyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems](publications/hyperreduction_techniques.qmd)
 
 <a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_2">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_2">Abstract</a> <a href="site coming soon" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
@@ -113,9 +113,9 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
-**\[Khawale R., Bhattacharyya S.**$^1$\], Rai R., Dargush G. (2024J).\
+**\[Khawale R., Bhattacharyya S.]**\, Rai R., Dargush G. (2024J).\
 *Computers & Structures.*\
-[Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation](#){target="_blank"}
+[Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation](publications/efficient_dynamic.qmd)
 
 <a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_3">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_3">Abstract</a> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0045794924001007" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
@@ -149,7 +149,7 @@ resources:
 ::::: pub-content
 **Bhattacharyya S.**, Cusumano J. P. (2022J).\
 *ASME Journal of Vibration and Acoustics.*\
-[Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling](#){target="_blank"}
+[Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling](publications/experimental_implementation.qmd)
 
 <a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_4">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_4">Abstract</a> <a href="https://www.researchgate.net/publication/359828494_Experimental_Implementation_of_Energy_Closure_Analysis_for_Reduced_Order_Modeling" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
@@ -183,7 +183,7 @@ resources:
 ::::: pub-content
 **Bhattacharyya S.**, Cusumano J. (2021J).\
 *ASME Journal of Vibration and Acoustics.*\
-[An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam](#){target="_blank"}
+[An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam](publications/energy_closure.qmd)
 
 <a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_5">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_5">Abstract</a> <a href="https://asmedigitalcollection.asme.org/vibrationacoustics/article-abstract/143/4/041001/1087802/An-Energy-Closure-Criterion-for-Model-Reduction-of?redirectedFrom=fulltext" class="btn btn-outline btn-sm" target="_blank">URL</a>
 

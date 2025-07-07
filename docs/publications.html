@@ -76,35 +76,6 @@ ul.task-list li input[type="checkbox"] {
 <script>document.addEventListener("DOMContentLoaded", () => lucide.replace());</script>
 
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -376,7 +347,7 @@ window.Quarto = {
 <div class="pub-content">
 <p><strong>Bhattacharyya S.</strong>, and Cusumano J. (2025J).<br>
 <em>Journal of Nonlinear Mechanics (accepted, in press)</em><br>
-<a href="./publications/model_reduction.html">Model Reduction of a Piecewise Nonlinear Mechanical Oscillator</a></p>
+<a href="./publications/model_reduction.html">Model reduction of a flexible nonsmooth oscillator recovers its entire bifurcation structure</a></p>
 <p><a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_7">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_7">Abstract</a> <a href="https://doi.org/10.1016/j.ijnonlinmec.2025.105194" class="btn btn-outline btn-sm" target="_blank">URL</a></p>
 <div id="cite-bhattacharyya_7" class="d-none">
 <pre><code>@article{Bhattacharyya2025,
@@ -404,7 +375,7 @@ We study the reduced order modeling of a nonlinear flexible oscillator in which 
 <div class="pub-content">
 <p><strong>Bhattacharyya S.</strong>, Chatterjee A. (2025J).<br>
 <em>Journal of Applied Mechanics.</em><br>
-<a href="#" target="_blank">Experimental study of damping enhancement in aluminium rods by knurling</a></p>
+<a href="./publications/experimental_study.html">Experimental study of damping enhancement in aluminium rods by knurling</a></p>
 <p><a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_1">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_1">Abstract</a> <a href="https://asmedigitalcollection.asme.org/appliedmechanics/article-abstract/doi/10.1115/1.4068859/1218680/Experimental-study-of-damping-enhancement-in?redirectedFrom=fulltext" class="btn btn-outline btn-sm" target="_blank">URL</a></p>
 <div id="cite-bhattacharyya_1" class="d-none">
 <pre><code>@article{Bhattacharyya2025,
@@ -428,9 +399,9 @@ This paper is motivated by an interest in the damping behaviour of lightly dampe
 <div class="pub-item" data-year="2025" data-type="Journal">
 <p><span class="pub-icon">📄</span></p>
 <div class="pub-content">
-<p><strong>[Bhattacharyya S.</strong><span class="math inline">\(^\dagger\)</span>], Tao J., Gildin E., Ragusa J. (2025J).<br>
+<p><strong>[Bhattacharyya S.]</strong>, Tao J., Gildin E., Ragusa J. (2025J).<br>
 <em>Archives of Computational Methods in Engineering.</em><br>
-<a href="#" target="_blank">Hyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems</a></p>
+<a href="./publications/hyperreduction_techniques.html">Hyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems</a></p>
 <p><a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_2">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_2">Abstract</a> <a href="site coming soon" class="btn btn-outline btn-sm" target="_blank">URL</a></p>
 <div id="cite-bhattacharyya_2" class="d-none">
 <pre><code>{Cite coming soon}</code></pre>
@@ -445,9 +416,9 @@ Reduced-order models (ROMs) offer compact representations of complex engineering
 <div class="pub-item" data-year="2024" data-type="Journal">
 <p><span class="pub-icon">📄</span></p>
 <div class="pub-content">
-<p><strong>[Khawale R., Bhattacharyya S.</strong><span class="math inline">\(^1\)</span>], Rai R., Dargush G. (2024J).<br>
+<p><strong>[Khawale R., Bhattacharyya S.]</strong>, Rai R., Dargush G. (2024J).<br>
 <em>Computers &amp; Structures.</em><br>
-<a href="#" target="_blank">Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation</a></p>
+<a href="./publications/efficient_dynamic.html">Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation</a></p>
 <p><a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_3">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_3">Abstract</a> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0045794924001007" class="btn btn-outline btn-sm" target="_blank">URL</a></p>
 <div id="cite-bhattacharyya_3" class="d-none">
 <pre><code>@article{Khawale2024,
@@ -476,7 +447,7 @@ The advent of additive manufacturing has revolutionized the design and developme
 <div class="pub-content">
 <p><strong>Bhattacharyya S.</strong>, Cusumano J. P. (2022J).<br>
 <em>ASME Journal of Vibration and Acoustics.</em><br>
-<a href="#" target="_blank">Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling</a></p>
+<a href="./publications/experimental_implementation.html">Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling</a></p>
 <p><a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_4">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_4">Abstract</a> <a href="https://www.researchgate.net/publication/359828494_Experimental_Implementation_of_Energy_Closure_Analysis_for_Reduced_Order_Modeling" class="btn btn-outline btn-sm" target="_blank">URL</a></p>
 <div id="cite-bhattacharyya_4" class="d-none">
 <pre><code>@article{Bhattacharyya2022,
@@ -505,7 +476,7 @@ Reduced order models (ROMs) provide an efficient, kinematically condensed repres
 <div class="pub-content">
 <p><strong>Bhattacharyya S.</strong>, Cusumano J. (2021J).<br>
 <em>ASME Journal of Vibration and Acoustics.</em><br>
-<a href="#" target="_blank">An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam</a></p>
+<a href="./publications/energy_closure.html">An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam</a></p>
 <p><a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_5">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_5">Abstract</a> <a href="https://asmedigitalcollection.asme.org/vibrationacoustics/article-abstract/143/4/041001/1087802/An-Energy-Closure-Criterion-for-Model-Reduction-of?redirectedFrom=fulltext" class="btn btn-outline btn-sm" target="_blank">URL</a></p>
 <div id="cite-bhattacharyya_5" class="d-none">
 <pre><code>@article{Bhattacharyya2020,

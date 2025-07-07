@@ -1,0 +1,26 @@
+---
+title: "Efficient dynamic topology optimization of 2D metamaterials based on complementary-energy formulation"
+format: 
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: false
+    page-layout: article  
+---
+
+![](efficient_dynamic_1.png)
+![](efficient_dynamic_2.png)
+
+------------------------------------------------------------------------
+
+### Abstract
+
+The advent of additive manufacturing has revolutionized the design and development of hierarchical structures, with potential applications in compliant, auxetic, and band-gap structures. This paper presents an innovative approach to developing a dynamic Topology Optimization (TO) framework for designing printable lattice structures that exhibit specific dynamic properties. Utilizing parametrically defined filament-based unit cell structures for topology optimization, we achieve desired natural frequency bandgaps in the structures composed of these unit cells. To enhance computational efficiency, we employ a complementary energy-based formulation to (semi)analytically derive the flexibility and stiffness matrices of the unit cell structure, thus, eliminating extensive finite element discretization. Consequently, a wide variety of parametrically defined filament-based meso-structures can be mathematically explored. We apply this innovative framework specifically for band-gap maximization of 2D lattice structures. By tuning the geometry within each cell using TO, we maximize the band gap. Our results show the potential of this approach to create more efficient and effective hierarchical structures with desired band-gap properties.
+
+
+------------------------------------------------------------------------
+
+### Article PDF
+
+<iframe src="efficient_dynamic.pdf" width="100%" height="800px" style="border: 1px solid #ddd;"></iframe>

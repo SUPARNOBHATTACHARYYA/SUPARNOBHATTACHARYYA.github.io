@@ -1,0 +1,25 @@
+---
+title: "An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam"
+format: 
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: false
+    page-layout: article  
+---
+
+![](energy_closure.png)
+
+------------------------------------------------------------------------
+
+### Abstract
+
+Reduced order models (ROMs) can be simulated with lower computational cost while being more amenable to theoretical analysis. Here, we examine the performance of the proper orthogonal decomposition (POD), a data-driven model reduction technique. We show that the accuracy of ROMs obtained using POD depends on the type of data used and, more crucially, on the criterion used to select the number of proper orthogonal modes (POMs) used for the model. Simulations of a simply supported Euler–Bernoulli beam subjected to periodic impulsive loads are used to generate ROMs via POD, which are then simulated for comparison with the full system. We assess the accuracy of ROMs obtained using steady-state displacement, velocity, and strain fields, tuning the spatiotemporal localization of applied impulses to control the number of excited modes in, and hence the dimensionality of, the system’s response. We show that conventional variance-based mode selection leads to inaccurate models for sufficiently impulsive loading and that this poor performance is explained by the energy imbalance on the reduced subspace. Specifically, the subspace of POMs capturing a fixed amount (say, 99.9%) of the total variance underestimates the energy input and dissipated in the ROM, yielding inaccurate reduced-order simulations. This problem becomes more acute as the loading becomes more spatio-temporally localized (more impulsive). Thus, energy closure analysis provides an improved method for generating ROMs with energetics that properly reflect that of the full system, resulting in simulations that accurately represent the system’s true behavior.
+
+
+------------------------------------------------------------------------
+
+### Article PDF
+
+<iframe src="energy_closure.pdf" width="100%" height="800px" style="border: 1px solid #ddd;"></iframe>

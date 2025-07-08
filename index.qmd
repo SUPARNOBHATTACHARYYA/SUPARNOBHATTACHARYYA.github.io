@@ -2,6 +2,9 @@
 title: "About"
 format:
   html:
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
 image: profile.jpg
 about:

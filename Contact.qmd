@@ -2,12 +2,13 @@
 format:
   html:
     theme:
-      light: cosmo
+      light: flatly
       dark: darkly
     css: collab.css
     toc: false
 ---
-::: {.page-header}
+
+::: page-header
 # CONTACT
 :::
 

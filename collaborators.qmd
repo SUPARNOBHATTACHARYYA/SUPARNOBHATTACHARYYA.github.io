@@ -2,7 +2,7 @@
 format: 
   html:
     theme:
-      light: cosmo
+      light: flatly
       dark: darkly
     page-layout: full
     css: collab.css
@@ -12,6 +12,7 @@ format:
 ::: page-header
 # Collaborators
 :::
+
 It has been an honor to collaborate with leading researchers and experts in the field.
 
 ::::::::::::::: collaborator-grid

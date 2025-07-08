@@ -3,7 +3,7 @@ title: "Publications"
 format:
   html:
     theme:
-      light: cosmo
+      light: flatly
       dark: darkly
     css: styles.css
     include-in-header: head.html

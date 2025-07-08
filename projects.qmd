@@ -3,7 +3,7 @@ title: "Research"
 format:
   html:
     theme:
-      light: cosmo
+      light: flatly
       dark: darkly
     page-layout: full
 ---

@@ -13,4 +13,4 @@ format:
 # CV (July, 2025)
 :::
 
-![](CV_Bhattacharyya.pdf){width="100%" height="1000px"}
+![](docs/CV_Bhattacharyya.pdf){width="100%" height="1000px"}

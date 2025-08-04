@@ -1,6 +1,0 @@
----
-title: "opportunities"
-format: html
----
-
-opportunities notifications will go here

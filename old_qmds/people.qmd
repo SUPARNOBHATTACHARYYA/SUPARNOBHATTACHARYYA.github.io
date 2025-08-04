@@ -1,9 +1,0 @@
----
-title: "people"
-format: html
-theme:
-      light: cosmo
-      dark: darkly
----
-
-{Coming Soon. . .}

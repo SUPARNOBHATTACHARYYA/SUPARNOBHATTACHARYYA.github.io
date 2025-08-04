@@ -1,6 +1,0 @@
----
-title: "gallery"
-format: html
----
-
-phographs will go here

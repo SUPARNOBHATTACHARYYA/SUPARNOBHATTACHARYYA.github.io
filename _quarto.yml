@@ -35,9 +35,6 @@ website:
         text: "CV"
 
     right:
-      - text: "![](/image_ISM.png){width=150px}"
-        href: "https://www.iitism.ac.in/"
-        aria-label: "ISM Dhanbad"
       - icon: linkedin
         href: "https://linkedin.com/in/suparnob/"
         aria-label: LinkedIn
@@ -47,6 +44,9 @@ website:
       - icon: envelope
         href: "mailto:suparnob@tamu.edu"
         aria-label: Email
+      - text: "![](/image_ISM.png){width=40px}"
+        href: "https://www.iitism.ac.in/"
+        aria-label: "ISM Dhanbad"
 
 
 format:

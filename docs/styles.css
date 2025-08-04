@@ -88,15 +88,15 @@ text-justify: inter-word; /* spreads words evenly */
 
 /* Increase navbar height by adding padding */
 .navbar {
-  padding-top: 2rem;   /* Increase vertical padding */
+  padding-top: 1.7rem;   /* Increase vertical padding */
   padding-bottom: 1rem;
 }
 
 
 .navbar .navbar-brand img {
-  height: 300px;   /* Change size here */
-  width: 60px;    /* Maintain aspect ratio */
-  margin-right: 20px;
+  height: 200px;   /* Change size here */
+  width: auto    /* Maintain aspect ratio */
+  margin-right: 10px;
 }
 
 

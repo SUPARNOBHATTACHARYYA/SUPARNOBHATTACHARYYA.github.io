@@ -4,8 +4,7 @@ project:
 
 website:
   title: "Suparno Bhattacharyya"
-  description: "Academic Website - Assistant Research Scientist
-  ]"
+  description: "Academic Website - Assistant Research Scientist"
   site-url: "https://suparnobhattacharyya.github.io/"
   repo-url: "https://github.com/suparnobhattacharyya/suparnobhattacharyya.github.io"
   
@@ -17,8 +16,10 @@ website:
     foreground: "white"     # Navbar text color
     collapse: true
     mainfont: "Adobe Garamond"
+    logo: images/ISM_logo.png
+    logo-href: "https://www.iitism.ac.in"  # Logo redirects to IIT ISM site
     title: "Suparno Bhattacharyya"
-    subtitle: "Assistant Research Scientist"
+    title-href: "https://suparnobhattacharyya.github.io/"  # Text redirects to Home
  
     left:
       - href: index.qmd
@@ -35,9 +36,6 @@ website:
         text: "CV"
 
     right:
-      - text: "![](/image_ISM.png){width=45px}"
-        href: "https://www.iitism.ac.in/"
-        aria-label: "ISM Dhanbad"
       - icon: linkedin
         href: "https://linkedin.com/in/suparnob/"
         aria-label: LinkedIn
@@ -47,12 +45,14 @@ website:
       - icon: envelope
         href: "mailto:suparnob@tamu.edu"
         aria-label: Email
+      - icon: magnifying-glass
+        aria-label: Search
       
 
 format:
   html:
     theme:
-      {light: cosmo, dark: darkly}
+      {light: flatly, dark: darkly}
     css: styles.css
     
     # include-in-header:

@@ -13,9 +13,10 @@ website:
     left: "© 2025. All rights reserved."
     
   navbar:
-    background: light
+    background: "#500000"   # Texas A&M maroon
+    foreground: "white"     # Navbar text color
+    collapse: true
     mainfont: "Adobe Garamond"
-    search: true
     title: "Suparno Bhattacharyya"
     subtitle: "Assistant Research Scientist"
  
@@ -34,6 +35,9 @@ website:
         text: "CV"
 
     right:
+      - text: "![](/image_ISM.png){width=150px}"
+        href: "https://www.iitism.ac.in/"
+        aria-label: "ISM Dhanbad"
       - icon: linkedin
         href: "https://linkedin.com/in/suparnob/"
         aria-label: LinkedIn
@@ -43,6 +47,7 @@ website:
       - icon: envelope
         href: "mailto:suparnob@tamu.edu"
         aria-label: Email
+
 
 format:
   html:

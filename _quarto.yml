@@ -19,7 +19,7 @@ website:
     logo: images/ISM_logo.png
     logo-href: "https://www.iitism.ac.in"  # Logo redirects to IIT ISM site
     title: "Suparno Bhattacharyya"
-    title-href: "https://suparnobhattacharyya.github.io/"  # Text redirects to Home
+    title-href: index.qmd  # Text redirects to Home
  
     left:
       - href: index.qmd
@@ -52,7 +52,8 @@ website:
 format:
   html:
     theme:
-      {light: flatly, dark: darkly}
+      light: flatly
+      dark: darkly
     css: styles.css
     
     # include-in-header:

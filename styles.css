@@ -86,10 +86,16 @@ text-justify: inter-word; /* spreads words evenly */
   opacity: 0.85;
 }
 
+/* Increase navbar height by adding padding */
+.navbar {
+  padding-top: 2rem;   /* Increase vertical padding */
+  padding-bottom: 1rem;
+}
+
 
 .navbar .navbar-brand img {
-  height: 150px !important;   /* Change size here */
-  width: 50px !important;    /* Maintain aspect ratio */
+  height: 300px;   /* Change size here */
+  width: 60px;    /* Maintain aspect ratio */
   margin-right: 20px;
 }
 

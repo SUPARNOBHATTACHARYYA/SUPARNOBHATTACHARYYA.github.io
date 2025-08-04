@@ -95,7 +95,7 @@ resources:
 *Archives of Computational Methods in Engineering.*\
 [Hyper-reduction Techniques for Efficient Simulation of Large-Scale Engineering Systems](publications/hyperreduction_techniques.qmd)
 
-<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_2">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_2">Abstract</a> <a href="site coming soon" class="btn btn-outline btn-sm" target="_blank">URL</a>
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_2">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_2">Abstract</a> <a href="https://link.springer.com/article/10.1007/s11831-025-10299-4" class="btn btn-outline btn-sm" target="_blank">URL</a>
 
 ::: {#cite-bhattacharyya_2 .d-none}
 ```{=html}

@@ -1,53 +1,26 @@
 ---
-title: "Research Publications"
+title: "Research"
 format:
   html:
-    toc: true
-    toc-depth: 2
-    number-sections: true
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
+    page-layout: full
     css: styles.css
 ---
 
-# Research
+::: page-screen
+```{=html}
+<iframe src="hexagons.html" style="
+    position: fixed;
+    top: 10; left: 0;
+    width: 100vw; height: 80vh;
+    border: none;
+    margin: 0; padding: 0;
+    overflow: hidden;
+    z-index: 0;
+  ">
+```
 
-## Efficient Dynamic Topology Optimization of 2D Metamaterials
-
-**Bhattacharyya, S.**, Khawale, R., Rai, R., Dargush, G. (2024). *Efficient dynamic topology optimization of 2D metamaterials based on a complementary energy formulation*. **Computers & Structures**, 299, 107371. [https://doi.org/10.1016/j.compstruc.2024.107371](https://doi.org/10.1016/j.compstruc.2024.107371)
-
-**Abstract**  
-Additive manufacturing is revolutionizing hierarchical structure design with applications in compliant, auxetic, and band-gap structures. This paper presents a dynamic topology optimization framework for printable lattice structures aimed at reducing wave propagation within specific frequency bands. By using parametrically defined filament-based unit cells, bandgaps are tailored to mitigate resonance.
-
-Our method employs a complementary energy formulation to derive flexibility and stiffness matrices analytically, significantly reducing finite element discretization needs and enabling rapid exploration of meso-structures.
-
-**Highlights:**
-- New structural analysis technique for parametrically defined lattice structures.
-- Optimization speed increased by over 25x via complementary energy-based stiffness computations.
-- Achieved a >250% increase in bandgap width within lattice structures.
-
-## Model Reduction of a Piecewise Nonlinear Mechanical Oscillator
-
-**Bhattacharyya, S.**, Cusumano, J. (Submitted). *Model Reduction of a Piecewise Nonlinear Mechanical Oscillator*. **Proceedings of the Royal Society A**. [Preprint](https://doi.org/10.48550/arXiv.2311.17947)
-
-**Abstract**  
-This work explores model reduction of a hybrid nonlinear oscillator subjected to position-triggered electromagnetic kicks. We observed a range of bifurcation behaviors—both periodic and chaotic. Using proper orthogonal decomposition (POD) and an energy-closure criterion, we derived reduced-order models (ROMs) accurately capturing these dynamics.
-
-[Watch on YouTube](https://youtu.be/Qzz7_pR2uK4)
-
-## Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling
-
-**Bhattacharyya, S.**, Cusumano, J. P. (2022). *Experimental Implementation of Energy Closure Analysis for Reduced Order Modeling*. **ASME Journal of Vibration and Acoustics**, 144(5): 051007. [https://doi.org/10.1115/1.4054295](https://doi.org/10.1115/1.4054295)
-
-**Abstract**  
-Reduced-order models (ROMs) provide efficient approximations of complex dynamical systems, but their accuracy depends on dimensional estimation. We demonstrate how the energy closure criterion can be implemented experimentally to estimate ROM dimension using POD. 
-
-Using a periodically kicked Euler-Bernoulli beam, we developed a method for determining the ROM dimension based on convergence of system energy. Our approach is shown to be robust against discretization errors and measurement noise.
-
-## An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam
-
-**Bhattacharyya, S.**, Cusumano, J. (2021). *An Energy Closure Criterion for Model Reduction of a Kicked Euler-Bernoulli Beam*. **ASME Journal of Vibration and Acoustics**, 143(4): 041001. [https://doi.org/10.1115/1.4048663](https://doi.org/10.1115/1.4048663)
-
-**Abstract**  
-This paper assesses the effectiveness of POD for model reduction of a beam system under impulsive loading. We find that variance-based mode selection may yield inaccurate ROMs under high impulsivity due to energy imbalance. Our proposed energy closure analysis offers a better strategy, resulting in more energetically consistent and accurate ROMs.
-
-**Spotlight**: This paper was nominated for an **ASME spotlight presentation** at the 2021 IDETC.
+</iframe>
+:::

@@ -11,40 +11,23 @@ about:
   template: jolla
 ---
 
-I hold a Ph.D. in Engineering Science and Mechanics from Penn State University, an M.Tech in Mechanical Engineering from IIT Kanpur, and a BE in Mechanical Engineering from Jadavpur University, India.
+In D-cubed lab, we study and develop efficient modeling techniques for simulating and designing complex engineering systems. Our research brings together **computational mechanics, topology optimization, and data-driven modeling**, with a focus on capturing mechanical and dynamical behavior across scales and applications.
 
-------------------------------------------------------------------------
+A core theme of our work is the development of **intrusive and nonintrusive data-driven methods** that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.
 
-# Research Focus
+Our contributions span:
 
-My doctoral research centered on model order reduction of dynamical systems using Proper Orthogonal Decomposition (POD). I developed a novel physics-informed criterion that accurately determined the dimension of reduced-order models, ensuring reliable representation for both linear and nonlinear structural vibration systems.
+- Data-driven ROMs for systems with discontinuities and nonlinearities
 
-At Clemson University, I pursued postdoctoral research in: - Topology optimization for bandgap maximization in 2D lattice structures\
-- Data-driven discovery of structural vibration models using neural ODEs
+- Energy-based closure strategies for improved accuracy in low-dimensional models
 
-Currently, I am a Assistant Research Scientist at the TAMIDS Digital Twin Lab, working with:
+- Topology optimization frameworks for periodic and lattice structures with tailored dynamic properties
 
--   Dr. Jian Tao\
--   Dr. Jean Ragusa\
--   Dr. Eduardo Gildin
+- Integration of neural ODEs and machine learning into physics-based modeling pipelines
 
-My work focuses on nonlinear reduced-order modeling for complex systems.
+As a natural extension, we are increasingly applying these methods to support **digital twin technologies**, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.
 
-------------------------------------------------------------------------
-
-# Certifications & Skills
-
--   Certified in Machine Learning
--   Certified in Online Teaching
--   Skilled in reduced-order modeling, optimization, and data-driven simulation
-
-------------------------------------------------------------------------
-
-# Beyond Research
-
-I am an Indian classical vocalist and a passionate traveler who enjoys exploring diverse cultures and landscapes.
-
-------------------------------------------------------------------------
+Our long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.
 
 ```{=html}
 <style>

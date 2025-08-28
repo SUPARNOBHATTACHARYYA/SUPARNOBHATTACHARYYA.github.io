@@ -25,6 +25,21 @@ text-justify: inter-word; /* spreads words evenly */
 
 
 
+/* Override Quarto Jolla about page image */
+.about-image,
+.about-image.rounded-circle,
+.about-photo {
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: cover;
+  border-radius: 50% !important;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+
+
+
 /* --- Controls row --- */
 .pub-controls {
   display: flex;

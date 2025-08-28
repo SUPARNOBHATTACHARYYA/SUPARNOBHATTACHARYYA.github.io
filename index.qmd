@@ -13,6 +13,8 @@ about:
 
 In D-cubed lab, we study and develop efficient modeling techniques for simulating and designing complex engineering systems. Our research brings together **computational mechanics, topology optimization, and data-driven modeling**, with a focus on capturing mechanical and dynamical behavior across scales and applications.
 
+![](D3_logo.png){width=40% height=60% fig-align="center"}
+
 A core theme of our work is the development of **intrusive and nonintrusive data-driven methods** that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.
 
 Our contributions span:

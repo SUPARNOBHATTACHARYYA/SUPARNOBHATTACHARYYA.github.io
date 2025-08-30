@@ -145,5 +145,17 @@
     "title": "Teaching",
     "section": "",
     "text": "… your page content starts here …"
+  },
+  {
+    "objectID": "courses/course_1.html",
+    "href": "courses/course_1.html",
+    "title": "Course 1: Lecture Materials",
+    "section": "",
+    "text": "Welcome to Course 1. Below are the lecture slides embedded for direct viewing.",
+    "crumbs": [
+      "Home",
+      "Courses",
+      "Course 1"
+    ]
   }
 ]

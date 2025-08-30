@@ -63,7 +63,7 @@ website:
           text: "Overview"
         - section: "Courses"
           contents:
-            - href: courses/course1.qmd
+            - href: courses/course_1.qmd
               text: "Course 1"
             - href: courses/course2.qmd
               text: "Course 2"

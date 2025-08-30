@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://suparnobhattacharyya.github.io/publications.html</loc>
-    <lastmod>2025-08-28T11:19:46.458Z</lastmod>
+    <lastmod>2025-08-04T21:01:49.215Z</lastmod>
   </url>
   <url>
     <loc>https://suparnobhattacharyya.github.io/publications/model_reduction.html</loc>
@@ -63,5 +63,9 @@
   <url>
     <loc>https://suparnobhattacharyya.github.io/teachings.html</loc>
     <lastmod>2025-08-30T18:10:08.311Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/courses/course_1.html</loc>
+    <lastmod>2025-08-30T19:21:39.327Z</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,38 @@
+---
+sidebar: teaching   # use the collapsible teaching sidebar
+format: 
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: false
+    page-layout: article
+    css: collab.css
+---
+
+# Course 1: Lecture Materials
+
+
+---
+
+## Lecture 1
+
+<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://suparnobhattacharyya.github.io/slides/MATLAB.pptx"
+        width="100%" height="500px" frameborder="0">
+</iframe>
+
+---
+
+## Lecture 2
+
+<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://suparnobhattacharyya.github.io/slides/Final_Module 3 Script and function file.pptx"
+        width="100%" height="500px" frameborder="0">
+</iframe>
+
+---
+
+## Lecture 3
+
+<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://suparnobhattacharyya.github.io/slides/Module 3 Language specific function (1).pptx"
+        width="100%" height="500px" frameborder="0">
+</iframe>

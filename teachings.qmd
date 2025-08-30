@@ -1,10 +1,5 @@
 ---
 title: "Teaching"
-format:
-  html:
-    theme:
-      light: flatly
-      dark: darkly
-    page-layout: full
-    css: styles.css
+sidebar: teaching   # use the collapsible teaching sidebar
+toc: false          # turn off right-hand TOC
 ---

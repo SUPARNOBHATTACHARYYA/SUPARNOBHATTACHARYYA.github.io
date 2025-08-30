@@ -131,5 +131,19 @@
     "title": "Analysis of the Effect of Number of Knots in a Trajectory on Motion Characteristics of a 3R Planar Manipulator",
     "section": "",
     "text": "Abstract\nThe paper presents a method of trajectory planning and motion characteristics of a robotic manipulator. Main objective is to study the motion characteristics of a manipulator and to explore the scope of minimization of jerk. 8th order polynomial is considered for the trajectory design and the effect of number of intermediate knots between start and final positions of a 3R manipulator within the workspace is studied. Displacements, velocities, accelerations and jerk of end-effectors on a linear path are presented. The simulation for motion of the manipulator is done with the help of AutoLISP on AutoCAD platform.\n\n\n\nArticle PDF"
+  },
+  {
+    "objectID": "teachings.html",
+    "href": "teachings.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "… your page content starts here …"
+  },
+  {
+    "objectID": "teachings.html#my-teaching-philosophy",
+    "href": "teachings.html#my-teaching-philosophy",
+    "title": "Teaching",
+    "section": "",
+    "text": "… your page content starts here …"
   }
 ]

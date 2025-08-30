@@ -49,7 +49,30 @@ website:
         aria-label: Email
       - icon: magnifying-glass
         aria-label: Search
-      
+
+  # ------------------------
+  # Sidebar for Teaching only (collapsible)
+  # ------------------------
+  sidebar:
+    - id: teaching
+      title: "Teaching"
+      style: "docked"
+      search: true
+      contents:
+        - href: teachings.qmd
+          text: "Overview"
+        - section: "Courses"
+          contents:
+            - href: courses/course1.qmd
+              text: "Course 1"
+            - href: courses/course2.qmd
+              text: "Course 2"
+        - section: "Resources"
+          contents:
+            - href: resources.qmd
+              text: "Extra Resources"
+            - href: readings.qmd
+              text: "Suggested Readings"
 
 format:
   html:
@@ -57,11 +80,6 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
-    
-    # include-in-header:
-    #   - head.html         # <-- your Lucide loader
-    # include-after-body:
-    #   - publications.js   # <-- your filter/sort logic
     
     toc: true
     toc-location: right
@@ -75,5 +93,3 @@ execute:
   freeze: auto
 
 editor: visual
-
-

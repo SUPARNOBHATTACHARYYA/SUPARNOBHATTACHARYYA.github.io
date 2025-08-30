@@ -1,5 +1,11 @@
 ---
 title: "Teaching"
 sidebar: teaching   # use the collapsible teaching sidebar
-toc: false          # turn off right-hand TOC
+format: 
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: false
+    page-layout: article  
 ---

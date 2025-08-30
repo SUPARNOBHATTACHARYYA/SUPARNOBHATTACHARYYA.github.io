@@ -1,0 +1,10 @@
+---
+title: "Teaching"
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    page-layout: full
+    css: styles.css
+---

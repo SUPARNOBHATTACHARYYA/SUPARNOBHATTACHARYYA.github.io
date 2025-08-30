@@ -28,6 +28,8 @@ website:
         text: "Publications"
       - href: projects.qmd
         text: "Research"
+      - href: teachings.qmd
+        text: "Teaching"
       - href: collaborators.qmd
         text: "Collaborators"
       - href: Contact.qmd

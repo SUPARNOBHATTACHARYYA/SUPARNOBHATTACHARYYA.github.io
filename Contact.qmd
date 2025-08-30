@@ -1,9 +1,10 @@
 ---
-format:
+format: 
   html:
     theme:
       light: flatly
       dark: darkly
+    page-layout: article
     css: collab.css
     toc: false
 ---

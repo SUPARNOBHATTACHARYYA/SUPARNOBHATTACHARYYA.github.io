@@ -3,7 +3,7 @@ title: "Efficient dynamic topology optimization of 2D metamaterials based on com
 format: 
   html:
     theme:
-      light: cosmo
+      light: flatly
       dark: darkly
     toc: false
     page-layout: article  

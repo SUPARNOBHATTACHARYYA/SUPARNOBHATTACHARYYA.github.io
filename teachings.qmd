@@ -33,28 +33,28 @@ Students learn practical applications through engineering case studies.
 
 ## All Teaching Experience
 
-### IIT ISM Dhanbad
+### Indian Institute of Technology (Indian School of Mines) Dhanbad
 
-| Course                                | Role       | Level     | Year |
-|:--------------------------------------|:-----------|:----------|-----:|
-| Introduction to MATLAB and SIMULINK   | Instructor | Undergrad | 2025 |
-| Mechanics for Engineers               | Instructor | Undergrad | 2025 |
+| Course                                | Role       | Level | Year |
+|:--------------------------------------|:-----------|:------|-----:|
+| Introduction to MATLAB and SIMULINK   | Instructor | UG    | 2025 |
+| Mechanics for Engineers               | Instructor | UG    | 2025 |
 
 ### Texas A&M University
 
-| Course                                                                       | Role           | Level     | Year |
-|:-----------------------------------------------------------------------------|:---------------|:----------|-----:|
-| Principal Component Analysis (PCA)                                           | Guest Lecturer | Workshop  | 2025 |
-| Dive into Reduced Order Modeling with pylibROM                               | Instructor     | Undergrad | 2024 |
-| Physics-based and Data-Driven Reduced-Order Modeling for Engineering Systems | Presenter      | Graduate  | 2023 |
+| Course                                                                       | Role           | Level | Year |
+|:-----------------------------------------------------------------------------|:---------------|:------|-----:|
+| Workshop: Principal Component Analysis (PCA)                                 | Instructor     | UG/PG | 2025 |
+| Workshop: Dive into Reduced Order Modeling with pylibROM                     | Instructor     | UG/PG | 2024 |
+| Physics-based and Data-Driven Reduced-Order Modeling for Engineering Systems | Guest Lecturer | PG    | 2023 |
 
-### Penn State
+### Pennsylvania State University
 
-| Course                                                         | Role          | Level     | Year      |
-|:---------------------------------------------------------------|:--------------|:----------|----------:|
-| Statics and Strength of Materials                              | TA            | Undergrad | 2020–2021 |
-| Dynamics                                                       | TA/Instructor | Undergrad | 2015–2020 |
-| Experimental Determination of Mechanical Response of Materials | TA            | Undergrad | 2014–2015 |
+| Course                                                         | Role          | Level | Year      |
+|:---------------------------------------------------------------|:--------------|:------|----------:|
+| Statics and Strength of Materials                              | TA            | UG    | 2020–2021 |
+| Dynamics                                                       | TA/Instructor | UG    | 2015–2020 |
+| Experimental Determination of Mechanical Response of Materials | TA            | UG    | 2014–2015 |
 
 
 

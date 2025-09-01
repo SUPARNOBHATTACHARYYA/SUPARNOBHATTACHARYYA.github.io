@@ -137,7 +137,7 @@
     "href": "teachings.html",
     "title": "Teaching",
     "section": "",
-    "text": "… your page content starts here …"
+    "text": "Course: Introduction to MATLAB and SIMULINK\nLevel: Undergraduate\nDescription:\nThis course introduces students to MATLAB programming and Simulink modeling.\nIt covers fundamental numerical methods, system simulation, and visualization.\nStudents learn practical applications through engineering case studies.\nAccess Materials\nGitHub"
   },
   {
     "objectID": "teachings.html#my-teaching-philosophy",
@@ -157,5 +157,33 @@
       "Courses",
       "Course 1"
     ]
+  },
+  {
+    "objectID": "courses/course_2.html",
+    "href": "courses/course_2.html",
+    "title": "Course 2: Lecture Materials",
+    "section": "",
+    "text": "Course 2: Lecture Materials"
+  },
+  {
+    "objectID": "teachings.html#courses-with-materials",
+    "href": "teachings.html#courses-with-materials",
+    "title": "Teaching",
+    "section": "",
+    "text": "Course: Introduction to MATLAB and SIMULINK\nLevel: Undergraduate\nDescription:\nThis course introduces students to MATLAB programming and Simulink modeling.\nIt covers fundamental numerical methods, system simulation, and visualization.\nStudents learn practical applications through engineering case studies.\nAccess Materials\nGitHub"
+  },
+  {
+    "objectID": "teachings.html#all-teaching-experience",
+    "href": "teachings.html#all-teaching-experience",
+    "title": "Teaching",
+    "section": "All Teaching Experience",
+    "text": "All Teaching Experience\n\nIIT ISM Dhanbad\n\n\n\n\n\n\n\n\n\nRole\nCourse\nLevel\nYear\n\n\n\n\nInstructor\nIntroduction to MATLAB and SIMULINK\nUndergrad\n2025\n\n\nInstructor\nMechanics for Engineers\nUndergrad\n2025\n\n\n\n\n\nTexas A&M University\n\n\n\n\n\n\n\n\n\nRole\nCourse\nLevel\nYear\n\n\n\n\nGuest Lecturer\nPrincipal Component Analysis (PCA)\nWorkshop\n2025\n\n\nInstructor\nDive into Reduced Order Modeling with pylibROM\nUndergrad\n2024\n\n\nPresenter\nPhysics-based and Data-Driven Reduced-Order Modeling for Engineering Systems\nGraduate\n2023\n\n\n\n\n\nPenn State\n\n\n\n\n\n\n\n\n\nRole\nCourse\nLevel\nYear\n\n\n\n\nTA\nStatics and Strength of Materials\nUndergrad\n2020–2021\n\n\nTA/Instructor\nDynamics\nUndergrad\n2015–2020\n\n\nTA\nExperimental Determination of Mechanical Response of Materials\nUndergrad\n2014–2015\n\n\n\n."
+  },
+  {
+    "objectID": "teachings.html#courses-with-materials-1",
+    "href": "teachings.html#courses-with-materials-1",
+    "title": "Teaching",
+    "section": "Courses With Materials",
+    "text": "Courses With Materials\n\n\nCourse: Introduction to MATLAB and SIMULINK\nLevel: Undergraduate\nDescription:\nThis course introduces students to MATLAB programming and Simulink modeling.\nIt covers fundamental numerical methods, system simulation, and visualization.\nStudents learn practical applications through engineering case studies.\nAccess Materials\nGitHub"
   }
 ]

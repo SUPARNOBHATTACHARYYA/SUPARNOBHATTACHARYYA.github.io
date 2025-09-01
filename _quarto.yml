@@ -50,30 +50,7 @@ website:
       - icon: magnifying-glass
         aria-label: Search
 
-  # ------------------------
-  # Sidebar for Teaching only (collapsible)
-  # ------------------------
-  sidebar:
-    - id: teaching
-      title: "Teaching"
-      style: "docked"
-      search: true
-      contents:
-        - href: teachings.qmd
-          text: "Overview"
-        - section: "Courses"
-          contents:
-            - href: courses/course_1.qmd
-              text: "Course 1"
-            - href: courses/course2.qmd
-              text: "Course 2"
-        - section: "Resources"
-          contents:
-            - href: resources.qmd
-              text: "Extra Resources"
-            - href: readings.qmd
-              text: "Suggested Readings"
-
+  
 format:
   html:
     theme:

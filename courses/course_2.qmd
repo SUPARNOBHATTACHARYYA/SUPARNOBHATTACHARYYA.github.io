@@ -1,0 +1,17 @@
+---
+sidebar: teaching   # use the collapsible teaching sidebar
+format: 
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: false
+    page-layout: article
+    css: collab.css
+---
+
+# Course 2: Lecture Materials
+
+
+---
+

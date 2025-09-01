@@ -6,6 +6,66 @@ format:
     theme:
       light: cosmo
       dark: darkly
-    toc: false
+    toc: true
+    toc-location: body 
     page-layout: article  
 ---
+
+## Courses with Materials
+
+::: {.card style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;"}
+
+![](banner.png){style="width:100%; border-radius: 8px; margin-bottom: 1rem;"}
+
+**Course:** Introduction to MATLAB and SIMULINK  
+**Level:** Undergraduate  
+
+**Description:**  
+This course introduces students to MATLAB programming and Simulink modeling.  
+It covers fundamental numerical methods, system simulation, and visualization.  
+Students learn practical applications through engineering case studies.  
+
+[**Access Materials**](https://your-link.com){style="color:#E76F51; font-weight:bold;"}  
+[GitHub](https://github.com/yourrepo)  
+
+:::
+
+
+## All Teaching Experience
+
+### IIT ISM Dhanbad
+
+| Role       | Course                                | Level     | Year |
+|:-----------|:--------------------------------------|:----------|-----:|
+| Instructor | Introduction to MATLAB and SIMULINK   | Undergrad | 2025 |
+| Instructor | Mechanics for Engineers               | Undergrad | 2025 |
+
+### Texas A&M University
+
+| Role           | Course                                                                       | Level     | Year |
+|:---------------|:-----------------------------------------------------------------------------|:----------|-----:|
+| Guest Lecturer | Principal Component Analysis (PCA)                                           | Workshop  | 2025 |
+| Instructor     | Dive into Reduced Order Modeling with pylibROM                               | Undergrad | 2024 |
+| Presenter      | Physics-based and Data-Driven Reduced-Order Modeling for Engineering Systems | Graduate  | 2023 |
+
+### Penn State
+
+| Role          | Course                                                         | Level     | Year      |
+|:--------------|:---------------------------------------------------------------|:----------|----------:|
+| TA            | Statics and Strength of Materials                              | Undergrad | 2020–2021 |
+| TA/Instructor | Dynamics                                                       | Undergrad | 2015–2020 |
+| TA            | Experimental Determination of Mechanical Response of Materials | Undergrad | 2014–2015 |
+
+
+
+
+
+
+
+
+
+
+.
+
+
+

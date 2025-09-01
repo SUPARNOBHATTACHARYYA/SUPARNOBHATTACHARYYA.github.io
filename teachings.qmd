@@ -7,7 +7,8 @@ format:
       light: cosmo
       dark: darkly
     toc: true
-    toc-location: body 
+    toc-location: right
+    toc-title: "TABLE OF CONTENTS"
     page-layout: article  
 ---
 
@@ -25,8 +26,7 @@ This course introduces students to MATLAB programming and Simulink modeling.
 It covers fundamental numerical methods, system simulation, and visualization.  
 Students learn practical applications through engineering case studies.  
 
-[**Access Materials**](https://your-link.com){style="color:#E76F51; font-weight:bold;"}  
-[GitHub](https://github.com/yourrepo)  
+[**Access Materials**](https://shorturl.at/WrRud){style="color:#E76F51; font-weight:bold;"}  
 
 :::
 
@@ -35,26 +35,26 @@ Students learn practical applications through engineering case studies.
 
 ### IIT ISM Dhanbad
 
-| Role       | Course                                | Level     | Year |
-|:-----------|:--------------------------------------|:----------|-----:|
-| Instructor | Introduction to MATLAB and SIMULINK   | Undergrad | 2025 |
-| Instructor | Mechanics for Engineers               | Undergrad | 2025 |
+| Course                                | Role       | Level     | Year |
+|:--------------------------------------|:-----------|:----------|-----:|
+| Introduction to MATLAB and SIMULINK   | Instructor | Undergrad | 2025 |
+| Mechanics for Engineers               | Instructor | Undergrad | 2025 |
 
 ### Texas A&M University
 
-| Role           | Course                                                                       | Level     | Year |
-|:---------------|:-----------------------------------------------------------------------------|:----------|-----:|
-| Guest Lecturer | Principal Component Analysis (PCA)                                           | Workshop  | 2025 |
-| Instructor     | Dive into Reduced Order Modeling with pylibROM                               | Undergrad | 2024 |
-| Presenter      | Physics-based and Data-Driven Reduced-Order Modeling for Engineering Systems | Graduate  | 2023 |
+| Course                                                                       | Role           | Level     | Year |
+|:-----------------------------------------------------------------------------|:---------------|:----------|-----:|
+| Principal Component Analysis (PCA)                                           | Guest Lecturer | Workshop  | 2025 |
+| Dive into Reduced Order Modeling with pylibROM                               | Instructor     | Undergrad | 2024 |
+| Physics-based and Data-Driven Reduced-Order Modeling for Engineering Systems | Presenter      | Graduate  | 2023 |
 
 ### Penn State
 
-| Role          | Course                                                         | Level     | Year      |
-|:--------------|:---------------------------------------------------------------|:----------|----------:|
-| TA            | Statics and Strength of Materials                              | Undergrad | 2020–2021 |
-| TA/Instructor | Dynamics                                                       | Undergrad | 2015–2020 |
-| TA            | Experimental Determination of Mechanical Response of Materials | Undergrad | 2014–2015 |
+| Course                                                         | Role          | Level     | Year      |
+|:---------------------------------------------------------------|:--------------|:----------|----------:|
+| Statics and Strength of Materials                              | TA            | Undergrad | 2020–2021 |
+| Dynamics                                                       | TA/Instructor | Undergrad | 2015–2020 |
+| Experimental Determination of Mechanical Response of Materials | TA            | Undergrad | 2014–2015 |
 
 
 

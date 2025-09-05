@@ -3,8 +3,11 @@
 /* Import all necessary fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
 
 
 /* Set the base font for the body to Lora */
@@ -29,14 +32,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style for the Navbar Brand/Title */
 .navbar-brand {
-  font-family: 'Frank Ruhl Libre', Helvetica, Arial, sans-serif; /* Specific font for the brand */
+  font-family: 'Lora', Helvetica, Arial, sans-serif; /* Specific font for the brand */
   color: rgba(255, 255, 255, 0.8);
   font-weight: 700;
 }
 
 /* Style for the Navbar Links */
 .navbar-nav .nav-link {
-  font-family: 'Frank Ruhl Libre', 'Times New Roman', serif; /* Specific font for nav links */
+  font-family: 'Lora', 'Times New Roman', serif; /* Specific font for nav links */
   color: rgba(255, 255, 255, 0.8); /* Light text color for links */
   font-weight: 700;
 }

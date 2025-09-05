@@ -1,22 +1,60 @@
 /* css styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Import all necessary fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 
+/* Set the base font for the body to Lora */
 body {
-  font-family: Lora, Noto Sans, Lora, Helvetica, Arial, sans-serif;
+  font-family: 'Lora', Helvetica, Arial, sans-serif;
 }
 
-
+/* Set the font for all headings to Roboto Slab */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Roboto Slab, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
 }
 
-.navbar-nav > li > a,
-.navbar-brand {
-  font-family: Lora, Roboto Slab, Helvetica, Arial, sans-serif;
+/* --- Start Header/Navbar Styles --- */
+/* This section has been modified to match the target website */
+
+.navbar {
+  background-color: #500000; /* Dark background for the navbar - changed to maroon */
+  border-bottom: 2px solid #dee2e6; /* Subtle bottom border */
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
+
+/* Style for the Navbar Brand/Title */
+.navbar-brand {
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif; /* Specific font for the brand */
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+}
+
+/* Style for the Navbar Links */
+.navbar-nav .nav-link {
+  font-family: 'Lora', 'Times New Roman', serif; /* Specific font for nav links */
+  color: rgba(255, 255, 255, 0.8); /* Light text color for links */
+  font-weight: 700;
+}
+
+/* Hover effect for both brand and links */
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #ffffff; /* Brighter color on hover */
+}
+
+/* Remove the large logo styling */
+.navbar .navbar-brand img {
+  height: auto; /* Revert to default height */
+  width: auto;
+  margin-right: 0;
+}
+
+/* --- End Header/Navbar Styles --- */
+
 
 p {
 text-align: justify;
@@ -99,22 +137,6 @@ text-justify: inter-word; /* spreads words evenly */
 .btn-primary:hover {
   opacity: 0.85;
 }
-
-/* Increase navbar height by adding padding */
-.navbar {
-  padding-top: 1.7rem;   /* Increase vertical padding */
-  padding-bottom: 1rem;
-}
-
-
-.navbar .navbar-brand img {
-  height: 200px;   /* Change size here */
-  width: auto    /* Maintain aspect ratio */
-  margin-right: 10px;
-}
-
-
-/* Add this to the end of your styles.css file */
 
 .page-header {
   text-align: center;

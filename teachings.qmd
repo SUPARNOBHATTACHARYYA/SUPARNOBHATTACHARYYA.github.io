@@ -1,16 +1,15 @@
 ---
-title: "Teaching"
-sidebar: teaching   # use the collapsible teaching sidebar
 format: 
   html:
     theme:
-      light: cosmo
+      light: flatly
       dark: darkly
+    css: styles.css
     toc: true
-    toc-location: right
     toc-title: "TABLE OF CONTENTS"
     page-layout: article  
 ---
+# Teaching
 
 ## Courses with Materials
 

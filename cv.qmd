@@ -5,7 +5,7 @@ format:
       light: flatly
       dark: darkly
     page-layout: article
-    css: collab.css
+    css: styles.css
     toc: false
 ---
 

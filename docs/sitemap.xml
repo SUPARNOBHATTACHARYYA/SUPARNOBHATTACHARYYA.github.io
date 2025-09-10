@@ -1,31 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://suparnobhattacharyya.github.io/teachings.html</loc>
+    <lastmod>2025-09-10T04:48:09.383Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/publications/planar_manipulator.html</loc>
+    <lastmod>2025-08-28T11:19:46.545Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/publications/hyperreduction_techniques.html</loc>
+    <lastmod>2025-08-28T11:19:46.530Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/publications/experimental_implementation.html</loc>
+    <lastmod>2025-08-28T11:19:46.508Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/publications/efficient_dynamic.html</loc>
+    <lastmod>2025-09-04T11:36:15.452Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/posts/welcome/index.html</loc>
+    <lastmod>2025-08-28T11:19:46.458Z</lastmod>
+  </url>
+  <url>
     <loc>https://suparnobhattacharyya.github.io/index.html</loc>
-    <lastmod>2025-09-05T06:39:59.568Z</lastmod>
+    <lastmod>2025-09-04T11:38:04.319Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/courses/course_2.html</loc>
+    <lastmod>2025-09-04T11:36:15.423Z</lastmod>
   </url>
   <url>
     <loc>https://suparnobhattacharyya.github.io/Contact.html</loc>
-    <lastmod>2025-09-05T19:18:51.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://suparnobhattacharyya.github.io/publications.html</loc>
-    <lastmod>2025-09-05T18:40:56.090Z</lastmod>
-  </url>
-  <url>
-    <loc>https://suparnobhattacharyya.github.io/projects.html</loc>
-    <lastmod>2025-09-05T18:40:32.965Z</lastmod>
-  </url>
-  <url>
-    <loc>https://suparnobhattacharyya.github.io/teachings.html</loc>
-    <lastmod>2025-09-05T18:30:22.757Z</lastmod>
-  </url>
-  <url>
-    <loc>https://suparnobhattacharyya.github.io/cv.html</loc>
-    <lastmod>2025-09-05T18:33:26.225Z</lastmod>
+    <lastmod>2025-09-10T04:48:09.322Z</lastmod>
   </url>
   <url>
     <loc>https://suparnobhattacharyya.github.io/collaborators.html</loc>
-    <lastmod>2025-09-05T18:35:24.372Z</lastmod>
+    <lastmod>2025-08-28T11:19:46.303Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/courses/course_1.html</loc>
+    <lastmod>2025-09-04T11:36:15.423Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/cv.html</loc>
+    <lastmod>2025-09-10T04:54:12.912Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/posts/post-with-code/index.html</loc>
+    <lastmod>2025-08-28T11:19:46.456Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/projects.html</loc>
+    <lastmod>2025-09-10T04:48:09.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/publications/energy_closure.html</loc>
+    <lastmod>2025-08-28T11:19:46.506Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/publications/experimental_study.html</loc>
+    <lastmod>2025-08-28T11:19:46.528Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/publications/model_reduction.html</loc>
+    <lastmod>2025-08-28T11:19:46.545Z</lastmod>
+  </url>
+  <url>
+    <loc>https://suparnobhattacharyya.github.io/publications.html</loc>
+    <lastmod>2025-08-28T11:19:46.458Z</lastmod>
   </url>
 </urlset>

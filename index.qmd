@@ -16,6 +16,11 @@ At the D-cubed Lab, we investigate and develop efficient modeling techniques for
 
 A core theme of our work is the development of **intrusive and nonintrusive data-driven methods** that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.
 
+
+
+![](images/slide_1.jpg){width="100%" style="margin: 40px auto;"}
+
+
 Our contributions span:
 
 - Data-driven ROMs for systems with discontinuities and nonlinearities
@@ -29,6 +34,7 @@ Our contributions span:
 As a natural extension, we are increasingly applying these methods to support **digital twin technologies**, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.
 
 Our long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.
+
 
 ```{=html}
 <style>

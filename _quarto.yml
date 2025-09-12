@@ -22,7 +22,7 @@ website:
     title-href: index.qmd  # Text redirects to Home
  
     left:
-      - href: index.qmd
+      - href: home.qmd
         text: "Home"
       - href: publications.qmd
         text: "Publications"
@@ -32,6 +32,8 @@ website:
         text: "Teaching"
       - href: collaborators.qmd
         text: "Collaborators"
+      - href: index.qmd
+        text: "Announcement"
       - href: Contact.qmd
         text: "Contact"
       - href: cv.qmd

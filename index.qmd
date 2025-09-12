@@ -1,57 +1,45 @@
 ---
-title: "About"
 format:
   html:
     theme:
       light: flatly
       dark: darkly
     css: styles.css
-image: profile.jpg
-about:
-  template: jolla
+    toc: false
+    page-layout: article
 ---
-![](D3_logo.png){width=30% height=50% fig-align="center"}
+::: page-header
+# ANNOUNCEMENT
+:::
 
-At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates **computational mechanics, topology optimization, and data-driven modeling,** with an emphasis on capturing mechanical and dynamical behavior across scales and applications.
+<h3 style="text-align: center;">We are actively hiring PhD and MTech candidates</h3>
 
-A core theme of our work is the development of **intrusive and nonintrusive data-driven methods** that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.
+------
+
+The **D-cubed Research Group** invites applications from highly motivated individuals for **PhD** and **MTech** positions.  
+These positions are part of a series of research projects conducted in close collaboration with **leading universities and research laboratories in the United States** as well as **other premier IITs in India**.
+
+#### Desired Background
+
+Applicants should demonstrate:
+
+- A strong academic foundation in **mathematics** and **mechanics**  
+- A clear interest in pursuing advanced, research-oriented studies
+
+#### Application Procedure
+
+Interested candidates are requested to email the following to → **suparno@iitism.ac.in**
+
+- A current CV  
+- A brief statement of research interests  
+
+Please use the subject line: **“Application for PhD/MTech Position – [Your Name]”** 
 
 
-
-![](images/slide_1.jpg){width="100%" style="margin: 40px auto;"}
-
-
-Our contributions span:
-
-- Data-driven ROMs for systems with discontinuities and nonlinearities
-
-- Energy-based closure strategies for improved accuracy in low-dimensional models
-
-- Topology optimization frameworks for periodic and lattice structures with tailored dynamic properties
-
-- Integration of neural ODEs and machine learning into physics-based modeling pipelines
-
-As a natural extension, we are increasingly applying these methods to support **digital twin technologies**, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.
-
-Our long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.
+###### For admission details: [click here](https://admissions.iitism.ac.in/phd/index.php/admission/add_phd/how_to_apply)
 
 
-```{=html}
-<style>
+<div class="hero">
+  <a class="cta-button" href="home.qmd">Home →</a>
+</div>
 
-/* Ensure paragraphs, headings, and lists are left-aligned */
-h1, h2, h3, h4, h5, h6, ul, ol {
-  text-align: left !important;
-}
-
-/* Remove Bootstrap's default centering */
-.container, .main-content {
-  text-align: left !important;
-}
-
-/* Optional: Fix alignment for specific sections */
-#about, #research-focus, #certifications {
-  text-align: left !important;
-}
-</style>
-```

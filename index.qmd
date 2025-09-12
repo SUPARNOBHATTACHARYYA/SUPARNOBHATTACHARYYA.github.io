@@ -23,7 +23,7 @@ These positions are part of a series of research projects conducted in close col
 
 Applicants should demonstrate:
 
-- A strong academic foundation in **mathematics** and **mechanics**  
+- A strong academic foundation in **applied mathematics** and **solid mechanics**  
 - A clear interest in pursuing advanced, research-oriented studies
 
 #### Application Procedure
@@ -36,7 +36,9 @@ Interested candidates are requested to email the following to → **suparno@iiti
 Please use the subject line: **“Application for PhD/MTech Position – [Your Name]”** 
 
 
-###### For admission details: [click here](https://admissions.iitism.ac.in/phd/index.php/admission/add_phd/how_to_apply)
+###### For PhD admission details: [click here](https://admissions.iitism.ac.in/phd/index.php/admission/add_phd/how_to_apply)
+
+###### For MTech admission details: [click here](https://admissions.iitism.ac.in/mtech/index.php/admission)
 
 
 <div class="hero">

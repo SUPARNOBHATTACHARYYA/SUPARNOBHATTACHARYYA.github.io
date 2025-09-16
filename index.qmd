@@ -45,7 +45,7 @@ Please use the subject line: **“Application for PhD/MTech Position – [Your N
 <a href="media.qmd" class="btn-custom">Media →</a>
 
 
-<a href="index.qmd" class="btn-custom">Home →</a>
+<a href="home.qmd" class="btn-custom">Home →</a>
 
 
 <a href="news.qmd" class="btn-custom">News →</a>

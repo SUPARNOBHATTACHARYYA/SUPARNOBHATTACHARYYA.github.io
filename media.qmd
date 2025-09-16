@@ -13,17 +13,22 @@ format:
 # MEDIA COVERAGE
 :::
 
-## Relevant funding institutes
+  - **Grant:** Texas A&M Institute of Data Science seed grant: “AIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance,” **(Role: Lead PI, $20,000)**
+  
+    **Start Date:** Dec, 2024
+  
+    **Co PIs:** Samuel Gonumakulapalle Lodi (Professor, Indian Institute of Technology Madras), Satish Bukkapatnam (Professor, Texas A&M University, NSF Program Director: ENG/CMMI/AM).
 
-  - Science and Engineering Research Board (SERB)
-
-  - Department of Science and Technology (DST)
-
-  - Indian Space Research Organisation (ISRO)
-
-  - Department of Atomic Energy (DAE) 
-
-  - Ministry of New and Renewable Energy (MNRE)
+    [Click here for more details](https://tamids.tamu.edu/2025/01/06/2024-spaicd-recipients/)
+  
+  - Media coverage after invitation to present research at the **ASME Journal of Vibration and Acoustics spotlight presentation at the 2021 ASME IDETC.**
+  
+    [Click here for more details](https://news.engr.psu.edu/2021/wong-bhattacharyya-asme-honors.aspx)
+    
+  - Data-Driven Model Reduction, Scientific Frontiers, and Applications (2024)
+  
+    [Click here for more details](https://isc.tamu.edu/events/Fall2024/speakers/bhattacharyya.html)
+  
 
   
 

@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "ANNOUNCEMENT",
     "section": "",
-    "text": "ANNOUNCEMENT\n\n\nWe are actively hiring PhD and MTech candidates\n\n\nThe D-cubed Research Group invites applications from highly motivated individuals for PhD and MTech positions.\nThese positions are part of a series of research projects conducted in close collaboration with leading universities and research laboratories in the United States as well as other premier IITs in India.\n\nDesired Background\nApplicants should demonstrate:\n\nA strong academic foundation in applied mathematics and solid mechanics\n\nA clear interest in pursuing advanced, research-oriented studies\n\n\n\nApplication Procedure\nInterested candidates are requested to email the following to → suparno@iitism.ac.in\n\nA current CV\n\nA brief statement of research interests\n\nPlease use the subject line: “Application for PhD/MTech Position – [Your Name]”\n\nFor PhD admission details: click here\n\n\nFor MTech admission details: click here\n\nHome →"
+    "text": "ANNOUNCEMENT\n\n\nWe are actively hiring PhD and MTech candidates\n\n\nThe D-cubed Research Group invites applications from highly motivated individuals for PhD and MTech positions.\nThese positions are part of a series of research projects conducted in close collaboration with leading universities and research laboratories in the United States as well as other premier IITs in India.\n\nDesired Background\nApplicants should demonstrate:\n\nA strong academic foundation in applied mathematics and solid mechanics\n\nA clear interest in pursuing advanced, research-oriented studies\n\n\n\nApplication Procedure\nInterested candidates are requested to email the following to → suparno@iitism.ac.in\n\nA current CV\n\nA brief statement of research interests\n\nPlease use the subject line: “Application for PhD/MTech Position – [Your Name]”\n\nFor PhD admission details: click here\n\n\nFor MTech admission details: click here\n\nHome →\n\n\nMedia coverage →\n\n\nNews →"
   },
   {
     "objectID": "courses/course_2.html",
@@ -172,7 +172,7 @@
     "href": "news.html",
     "title": "LATEST NEWS",
     "section": "",
-    "text": "LATEST NEWS\n\n\n\n\nMedia coverage →"
+    "text": "LATEST NEWS\n\n\n\n\n\n\n\nMedia coverage →"
   },
   {
     "objectID": "media.html#relevant-funding-institutes",
@@ -180,5 +180,12 @@
     "title": "MEDIA COVERAGE",
     "section": "Relevant funding institutes",
     "text": "Relevant funding institutes\n\nScience and Engineering Research Board (SERB)\nDepartment of Science and Technology (DST)\nIndian Space Research Organisation (ISRO)\nDepartment of Atomic Energy (DAE)\nMinistry of New and Renewable Energy (MNRE)\n\n\nResearch →"
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "MEDIA COVERAGE",
+    "section": "",
+    "text": "MEDIA COVERAGE\n\n\nGrant: Texas A&M Institute of Data Science seed grant: “AIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance,” (Role: Lead PI, $20,000)\nStart Date: Dec, 2024\nCo PIs: Samuel Gonumakulapalle Lodi (Professor, Indian Institute of Technology Madras), Satish Bukkapatnam (Professor, Texas A&M University, NSF Program Director: ENG/CMMI/AM).\nClick here for more details\nMedia coverage after invitation to present research at the ASME Journal of Vibration and Acoustics spotlight presentation at the 2021 ASME IDETC.\nClick here for more details\nData-Driven Model Reduction, Scientific Frontiers, and Applications (2024)\nClick here for more details\n\n\nResearch →"
   }
 ]

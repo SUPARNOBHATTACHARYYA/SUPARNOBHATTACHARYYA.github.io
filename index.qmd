@@ -45,3 +45,10 @@ Please use the subject line: **“Application for PhD/MTech Position – [Your N
   <a class="cta-button" href="home.qmd">Home →</a>
 </div>
 
+<div class="hero">
+  <a class="cta-button" href="media.qmd">Media coverage →</a>
+</div>
+
+<div class="hero">
+  <a class="cta-button" href="news.qmd">News →</a>
+</div>

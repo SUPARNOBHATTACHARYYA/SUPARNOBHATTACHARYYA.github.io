@@ -13,17 +13,19 @@ format:
 # LATEST NEWS
 :::
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7367156104704741376" height="1234" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7367156104704741376" height="500" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
 
-
-
-
-
-
-
-
+<!-- LinkedIn post embed -->
+<iframe
+  src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7363068619066392576"
+  height="500"
+  width="100%"
+  frameborder="0"
+  allowfullscreen=""
+  title="LinkedIn post embed">
+</iframe>
 
 
 

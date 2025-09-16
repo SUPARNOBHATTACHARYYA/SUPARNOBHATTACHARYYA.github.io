@@ -32,8 +32,6 @@ format:
 
   
 
-
-
-<div class="hero">
-  <a class="cta-button" href="projects.qmd">Research →</a>
-</div>
+::: {.button-container}
+<a href="news.qmd" class="btn-custom">News →</a>
+:::

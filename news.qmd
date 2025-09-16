@@ -13,28 +13,50 @@ format:
 # LATEST NEWS
 :::
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7367156104704741376" height="500" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe class="iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7367156104704741376"
+  title="Embedded post"></iframe>
 
-
-
-<!-- LinkedIn post embed -->
-<iframe
+<iframe class="iframe-embed"
   src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7363068619066392576"
-  height="500"
-  width="100%"
-  frameborder="0"
-  allowfullscreen=""
-  title="LinkedIn post embed">
-</iframe>
+  title="LinkedIn post embed"></iframe>
+
+<iframe class="iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7363049498551472129"
+  title="LinkedIn post embed"></iframe>
+  
+<iframe class="iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7348144627666849793"
+  title="LinkedIn post embed"></iframe>
+  
+<iframe class="iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7296608686058131456"
+  title="LinkedIn post embed"></iframe>
+
+<iframe class="iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7285353598190809088"
+  title="LinkedIn post embed"></iframe>
+  
+<iframe class="iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7271931663054438400"
+  title="LinkedIn post embed"></iframe>
+
+<iframe class="iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7267065814774607872"
+  title="LinkedIn post embed"></iframe>
+  
+<iframe class="iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7253263865034022913"
+  title="LinkedIn post embed"></iframe>
+  
+<iframe class="iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7252926208563167232"
+  title="LinkedIn post embed"></iframe>
 
 
 
 
 
-
-
-
-
-<div class="hero">
-  <a class="cta-button" href="media.qmd">Media coverage →</a>
-</div>
+::: {.button-container}
+<a href="media.qmd" class="btn-custom">Media →</a>
+:::

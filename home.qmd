@@ -36,9 +36,9 @@ As a natural extension, we are increasingly applying these methods to support **
 Our long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.
 
 
-<div class="hero">
-  <a class="cta-button" href="news.qmd">News →</a>
-</div>
+::: {.button-container}
+<a href="news.qmd" class="btn-custom">News →</a>
+:::
 
 
 

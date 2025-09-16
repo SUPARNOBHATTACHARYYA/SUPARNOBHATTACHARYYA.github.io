@@ -41,14 +41,12 @@ Please use the subject line: **“Application for PhD/MTech Position – [Your N
 ###### For MTech admission details: [click here](https://admissions.iitism.ac.in/mtech/index.php/admission)
 
 
-<div class="hero">
-  <a class="cta-button" href="home.qmd">Home →</a>
-</div>
+::: {.button-container}
+<a href="media.qmd" class="btn-custom">Media →</a>
 
-<div class="hero">
-  <a class="cta-button" href="media.qmd">Media coverage →</a>
-</div>
 
-<div class="hero">
-  <a class="cta-button" href="news.qmd">News →</a>
-</div>
+<a href="index.qmd" class="btn-custom">Home →</a>
+
+
+<a href="news.qmd" class="btn-custom">News →</a>
+:::

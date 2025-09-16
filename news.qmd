@@ -1,0 +1,38 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
+    page-layout: article
+---
+
+::: page-header
+# LATEST NEWS
+:::
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7367156104704741376" height="1234" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hero">
+  <a class="cta-button" href="media.qmd">Media coverage →</a>
+</div>

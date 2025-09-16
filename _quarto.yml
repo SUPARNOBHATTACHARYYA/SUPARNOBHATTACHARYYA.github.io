@@ -30,10 +30,10 @@ website:
         text: "Research"
       - href: teachings.qmd
         text: "Teaching"
-      - href: collaborators.qmd
-        text: "Collaborators"
       - href: index.qmd
         text: "Announcement"
+      - href: collaborators.qmd
+        text: "Collaborators"
       - href: Contact.qmd
         text: "Contact"
       - href: cv.qmd

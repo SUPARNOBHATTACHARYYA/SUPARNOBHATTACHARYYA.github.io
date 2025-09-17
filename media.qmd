@@ -14,31 +14,38 @@ format:
 :::
 
 
-::: {.list-item-spaced}
-#### Texas A&M Institute of Data Science seed grant: “AIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance,” **(Role: Lead PI, $20,000)**
+::: {.list-item-spaced1}
+#### Texas A&M Institute of Data Science **seed grant: AIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance** (Lead PI, $20,000)
+:::
 
+::: {.list-item-spaced}
 [![AIMS-META Seed Grant Awardees](images/SPAICD.jpg)](https://tamids.tamu.edu/2025/01/06/2024-spaicd-recipients/){target="_blank"}
 :::
 
 
-::: {.list-item-spaced} 
-#### Media coverage after invitation to present research at the **ASME Journal of Vibration and Acoustics spotlight presentation at the 2021 ASME IDETC.**
+::: {.list-item-spaced1}  
+#### Talk on **Uncertainty Quantification with Hyper-Reduced Order Models** at the Data-Driven Model Reduction, Scientific Frontiers, and Applications (2024) workshop.
+:::
+
+::: {.list-item-spaced}
+<iframe class="embed-container iframe-embed"
+  src="https://isc.tamu.edu/events/Fall2024/speakers/bhattacharyya.html"
+  title="post embed"></iframe>  
+:::
 
 
+::: {.list-item-spaced1}
+#### Media coverage after invitation to present research at the **ASME Journal of Vibration and Acoustics spotlight presentation at the (2021) ASME IDETC.**
+:::
+
+::: {.list-item-spaced}
 <iframe class="embed-container iframe-embed"
   src="https://news.engr.psu.edu/2021/wong-bhattacharyya-asme-honors.aspx"
   title="post embed"></iframe>     
 ::: 
   
   
-::: {.list-item-spaced}   
-#### Data-Driven Model Reduction, Scientific Frontiers, and Applications (2024)
 
-
-<iframe class="embed-container iframe-embed"
-  src="https://isc.tamu.edu/events/Fall2024/speakers/bhattacharyya.html"
-  title="post embed"></iframe>  
-:::
   
 
 ::: {.button-container}

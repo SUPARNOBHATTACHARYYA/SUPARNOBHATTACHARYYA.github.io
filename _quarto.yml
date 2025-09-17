@@ -30,12 +30,12 @@ website:
         text: "Research"
       - href: teachings.qmd
         text: "Teaching"
-      - href: index.qmd
-        text: "Announcement"
       - href: collaborators.qmd
         text: "Collaborators"
-      - href: Contact.qmd
-        text: "Contact"
+      - href: media.qmd
+        text: "Media"
+      - href: news.qmd
+        text: "News"
       - href: cv.qmd
         text: "CV"
 
@@ -59,6 +59,7 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
+    include-after-body: _footer.html
     
     toc: true
     toc-location: right

@@ -212,15 +212,24 @@ p {
 }
 
 
-/* styles.css */
 .iframe-embed {
   display: block;
   width: 100%;
-  height: 500px;      /* fallback height */
-  margin: 5rem 0;   /* vertical gap above & below */
-  border: 0;          /* remove default border */
+  height: 500px;
+  margin: 8rem 0;
+  border: 0;
   max-width: 100%;
 }
+
+.embed-container {
+  max-width: 100%;
+  margin: 0 auto 3rem;
+  border: 2px solid #800000; /* Maroon color */
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
 
 /* Optional: different spacing on mobile */
 @media (max-width: 640px) {
@@ -228,4 +237,40 @@ p {
     margin: 1.25rem 0;
     height: 420px;
   }
+}
+
+
+/* Custom Footer Styling */
+.my-footer {
+  background-color: #f2f2f2; /* A light gray background like the example */
+  color: #555; /* Dark gray text color for good contrast */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem; /* Adds some space above the footer */
+  border-top: 1px solid #ddd; /* A subtle top border */
+}
+
+/* Styling for the "Contact:" heading */
+.my-footer h3 {
+  color: #900030; /* A reddish color like the example */
+  font-weight: bold;
+}
+
+/* Styling for the links in the footer */
+.my-footer a {
+  color: #007bff; /* A standard blue link color */
+  text-decoration: none;
+}
+
+.my-footer a:hover {
+  text-decoration: underline;
+}
+
+.embed-container {
+  max-width: 100%;       /* or whatever width you want */
+  margin: 0 auto;         /* center the container */
+  border: 2px solid maroon;
+  border-radius: 8px;     /* optional rounded corners */
+  box-sizing: border-box; /* keeps total width consistent */
+  padding: 0;             /* no extra padding inside */
 }

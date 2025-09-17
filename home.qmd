@@ -38,8 +38,10 @@ Our long-term goal is to push the limits of simulation-driven design, combining 
 
 ::: {.button-container}
 <a href="news.qmd" class="btn-custom">News →</a>
-:::
 
+
+<a href="index.qmd" class="btn-custom">Announcement →</a>
+:::
 
 
 ```{=html}

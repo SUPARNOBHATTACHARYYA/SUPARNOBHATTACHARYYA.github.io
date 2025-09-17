@@ -13,22 +13,30 @@ format:
 # MEDIA COVERAGE
 :::
 
-  - **Grant:** Texas A&M Institute of Data Science seed grant: “AIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance,” **(Role: Lead PI, $20,000)**
-  
-    **Start Date:** Dec, 2024
-  
-    **Co PIs:** Samuel Gonumakulapalle Lodi (Professor, Indian Institute of Technology Madras), Satish Bukkapatnam (Professor, Texas A&M University, NSF Program Director: ENG/CMMI/AM).
+##### **Grant:** Texas A&M Institute of Data Science seed grant: “AIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance,” *(Role: Lead PI, $20,000)*
 
-    [Click here for more details](https://tamids.tamu.edu/2025/01/06/2024-spaicd-recipients/)
+
+<iframe class="embed-container iframe-embed"
+  src="https://tamids.tamu.edu/2025/01/06/2024-spaicd-recipients/"
+  title="post embed"></iframe> 
+
+---
   
-  - Media coverage after invitation to present research at the **ASME Journal of Vibration and Acoustics spotlight presentation at the 2021 ASME IDETC.**
-  
-    [Click here for more details](https://news.engr.psu.edu/2021/wong-bhattacharyya-asme-honors.aspx)
+##### Media coverage after invitation to present research at the **ASME Journal of Vibration and Acoustics spotlight presentation at the 2021 ASME IDETC.**
+
+
+<iframe class="embed-container iframe-embed"
+  src="https://news.engr.psu.edu/2021/wong-bhattacharyya-asme-honors.aspx"
+  title="post embed"></iframe>     
     
-  - Data-Driven Model Reduction, Scientific Frontiers, and Applications (2024)
-  
-    [Click here for more details](https://isc.tamu.edu/events/Fall2024/speakers/bhattacharyya.html)
-  
+---   
+    
+##### Data-Driven Model Reduction, Scientific Frontiers, and Applications (2024)
+
+
+<iframe class="embed-container iframe-embed"
+  src="https://isc.tamu.edu/events/Fall2024/speakers/bhattacharyya.html"
+  title="post embed"></iframe>  
 
   
 

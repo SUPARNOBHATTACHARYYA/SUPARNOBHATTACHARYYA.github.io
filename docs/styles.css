@@ -279,11 +279,15 @@ p {
   text-decoration: underline;
 }
 
-.embed-container {
-  max-width: 100%;       /* or whatever width you want */
-  margin: 0 auto;         /* center the container */
-  border: 2px solid maroon;
-  border-radius: 8px;     /* optional rounded corners */
-  box-sizing: border-box; /* keeps total width consistent */
-  padding: 0;             /* no extra padding inside */
+/* Make dropdown text visible in dark mode */
+select {
+  color: var(--bs-body-color);       /* adapts to dark/light automatically */
+  background-color: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+}
+
+/* Ensure options inside dropdown are readable */
+select option {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
 }

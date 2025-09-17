@@ -231,6 +231,13 @@ p {
 }
 
 
+.list-item-spaced {
+  border-bottom: none !important; /* Removes the line */
+  padding-bottom: 0 !important;   /* Removes any default space inside the border */
+  margin-bottom: 5rem !important; /* Adds a 30px gap below the item */
+}
+
+
 /* Optional: different spacing on mobile */
 @media (max-width: 640px) {
   .iframe-embed {

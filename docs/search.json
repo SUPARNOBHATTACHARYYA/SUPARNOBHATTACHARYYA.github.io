@@ -56,6 +56,13 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "LATEST NEWS",
+    "section": "",
+    "text": "LATEST NEWS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHome →"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ANNOUNCEMENT",
@@ -63,18 +70,11 @@
     "text": "ANNOUNCEMENT\n\n\nWe are actively hiring PhD and MTech candidates\n\n\nThe D-cubed Research Group invites applications from highly motivated individuals for PhD and MTech positions.\nThese positions are part of a series of research projects conducted in close collaboration with leading universities and research laboratories in the United States as well as other premier IITs in India.\n\nDesired Background\nApplicants should demonstrate:\n\nA strong academic foundation in applied mathematics and solid mechanics\n\nA clear interest in pursuing advanced, research-oriented studies\n\n\n\nApplication Procedure\nInterested candidates are requested to email the following to → suparno@iitism.ac.in\n\nA current CV\n\nA brief statement of research interests\n\nPlease use the subject line: “Application for PhD/MTech Position – [Your Name]”\n\nFor PhD admission details: click here\n\n\nFor MTech admission details: click here\n\nHome →\nNews →"
   },
   {
-    "objectID": "courses/course_2.html",
-    "href": "courses/course_2.html",
-    "title": "Course 2: Lecture Materials",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV (September, 2025)",
     "section": "",
-    "text": "Course 2: Lecture Materials"
-  },
-  {
-    "objectID": "Contact.html#suparno-bhattacharyya",
-    "href": "Contact.html#suparno-bhattacharyya",
-    "title": "CONTACT",
-    "section": "SUPARNO BHATTACHARYYA",
-    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparno@iitism.ac.in\nLinkedIn: Suparno Bhattacharyya, Ph.D.\n\nDept. of Mechanical Engineering, IIT (ISM) Dhanbad"
+    "text": "CV (September, 2025)"
   },
   {
     "objectID": "collaborators.html",
@@ -84,11 +84,32 @@
     "text": "Collaborators\n\nIt has been an honor to collaborate with leading researchers and experts in the field.\n\n\n\n\nJoseph Cusumano\nProfessor, Engineering Science and Mechanics Pennsylvania State University\n\n\n\nAnindya Chatterjee\nProfessor, Department of Mechanical Engineering, IIT Kanpur\n\n\n\nGary Dargush\nProfessor, Department of Mechanical and Aerospace Engineering, University at Buffalo\n\n\n\nJian Tao\nDirector, Digital Twin Lab, Texas A&M Institute of Data Science\nTexas A&M University College of Engineering\n\n\n\nJean Ragusa\nProfessor, Nuclear Engineering\nAssociate Director, Institute for Scientific Computation (ISC)\nTexas A&M University College of Engineering\n\n\n\nEduardo Gildin\nAssociate Department Head, Graduate Studies, Petroleum Engineering\nTexas A&M University College of Engineering\n\n\n\nRita Esuru Okoroafor\nAssistant Professor, Petroleum Engineering\nTexas A&M University College of Engineering\n\n\n\nSatish Bukkapatnam\nProfessor, Industrial & Systems Engineering\nTexas A&M University College of Engineering\n\n\n\nYoungsoo Choi\nResearch Scientist Staff Lawrence Livermore National Laboratory\n\n\n\nTuhin Mukherjee\nAssistant Professor, Department of Mechanical Engineering, Iowa State University\n\n\n\nG.L. Samuel\nProfessor, Department of Mechanical Engineering, IIT Madras\n\n\n\nKookjin Lee\nAssistant Professor, School of Computing and Augmented Intelligence, Arizona State University"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV (September, 2025)",
+    "objectID": "Contact.html#suparno-bhattacharyya",
+    "href": "Contact.html#suparno-bhattacharyya",
+    "title": "CONTACT",
+    "section": "SUPARNO BHATTACHARYYA",
+    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparno@iitism.ac.in\nLinkedIn: Suparno Bhattacharyya, Ph.D.\n\nDept. of Mechanical Engineering, IIT (ISM) Dhanbad"
+  },
+  {
+    "objectID": "courses/course_2.html",
+    "href": "courses/course_2.html",
+    "title": "Course 2: Lecture Materials",
     "section": "",
-    "text": "CV (September, 2025)"
+    "text": "Course 2: Lecture Materials"
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "About",
+    "section": "",
+    "text": "At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates computational mechanics, topology optimization, and data-driven modeling, with an emphasis on capturing mechanical and dynamical behavior across scales and applications.\nA core theme of our work is the development of intrusive and nonintrusive data-driven methods that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.\n\nOur contributions span:\n\nData-driven ROMs for systems with discontinuities and nonlinearities\nEnergy-based closure strategies for improved accuracy in low-dimensional models\nTopology optimization frameworks for periodic and lattice structures with tailored dynamic properties\nIntegration of neural ODEs and machine learning into physics-based modeling pipelines\n\nAs a natural extension, we are increasingly applying these methods to support digital twin technologies, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.\nOur long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.\n\nNews →\nAnnouncement →"
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "MEDIA COVERAGE",
+    "section": "",
+    "text": "MEDIA COVERAGE\n\n\nTexas A&M Institute of Data Science seed grant: “AIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance,” (Role: Lead PI, $20,000)\n\n\n\nAIMS-META Seed Grant Awardees\n\n\n\n\nMedia coverage after invitation to present research at the ASME Journal of Vibration and Acoustics spotlight presentation at the 2021 ASME IDETC.\n\n\n\n\nData-Driven Model Reduction, Scientific Frontiers, and Applications (2024)\n\n\n\n\nNews →"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -159,33 +180,5 @@
     "title": "Publications",
     "section": "Presentations",
     "text": "Presentations\n\n📄\n\nBhattacharyya S., Tao J., Bukkapatnam S., Lodi S.G., Dargush G.F. (2025P).\nBandgap Optimization in Symmetry-Driven 3D Lattice Metamaterials\n18th U. S. National Congress on Computational Mechanics: July 20-24, 2025, Chicago, Illinois.\n\n\n\n📄\n\nBhattacharyya S., Tao J., Gildin E., Ragusa J. (2024P).\nUncertainty Quantification With Hyper-Reduced Order Model\nASME Verification, Validation, and Uncertainty Quantification Symposium 2024: May 15-17, 2024, College Station, Texas.\n\n\n\n📄\n\nBhattacharyya S., Tao J., Gildin E., Ragusa J. (2023P).\nModel Reduction of a Piecewise Nonlinear Mechanical Oscillator\n6th Annual Meeting of the SIAM Texas-Louisiana Section (TXLA23): Nov 3-5, 2023, Lafayette, Louisiana.\n\n\n\n📄\n\nBhattacharyya S., Cusumano J. (2023P).\nModel Reduction of a Piecewise Nonlinear Mechanical Oscillator\n17th U. S. National Congress on Computational Mechanics: July 23-27, 2023, Albuquerque, New Mexico.\n\n\n\n📄\n\nBhattacharyya S., Alsalih H.∗, Choi Y., Lee K., Rai R. (2023P).\nData-Driven Model Discovery of Flexible Structures\n17th U. S. National Congress on Computational Mechanics: July 23-27, 2023, Albuquerque, New Mexico.\n\n\n\n📄\n\nBhattacharyya S., Cusumano J. (2018P).\nEnergy criterion for enhanced accuracy of Reduced Order Models\nESM Today 2018, Penn State University, USA.\n\n\n\n📄\n\nKumar A., Chatterjee K., Bhattacharyya S. (2011P).\nA review on corrosion control methods with electroless coatings\nNational symposium of micro and nano characterization of materials 2011, Jadavpur University, India. (Obtained 2nd prize)"
-  },
-  {
-    "objectID": "home.html",
-    "href": "home.html",
-    "title": "About",
-    "section": "",
-    "text": "At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates computational mechanics, topology optimization, and data-driven modeling, with an emphasis on capturing mechanical and dynamical behavior across scales and applications.\nA core theme of our work is the development of intrusive and nonintrusive data-driven methods that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.\n\nOur contributions span:\n\nData-driven ROMs for systems with discontinuities and nonlinearities\nEnergy-based closure strategies for improved accuracy in low-dimensional models\nTopology optimization frameworks for periodic and lattice structures with tailored dynamic properties\nIntegration of neural ODEs and machine learning into physics-based modeling pipelines\n\nAs a natural extension, we are increasingly applying these methods to support digital twin technologies, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.\nOur long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.\n\nNews →\nAnnouncement →"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "LATEST NEWS",
-    "section": "",
-    "text": "LATEST NEWS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHome →"
-  },
-  {
-    "objectID": "media.html#relevant-funding-institutes",
-    "href": "media.html#relevant-funding-institutes",
-    "title": "MEDIA COVERAGE",
-    "section": "Relevant funding institutes",
-    "text": "Relevant funding institutes\n\nScience and Engineering Research Board (SERB)\nDepartment of Science and Technology (DST)\nIndian Space Research Organisation (ISRO)\nDepartment of Atomic Energy (DAE)\nMinistry of New and Renewable Energy (MNRE)\n\n\nResearch →"
-  },
-  {
-    "objectID": "media.html",
-    "href": "media.html",
-    "title": "MEDIA COVERAGE",
-    "section": "",
-    "text": "MEDIA COVERAGE\n\n\nGrant: Texas A&M Institute of Data Science seed grant: “AIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance,” (Role: Lead PI, $20,000)\n\n\n\n\n\nMedia coverage after invitation to present research at the ASME Journal of Vibration and Acoustics spotlight presentation at the 2021 ASME IDETC.\n\n\n\n\n\nData-Driven Model Reduction, Scientific Frontiers, and Applications (2024)\n\n\n\nNews →"
   }
 ]

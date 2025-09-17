@@ -59,7 +59,6 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
-    include-after-body: _footer.html
     
     toc: true
     toc-location: right

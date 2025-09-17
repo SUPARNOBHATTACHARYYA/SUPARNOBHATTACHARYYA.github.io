@@ -6,6 +6,7 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
+    include-after-body: _footer.html
 image: profile.jpg
 about:
   template: jolla

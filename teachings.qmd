@@ -31,7 +31,7 @@ Students learn practical applications through engineering case studies.
 :::
 
 
-## Workshop with Materials
+## Workshops with Materials
 
 
 ::: {.list-item-spaced1}

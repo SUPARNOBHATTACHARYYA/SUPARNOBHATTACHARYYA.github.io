@@ -16,7 +16,7 @@ format:
 ::: {.list-item-spaced1}
 ::: {.card style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;"}
 
-![](banner.png){style="width:100%; height:200px; border-radius: 8px; margin-bottom: 1rem;"}
+![](banner.png){style="width:100%; height:250px; border-radius: 8px; margin-bottom: 1rem;"}
 
 **Course:** Introduction to MATLAB and SIMULINK  
 **Level:** Undergraduate  
@@ -31,12 +31,14 @@ Students learn practical applications through engineering case studies.
 :::
 
 
+## Workshop with Materials
+
+
 ::: {.list-item-spaced1}
 ::: {.card style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;"}
 
-![](course_DTL.png){style="width:100%; height:200px; border-radius: 8px; margin-bottom: 1rem;"}
+![](course_DTL.png){style="width:100%; height:250px; border-radius: 8px; margin-bottom: 1rem;"}
 **Workshop:** Dive into Reduced Order Modeling with pylibROM – April 2024  
-**Level:** Postgraduate  
 
 **Description:**
 Reduced-order modeling (ROM) is a computational strategy for approximating high-fidelity numerical models with significantly reduced computational cost. Instead of solving large-scale systems—often with millions of unknowns—ROM techniques construct low-dimensional surrogates that retain the dominant physics of the system, enabling efficient and repeated evaluations. In this workshop I demonstrate the use of popular open-source software called pylibrom, which was developed at the Lawrence Livermore National Lab, for performing model reduction of Large-scale FEA models. 
@@ -49,8 +51,8 @@ Reduced-order modeling (ROM) is a computational strategy for approximating high-
 ::: {.list-item-spaced1}
 ::: {.card style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;"}
 
-![](pca.png){style="width:100%; height:200px; border-radius: 8px; margin-bottom: 1rem;"}
-**Course:** Principal Component analysis  
+![](PCA.png){style="width:100%; height:250px; border-radius: 8px; margin-bottom: 1rem;"}
+**Workshop:** Principal Component analysis  
 
 **Description:**
 PCA reduces high-dimensional data into uncorrelated components that capture most variance, simplifying analysis and visualization. It is widely used in areas like image compression, genomics/population genetics, microbiome studies, atmospheric science, finance risk factors, feature preprocessing for ML, noise reduction, and visualization of clusters in 2D. This GitHub repo offers a comprehensive PCA introduction with intuition and practical examples for real datasets.

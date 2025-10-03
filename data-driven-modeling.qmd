@@ -1,0 +1,15 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
+    page-layout: article
+---
+::: page-header
+# Data-Driven Modeling (DDM) of Dynamical & Parametric System
+:::
+
+Data-driven modeling has transformed simulation capabilities in recent years. This project develops advanced computational methods for complex systems where traditional analysis approaches face significant computational challenges. While reduced-order modeling provides efficient alternatives, current methods often neglect various sources of uncertainty, potentially affecting reliability. This project will create modeling strategies that balance computational efficiency with consideration of uncertainties, validated through appropriate case studies with broader applications in system monitoring and control.

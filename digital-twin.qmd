@@ -1,0 +1,15 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
+    page-layout: article
+---
+::: page-header
+# Digital Twin
+:::
+
+This research aims to develop physics-informed, data-driven model reduction strategies for high-dimensional mechanical systems with a focus on computational efficiency. Existing approaches struggle with nonlinearities and often neglect physical structure, leading to instability and limited speedups. The plan is to employ both intrusive and non-intrusive data-driven modeling, integrating governing principles and conservation properties to ensure accuracy and robustness. By addressing nonlinear evaluations and stability through improved reduction and closure techniques, the approach targets rapid, reliable simulations for structural and thermal applications.

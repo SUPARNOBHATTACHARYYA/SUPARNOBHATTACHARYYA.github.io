@@ -1,0 +1,18 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
+    page-layout: article
+---
+::: page-header
+# Lattice metamaterials
+:::
+
+AIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance
+Lattice metamaterials with exceptional mechanical properties present significant potential for diverse applications. This proposed research seeks to address key challenges in the design and fabrication of these materials through a comprehensive approach. By employing mathematical frameworks and advanced computational techniques, the study aims to explore novel design spaces that could uncover unprecedented possibilities. Machine learning models are proposed to further refine the generation and optimization of designs, ensuring both innovation and manufacturability. Additionally, integrating real-time monitoring systems during fabrication is expected to enhance precision and reduce defects. The goal is to establish a systematic methodology for advancing material design and broadening its practical applicability across various domains.
+Keywords: Mechanical metamaterials, group symmetry, 3D printing, periodic structures
+Data-driven modeling has transformed simulation capabilities in recent years. This project develops advanced computational methods for complex systems where traditional analysis approaches face significant computational challenges. While reduced-order modeling provides efficient alternatives, current methods often neglect various sources of uncertainty, potentially affecting reliability. This project will create modeling strategies that balance computational efficiency with consideration of uncertainties, validated through appropriate case studies with broader applications in system monitoring and control.

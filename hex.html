@@ -1,0 +1,242 @@
+Of course. Here is the complete, self-contained HTML file with all the enhancements. You can copy this code, save it as an `.html` file (e.g., `index.html`), and open it in your browser to see the result.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Hexagon Layout</title>
+    
+    <!-- CSS for demonstration purposes -->
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .hexagon-layout-container {
+            /* In a real layout, this would contain the absolute positioning styles for hexagons */
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        /* Styling for the hexagon buttons */
+        .hexagon {
+            /* This is a simple button style, not a visual hexagon. 
+               The complex hexagon shape would be created with CSS clip-path or pseudo-elements. */
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border: 2px solid #007bff;
+            background-color: #f0f8ff;
+            color: #007bff;
+            border-radius: 8px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .hexagon:hover {
+            background-color: #e0f0ff;
+        }
+
+        /* Style for the currently active hexagon button */
+        .hexagon[aria-expanded="true"] {
+            background-color: #007bff;
+            color: #fff;
+            outline: 2px solid #0056b3;
+            outline-offset: 2px;
+        }
+
+        /* Styling for the content panels */
+        .hexagon-content-panel {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        /* Use a class to manage the active state for easier styling */
+        .hexagon-content-panel.is-active {
+            display: block; /* Overrides the 'hidden' attribute's display:none */
+        }
+
+        .hexagon-content-panel h2 {
+            margin-top: 0;
+            color: #0056b3;
+        }
+
+        .hexagon-content-panel h3 {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.25rem;
+            margin-top: 1.5rem;
+        }
+
+        .meta-details ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .call-to-action .button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .call-to-action .button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Project Showcase</h1>
+    <p>Click on a project to see the details.</p>
+
+    <!--
+    ENHANCEMENT 1: The layout container now holds the interactive buttons.
+    The descriptive comment from the original code is kept as it's useful.
+    -->
+    <div class="hexagon-layout-container">
+        <!-- The order in HTML does not affect layout on desktop due to absolute positioning -->
+
+        <!--
+        ENHANCEMENT 2: Use <button> for interactive elements.
+        - It's accessible by default (keyboard focusable, screen reader friendly).
+        - `aria-controls` links the button to the content it reveals.
+        - `aria-expanded` tells assistive tech if the content is visible or not.
+        - `data-title` is kept for potential simple tooltips on hover.
+        -->
+        <button
+            id="hex-btn-1"
+            class="hexagon hex-pos--top-left"
+            data-title="Lattice Metamaterials"
+            aria-controls="hex-content-1"
+            aria-expanded="false">
+            <span class="hexagon-label">Lattice Metamaterials</span>
+        </button>
+
+        <!-- Example of a second hexagon to show scalability -->
+        <button
+            id="hex-btn-2"
+            class="hexagon hex-pos--middle-center"
+            data-title="Data-Driven Modeling"
+            aria-controls="hex-content-2"
+            aria-expanded="false">
+            <span class="hexagon-label">Data-Driven Modeling</span>
+        </button>
+    </div>
+
+    <!--
+    ENHANCEMENT 3: Content is moved out of data-attributes and into its own semantic container.
+    - This content is now part of the DOM, making it indexable and accessible.
+    - Each content block is an <article>, semantically correct for self-contained content.
+    - The `hidden` attribute keeps it invisible until activated by JavaScript.
+    -->
+    <div class="hexagon-content-wrapper">
+        <article id="hex-content-1" class="hexagon-content-panel" aria-labelledby="hex-btn-1" hidden>
+            <h2>Lattice Metamaterials</h2>
+            <p>AIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance. Lattice metamaterials with exceptional mechanical properties present significant potential for diverse applications. This proposed research seeks to address key challenges in the design and fabrication of these materials through a comprehensive approach. By employing mathematical frameworks and advanced computational techniques, the study aims to explore novel design spaces that could uncover unprecedented possibilities. Machine learning models are proposed to further refine the generation and optimization of designs, ensuring both innovation and manufacturability. Additionally, integrating real-time monitoring systems during fabrication is expected to enhance precision and reduce defects. The goal is to establish a systematic methodology for advancing material design and broadening its practical applicability across various domains.</p>
+            
+            <!-- ENHANCEMENT 4: Content is structured with semantic tags. -->
+            <div class="meta-details">
+                <h3>Keywords:</h3>
+                <ul>
+                    <li>Mechanical metamaterials</li>
+                    <li>Group symmetry</li>
+                    <li>3D printing</li>
+                    <li>Periodic structures</li>
+                </ul>
+            </div>
+
+            <div class="meta-details">
+                <h3>Participating Institutions:</h3>
+                <p>Texas A&M University, University of Buffalo</p>
+            </div>
+
+            <div class="call-to-action">
+                <!-- An anchor tag is more appropriate for navigation/action -->
+                <a href="#schedule-meeting" class="button">Schedule a meeting to know more.</a>
+            </div>
+        </article>
+
+        <article id="hex-content-2" class="hexagon-content-panel" aria-labelledby="hex-btn-2" hidden>
+            <h2>Data-Driven Modeling</h2>
+            <p>Data-driven modeling has transformed simulation capabilities in recent years. This project develops advanced computational methods for complex systems where traditional analysis approaches face significant computational challenges. While reduced-order modeling provides efficient alternatives, current methods often neglect various sources of uncertainty, potentially affecting reliability. This project will create modeling strategies that balance computational efficiency with consideration of uncertainties, validated through appropriate case studies with broader applications in system monitoring and control.</p>
+
+            <div class="meta-details">
+                <h3>Keywords:</h3>
+                <ul>
+                    <li>Reduced-order modeling</li>
+                    <li>Uncertainty quantification</li>
+                    <li>System monitoring</li>
+                    <li>Computational efficiency</li>
+                </ul>
+            </div>
+
+            <div class="meta-details">
+                <h3>Participating Institutions:</h3>
+                <p>Stanford University</p>
+            </div>
+
+            <div class="call-to-action">
+                <a href="#contact-us" class="button">Contact us for a demo.</a>
+            </div>
+        </article>
+    </div>
+
+    <!--
+    A simple script to demonstrate the interactivity.
+    In a real project, this would be in its own .js file.
+    -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hexagonContainer = document.querySelector('.hexagon-layout-container');
+
+            hexagonContainer.addEventListener('click', (event) => {
+                const clickedHexagon = event.target.closest('.hexagon');
+                if (!clickedHexagon) return; // Exit if the click was not on a hexagon button
+
+                const contentId = clickedHexagon.getAttribute('aria-controls');
+                const contentPanel = document.getElementById(contentId);
+                const isExpanded = clickedHexagon.getAttribute('aria-expanded') === 'true';
+
+                // --- Close all other open panels first ---
+                // Find any currently active panel and hide it
+                const activePanel = document.querySelector('.hexagon-content-panel.is-active');
+                if (activePanel) {
+                    activePanel.classList.remove('is-active');
+                    activePanel.hidden = true;
+                }
+
+                // Find any currently active button and reset its state
+                const activeButton = document.querySelector('.hexagon[aria-expanded="true"]');
+                if (activeButton) {
+                    activeButton.setAttribute('aria-expanded', 'false');
+                }
+
+                // --- Toggle the clicked one ---
+                // If the clicked hexagon was not the one already open, then open it
+                if (!isExpanded) {
+                    clickedHexagon.setAttribute('aria-expanded', 'true');
+                    contentPanel.hidden = false;
+                    contentPanel.classList.add('is-active');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
+```

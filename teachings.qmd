@@ -26,7 +26,7 @@ This course introduces students to MATLAB programming and Simulink modeling.
 It covers fundamental numerical methods, system simulation, and visualization.  
 Students learn practical applications through engineering case studies.  
 
-[**Access Materials**](https://indianinstituteoftechnol299-my.sharepoint.com/personal/suparno_iitism_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsuparno%5Fiitism%5Fac%5Fin%2FDocuments%2FIIT%5FISM%2FCOURSES%2FMonsoon%5F2025%2FMATLAB%2Fpublic&ga=1){style="color:#E76F51; font-weight:bold;"}  
+[**Access Materials**](https://indianinstituteoftechnol299-my.sharepoint.com/:f:/g/personal/suparno_iitism_ac_in/EoO7WevgmKBGhhE5KyBICZwB0EftstNKs91oXcZEOIAglg?e=lQMe1b){style="color:#E76F51; font-weight:bold;"}  
 :::
 :::
 
@@ -42,7 +42,7 @@ Students learn practical applications through engineering case studies.
 **Description:**  
 Mechanics for Engineers (NMEE101) introduces students to the principles of statics and dynamics, building a strong analytical foundation to tackle real-life engineering challenges. The course emphasizes solving equilibrium problems, analyzing forces and moments in structures, and understanding kinematics and kinetics of particles and rigid bodies. By the end, students will confidently apply mechanics concepts in a structured and logical manner to practical engineering problems.  
 
-[**Access Materials**](https://indianinstituteoftechnol299-my.sharepoint.com/personal/suparno_iitism_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsuparno%5Fiitism%5Fac%5Fin%2FDocuments%2FIIT%5FISM%2FCOURSES%2FMonsoon%5F2025%2FMECH%20FOR%20ENGG%2Fpublic&ga=1){style="color:#E76F51; font-weight:bold;"}  
+[**Access Materials**](https://indianinstituteoftechnol299-my.sharepoint.com/:f:/g/personal/suparno_iitism_ac_in/EqpeY_3wk8pEihOZAZg9U6IBZzWWo57eiP9aKh74aBPMpw?e=aHn9ph){style="color:#E76F51; font-weight:bold;"}  
 :::
 :::
 

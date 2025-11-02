@@ -2,7 +2,7 @@
 window.addEventListener('load', function() {
   // The API URL to get your public count data.
   // The /.json at the end is crucial!
-  const apiUrl = 'https://YOUR-CODE.goatcounter.com/counter/.json';
+  const apiUrl = 'https://suparnob.goatcounter.com/counter/.json';
 
   // Use the modern 'fetch' API to get the data from the URL
   fetch(apiUrl)

@@ -61,6 +61,13 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
+    include-in-header:
+      - analytics.html
+    # 2. Includes the footer placeholder at the end of the page body
+    include-after-body:
+      - footer.html
+    # 3. Includes the javascript to fetch and display the count
+    js: counter.js
     
     toc: true
     toc-location: right

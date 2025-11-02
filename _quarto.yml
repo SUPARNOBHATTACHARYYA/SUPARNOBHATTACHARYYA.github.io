@@ -61,9 +61,6 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
-    include-in-header: /analytics.html
-    include-after-body: /footer.html
-    js: /counter.js
     
     toc: true
     toc-location: right

@@ -6,7 +6,10 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
+    include-in-header: analytics.html
     include-after-body: _footer.html
+Resources:
+    - counter.js
 image: profile.jpg
 about:
   template: jolla

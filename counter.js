@@ -1,14 +1,18 @@
 // This function will run once the entire page is loaded
 window.addEventListener('load', function() {
+  
   // The API URL to get your public count data.
-  // The /.json at the end is crucial!
   const apiUrl = 'https://suparnob.goatcounter.com/counter/.json';
 
-  // Use the modern 'fetch' API to get the data from the URL
+  // Use the 'fetch' API to get the data from the URL
   fetch(apiUrl)
-    .then(response => response.json()) // Convert the response to JSON format
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok: ' + response.statusText);
+      }
+      return response.json();
+    })
     .then(data => {
-      // Find the element with the ID 'visitor-count' on your page
       const countElement = document.getElementById('visitor-count');
       if (countElement) {
         // Update the element's text with the unique visitor count
@@ -16,11 +20,10 @@ window.addEventListener('load', function() {
       }
     })
     .catch(err => {
-      // If something goes wrong, show an error in the browser's console
+      // If something goes wrong, log the error and update the text
       console.error('Could not fetch visitor count:', err);
       const countElement = document.getElementById('visitor-count');
       if (countElement) {
-        // And update the text to show there was a problem
         countElement.textContent = 'N/A';
       }
     });

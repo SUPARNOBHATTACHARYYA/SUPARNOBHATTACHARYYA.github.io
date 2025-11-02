@@ -36,6 +36,8 @@ website:
         text: "Media"
       - href: news.qmd
         text: "News"
+      - href: opportunities.qmd
+        text: "Opportunities"
       - href: cv.qmd
         text: "CV"
 

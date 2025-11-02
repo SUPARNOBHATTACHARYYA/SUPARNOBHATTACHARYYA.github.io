@@ -1,0 +1,53 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
+    page-layout: article
+---
+
+::: page-header
+# OPPORTUNITIES
+:::
+
+We are always looking for talented and passionate students to join our team. Explore the open positions below and click the corresponding button to open the application form in a new window.
+
+---
+
+::: {.panel-tabset}
+
+### PhD
+
+We have openings for highly motivated PhD candidates to work on cutting-edge research. You will be asked to upload your CV, transcripts, and a statement of purpose.
+
+<br>
+
+<div class="text-center">
+[**Apply for a PhD Position**](YOUR_PHD_FORM_LINK_HERE){.btn .btn-primary .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+
+### MTech
+
+We are seeking MTech students for project work. This is an excellent opportunity to gain hands-on research experience. You will be asked to upload your CV and transcripts.
+
+<br>
+
+<div class="text-center">
+[**Apply for an MTech Position**](YOUR_MTECH_FORM_LINK_HERE){.btn .btn-primary .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+
+
+### Intern
+
+We offer research internships for motivated undergraduate and graduate students. You will be asked to upload your CV.
+
+<br>
+
+<div class="text-center">
+[**Apply for an Internship**](https://forms.gle/NNiyJa6LqNXJBzBD9){.btn .btn-primary .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+
+:::

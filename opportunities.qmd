@@ -26,7 +26,7 @@ We have openings for highly motivated PhD candidates to work on cutting-edge res
 <br>
 
 <div class="text-center">
-[**Apply for a PhD Position**](https://forms.gle/VWce1eHfuNnoYpM67){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+[**Apply for a PhD Position**](https://admissions.iitism.ac.in/phd/index.php/admission/add_phd/how_to_apply){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
 </div>
 
 ### MTech
@@ -36,7 +36,7 @@ We are seeking MTech students for project work. This is an excellent opportunity
 <br>
 
 <div class="text-center">
-[**Apply for an MTech Position**](https://forms.gle/RgAp7bdQJ3inCHm69){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+[**Apply for an MTech Position**](https://admissions.iitism.ac.in/mtech/index.php/admission){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
 </div>
 
 

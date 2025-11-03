@@ -13,7 +13,7 @@ format:
 # OPPORTUNITIES
 :::
 
-We are a newly established lab and actively seeking dedicated students with a strong interest in computational mechanics, topology optimization, and data-driven modeling. Our lab focuses on developing of intrusive and nonintrusive data-driven methods that retain physical accuracy while enabling significant computational speed-ups. If you have experience or a keen interest in these areas, we encourage you to consider joining our collaborative environment. We value rigorous inquiry, thoughtful problem-solving, and a commitment to advancing combustion technology. For more information on opportunities with our team, please feel free to reach out.
+We are a newly established lab and actively seeking dedicated students with a strong interest in computational mechanics, topology optimization, and data-driven modeling. Our lab focuses on developing of intrusive and nonintrusive data-driven methods that retain physical accuracy while enabling significant computational speed-ups. If you have experience or a keen interest in these areas, we encourage you to consider joining our collaborative environment. For more information on opportunities with our team, please feel free to reach out.
 
 
 

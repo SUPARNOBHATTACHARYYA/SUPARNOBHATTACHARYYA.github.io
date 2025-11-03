@@ -10,6 +10,10 @@ website:
   
   page-footer:
     left: "© 2025. All rights reserved."
+    right: |
+      <a href='http://www.freevisitorcounters.com'>Free counter</a>
+      <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=976f2ce110432f69af5ab7c0a5c45cd736bcc9b7'></script>
+      <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1429676/t/9"></script>
     
   navbar:
     background: "#500000"   # Texas A&M maroon

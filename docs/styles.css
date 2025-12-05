@@ -291,3 +291,116 @@ select option {
   color: var(--bs-body-color);
   background-color: var(--bs-body-bg);
 }
+
+
+
+/* --- DEBUG: If the page background is NOT light gray, this file is not loading --- */
+body {
+    background-color: #f9f9f9; 
+}
+
+/* Style the Main Content Lists specifically */
+main ul li {
+    margin-bottom: 25px; /* Adds breathing room between tools */
+    line-height: 1.6;    /* Makes text easier to read */
+    list-style-type: none; /* Removes the default bullet points for a cleaner look */
+    padding-left: 0;
+}
+
+/* Style the Bold Titles (e.g., "Slack", "Notion") */
+main ul li strong {
+    display: block;      /* Forces the title to be on its own line */
+    font-size: 1.1em;    /* Makes it slightly larger */
+    color: #222;         /* Darker black for contrast */
+    margin-bottom: 5px;  /* Space between title and description */
+    font-weight: 700;
+}
+
+/* Style the Links */
+main ul li a {
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+main ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+==========
+
+/* Container for the list */
+.tool-list {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+/* The Details Box (Closed) */
+details {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+
+/* Remove bottom border from the last item */
+details:last-child {
+  border-bottom: none;
+}
+
+/* The Clickable Header */
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.1rem;
+  list-style: none; /* Hides default triangle */
+  color: #333;
+}
+
+/* Hides default markers in Webkit browsers */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* The Custom Arrow Icon (Down) */
+summary::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #999;
+  border-bottom: 2px solid #999;
+  transform: rotate(45deg); /* Arrow pointing down */
+  transition: transform 0.2s ease;
+  margin-left: 10px;
+}
+
+/* Rotate Arrow when Open */
+details[open] summary::after {
+  transform: rotate(225deg); /* Arrow pointing up */
+}
+
+/* The Content Body */
+.details-content {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* Link styling inside the content */
+.details-content a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: 500;
+}
+.details-content a:hover {
+  text-decoration: underline;
+}

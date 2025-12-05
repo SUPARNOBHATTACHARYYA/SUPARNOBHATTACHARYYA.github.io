@@ -1,0 +1,151 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
+    page-layout: article
+---
+
+::: page-header
+# RESOURCES
+:::
+
+
+## System Setup
+
+Below is the list of software and tools we use in the lab.
+
+**Element**
+
+Element is a secure collaboration and messaging app based on the Matrix protocol. We use it for secure group communication and research discussions.
+
+<https://element.io/>
+
+**Obsidian**
+
+Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files. It is excellent for personal note-taking and organizing research thoughts.
+
+<https://obsidian.md/>
+
+**Zotero**
+
+Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research. It is essential for managing your bibliography and references.
+
+<https://www.zotero.org/>
+
+**VS Code**
+
+Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. It is our primary editor for coding tasks.
+
+<https://code.visualstudio.com/>
+
+**XODO**
+
+XODO is an all-in-one PDF reader and annotator. It is highly recommended for reading papers and making annotations on tablet devices or desktops.
+
+<https://www.xodo.com/>
+
+**PDFgear**
+
+PDFgear is a free PDF editor and reader that allows you to convert, merge, and edit PDF files with ease.
+
+<https://www.pdfgear.com/>
+
+**OneDrive**
+
+Microsoft OneDrive is used for file hosting and synchronization. We use it to back up important research data and collaborate on documents.
+
+<https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage>
+
+**Overleaf**
+
+Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing, and publishing scientific documents.
+
+<https://www.overleaf.com/>
+
+**SumatraPDF**
+
+SumatraPDF is a lightweight, free, open-source PDF, CHM, DjVu, EPUB, XPS, and Comic Book reader for Windows. It is very fast and works well with LaTeX workflows.
+
+<https://www.sumatrapdfreader.org/>
+
+**IguanaTex**
+
+IguanaTex is a free LaTeX Add-In for PowerPoint. It allows you to insert LaTeX equations into your PowerPoint slides seamlessly.
+
+<https://www.jonathanleroux.org/software/iguanatex/>
+
+**Anaconda**
+
+Anaconda is a distribution of the Python and R programming languages for scientific computing, aiming to simplify package management and deployment.
+
+<https://www.anaconda.com/>
+
+**GitHub Desktop**
+
+GitHub Desktop focuses on simplifying your workflow. It allows you to interact with GitHub using a GUI instead of the command line.
+
+<https://desktop.github.com/>
+
+**MarkText**
+
+MarkText is a simple and elegant open-source Markdown editor, focused on speed and usability.
+
+<https://www.marktext.cc/>
+
+**ParaView**
+
+ParaView is an open-source, multi-platform data analysis and visualization application. We use it for visualizing large datasets from simulations.
+
+<https://www.paraview.org/>
+
+**Gmsh**
+
+Gmsh is an open-source 3D finite element mesh generator with a built-in CAD engine and post-processor.
+
+<https://gmsh.info/>
+
+**OBS Studio**
+
+OBS Studio is free and open-source software for video recording and live streaming. It is useful for recording tutorials or presentation demos.
+
+<https://obsproject.com/>
+
+**Everything**
+
+Everything is a search engine that locates files and folders by name instantly for Windows. It is an indispensable tool for managing large numbers of files.
+
+<https://www.voidtools.com/>
+
+**7-Zip**
+
+7-Zip is a file archiver with a high compression ratio. It is free software and handles most archive formats.
+
+<https://www.7-zip.org/>
+
+**FFmpeg**
+
+FFmpeg is a complete, cross-platform solution to record, convert, and stream audio and video.
+
+<https://ffmpeg.org/>
+
+**MATLAB**
+
+MATLAB is a proprietary multi-paradigm programming language and numeric computing environment. It is widely used for algorithm development and data analysis.
+
+<https://www.mathworks.com/products/matlab.html>
+
+**MeshLab**
+
+MeshLab is an open-source system for the processing and editing of 3D triangular meshes. It provides a set of tools for editing, cleaning, healing, inspecting, rendering, and converting meshes.
+
+<https://www.meshlab.net/>
+
+**Blender**
+
+Blender is the free and open-source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing, and motion tracking.
+
+<https://www.blender.org/>

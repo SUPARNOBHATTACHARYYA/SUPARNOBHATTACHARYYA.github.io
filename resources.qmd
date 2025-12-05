@@ -1,0 +1,261 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
+    page-layout: article
+---
+
+::: page-header
+# RESOURCES
+:::
+
+
+## System Setup
+
+Below is the list of software and tools we use in the lab.
+
+
+
+```{=html}
+<div class="tool-list">
+
+  <details>
+    <summary>Element</summary>
+    <div class="details-content">
+      
+Element is a secure collaboration and messaging app based on the Matrix protocol. We use it for secure group communication and research discussions.
+
+<div class="text-center">
+[**Download**](https://element.io/en/download){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+
+  </details>
+
+  <details>
+    <summary>Obsidian</summary>
+    <div class="details-content">
+    
+Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files. It is excellent for personal note-taking and organizing research thoughts.
+      
+<div class="text-center">
+[**Download**](https://obsidian.md/download){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+    
+  </details>
+
+  <details>
+    <summary>Zotero</summary>
+    <div class="details-content">
+Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research. It is essential for managing your bibliography and references.
+      
+<div class="text-center">
+[**Download**](https://www.zotero.org/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>      
+      
+  </details>
+
+  <details>
+    <summary>VS Code</summary>
+    <div class="details-content">
+Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. It is our primary editor for coding tasks.
+
+<div class="text-center">
+[**Download**](https://code.visualstudio.com/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>  
+      
+  </details>
+
+  <details>
+    <summary>PDFgear</summary>
+    <div class="details-content">
+PDFgear is a free PDF editor and reader that allows you to convert, merge, and edit PDF files with ease.
+      
+<div class="text-center">
+[**Download**](https://www.pdfgear.com/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div> 
+
+  </details>
+
+  <details>
+    <summary>OneDrive</summary>
+    <div class="details-content">
+
+Microsoft OneDrive is used for file hosting and synchronization. We use it to back up important research data and collaborate on documents.
+
+<div class="text-center">
+[**Download**](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+
+  </details>
+
+  <details>
+    <summary>Overleaf</summary>
+    <div class="details-content">
+Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing, and publishing scientific documents.
+      
+      <div class="text-center">
+[**Download**](https://www.overleaf.com/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+      
+  </details>
+
+  <details>
+    <summary>SumatraPDF</summary>
+    <div class="details-content">
+SumatraPDF is a lightweight, free, open-source PDF, CHM, DjVu, EPUB, XPS, and Comic Book reader for Windows. It is very fast and works well with LaTeX workflows.
+
+<div class="text-center">
+[**Download**](https://www.sumatrapdfreader.org/free-pdf-reader){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+
+  </details>
+
+  <details>
+    <summary>IguanaTex</summary>
+    <div class="details-content">
+IguanaTex is a free LaTeX Add-In for PowerPoint. It allows you to insert LaTeX equations into your PowerPoint slides seamlessly.
+
+<div class="text-center">
+[**Download**](https://www.jonathanleroux.org/software/iguanatex/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+      
+  </details>
+
+  <details>
+    <summary>Anaconda</summary>
+    <div class="details-content">
+Anaconda is a distribution of the Python and R programming languages for scientific computing, aiming to simplify package management and deployment.
+
+<div class="text-center">
+[**Download**](https://www.anaconda.com/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+      
+  </details>
+
+  <details>
+    <summary>GitHub Desktop</summary>
+    <div class="details-content">
+GitHub Desktop focuses on simplifying your workflow. It allows you to interact with GitHub using a GUI instead of the command line.
+
+<div class="text-center">
+[**Download**](https://desktop.github.com/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+      
+  </details>
+
+  <details>
+    <summary>MarkText</summary>
+    <div class="details-content">
+MarkText is a simple and elegant open-source Markdown editor, focused on speed and usability.
+     
+<div class="text-center">
+[**Download**](https://www.marktext.cc/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>     
+      
+  </details>
+
+  <details>
+    <summary>ParaView</summary>
+    <div class="details-content">
+ParaView is an open-source, multi-platform data analysis and visualization application. We use it for visualizing large datasets from simulations.
+
+<div class="text-center">
+[**Download**](https://www.paraview.org/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+
+  </details>
+
+  <details>
+    <summary>Gmsh</summary>
+    <div class="details-content">
+Gmsh is an open-source 3D finite element mesh generator with a built-in CAD engine and post-processor.
+      
+<div class="text-center">
+[**Download**](https://gmsh.info/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+      
+  </details>
+
+  <details>
+    <summary>OBS Studio</summary>
+    <div class="details-content">
+OBS Studio is free and open-source software for video recording and live streaming. It is useful for recording tutorials or presentation demos.
+
+<div class="text-center">
+[**Download**](https://obsproject.com/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+    
+  </details>
+
+  <details>
+    <summary>Everything</summary>
+    <div class="details-content">
+Everything is a search engine that locates files and folders by name instantly for Windows. It is an indispensable tool for managing large numbers of files.
+
+<div class="text-center">
+[**Download**](https://www.voidtools.com/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+      
+  </details>
+
+  <details>
+    <summary>7-Zip</summary>
+    <div class="details-content">
+7-Zip is a file archiver with a high compression ratio. It is free software and handles most archive formats.
+
+<div class="text-center">
+[**Download**](https://www.7-zip.org/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>      
+      
+  </details>
+
+  <details>
+    <summary>FFmpeg</summary>
+    <div class="details-content">
+FFmpeg is a complete, cross-platform solution to record, convert, and stream audio and video.
+      
+<div class="text-center">
+[**Download**](https://ffmpeg.org/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+      
+  </details>
+
+  <details>
+    <summary>MATLAB</summary>
+    <div class="details-content">
+MATLAB is a proprietary multi-paradigm programming language and numeric computing environment. It is widely used for algorithm development and data analysis.
+      
+<div class="text-center">
+[**Download**](https://www.mathworks.com/products/matlab.html){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>     
+
+    </div>
+  </details>
+
+  <details>
+    <summary>MeshLab</summary>
+    <div class="details-content">
+MeshLab is an open-source system for the processing and editing of 3D triangular meshes. It provides a set of tools for editing, cleaning, healing, inspecting, rendering, and converting meshes.
+
+<div class="text-center">
+[**Download**](https://www.meshlab.net/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+  
+  </details>
+
+  <details>
+    <summary>Blender</summary>
+    <div class="details-content">
+Blender is the free and open-source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing, and motion tracking.
+
+<div class="text-center">
+[**Download**](https://www.blender.org/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
+</div>
+    
+  </details>
+
+</div>

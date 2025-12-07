@@ -74,15 +74,6 @@ Associate Department Head, Graduate Studies, Petroleum Engineering
 Texas A&M University College of Engineering
 :::
 
-::: {.g-col .collaborator-card}
-![](/images/Co_10.jpg){fig-alt="Alt text for Image 1"}
-
-[Rita Esuru Okoroafor](https://engineering.tamu.edu/petroleum/profiles/okoroafor-rita-esuru.html)
-
-Assistant Professor, Petroleum Engineering
-
-Texas A&M University College of Engineering
-:::
 
 ::: {.g-col .collaborator-card}
 ![](/images/Co_5.jpg){fig-alt="Alt text for Image 1"}
@@ -118,11 +109,5 @@ Assistant Professor, Department of Mechanical Engineering, Iowa State University
 Professor, Department of Mechanical Engineering, IIT Madras
 :::
 
-::: {.g-col .collaborator-card}
-![](/images/Co_11.jpg){fig-alt="Alt text for Image 1"}
 
-[Kookjin Lee](https://search.asu.edu/profile/3957975)
-
-Assistant Professor, School of Computing and Augmented Intelligence, Arizona State University
-:::
 :::::::::::::::

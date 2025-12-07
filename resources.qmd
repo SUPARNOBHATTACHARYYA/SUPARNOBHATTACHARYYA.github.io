@@ -97,7 +97,7 @@ Microsoft OneDrive is used for file hosting and synchronization. We use it to ba
     <div class="details-content">
 Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing, and publishing scientific documents.
       
-      <div class="text-center">
+<div class="text-center">
 [**Download**](https://www.overleaf.com/){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
 </div>
       
@@ -233,7 +233,6 @@ MATLAB is a proprietary multi-paradigm programming language and numeric computin
 [**Download**](https://www.mathworks.com/products/matlab.html){.btn .btn-custom .btn-lg target="_blank" rel="noopener noreferrer"}
 </div>     
 
-    </div>
   </details>
 
   <details>

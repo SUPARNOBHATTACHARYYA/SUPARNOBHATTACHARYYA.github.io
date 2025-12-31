@@ -11,14 +11,13 @@ website:
   page-footer:
     left: "© 2025. All rights reserved."
     
-    
   navbar:
     background: "#500000"   # Texas A&M maroon
     foreground: "white"     # Navbar text color
     collapse: true
     mainfont: "Adobe Garamond"
     logo: images/ISM_logo.png
-    logo-href: "https://www.iitism.ac.in"  # Logo redirects to IIT ISM site
+    logo-href: "https://suparnobhattacharyya.github.io/"  # Logo redirects to IIT ISM site
     title: "Suparno Bhattacharyya"
     title-href: index.qmd  # Text redirects to Home
  

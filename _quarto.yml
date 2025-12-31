@@ -10,8 +10,7 @@ website:
   
   page-footer:
     left: "© 2025. All rights reserved."
-    center: |
-      <a href="https://www.flagcounter.me/details/gma"><img src="https://www.flagcounter.me/gma/" alt="Flag Counter"></a>
+    
     
   navbar:
     background: "#500000"   # Texas A&M maroon

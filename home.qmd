@@ -45,6 +45,19 @@ Our long-term goal is to push the limits of simulation-driven design, combining 
 :::
 
 
+::: {.column-screen .home-flagcounter-footer}
+<div class="flagcounter-inner">
+  <a href="https://www.flagcounter.me/details/gma">
+    <img src="https://www.flagcounter.me/gma/" alt="Flag Counter">
+  </a>
+</div>
+:::
+
+
+
+
+
+
 ```{=html}
 <style>
 

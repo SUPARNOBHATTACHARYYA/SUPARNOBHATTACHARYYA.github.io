@@ -1,0 +1,615 @@
+/* ============ GENERAL STYLES ============ */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* ============ CARD STYLING ============ */
+.card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  font-weight: bold;
+  border-radius: 12px 12px 0 0 !important;
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+
+/* ============ BANNER 1: COMMUNITY BANNER ============ */
+.banner-1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 50px 30px;
+  border-radius: 16px;
+  text-align: center;
+  margin: 2rem 0;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+}
+
+.banner-1 h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.banner-content p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  margin-bottom: 2rem;
+}
+
+.banner-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  min-width: 120px;
+}
+
+.stat-item strong {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+/* ============ BANNER 2: SUBSCRIBE BANNER ============ */
+.banner-2 {
+  background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+  color: white;
+  padding: 40px 35px;
+  border-radius: 16px;
+  margin: 2rem 0;
+  box-shadow: 0 10px 30px rgba(17, 153, 142, 0.3);
+  align-items: center;
+}
+
+.banner-2-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner-2-text p {
+  margin: 0;
+  opacity: 0.95;
+}
+
+.banner-2-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-light {
+  background-color: white;
+  color: #11998e;
+  padding: 14px 35px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  color: #11998e;
+}
+
+/* ============ TALK SECTION ============ */
+.talk-section {
+  margin: 2rem 0;
+}
+
+.talk-header {
+  margin-bottom: 1.5rem;
+}
+
+.talk-date {
+  background: linear-gradient(90deg, #2c3e50 0%, #3498db 100%);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(44, 62, 80, 0.3);
+}
+
+.talk-card {
+  border-left: 5px solid #3498db !important;
+}
+
+.speaker-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speaker-profile {
+  text-align: center;
+  padding: 1rem;
+}
+
+.speaker-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3498db;
+  box-shadow: 0 5px 20px rgba(52, 152, 219, 0.3);
+  margin-bottom: 1rem;
+}
+
+.talk-details h3 {
+  color: #2c3e50;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.abstract-section {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.abstract-section h4 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.abstract-section ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.abstract-section li {
+  margin-bottom: 0.5rem;
+}
+
+.register-section {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #2c3e50 0%, #3498db 100%);
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
+}
+
+/* ============ ORGANIZERS ============ */
+.organizer-grid {
+  margin-top: 1.5rem;
+}
+
+.organizer-card {
+  border-top: 4px solid #2c3e50 !important;
+}
+
+.organizer-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.organizer-card .card-body {
+  padding: 2rem 1.5rem;
+}
+
+/* ============ FOOTER ============ */
+.footer-section {
+  background-color: #f8f9fa;
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+.footer-section h4 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.social-links {
+  margin-top: 1.5rem;
+}
+
+.social-links .btn {
+  margin: 0 5px;
+}
+
+.btn-outline-secondary {
+  border-color: #2c3e50;
+  color: #2c3e50;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #2c3e50;
+  color: white;
+}
+
+/* ============ GRID & UTILITIES ============ */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.gap-4 {
+  gap: 1.5rem;
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 768px) {
+  .banner-1 h3 {
+    font-size: 1.4rem;
+  }
+  
+  .banner-stats {
+    gap: 1rem;
+  }
+  
+  .stat-item {
+    padding: 15px 20px;
+    min-width: 100px;
+  }
+  
+  .banner-2 {
+    text-align: center;
+  }
+  
+  .banner-2-cta {
+    margin-top: 1.5rem;
+  }
+  
+  .talk-details h3 {
+    font-size: 1.3rem;
+  }
+  
+  .speaker-img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .g-col-md-3,
+  .g-col-md-4,
+  .g-col-md-5,
+  .g-col-md-7,
+  .g-col-md-8,
+  .g-col-md-9 {
+    grid-column: span 12;
+  }
+  
+  .speaker-column {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-1 {
+    padding: 30px 20px;
+  }
+  
+  .banner-2 {
+    padding: 30px 20px;
+  }
+  
+  .talk-date {
+    font-size: 0.95rem;
+    padding: 12px 18px;
+  }
+  
+  .btn-primary {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+/* ============ BANNER IMAGE STYLING ============ */
+.banner-container {
+  margin: 1rem 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.banner-container:hover .banner-img {
+  transform: scale(1.02);
+}
+
+/* ============ GENERAL STYLES ============ */
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* ============ CARD STYLING ============ */
+.card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  font-weight: bold;
+  border-radius: 12px 12px 0 0 !important;
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* ============ TALK SECTION ============ */
+.talk-section {
+  margin: 2rem 0;
+}
+
+.talk-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.talk-date {
+  background: linear-gradient(90deg, #2c3e50 0%, #3498db 100%);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(44, 62, 80, 0.3);
+}
+
+.talk-card {
+  border-left: 5px solid #3498db !important;
+}
+
+.speaker-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speaker-profile {
+  text-align: center;
+  padding: 1rem;
+}
+
+.speaker-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3498db;
+  box-shadow: 0 5px 20px rgba(52, 152, 219, 0.3);
+  margin-bottom: 1rem;
+}
+
+.talk-details h3 {
+  color: #2c3e50;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.abstract-section {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.abstract-section h4 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.abstract-section ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.abstract-section li {
+  margin-bottom: 0.5rem;
+}
+
+.register-section {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #2c3e50 0%, #3498db 100%);
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
+}
+
+/* ============ ORGANIZERS ============ */
+.organizer-grid {
+  margin-top: 1.5rem;
+}
+
+.organizer-card {
+  border-top: 4px solid #2c3e50 !important;
+}
+
+.organizer-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.organizer-card .card-body {
+  padding: 2rem 1.5rem;
+}
+
+/* ============ FOOTER ============ */
+.footer-section {
+  background-color: #f8f9fa;
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+.footer-section h4 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+/* ============ GRID & UTILITIES ============ */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.gap-4 {
+  gap: 1.5rem;
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 768px) {
+  .talk-details h3 {
+    font-size: 1.3rem;
+  }
+  
+  .speaker-img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .g-col-md-3,
+  .g-col-md-4,
+  .g-col-md-5,
+  .g-col-md-7,
+  .g-col-md-8,
+  .g-col-md-9 {
+    grid-column: span 12;
+  }
+  
+  .speaker-column {
+    margin-bottom: 1rem;
+  }
+  
+  .banner-container {
+    margin: 1.5rem 0;
+    border-radius: 10px;
+  }
+}

@@ -9,16 +9,23 @@ format:
     page-layout: full
 ---
 
-# Data-Driven Modeling and Simulation of Mechanical Systems(D²MS²) Virtual Seminar Series {.text-center}
+# D²MS² Virtual Seminar Series {.text-center}
 
+::: {.lead .text-center}
+**Data-Driven Modeling and Simulation of Mechanical Systems**  
+*Monthly Virtual Seminar Series | Department of Mechanical Engineering, IIT (ISM) Dhanbad*
+:::
 
+---
+
+## About the Series
 
 ::: {.grid .gap-4}
 
 ::: {.g-col-12 .g-col-md-7}
 ::: {.card .h-100}
 ::: {.card-header}
-## About the Series
+### 📋 Overview
 :::
 ::: {.card-body}
 **D²MS²** is a monthly virtual seminar series hosted by the **Department of Mechanical Engineering, IIT (ISM) Dhanbad**.
@@ -34,7 +41,7 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 ::: {.g-col-12 .g-col-md-5}
 ::: {.card .h-100}
 ::: {.card-header}
-### Core Themes
+### 🎯 Core Themes
 :::
 ::: {.card-body}
 - 🔹 Reduced-order modeling
@@ -50,24 +57,30 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 
 :::
 
-
+---
 
 <!-- ============ BANNER 1: IMAGE ============ -->
 ::: {.banner-container}
-![](images/Banner_1.jpg){.banner-img}
+![](images/Banner_1.jpeg){.banner-img}
 :::
 
+---
 
+## 🎙️ First Talk Announcement {.text-center .section-title}
 
-## 🎙️ Upcoming Talk {.text-center .mt-4}
+::: {.talk-section}
 
-::: {.card .border-primary .mb-4}
-::: {.card-header .bg-primary .text-white}
-### 📅 January 20, 2026 | 🕢 7:30 PM IST
+::: {.talk-header}
+::: {.talk-date}
+📅 **January 20, 2026** | 🕢 **7:30 PM IST**
 :::
+:::
+
+::: {.card .talk-card}
 ::: {.card-body}
 
 ::: {.grid}
+
 ::: {.g-col-12 .g-col-md-3 .speaker-column}
 ::: {.speaker-profile}
 ![](images/Speaker.jfif){.speaker-img}
@@ -78,27 +91,20 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 :::
 :::
 
-::: {.g-col-12 .g-col-md-8}
+::: {.g-col-12 .g-col-md-9 .talk-details}
+
 ### Walrus: A Large Physics Foundation Model for Fluid-Like Continuum Dynamics
 
-
-
 ::: {.abstract-section}
-### Abstract
+#### Abstract
 
 This talk will introduce **WALRUS**, a large physics foundation model developed by **Polymathic AI** for learning and analyzing complex continuum dynamics from large simulation datasets.
 
 :::
 
-
-
-
-::: {.text-center}
-[**Register Here**](https://lnkd.in/gN5ye8EX){.btn .btn-primary .btn-lg}
+::: {.register-section}
+[**Register for This Talk**](https://lnkd.in/gN5ye8EX){.btn .btn-primary .btn-lg}
 :::
-:::
-
-::: {.g-col-12 .g-col-md-4 .d-flex .align-items-center .justify-content-center}
 
 :::
 
@@ -107,34 +113,45 @@ This talk will introduce **WALRUS**, a large physics foundation model developed 
 :::
 :::
 
+:::
 
+---
 
+<!-- ============ BANNER 2: IMAGE ============ -->
 ::: {.banner-container}
-![](images/Banner_2.jpg){.banner-img}
+![](images/Banner_2.jfif){.banner-img}
 :::
 
+---
 
+## 👥 Organizers {.text-center .section-title}
 
-## 👥 Organizers {.text-center .mt-4}
-
-::: {.grid .justify-content-center}
+::: {.grid .justify-content-center .organizer-grid}
 
 ::: {.g-col-12 .g-col-md-4}
-::: {.card .text-center .h-100}
+::: {.card .organizer-card .text-center}
 ::: {.card-body}
+::: {.organizer-icon}
+👤
+:::
 **Dr. Suparno Bhattacharyya**  
-*Organizer*
-
+*Organizer*  
+Department of Mechanical Engineering  
+IIT (ISM) Dhanbad
 :::
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-::: {.card .text-center .h-100}
+::: {.card .organizer-card .text-center}
 ::: {.card-body}
+::: {.organizer-icon}
+👤
+:::
 **Dr. Antarip Poddar**  
-*Co-Organizer*
-
+*Co-Organizer*  
+Department of Mechanical Engineering  
+IIT (ISM) Dhanbad
 :::
 :::
 :::
@@ -143,7 +160,8 @@ This talk will introduce **WALRUS**, a large physics foundation model developed 
 
 ---
 
-
-::: {.text-center .mt-4}
-*For queries, please contact the organizers at the Department of Mechanical Engineering, IIT (ISM) Dhanbad.*
+::: {.footer-section .text-center}
+#### 📧 Contact Us
+For queries regarding the seminar series, please reach out to the organizers at the  
+**Department of Mechanical Engineering, IIT (ISM) Dhanbad**
 :::

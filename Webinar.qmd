@@ -1,0 +1,120 @@
+---
+format: 
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
+    page-layout: full
+---
+
+# D²MS² Virtual Seminar Series {.text-center}
+
+::: {.lead .text-center}
+**Data-Driven Modeling and Simulation of Mechanical Systems**
+:::
+
+---
+
+::: {.grid .gap-4}
+
+::: {.g-col-12 .g-col-md-7}
+::: {.card .h-100}
+::: {.card-header}
+## About the Series
+:::
+::: {.card-body}
+**D²MS²** is a monthly virtual seminar series hosted by the **Department of Mechanical Engineering, IIT (ISM) Dhanbad**.
+
+We explore the frontiers of data-informed and physics-based modeling for mechanical, fluid, and thermal systems.
+
+📍 **Organized by:** Department of Mechanical Engineering  
+🏛️ **Institution:** Indian Institute of Technology (Indian School of Mines), Dhanbad
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-5}
+::: {.card .h-100}
+::: {.card-header}
+### Core Themes
+:::
+::: {.card-body}
+- 🔹 Reduced-order modeling
+- 🔹 Scientific ML for PDEs
+- 🔹 Digital twins
+- 🔹 Hybrid physics–data methods
+- 🔹 UQ for ML
+- 🔹 Open-source platforms
+- 🔹 AI agents for simulation
+:::
+:::
+:::
+
+:::
+
+---
+
+## 🎙️ Upcoming Talk {.text-center .mt-4}
+
+::: {.card .border-primary .mb-4}
+::: {.card-header .bg-primary .text-white}
+### 📅 January 20, 2026 | 🕢 7:30 PM IST
+:::
+::: {.card-body}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-8}
+#### Walrus: A Large Physics Foundation Model for Fluid-Like Continuum Dynamics
+
+**Speaker:** Dr. Payel Mukhopadhyay  
+*Assistant Research Professor, University of Cambridge*
+
+**Abstract:**  
+This talk will introduce **WALRUS**, a large physics foundation model developed by Polymathic AI for learning and analyzing complex continuum dynamics from large simulation datasets.
+:::
+
+::: {.g-col-12 .g-col-md-4 .d-flex .align-items-center .justify-content-center}
+::: {.text-center}
+[**Register Here**](https://lnkd.in/gN5ye8EX){.btn .btn-primary .btn-lg}
+:::
+:::
+
+:::
+
+:::
+:::
+
+---
+
+## 👥 Organizers {.text-center .mt-4}
+
+::: {.grid .justify-content-center}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .text-center .h-100}
+::: {.card-body}
+**Dr. Suparno Bhattacharyya**  
+*Organizer*
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .text-center .h-100}
+::: {.card-body}
+**Dr. Antarip Poddar**  
+*Co-Organizer*
+:::
+:::
+:::
+
+:::
+
+---
+
+::: {.text-center .mt-4}
+*For queries, please contact the organizers at the Department of Mechanical Engineering, IIT (ISM) Dhanbad.*
+:::

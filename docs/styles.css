@@ -695,7 +695,7 @@ details[open] summary::after {
 
 .abstract-section p {
   margin: 0;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 /* ============ REGISTER BUTTON ============ */
@@ -741,7 +741,7 @@ details[open] summary::after {
 }
 
 .justify-content-center .card-body {
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .justify-content-center .card-body strong {
@@ -753,10 +753,10 @@ details[open] summary::after {
 
 .justify-content-center .card-body em {
   display: block;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #6c757d;
   font-style: normal;
-  line-height: 1.0;
+  line-height: 0.5;
 }
 
 /* ============ FOOTER CONTACT ============ */

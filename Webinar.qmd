@@ -94,9 +94,10 @@ Foundation models have transformed machine learning for language and vision, but
 
 
 ::: {.text-center}
-[**Webinar Link**]( https://teams.microsoft.com/meet/47447891637913?p=bJkBkqTqYrGzlrHV89){.btn .btn-primary .btn-lg}
+[**Webinar Link**]( https://teams.microsoft.com/meet/47447891637913?p=bJkBkqTqYrGzlrHV89){.btn-walrus}
 
-[**Register Here**](https://lnkd.in/gN5ye8EX){.btn .btn-primary .btn-lg}
+
+[**Register Here**](https://lnkd.in/gN5ye8EX){.btn-walrus}
 :::
 :::
 

@@ -32,13 +32,32 @@ p {
 .about-image,
 .about-image.rounded-circle,
 .about-photo {
-  width: 150px !important;
-  height: 150px !important;
+  width: 300px !important;
+  height: 300px !important;
   object-fit: cover;
   border-radius: 50% !important;
+  border: 3px solid #800000;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin: 0 auto 1rem;
   display: block;
 }
+
+
+/* --- Utility Class for Centering --- */
+
+.button-container {
+  display: flex;             /* Use the flexbox layout model */
+  justify-content: center;   /* Center the items horizontally */
+  gap: 80px;
+  flex-wrap: wrap;            /* Allow buttons to wrap to the next line on small screens */
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+
+
+
 
 /* =========================================================
    PUBLICATIONS LAYOUT
@@ -52,22 +71,22 @@ p {
 
 .pub-controls input,
 .pub-controls select {
-  padding: 0.5rem 0.75rem;
-  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  border: 1px solid #800000;
   border-radius: 0.25rem;
   font-size: 0.9rem;
 }
 
 .pub-item {
   display: flex;
-  gap: 0.75rem;
+  gap: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
 .pub-icon {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 1;
-  margin-top: 0.2rem;
+  margin-top: 1rem;
 }
 
 .pub-content {
@@ -80,7 +99,7 @@ p {
 }
 
 .pub-content p {
-  margin: 0.2rem 0;
+  margin: 0.3rem 0;
 }
 
 /* =========================================================
@@ -97,7 +116,7 @@ p {
 }
 
 .btn-primary {
-  background-color: #007bff;
+  background-color: #800000;
   color: #fff;
 }
 
@@ -187,15 +206,7 @@ p {
   cursor: pointer;
 }
 
-/* --- Utility Class for Centering --- */
 
-.button-container {
-  display: flex;             /* Use the flexbox layout model */
-  justify-content: center;   /* Center the items horizontally */
-  gap: 80px;
-  flex-wrap: wrap;            /* Allow buttons to wrap to the next line on small screens */
-  margin-top: 100px;
-}
 
 
 /* --- Hover Effect --- */
@@ -706,33 +717,39 @@ details[open] summary::after {
 }
 
 /* ============ REGISTER BUTTON ============ */
-.btn {
-  display: justify-content-center;
-  text-decoration: none;
-  cursor: pointer;
-}
 
-.btn-primary {
+.btn-walrus {
+  /* Design */
   background: linear-gradient(90deg, #2c3e50 0%, #3498db 100%);
   color: white !important;
+  border-radius: 10px;
   border: none;
-  margin-top: 1rem;
+  
+  /* Size & Text */
   padding: 15px 40px;
   font-size: 1.1rem;
   font-weight: 600;
-  border-radius: 10px;
+  text-decoration: none !important; 
+  white-space: nowrap;
+  
+  /* Animation */
   transition: all 0.3s ease;
+  display: inline-block;
 }
 
-.btn-primary:hover {
+/* Hover Effect */
+.btn-walrus:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
+  color: white !important;
 }
 
-.btn-lg {
-  padding: 15px 45px;
-  font-size: 1.15rem;
-}
+
+
+
+
+
+
 
 /* ============ ORGANIZERS SECTION ============ */
 .justify-content-center {

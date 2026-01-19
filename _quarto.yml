@@ -17,7 +17,7 @@ website:
     collapse: true
     mainfont: "Adobe Garamond"
     logo: images/ISM_logo.png
-    logo-href: "https://suparnobhattacharyya.github.io/"  # Logo redirects to IIT ISM site
+    logo-href: "https://suparnobhattacharyya.github.io/cv.html"  # Logo redirects CV
     title: "Suparno Bhattacharyya"
     title-href: index.qmd  # Text redirects to Home
  

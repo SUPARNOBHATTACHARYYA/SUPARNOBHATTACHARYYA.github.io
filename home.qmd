@@ -11,7 +11,7 @@ image: profile.jpg
 about:
   template: jolla
 ---
-![](D3_logo.png){width=30% height=50% fig-align="center"}
+![](images/D3_logo.png){width=30% height=50% fig-align="center"}
 
 At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates **computational mechanics, topology optimization, and data-driven modeling,** with an emphasis on capturing mechanical and dynamical behavior across scales and applications.
 
@@ -19,7 +19,7 @@ A core theme of our work is the development of **intrusive and nonintrusive data
 
 
 
-![](images/slide_1.jpg){width="100%" style="margin: 40px auto;"}
+![](images/home_banner.jpg){width="100%" style="margin: 40px auto;"}
 
 
 Our contributions span:
@@ -48,13 +48,16 @@ Our long-term goal is to push the limits of simulation-driven design, combining 
 :::
 
 
-::: {.column-screen .home-flagcounter-footer}
+
+---
+
+
 <div class="flagcounter-inner">
   <a href="https://www.flagcounter.me/details/gma">
     <img src="https://www.flagcounter.me/gma/" alt="Flag Counter">
   </a>
 </div>
-:::
+
 
 
 

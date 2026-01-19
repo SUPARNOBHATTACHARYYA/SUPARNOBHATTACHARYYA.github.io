@@ -4,46 +4,39 @@ format:
     theme:
       light: flatly
       dark: darkly
-    css: styles.css
+    css: Untitled.css
     toc: false
     page-layout: full
 ---
 
-# D²MS² Virtual Seminar Series {.text-center}
+# Data-Driven Modeling and Simulation of Mechanical Systems(D²MS²) Virtual Seminar Series {.text-center}
 
-::: {.lead .text-center}
-**Data-Driven Modeling and Simulation of Mechanical Systems**  
-*Monthly Virtual Seminar Series | Department of Mechanical Engineering, IIT (ISM) Dhanbad*
-:::
 
----
-
-## About the Series
 
 ::: {.grid .gap-4}
 
 ::: {.g-col-12 .g-col-md-7}
-::: {.card .h-100}
-::: {.card-header}
-### 📋 Overview
+::: {.card .card-compact}
+::: {.card-header .no-line}
+## About the Series
 :::
 ::: {.card-body}
 **D²MS²** is a monthly virtual seminar series hosted by the **Department of Mechanical Engineering, IIT (ISM) Dhanbad**.
 
 We explore the frontiers of data-informed and physics-based modeling for mechanical, fluid, and thermal systems.
 
-📍 **Organized by:** Department of Mechanical Engineering  
-🏛️ **Institution:** Indian Institute of Technology (Indian School of Mines), Dhanbad
+**Organized by:** Department of Mechanical Engineering  
+**Institution:** Indian Institute of Technology (Indian School of Mines), Dhanbad
 :::
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-5}
-::: {.card .h-100}
-::: {.card-header}
-### 🎯 Core Themes
+::: {.card .card-compact}
+::: {.card-header .no-line}
+### Core Themes
 :::
-::: {.card-body}
+::: {.card-body .compact-list}
 - 🔹 Reduced-order modeling
 - 🔹 Scientific ML for PDEs
 - 🔹 Digital twins
@@ -57,31 +50,25 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 
 :::
 
----
+
 
 <!-- ============ BANNER 1: IMAGE ============ -->
 ::: {.banner-container}
-![](images/Banner_1.jpeg){.banner-img}
+![](images/Banner_1.jpg){.banner-img}
 :::
 
----
 
-## 🎙️ First Talk Announcement {.text-center .section-title}
 
-::: {.talk-section}
+## 🎙️ Upcoming Talk {.upcoming-title .text-center .mt-4}
 
-::: {.talk-header}
-::: {.talk-date}
-📅 **January 20, 2026** | 🕢 **7:30 PM IST**
+::: {.card .border-primary .mb-4}
+::: {.card-header .bg-primary .text-white}
+### 📅 January 20, 2026 | 🕢 7:30 PM IST
 :::
-:::
-
-::: {.card .talk-card}
 ::: {.card-body}
 
 ::: {.grid}
-
-::: {.g-col-12 .g-col-md-3 .speaker-column}
+::: {.g-col-12 .g-col-md-2 .speaker-column}
 ::: {.speaker-profile}
 ![](images/Speaker.jfif){.speaker-img}
 
@@ -91,67 +78,61 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 :::
 :::
 
-::: {.g-col-12 .g-col-md-9 .talk-details}
-
+::: {.g-col-12 .g-col-md-10}
 ### Walrus: A Large Physics Foundation Model for Fluid-Like Continuum Dynamics
 
+
+
 ::: {.abstract-section}
-#### Abstract
+### Abstract
 
-This talk will introduce **WALRUS**, a large physics foundation model developed by **Polymathic AI** for learning and analyzing complex continuum dynamics from large simulation datasets.
-
-:::
-
-::: {.register-section}
-[**Register for This Talk**](https://lnkd.in/gN5ye8EX){.btn .btn-primary .btn-lg}
-:::
+Foundation models have transformed machine learning for language and vision, but achieving comparable impact in physical simulation remains a challenge. Data heterogeneity and unstable long-term dynamics inhibit learning from sufficiently diverse dynamics, while varying resolutions and dimensionalities challenge efficient training on modern hardware. Through empirical and theoretical analysis, we incorporate new approaches to mitigate these obstacles, including a harmonic-analysis-based stabilization method, load-balanced distributed 2D and 3D training strategies, and compute-adaptive tokenization. Using these tools, we develop Walrus, a transformer-based foundation model developed primarily for fluid-like continuum dynamics. Walrus is pretrained on nineteen diverse scenarios spanning astrophysics, geoscience, rheology, plasma physics, acoustics, and classical fluids. Experiments show that Walrus outperforms prior foundation models on both short and long term prediction horizons on downstream tasks and across the breadth of pretraining data, while ablation studies confirm the value of our contributions to forecast stability, training throughput, and transfer performance over conventional approaches.
 
 :::
 
+
+
+
+::: {.text-center}
+[**Webinar Link**]( https://teams.microsoft.com/meet/47447891637913?p=bJkBkqTqYrGzlrHV89){.btn .btn-primary .btn-lg}
+
+[**Register Here**](https://lnkd.in/gN5ye8EX){.btn .btn-primary .btn-lg}
+:::
 :::
 
 :::
-:::
 
 :::
-
----
-
-<!-- ============ BANNER 2: IMAGE ============ -->
-::: {.banner-container}
-![](images/Banner_2.jfif){.banner-img}
 :::
 
----
 
-## 👥 Organizers {.text-center .section-title}
 
-::: {.grid .justify-content-center .organizer-grid}
+::: {.banner-container .banner-small}
+![](images/Banner_2.jpg){.banner-img}
+:::
+
+
+
+## 👥 Organizers {.text-center .mt-4}
+
+::: {.grid .justify-content-center}
 
 ::: {.g-col-12 .g-col-md-4}
-::: {.card .organizer-card .text-center}
+::: {.card .text-center .h-100}
 ::: {.card-body}
-::: {.organizer-icon}
-👤
-:::
 **Dr. Suparno Bhattacharyya**  
-*Organizer*  
-Department of Mechanical Engineering  
-IIT (ISM) Dhanbad
+*Organizer*
+
 :::
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-::: {.card .organizer-card .text-center}
+::: {.card .text-center .h-100}
 ::: {.card-body}
-::: {.organizer-icon}
-👤
-:::
 **Dr. Antarip Poddar**  
-*Co-Organizer*  
-Department of Mechanical Engineering  
-IIT (ISM) Dhanbad
+*Co-Organizer*
+
 :::
 :::
 :::
@@ -160,8 +141,7 @@ IIT (ISM) Dhanbad
 
 ---
 
-::: {.footer-section .text-center}
-#### 📧 Contact Us
-For queries regarding the seminar series, please reach out to the organizers at the  
-**Department of Mechanical Engineering, IIT (ISM) Dhanbad**
+
+::: {.text-center .mt-4}
+*For queries, please contact the organizers at the Department of Mechanical Engineering, IIT (ISM) Dhanbad.*
 :::

@@ -15,6 +15,20 @@ format:
 
 ::: {.list-item-spaced} 
 <iframe class="embed-container iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7416848282158796803"
+  title="Embedded post"></iframe>
+:::
+
+
+::: {.list-item-spaced} 
+<iframe class="embed-container iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7041158641097330688"
+  title="Embedded post"></iframe>
+:::
+
+
+::: {.list-item-spaced} 
+<iframe class="embed-container iframe-embed"
   src="https://www.linkedin.com/embed/feed/update/urn:li:share:7367156104704741376"
   title="Embedded post"></iframe>
 :::

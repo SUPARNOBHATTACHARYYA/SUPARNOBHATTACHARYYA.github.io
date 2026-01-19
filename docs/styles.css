@@ -568,20 +568,22 @@ details[open] summary::after {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-.card-header {
+.card-header_1 {
   font-weight: bold;
   border-radius: 12px 12px 0 0 !important;
-  background-color: #AAACAD;
+  background-color: #800000;
   border-bottom: 2px solid #e9ecef;
 }
 
 .card-body {
-  padding: 1rem;
+  padding: 1.25rem;
 }
+
 
 .h-100 {
   height: 50%;
 }
+
 
 /* ============ BANNER IMAGE STYLING ============ */
 .banner-container {
@@ -603,6 +605,11 @@ details[open] summary::after {
 }
 
 /* ============ UPCOMING TALK SECTION ============ */
+.upcoming-title {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+}
+
 .border-primary {
   border: 2px solid #800000 !important;
   border-radius: 12px;
@@ -762,15 +769,15 @@ details[open] summary::after {
 /* ============ FOOTER CONTACT ============ */
 .text-center.mt-4:last-of-type {
   background-color: #f8f9fa;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 12px;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .text-center.mt-4:last-of-type em {
   font-style: normal;
   color: #6c757d;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 /* ============ GRID & UTILITIES ============ */
@@ -900,5 +907,6 @@ details[open] summary::after {
 .card-body li:last-child {
   border-bottom: none;
 }
+
 
 

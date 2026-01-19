@@ -17,8 +17,8 @@ format:
 
 ::: {.g-col-12 .g-col-md-7}
 ::: {.card .h-100}
-::: {.card-header}
-## About the Series
+::: {.card-header_1 .bg-primary .text-white}
+### About the Series
 :::
 ::: {.card-body}
 **D²MS²** is a monthly virtual seminar series hosted by the **Department of Mechanical Engineering, IIT (ISM) Dhanbad**.
@@ -33,7 +33,7 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 
 ::: {.g-col-12 .g-col-md-5}
 ::: {.card .h-100}
-::: {.card-header}
+::: {.card-header_1 .bg-primary .text-white}
 ### Core Themes
 :::
 ::: {.card-body}
@@ -62,7 +62,7 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 ## 🎙️ Upcoming Talk {.text-center .mt-4}
 
 ::: {.card .border-primary .mb-4}
-::: {.card-header .bg-primary .text-white}
+::: {.card-header_1 .bg-primary .text-white}
 ### 📅 January 20, 2026 | 🕢 7:30 PM IST
 :::
 ::: {.card-body}

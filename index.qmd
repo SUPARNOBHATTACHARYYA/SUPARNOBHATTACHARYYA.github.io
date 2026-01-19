@@ -12,6 +12,15 @@ format:
 # ANNOUNCEMENT
 :::
 
+
+::: {.list-item-spaced} 
+<iframe class="embed-container iframe-embed"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7414540908622336000"
+  title="Embedded post"></iframe>
+:::
+
+
+
 <h3 style="text-align: center;">We are actively hiring PhD and MTech candidates</h3>
 
 ------

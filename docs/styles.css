@@ -598,7 +598,7 @@ details[open] summary::after {
 
 /* ============ BANNER IMAGE STYLING ============ */
 .banner-container {
-  margin: 1rem 0;
+  margin: 0.5rem 0.5rem;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);

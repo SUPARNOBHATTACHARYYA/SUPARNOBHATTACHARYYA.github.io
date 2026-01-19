@@ -146,7 +146,4 @@ Foundation models have transformed machine learning for language and vision, but
 
 ---
 
-
-::: {.text-center .mt-4}
 *For queries, please contact the organizers at the Department of Mechanical Engineering, IIT (ISM) Dhanbad.*
-:::

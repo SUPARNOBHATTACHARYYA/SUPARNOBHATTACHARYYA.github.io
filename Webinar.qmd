@@ -25,8 +25,8 @@ format:
 
 We explore the frontiers of data-informed and physics-based modeling for mechanical, fluid, and thermal systems.
 
-📍 **Organized by:** Department of Mechanical Engineering  
-🏛️ **Institution:** Indian Institute of Technology (Indian School of Mines), Dhanbad
+**Organized by:** Department of Mechanical Engineering  
+**Institution:** Indian Institute of Technology (Indian School of Mines), Dhanbad
 :::
 :::
 :::

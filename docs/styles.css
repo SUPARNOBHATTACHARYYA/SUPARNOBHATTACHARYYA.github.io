@@ -545,13 +545,13 @@ details[open] summary::after {
 
 .section-title {
   margin-top: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
-  margin-bottom: 1rem;
+  font-weight: 500;
+  margin-bottom: 0rem;
   color: #555;
 }
 
@@ -560,7 +560,7 @@ details[open] summary::after {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: none;
+  border: 2px solid #800000;
 }
 
 .card:hover {
@@ -576,11 +576,11 @@ details[open] summary::after {
 }
 
 .card-body {
-  padding: 1.0rem;
+  padding: 1rem;
 }
 
 .h-100 {
-  height: 70%;
+  height: 50%;
 }
 
 /* ============ BANNER IMAGE STYLING ============ */
@@ -633,7 +633,7 @@ details[open] summary::after {
 
 .speaker-profile {
   text-align: left;
-  padding: 0.1rem;
+  padding: 0rem;
 }
 
 .speaker-img {
@@ -643,7 +643,7 @@ details[open] summary::after {
   object-fit: cover;
   border: 4px solid #800000;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -656,21 +656,21 @@ details[open] summary::after {
   display: block;
   font-size: 1.05rem;
   color: #2c3e50;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0rem;
 }
 
 .speaker-profile em {
   display: block;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #6c757d;
   font-style: normal;
-  line-height: 0.15;
+  line-height: 0;
 }
 
 /* ============ TALK DETAILS ============ */
 .card-body h3 {
   color: #0B0B0D;
-  margin-bottom: 1.0rem;
+  margin-bottom: 1.2rem;
   font-size: 1.5rem;
   padding-bottom: 0;
   border-bottom: none;
@@ -686,7 +686,8 @@ details[open] summary::after {
 
 .abstract-section h3 {
   color: #0B0B0D;
-  margin-bottom: 1.0rem;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
   font-size: 1.5rem;
   padding-bottom: 0;
   border-bottom: none;
@@ -708,6 +709,7 @@ details[open] summary::after {
   background: linear-gradient(90deg, #2c3e50 0%, #3498db 100%);
   color: white !important;
   border: none;
+  margin-top: 1rem;
   padding: 15px 40px;
   font-size: 1.1rem;
   font-weight: 600;

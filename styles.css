@@ -650,8 +650,26 @@ details[open] summary::after {
 }
 
 .speaker-profile {
-  text-align: left;
-  padding: 0rem;
+  display: flex;
+  flex-direction: column; /* Stacks Image, Name, Title, Affiliation vertically */
+  align-items: center;    /* Centers them */
+  gap: 0.2rem;            /* Adds small space between each text block */
+  text-align: center;     
+  width: 100%;
+}
+
+/* Optional: styling for the text to ensure it looks distinct */
+.speaker-profile strong {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    display: block; /* Ensures name is on its own line */
+}
+
+.speaker-profile em {
+    font-style: normal; /* Optional: removes italic if you want clean text */
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.4; /* Fixes any remaining overlap within a single block */
 }
 
 .speaker-img {

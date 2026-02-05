@@ -61,6 +61,67 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 
 ## 🎙️ Upcoming Talk {.text-center .mt-4}
 
+
+::: {.card .border-primary .mb-4}
+::: {.card-header_1 .bg-primary .text-white}
+### 📅 February 17, 2026 | 🕢 12:00 PM IST
+:::
+::: {.card-body}
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-3 .speaker-column}
+::: {.speaker-profile}
+![](images/Speaker_2.jfif){.speaker-img}
+
+**Prof. Ashesh Chattopadhyay**  
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-8}
+### On some Theory, Theorems, and Scaling in AI for Science
+
+
+
+::: {.abstract-section}
+### Abstract
+
+This talk presents a theory-driven view of AI for Science, focusing on how stability, error propagation, and scaling constrain learning in real physical systems. I will show how ideas from dynamical systems, random matrix theory, statistical physics, and spectral theory explain failure modes of large machine-learning models under long-time integration, and how autoregressive error scales with model size, compute, and prediction horizon. These insights yield diagnostics that predict long-term reliability without ground-truth labels and motivate scaling laws beyond brute-force parameter increase. The framework is illustrated on turbulence, ocean, and climate models, arguing that theory-guided scaling is essential for building trustworthy scientific machine learning. Bio: Ashesh is an Alfred. P. Sloan fellow and assistant professor in the department of applied mathematics at the University of California Santa Cruz. His interests lie at the intersection of theoretical deep learning, dynamical systems, and computational physics. Ashesh did his PhD from Rice University, Houston and spent a year at Xerox PARC and then at SRI as a staff research scientist before moving to UCSC.
+
+
+:::
+
+
+
+
+::: {.text-center}
+[**Webinar Link**]( https://teams.microsoft.com/meet/47447891637913?p=bJkBkqTqYrGzlrHV89){.btn-walrus}
+
+
+[**Register Here**](https://lnkd.in/gN5ye8EX){.btn-walrus}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4 .d-flex .align-items-center .justify-content-center}
+
+:::
+
+:::
+
+:::
+:::
+
+
+
+::: {.banner-container}
+![](images/Banner_3.jpg){.banner-img}
+:::
+
+
+
+
+
+
 ::: {.card .border-primary .mb-4}
 ::: {.card-header_1 .bg-primary .text-white}
 ### 📅 January 20, 2026 | 🕢 7:30 PM IST

@@ -4,9 +4,9 @@ format:
     theme:
       light: flatly
       dark: darkly
-    page-layout: article
     css: styles.css
     toc: false
+    page-layout: article
 ---
 
 ::: page-header

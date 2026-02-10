@@ -9,8 +9,30 @@ website:
   repo-url: "https://github.com/suparnobhattacharyya/suparnobhattacharyya.github.io"
   
   page-footer:
-    left: "© 2025. All rights reserved."
+    background: "#500000"
+    foreground: "white"
+    # Left: Uses <br> to force each item onto a new line
+    left: |
+      <h4>Contact</h4>
+      <b>Room No - 224A</b><br>
+      <b>Mechanical Engineering Department</b><br>
+      <b>IIT(ISM) Dhanbad, Dhanbad, India - 826004</b><br>
     
+    # Center: Copyright info
+    center: |
+      <b>© 2025. All rights reserved.</b>
+      
+    # Right: Visitor counter aligned to the right
+    right: |
+      <a href="https://www.flagcounter.me/details/gma">
+      <img src="https://www.flagcounter.me/gma/" alt="Flag Counter" style="border:0; margin:0; padding:0;">
+      </a><br>
+      
+      
+      
+      Developed by: Amiya Biswas
+      
+      
   navbar:
     background: "#500000"   # Texas A&M maroon
     foreground: "white"     # Navbar text color
@@ -32,10 +54,14 @@ website:
         text: "Teaching"
       - href: collaborators.qmd
         text: "Collaborators"
-      - href: media.qmd
-        text: "Media"
-      - href: news.qmd
-        text: "News"
+      - text: "Others"
+        menu: 
+          - text: "Media"
+            href: media.qmd
+          - text: "News"
+            href: news.qmd
+          - text: "Webinar"
+            href: Webinar.qmd
       - href: opportunities.qmd
         text: "Opportunities"
       - href: resources.qmd

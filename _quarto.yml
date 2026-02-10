@@ -8,31 +8,37 @@ website:
   site-url: "https://suparnobhattacharyya.github.io/"
   repo-url: "https://github.com/suparnobhattacharyya/suparnobhattacharyya.github.io"
   
+  
   page-footer:
     background: "#500000"
     foreground: "white"
-    # Left: Uses <br> to force each item onto a new line
+    # LEFT: Contact Info (Wrapped in div for tight spacing)
     left: |
-      <h4>Contact</h4>
-      <b>Room No - 224A</b><br>
-      <b>Mechanical Engineering Department</b><br>
-      <b>IIT(ISM) Dhanbad, Dhanbad, India - 826004</b><br>
-    
-    # Center: Copyright info
+      <div style="text-align: left; font-size: 1em; line-height: 1.4;">
+        <h4>Contact</h4>
+        <b>Room No - 224A</b><br>
+        <b>Mechanical Engineering Department</b><br>
+        <b>IIT(ISM) Dhanbad, Dhanbad, India - 826004</b><br>
+        <b>Email: [suparno\@iitism.ac.in](mailto:suparno@iitism.ac.in)</b>
+      </div>
+    # CENTER: Copyright (Will be centered by CSS)
     center: |
-      <b>© 2025. All rights reserved.</b>
-      
-    # Right: Visitor counter aligned to the right
+      <span style="font-weight: bold;">© 2025. All rights reserved.</span>
+    # RIGHT: Visitor Counter + Credit (Stacked and Right Aligned)
     right: |
-      <a href="https://www.flagcounter.me/details/gma">
-      <img src="https://www.flagcounter.me/gma/" alt="Flag Counter" style="border:0; margin:0; padding:0;">
-      </a><br>
+      <div style="display: flex; flex-direction: column; align-items: flex-end; justify-content: center;">
+        <a href="https://www.flagcounter.me/details/gma">
+          <img src="https://www.flagcounter.me/gma/" alt="Flag Counter" style="border:0; height: 100px; margin-bottom: 2px;">
+        </a><br>
+        <br>
+        <span style="font-size: 1em; opacity: 1;">Developed by: Amiya Biswas</span>
+      </div>
       
       
+     
       
-      Developed by: Amiya Biswas
       
-      
+       
   navbar:
     background: "#500000"   # Texas A&M maroon
     foreground: "white"     # Navbar text color
@@ -60,12 +66,12 @@ website:
             href: media.qmd
           - text: "News"
             href: news.qmd
+          - text: "Resources"
+            href: resources.qmd
           - text: "Webinar"
             href: Webinar.qmd
       - href: opportunities.qmd
         text: "Opportunities"
-      - href: resources.qmd
-        text: "Resources"
       - href: cv.qmd
         text: "CV"
 

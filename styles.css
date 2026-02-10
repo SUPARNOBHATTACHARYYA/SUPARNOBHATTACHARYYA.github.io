@@ -944,5 +944,41 @@ details[open] summary::after {
 }
 
 
+/* --- Footer Alignment Fix --- */
 
+/* 1. Make the footer a Flexbox container */
+div.nav-footer {
+    display: flex !important;
+    align-items: center !important; /* Vertically centers Left, Center, and Right */
+    justify-content: space-between !important;
+}
+
+/* 2. Left & Right: Take equal width to force Center to true middle */
+div.nav-footer-left,
+div.nav-footer-right {
+    flex: 1;
+    display: flex;
+    align-items: center; /* Vertical center internal content */
+}
+
+/* 3. Center: Only takes necessary space */
+div.nav-footer-center {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+/* 4. Force Right section to align to the far right */
+div.nav-footer-right {
+    justify-content: flex-end; /* Pushes content to the right edge */
+    text-align: right;
+}
+
+/* 5. Fix for links in footer to stand out */
+div.nav-footer a {
+    color: white !important;
+    text-decoration: none;
+}
+div.nav-footer a:hover {
+    text-decoration: underline;
+}
 

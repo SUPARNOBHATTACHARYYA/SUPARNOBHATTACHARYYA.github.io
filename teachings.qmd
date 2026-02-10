@@ -47,6 +47,43 @@ Mechanics for Engineers (NMEE101) introduces students to the principles of stati
 :::
 
 
+
+::: {.list-item-spaced1}
+::: {.card style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;"}
+
+![](\images\course_3.png){style="width:100%; height:250px; border-radius: 8px; margin-bottom: 1rem;"}
+
+**Course:** Research Methodology  
+**Level:** Postgraduate  
+
+**Description:**  
+This course (NMEC595 - Research Methodology and Statistics) introduces students to the fundamentals of scientific research, covering the entire research process from problem identification and hypothesis formulation to research design and execution. It emphasizes practical statistical tools including probability distributions, hypothesis testing, ANOVA, regression analysis, and sampling techniques necessary for data collection, analysis, and drawing meaningful conclusions from research data. The course also addresses critical aspects such as measurement scales, data presentation, report preparation, and ethical considerations like plagiarism in research.
+
+[**Access Materials**](https://indianinstituteoftechnol299-my.sharepoint.com/personal/suparno_iitism_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsuparno%5Fiitism%5Fac%5Fin%2FDocuments%2FIIT%5FISM%2FCOURSES%2FWinter%5F2026%2FMEC%5F595%5FResearch%5FMethodology%2Fpublic&ga=1){style="color:#E76F51; font-weight:bold;"}  
+:::
+:::
+
+
+::: {.list-item-spaced1}
+::: {.card style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;"}
+
+![](\images\course_4.png){style="width:100%; height:250px; border-radius: 8px; margin-bottom: 1rem;"}
+
+**Course:** Finite Element Analyses Lab  
+**Level:** Postgraduate  
+
+**Description:**  
+This lab course (NMEC535 - Finite Element Analyses Lab) provides hands-on training in developing algorithms and MATLAB codes for classical Finite Element Analysis of structural systems. Students learn to program various element types including linear and quadratic bar elements, plane trusses, plane frames, and Euler-Bernoulli beams for analyzing 1D, 2D, and 3D structures under static and dynamic loading conditions. The course emphasizes mesh convergence studies, error analysis, and culminates in a mini-project applying FEA to real-life structural problems.
+
+[**Access Materials**](https://indianinstituteoftechnol299-my.sharepoint.com/personal/suparno_iitism_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsuparno%5Fiitism%5Fac%5Fin%2FDocuments%2FIIT%5FISM%2FCOURSES%2FWinter%5F2026%2FNMEC%5F535%5FFEA%5FLAB%2Fpublic&ga=1){style="color:#E76F51; font-weight:bold;"}  
+:::
+:::
+
+
+
+
+
+
 ## Workshops with Materials
 
 
@@ -88,6 +125,9 @@ PCA reduces high-dimensional data into uncorrelated components that capture most
 |:--------------------------------------|:-----------|:------|-----:|
 | Introduction to MATLAB and SIMULINK   | Instructor | UG    | 2025 |
 | Mechanics for Engineers               | Instructor | UG    | 2025 |
+| Research Methodology                  | Instructor | PG    | 2025 |
+| Finite Element Analyses Lab           | Instructor | PG    | 2025 |
+
 
 ### Texas A&M University
 

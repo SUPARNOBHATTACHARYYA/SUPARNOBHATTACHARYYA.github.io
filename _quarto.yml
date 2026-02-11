@@ -54,7 +54,7 @@ website:
         text: "Home"
       - href: publications.qmd
         text: "Publications"
-      - href: projects.qmd
+      - href: research.qmd
         text: "Research"
       - href: teachings.qmd
         text: "Teaching"

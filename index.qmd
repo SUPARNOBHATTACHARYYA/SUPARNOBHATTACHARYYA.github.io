@@ -8,53 +8,51 @@ format:
     toc: false
     page-layout: article
 ---
+
 ::: page-header
 # ANNOUNCEMENT
 :::
 
+::: list-item-spaced
+<iframe class="embed-container iframe-embed" src="https://www.linkedin.com/embed/feed/update/urn:li:share:7414540908622336000" title="Embedded post">
 
-::: {.list-item-spaced} 
-<iframe class="embed-container iframe-embed"
-  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7414540908622336000"
-  title="Embedded post"></iframe>
+</iframe>
 :::
 
+<h3 style="text-align: center;">
 
+We are actively hiring PhD and MTech candidates
 
-<h3 style="text-align: center;">We are actively hiring PhD and MTech candidates</h3>
+</h3>
 
-------
+------------------------------------------------------------------------
 
-The **D-cubed Research Group** invites applications from highly motivated individuals for **PhD** and **MTech** positions.  
+The **D-cubed Research Group** invites applications from highly motivated individuals for **PhD** and **MTech** positions.\
 These positions are part of a series of research projects conducted in close collaboration with **leading universities and research laboratories in the United States** as well as **other premier IITs in India**.
 
 #### Desired Background
 
 Applicants should demonstrate:
 
-- A strong academic foundation in **applied mathematics** and **solid mechanics**
+-   A strong academic foundation in **applied mathematics** and **solid mechanics**
 
-- A clear interest in pursuing advanced, research-oriented studies
+-   A clear interest in pursuing advanced, research-oriented studies
 
 #### Application Procedure
 
-Interested candidates are requested to email the following to → **suparno@iitism.ac.in**
+Interested candidates are requested to email the following to → **suparno\@iitism.ac.in**
 
-- A current CV
-- A brief statement of research interests
+-   A current CV
+-   A brief statement of research interests
 
-
-Please use the subject line: **“Application for PhD/MTech Position – [Your Name]”** 
-
+Please use the subject line: **“Application for PhD/MTech Position – \[Your Name\]”**
 
 ###### For PhD admission details: [click here](https://admissions.iitism.ac.in/phd/index.php/admission/add_phd/how_to_apply)
 
 ###### For MTech admission details: [click here](https://admissions.iitism.ac.in/mtech/index.php/admission)
 
-
-::: {.button-container}
+::: button-container
 <a href="home.qmd" class="btn-custom">Home →</a>
-
 
 <a href="news.qmd" class="btn-custom">News →</a>
 :::

@@ -11,200 +11,161 @@ format:
 
 # Data-Driven Modeling and Simulation of Mechanical Systems(D²MS²) Virtual Seminar Series {.text-center}
 
-
-
-::: {.grid .gap-4}
-
-::: {.g-col-12 .g-col-md-7}
-::: {.card .h-100}
+:::::::::::: {.grid .gap-4}
+::::::: {.g-col-12 .g-col-md-7}
+:::::: {.card .h-100}
 ::: {.card-header_1 .bg-primary .text-white}
 ### About the Series
 :::
-::: {.card-body}
+
+:::: card-body
 **D²MS²** is a monthly virtual seminar series hosted by the **Department of Mechanical Engineering, IIT (ISM) Dhanbad**.
 
 We explore the frontiers of data-informed and physics-based modeling for mechanical, fluid, and thermal systems.
 
-**Organized by:** Department of Mechanical Engineering  
+**Organized by:** Department of Mechanical Engineering\
 **Institution:** Indian Institute of Technology (Indian School of Mines), Dhanbad
-:::
-:::
-:::
 
-::: {.g-col-12 .g-col-md-5}
-::: {.card .h-100}
+::: text-center
+[<i class="bi bi-youtube"></i> Watch on YouTube](https://www.youtube.com/watch?v=ob_eUvXt0cQ){.btn .btn-danger}
+:::
+::::
+::::::
+:::::::
+
+:::::: {.g-col-12 .g-col-md-5}
+::::: {.card .h-100}
 ::: {.card-header_1 .bg-primary .text-white}
 ### Core Themes
 :::
-::: {.card-body}
-- 🔹 Reduced-order modeling
-- 🔹 Scientific ML for PDEs
-- 🔹 Digital twins
-- 🔹 Hybrid physics–data methods
-- 🔹 UQ for ML
-- 🔹 Open-source platforms
-- 🔹 AI agents for simulation
-:::
-:::
-:::
 
+::: card-body
+-   🔹 Reduced-order modeling
+-   🔹 Scientific ML for PDEs
+-   🔹 Digital twins
+-   🔹 Hybrid physics–data methods
+-   🔹 UQ for ML
+-   🔹 Open-source platforms
+-   🔹 AI agents for simulation
 :::
-
-
+:::::
+::::::
+::::::::::::
 
 <!-- ============ BANNER 1: IMAGE ============ -->
-::: {.banner-container}
+
+::: banner-container
 ![](images/Banner_1.jpg){.banner-img}
 :::
 
-
-
 ## 🎙️ Upcoming Talk {.text-center .mt-4}
 
-
-::: {.card .border-primary .mb-4}
+:::::::::::: {.card .border-primary .mb-4}
 ::: {.card-header_1 .bg-primary .text-white}
-### 📅 February 17, 2026 | 🕢 12:00 PM IST
+### 📅 February 17, 2026 \| 🕢 12:00 PM IST
 :::
-::: {.card-body}
 
-::: {.grid}
-::: {.g-col-12 .g-col-md-3 .speaker-column}
-::: {.speaker-profile}
+:::::::::: card-body
+::::::::: grid
+:::: {.g-col-12 .g-col-md-3 .speaker-column}
+::: speaker-profile
 ![](images/Speaker_2.jfif){.speaker-img}
 
-**Prof. Ashesh Chattopadhyay**  
-
+**Prof. Ashesh Chattopadhyay**
 :::
-:::
+::::
 
-::: {.g-col-12 .g-col-md-8}
+::::: {.g-col-12 .g-col-md-8}
 ### On some Theory, Theorems, and Scaling in AI for Science
 
-
-
-::: {.abstract-section}
+::: abstract-section
 ### Abstract
 
 This talk presents a theory-driven view of AI for Science, focusing on how stability, error propagation, and scaling constrain learning in real physical systems. I will show how ideas from dynamical systems, random matrix theory, statistical physics, and spectral theory explain failure modes of large machine-learning models under long-time integration, and how autoregressive error scales with model size, compute, and prediction horizon. These insights yield diagnostics that predict long-term reliability without ground-truth labels and motivate scaling laws beyond brute-force parameter increase. The framework is illustrated on turbulence, ocean, and climate models, arguing that theory-guided scaling is essential for building trustworthy scientific machine learning. Bio: Ashesh is an Alfred. P. Sloan fellow and assistant professor in the department of applied mathematics at the University of California Santa Cruz. His interests lie at the intersection of theoretical deep learning, dynamical systems, and computational physics. Ashesh did his PhD from Rice University, Houston and spent a year at Xerox PARC and then at SRI as a staff research scientist before moving to UCSC.
-
-
 :::
 
-
-
-
-::: {.text-center}
-[**Webinar Link**]( https://teams.microsoft.com/meet/47447891637913?p=bJkBkqTqYrGzlrHV89){.btn-walrus}
-
+::: text-center
+[**Webinar Link**](https://teams.microsoft.com/meet/47447891637913?p=bJkBkqTqYrGzlrHV89){.btn-walrus}
 
 [**Register Here**](https://forms.gle/pJA89hAoiBz44Rts9){.btn-walrus}
 :::
-:::
+:::::
 
 ::: {.g-col-12 .g-col-md-4 .d-flex .align-items-center .justify-content-center}
-
 :::
+:::::::::
+::::::::::
+::::::::::::
 
-:::
-
-:::
-:::
-
-
-
-::: {.banner-container}
+::: banner-container
 ![](images/Banner_3.jpg){.banner-img}
 :::
 
-
-
-
-
-
-::: {.card .border-primary .mb-4}
+:::::::::::: {.card .border-primary .mb-4}
 ::: {.card-header_1 .bg-primary .text-white}
-### 📅 January 20, 2026 | 🕢 7:30 PM IST
+### 📅 January 20, 2026 \| 🕢 7:30 PM IST
 :::
-::: {.card-body}
 
-::: {.grid}
-::: {.g-col-12 .g-col-md-3 .speaker-column}
-::: {.speaker-profile}
+:::::::::: card-body
+::::::::: grid
+:::: {.g-col-12 .g-col-md-3 .speaker-column}
+::: speaker-profile
 ![](images/Speaker.jfif){.speaker-img}
 
-**Dr. Payel Mukhopadhyay**  
-*Assistant Research Professor*  
+**Dr. Payel Mukhopadhyay**\
+*Assistant Research Professor*\
 *University of Cambridge*
 :::
-:::
+::::
 
-::: {.g-col-12 .g-col-md-8}
+::::: {.g-col-12 .g-col-md-8}
 ### Walrus: A Large Physics Foundation Model for Fluid-Like Continuum Dynamics
 
-
-
-::: {.abstract-section}
+::: abstract-section
 ### Abstract
 
 Foundation models have transformed machine learning for language and vision, but achieving comparable impact in physical simulation remains a challenge. Data heterogeneity and unstable long-term dynamics inhibit learning from sufficiently diverse dynamics, while varying resolutions and dimensionalities challenge efficient training on modern hardware. Through empirical and theoretical analysis, we incorporate new approaches to mitigate these obstacles, including a harmonic-analysis-based stabilization method, load-balanced distributed 2D and 3D training strategies, and compute-adaptive tokenization. Using these tools, we develop Walrus, a transformer-based foundation model developed primarily for fluid-like continuum dynamics. Walrus is pretrained on nineteen diverse scenarios spanning astrophysics, geoscience, rheology, plasma physics, acoustics, and classical fluids. Experiments show that Walrus outperforms prior foundation models on both short and long term prediction horizons on downstream tasks and across the breadth of pretraining data, while ablation studies confirm the value of our contributions to forecast stability, training throughput, and transfer performance over conventional approaches.
-
 :::
 
-
-
-
-::: {.text-center}
-[**Webinar Link**]( https://teams.microsoft.com/meet/47447891637913?p=bJkBkqTqYrGzlrHV89){.btn-walrus}
-
+::: text-center
+[**Webinar Link**](https://teams.microsoft.com/meet/47447891637913?p=bJkBkqTqYrGzlrHV89){.btn-walrus}
 
 [**Register Here**](https://lnkd.in/gN5ye8EX){.btn-walrus}
 :::
-:::
+:::::
 
 ::: {.g-col-12 .g-col-md-4 .d-flex .align-items-center .justify-content-center}
-
 :::
+:::::::::
+::::::::::
+::::::::::::
 
-:::
-
-:::
-:::
-
-
-
-::: {.banner-container}
+::: banner-container
 ![](images/Banner_2.jpg){.banner-img}
 :::
 
-
-
 ## 👥 Organizers {.text-center .mt-4}
 
-::: {.grid .justify-content-center}
-
-::: {.g-col-12 .g-col-md-4}
-::: {.card .text-center .h-100}
-::: {.card-body}
-**Dr. Suparno Bhattacharyya**  
+::::::::: {.grid .justify-content-center}
+::::: {.g-col-12 .g-col-md-4}
+:::: {.card .text-center .h-100}
+::: card-body
+**Dr. Suparno Bhattacharyya**\
 *Organizer*
+:::
+::::
+:::::
 
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-md-4}
-::: {.card .text-center .h-100}
-::: {.card-body}
-**Dr. Antarip Poddar**  
+::::: {.g-col-12 .g-col-md-4}
+:::: {.card .text-center .h-100}
+::: card-body
+**Dr. Antarip Poddar**\
 *Co-Organizer*
+:::
+::::
+:::::
+:::::::::
 
-:::
-:::
-:::
-
-:::
-
----
+------------------------------------------------------------------------
 
 *For queries, please contact the organizers at the Department of Mechanical Engineering, IIT (ISM) Dhanbad.*

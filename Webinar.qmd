@@ -27,7 +27,7 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 **Institution:** Indian Institute of Technology (Indian School of Mines), Dhanbad
 
 ::: text-center
-[<i class="bi bi-youtube"></i> Watch on YouTube](https://www.youtube.com/watch?v=ob_eUvXt0cQ){.btn .btn-danger}
+[<i class="bi bi-youtube"></i> Watch on YouTube](https://www.youtube.com/@D2MS2){.btn .btn-danger}
 :::
 ::::
 ::::::
@@ -81,11 +81,9 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 ::: abstract-section
 ### Abstract
 
-We present a high-speed, high-fidelity computational modeling approach for cardiac simulations, focusing on replacement heart valves and left ventricular function. We developed structurally based computational models for replacement heart valves, revealing key fiber interactions in electrospun biomaterials, enabling in-silico biomaterial optimization, and predicting early structural changes in bioprosthetic heart valve (BHV) leaflets under cyclic loading.
-Despite their insights, traditional high-fidelity simulations remain too slow for clinical applications. To address this challenge, we developed a neural network finite element (NNFE) approach for rapid cardiac simulations. The method learns a family of solutions to the parametric PDE governing cardiac mechanics directly from the weak form—using potential energy or virtual work formulations—without requiring experimental or simulation-generated training data. The model is trained across the physiological loading range and achieves ~0.1% error relative to conventional finite element methods while producing results in seconds. NURBS-based geometry mapping is integrated to capture complex cardiac structures. We demonstrate NNFE models for a heart valve leaflet, the left ventricle, and myocardial infarction effects, providing steps toward full-heart simulations and enabling efficient patient-specific cardiac modeling for clinical diagnosis and treatment planning.
+We present a high-speed, high-fidelity computational modeling approach for cardiac simulations, focusing on replacement heart valves and left ventricular function. We developed structurally based computational models for replacement heart valves, revealing key fiber interactions in electrospun biomaterials, enabling in-silico biomaterial optimization, and predicting early structural changes in bioprosthetic heart valve (BHV) leaflets under cyclic loading. Despite their insights, traditional high-fidelity simulations remain too slow for clinical applications. To address this challenge, we developed a neural network finite element (NNFE) approach for rapid cardiac simulations. The method learns a family of solutions to the parametric PDE governing cardiac mechanics directly from the weak form—using potential energy or virtual work formulations—without requiring experimental or simulation-generated training data. The model is trained across the physiological loading range and achieves \~0.1% error relative to conventional finite element methods while producing results in seconds. NURBS-based geometry mapping is integrated to capture complex cardiac structures. We demonstrate NNFE models for a heart valve leaflet, the left ventricle, and myocardial infarction effects, providing steps toward full-heart simulations and enabling efficient patient-specific cardiac modeling for clinical diagnosis and treatment planning.
 
-**Bio:** Shruti Motiwale is a Senior Simulation Intelligence Research Scientist at Pasteur Labs Inc., where she develops new approaches that integrate AI and simulation. She earned her PhD in Mechanical Engineering from the University of Texas at Austin under the supervision of Dr. Michael Sacks. Her research focused on combining finite element methods with neural networks to develop high-speed, high-fidelity computational models of cardiac mechanics.
-Prior to joining UT Austin, Shruti worked as a Senior CAE Engineer at Tesla. She holds an MS in Mechanical Engineering from Pennsylvania State University and a B.Tech in Mechanical Engineering from the Indian Institute of Technology Bombay, India.
+**Bio:** Shruti Motiwale is a Senior Simulation Intelligence Research Scientist at Pasteur Labs Inc., where she develops new approaches that integrate AI and simulation. She earned her PhD in Mechanical Engineering from the University of Texas at Austin under the supervision of Dr. Michael Sacks. Her research focused on combining finite element methods with neural networks to develop high-speed, high-fidelity computational models of cardiac mechanics. Prior to joining UT Austin, Shruti worked as a Senior CAE Engineer at Tesla. She holds an MS in Mechanical Engineering from Pennsylvania State University and a B.Tech in Mechanical Engineering from the Indian Institute of Technology Bombay, India.
 :::
 
 ::: text-center
@@ -104,8 +102,6 @@ Prior to joining UT Austin, Shruti worked as a Senior CAE Engineer at Tesla. She
 ::: banner-container
 ![](images/Banner_4.jpg){.banner-img}
 :::
-
-
 
 :::::::::::: {.card .border-primary .mb-4}
 ::: {.card-header_1 .bg-primary .text-white}
@@ -128,7 +124,7 @@ Prior to joining UT Austin, Shruti worked as a Senior CAE Engineer at Tesla. She
 ::: abstract-section
 ### Abstract
 
-This talk presents a theory-driven view of AI for Science, focusing on how stability, error propagation, and scaling constrain learning in real physical systems. I will show how ideas from dynamical systems, random matrix theory, statistical physics, and spectral theory explain failure modes of large machine-learning models under long-time integration, and how autoregressive error scales with model size, compute, and prediction horizon. These insights yield diagnostics that predict long-term reliability without ground-truth labels and motivate scaling laws beyond brute-force parameter increase. The framework is illustrated on turbulence, ocean, and climate models, arguing that theory-guided scaling is essential for building trustworthy scientific machine learning. 
+This talk presents a theory-driven view of AI for Science, focusing on how stability, error propagation, and scaling constrain learning in real physical systems. I will show how ideas from dynamical systems, random matrix theory, statistical physics, and spectral theory explain failure modes of large machine-learning models under long-time integration, and how autoregressive error scales with model size, compute, and prediction horizon. These insights yield diagnostics that predict long-term reliability without ground-truth labels and motivate scaling laws beyond brute-force parameter increase. The framework is illustrated on turbulence, ocean, and climate models, arguing that theory-guided scaling is essential for building trustworthy scientific machine learning.
 
 **Bio:** Ashesh is an Alfred. P. Sloan fellow and assistant professor in the department of applied mathematics at the University of California Santa Cruz. His interests lie at the intersection of theoretical deep learning, dynamical systems, and computational physics. Ashesh did his PhD from Rice University, Houston and spent a year at Xerox PARC and then at SRI as a staff research scientist before moving to UCSC.
 :::

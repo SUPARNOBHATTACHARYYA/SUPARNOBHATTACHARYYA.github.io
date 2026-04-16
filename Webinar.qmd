@@ -62,6 +62,49 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 
 :::::::::::: {.card .border-primary .mb-4}
 ::: {.card-header_1 .bg-primary .text-white}
+### 📅 April 22, 2026 \| 🕢 07:30 PM IST
+:::
+
+:::::::::: card-body
+::::::::: grid
+:::: {.g-col-12 .g-col-md-3 .speaker-column}
+::: speaker-profile
+![](images/Speaker_4.jpg){.speaker-img}
+
+**Prof. Olga Fink**
+:::
+::::
+
+::::: {.g-col-12 .g-col-md-8}
+### From Physics to Machine Learning and Back: Applications in Engineered Systems
+
+::: abstract-section
+### Abstract
+
+Deep learning has become an essential tool in many engineering applications. However, its effectiveness is often limited by its reliance on large, representative, and well-labeled datasets. In contrast, condition monitoring data from complex systems is typically sparse, unlabeled, and unrepresentative, making it difficult to apply purely data-driven methods effectively. Moreover, deep learning models often perform poorly in extrapolation scenarios, which are common in engineering systems with long service lives and evolving operational regimes. To address these limitations, integrating physical laws and domain knowledge into deep learning frameworks has shown significant potential. This presentation will explore a range of approaches that integrate physics-based principles into machine learning models. Particular attention will be given to the use of structural inductive biases, such as those introduced by physics-informed graph neural networks, to improve model robustness, generalization and extrapolation. Finally, the talk will examine emerging methods in symbolic regression that aim to close the loop between data-driven learning and physical understanding, enabling the discovery of interpretable, physics-consistent models from data.
+
+**Bio:** Olga Fink has been assistant professor at EPFL since March 2022, heading the Intelligent Maintenance and Operations Systems (IMOS) laboratory. She is the recipient of an ERC Consolidator Grant. Olga’s research focuses on Physics-Informed Machine Learning, Multi-Modal Learning, Domain Adaptation and Generalization, and Reinforcement Learning for Intelligent Maintenance and Operations of Infrastructure and Complex Assets. Before joining EPFL faculty, Olga was assistant professor of intelligent maintenance systems at ETH Zurich from 2018 to 2022, being awarded the prestigious professorship grant of the Swiss National Science Foundation (SNSF). Between 2014 and 2018 she was heading the research group “Smart Maintenance” at the Zurich University of Applied Sciences (ZHAW). Olga received her Ph.D. degree from ETH Zurich, and Diploma degree from Hamburg University of Technology. She has gained valuable industrial experience as reliability engineer with Stadler Bussnang AG and as reliability and maintenance expert with Pöyry Switzerland Ltd. Olga is serving as an editorial board member of several prestigious journals, including Mechanical Systems and Signal Processing, Engineering Applications of Artificial Intelligence and Reliability Engineering and System Safety. In 2019, Olga earned the distinction of being recognized as a young scientist of the World Economic Forum. In 2020, 2021, and 2024 she was honored as a young scientist of the World Laureate Forum. In 2023, she was distinguished as a fellow by the Prognostics and Health Management Society.
+:::
+
+::: text-center
+[**Webinar Link**](https://teams.microsoft.com/meet/47447891637913?p=bJkBkqTqYrGzlrHV89){.btn-walrus}
+
+[**Register Here**](https://forms.gle/pJA89hAoiBz44Rts9){.btn-walrus}
+:::
+:::::
+
+::: {.g-col-12 .g-col-md-4 .d-flex .align-items-center .justify-content-center}
+:::
+:::::::::
+::::::::::
+::::::::::::
+
+::: banner-container
+![](images/Banner_5.jpg){.banner-img}
+:::
+
+:::::::::::: {.card .border-primary .mb-4}
+::: {.card-header_1 .bg-primary .text-white}
 ### 📅 March 17, 2026 \| 🕢 07:30 PM IST
 :::
 

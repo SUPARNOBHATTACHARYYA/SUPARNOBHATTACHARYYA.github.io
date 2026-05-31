@@ -10,569 +10,125 @@
    ========================================================= */
 body {
   font-family: 'Lora', Helvetica, Arial, sans-serif;
+  background-color: #ffffff; /* Clean background outside the center block */
+  color: #333333;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
   font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  color: #000000;
+  margin-top: 1.5rem;
 }
 
-.navbar-nav > li > a,
-.navbar-brand {
-  font-family: Lora, 'Roboto Slab', Helvetica, Arial, sans-serif;
+h4 {
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin-top: 1.5rem;
 }
 
 p {
   text-align: justify;
-  text-justify: inter-word; /* even word spacing */
+  text-justify: inter-word;
+  line-height: 1.6;
 }
 
 /* =========================================================
-   ABOUT PAGE IMAGE
+   QUARTO GRID LAYOUT & CENTERING (THE FIX)
    ========================================================= */
-.about-image,
-.about-image.rounded-circle,
-.about-photo {
-  width: 300px !important;
-  height: 300px !important;
-  object-fit: cover;
-  border-radius: 50% !important;
-  border: 3px solid #800000;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin: 0 auto 1rem;
-  display: block;
+/* Force center the entire website (sidebar + body) */
+#quarto-content {
+    max-width: 1300px !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative !important;
 }
 
-
-/* --- Utility Class for Centering --- */
-
-.button-container {
-  display: flex;             /* Use the flexbox layout model */
-  justify-content: center;   /* Center the items horizontally */
-  gap: 80px;
-  flex-wrap: wrap;            /* Allow buttons to wrap to the next line on small screens */
-  margin-top: 100px;
-  margin-bottom: 200px;
+/* Adds breathing room on smaller/medium screens */
+body {
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-
-
-
 
 /* =========================================================
-   PUBLICATIONS LAYOUT
+   DOCKED SIDEBAR STYLING
    ========================================================= */
-.pub-controls {
-  display: flex;
-  gap: 0.75rem;
-  margin-bottom: 1.5rem;
-  flex-wrap: wrap;
+#quarto-sidebar {
+  background-color: #f8f9fa; /* Light grey background for contrast */
+  border-right: 1px solid #e9ecef;
+  padding-top: 2rem;
+  font-family: 'Noto Sans', sans-serif; /* Clean sans-serif for navigation */
 }
 
-.pub-controls input,
-.pub-controls select {
-  padding: 0.5rem 1rem;
-  border: 1px solid #800000;
-  border-radius: 0.25rem;
+/* Sidebar links */
+.sidebar-item-text {
+  color: #555555;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+/* Hover and Active states for Sidebar */
+.sidebar-item-text:hover,
+.sidebar-link.active .sidebar-item-text {
+  color: #800000 !important; /* Signature maroon */
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Sidebar Section Headers */
+.sidebar-section > .sidebar-item > .sidebar-item-text {
+  color: #222222;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+/* =========================================================
+   RIGHT TABLE OF CONTENTS (TOC)
+   ========================================================= */
+#TOC {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 0.9rem;
 }
 
-.pub-item {
-  display: flex;
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
+#TOC ul li a {
+  color: #6c757d;
+  transition: color 0.2s ease;
 }
 
-.pub-icon {
-  font-size: 1.5rem;
-  line-height: 1;
-  margin-top: 1rem;
-}
-
-.pub-content {
-  flex: 1;
-}
-
-.pub-content em {
-  font-style: italic;
-  color: #555;
-}
-
-.pub-content p {
-  margin: 0.3rem 0;
+#TOC ul li a:hover,
+#TOC ul li a.active {
+  color: #800000;
+  font-weight: 700;
+  border-left: 2px solid #800000; /* Subtle maroon indicator */
+  padding-left: 5px;
 }
 
 /* =========================================================
-   BUTTON STYLES
+   ACADEMIC COMPONENTS (Cards, Abstracts, Speaker profiles)
    ========================================================= */
-.btn {
-  display: inline-block;
-  margin-right: 0.5rem;
-  padding: 0.3rem 0.8rem;
-  border-radius: 0.25rem;
-  font-size: 0.85rem;
-  text-decoration: none;
-  line-height: 1;
-}
-
-.btn-primary {
-  background-color: #800000;
-  color: #fff;
-}
-
-.btn-outline {
-  background-color: transparent;
-  border: 1px solid #007bff;
-  color: #007bff;
-}
-
-.btn-outline:hover,
-.btn-primary:hover {
-  opacity: 0.85;
-}
-
-/* =========================================================
-   CONTACT PAGE
-   ========================================================= */
-.container {
-  max-width: 960px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-.page-header {
-  text-align: center;
-  margin-bottom: 3rem;
-  color: #000000;
-}
-
-.contact-info {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-/* Responsive embedded map */
-.map-container {
-  position: relative;
-  padding-bottom: 56.25%;  /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  background: #eee;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.map-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-/* =========================================================
-   HERO / CALL-TO-ACTION
-   ========================================================= */
-/* === Custom Button Style === */
-
-.btn-custom {
-  /* Colors and Text */
-  background-color: #800000; /* A dark red/maroon color */
-  color: #FFFFFF;            /* White text color */
-  font-family: Lora;         /* A serif font like in the image */
-  font-weight: bold;          /* Make the text bold */
-  text-decoration: none;      /* Remove underline if it's a link */
-
-  /* Spacing and Sizing */
-  padding: 10px 20px;         /* Vertical and horizontal padding */
-  display: inline-block;      /* Allows setting padding and margins */
-  
-  /* Border and Shape */
-  border: 1px solid #600000;  /* A slightly darker border for depth */
-  border-radius: 8px;         /* Rounded corners */
-
-  /* Shadow for the 3D effect */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-
-  /* Smooth transition for hover effect */
-  transition: all 0.2s ease-in-out;
-  
-  /* Makes the cursor a pointer on hover */
-  cursor: pointer;
-}
-
-
-
-
-/* --- Hover Effect --- */
-/* This style applies when the user moves their mouse over the button */
-
-.btn-custom:hover {
-  background-color: #900030; /* A slightly lighter brown on hover */
-  
-  /* Make the shadow more pronounced to give a "lift" effect */
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
-
-  /* Optional: move the button up slightly */
-  transform: translateY(-2px); 
-}
-
-
-.iframe-embed {
-  display: block;
-  width: 100%;
-  height: 500px;
-  margin: 8rem 0;
-  border: 0;
-  max-width: 100%;
-}
-
-.embed-container {
-  max-width: 100%;
-  margin: 0 auto 3rem;
-  border: 2px solid #800000; /* Maroon color */
-  border-radius: 5px;
-  box-sizing: border-box;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-
-.list-item-spaced {
-  border-bottom: none !important; /* Removes the line */
-  padding-bottom: 0 !important;   /* Removes any default space inside the border */
-  margin-bottom: 5rem !important; /* Adds a 30px gap below the item */
-}
-
-.list-item-spaced1 {
-  border-bottom: none !important; /* Removes the line */
-  padding-bottom: 0 !important;   /* Removes any default space inside the border */
-  margin-bottom: 2rem !important; /* Adds a 30px gap below the item */
-}
-
-
-/* Optional: different spacing on mobile */
-@media (max-width: 640px) {
-  .iframe-embed {
-    margin: 1.25rem 0;
-    height: 420px;
-  }
-}
-
-
-/* Custom Footer Styling */
-.my-footer {
-  background-color: #f2f2f2; /* A light gray background like the example */
-  color: #555; /* Dark gray text color for good contrast */
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-top: 3rem; /* Adds some space above the footer */
-  border-top: 1px solid #ddd; /* A subtle top border */
-}
-
-/* Styling for the "Contact:" heading */
-.my-footer h3 {
-  color: #900030; /* A reddish color like the example */
-  font-weight: bold;
-}
-
-/* Styling for the links in the footer */
-.my-footer a {
-  color: #007bff; /* A standard blue link color */
-  text-decoration: none;
-}
-
-.my-footer a:hover {
-  text-decoration: underline;
-}
-
-/* Make dropdown text visible in dark mode */
-select {
-  color: var(--bs-body-color);       /* adapts to dark/light automatically */
-  background-color: var(--bs-body-bg);
-  border: 1px solid var(--bs-border-color);
-}
-
-/* Ensure options inside dropdown are readable */
-select option {
-  color: var(--bs-body-color);
-  background-color: var(--bs-body-bg);
-}
-
-
-
-/* --- DEBUG: If the page background is NOT light gray, this file is not loading --- */
-body {
-    background-color: #f9f9f9; 
-}
-
-/* Style the Main Content Lists specifically */
-main ul li {
-    margin-bottom: 25px; /* Adds breathing room between tools */
-    line-height: 1.6;    /* Makes text easier to read */
-    list-style-type: none; /* Removes the default bullet points for a cleaner look */
-    padding-left: 0;
-}
-
-/* Style the Bold Titles (e.g., "Slack", "Notion") */
-main ul li strong {
-    display: block;      /* Forces the title to be on its own line */
-    font-size: 1.1em;    /* Makes it slightly larger */
-    color: #222;         /* Darker black for contrast */
-    margin-bottom: 5px;  /* Space between title and description */
-    font-weight: 700;
-}
-
-/* Style the Links */
-main ul li a {
-    color: #007bff;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-main ul li a:hover {
-    text-decoration: underline;
-}
-
-
-
-==========
-
-/* Container for the list */
-.tool-list {
-  border: 1px solid #e5e7eb;
-  border-radius: 6px;
-  overflow: hidden;
-  font-family: sans-serif;
-}
-
-/* The Details Box (Closed) */
-details {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
-  transition: all 0.2s ease;
-}
-
-/* Remove bottom border from the last item */
-details:last-child {
-  border-bottom: none;
-}
-
-/* The Clickable Header */
-summary {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 1.1rem;
-  list-style: none; /* Hides default triangle */
-  color: #333;
-}
-
-/* Hides default markers in Webkit browsers */
-summary::-webkit-details-marker {
-  display: none;
-}
-
-/* The Custom Arrow Icon (Down) */
-summary::after {
-  content: "";
-  width: 8px;
-  height: 8px;
-  border-right: 2px solid #999;
-  border-bottom: 2px solid #999;
-  transform: rotate(45deg); /* Arrow pointing down */
-  transition: transform 0.2s ease;
-  margin-left: 10px;
-}
-
-/* Rotate Arrow when Open */
-details[open] summary::after {
-  transform: rotate(225deg); /* Arrow pointing up */
-}
-
-/* The Content Body */
-.details-content {
-  padding: 0 1.5rem 1.5rem 1.5rem;
-  color: #555;
-  line-height: 1.6;
-  font-size: 0.95rem;
-  border-top: 1px solid #f0f0f0;
-}
-
-/* Link styling inside the content */
-.details-content a {
-  color: #f0f0f0;
-  text-decoration: none;
-  font-weight: 500;
-}
-.details-content a:hover {
-  text-decoration: underline;
-}
-
-
-/* home.css */
-.home-flagcounter-footer{
-  padding: 32px 0;
-  margin-top: 48px;
-  border-top: 1px solid #e5e5e5;
-}
-
-.flagcounter-inner{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-
-
-
-
-
-
-/* Card Styling */
-.card {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card-header {
-  font-weight: bold;
-  border-radius: 10px 10px 0 0 !important;
-}
-
-.card-body {
+.abstract-section {
+  background-color: #f8f9fa;
   padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.0rem;
+  border-left: 4px solid #800000; /* Matches brand */
 }
 
-/* Grid Fixes */
-.grid {
-  display: grid;
-  gap: 1.5rem;
-}
-
-.h-100 {
-  height: 100%;
-}
-
-/* Button Styling */
-.btn-primary {
-  padding: 12px 30px;
-  font-size: 1.1rem;
-  border-radius: 8px;
-}
-
-.btn-lg {
-  padding: 15px 40px;
-}
-
-/* Center Utilities */
-.text-center {
-  text-align: center;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.align-items-center {
-  align-items: center;
-}
-
-.justify-content-center {
-  justify-content: center;
-}
-
-/* Lead Text */
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+.abstract-section h3 {
+  color: #0B0B0D;
+  margin-top: 0rem;
   margin-bottom: 1.5rem;
-}
-
-/* Spacing */
-.mt-4 {
-  margin-top: 2rem;
-}
-
-.mb-4 {
-  margin-bottom: 2rem;
-}
-
-.gap-4 {
-  gap: 1.5rem;
-}
-
-/* Border Colors */
-.border-primary {
-  border: 2px solid #2c3e50 !important;
-}
-
-.bg-primary {
-  background-color: #2c3e50 !important;
-}
-
-.text-white {
-  color: white !important;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .g-col-md-7,
-  .g-col-md-5,
-  .g-col-md-8,
-  .g-col-md-4 {
-    grid-column: span 12;
-  }
-  
-  .card-body {
-    padding: 1rem;
-  }
-}
-
-
-
-
-
-
-
-/* ============================================
-   D²MS² VIRTUAL SEMINAR SERIES
-   Clean Professional Stylesheet
-   ============================================ */
-
-/* ============ GENERAL STYLES ============ */
-
-.section-title {
-  margin-top: 1.5rem;
-  margin-bottom: 0rem;
-}
-
-.lead {
   font-size: 1.25rem;
-  font-weight: 500;
-  margin-bottom: 0rem;
-  color: #555;
 }
 
-/* ============ CARD STYLING ============ */
 .card {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 2px solid #800000;
+  margin-bottom: 2rem;
 }
 
 .card:hover {
@@ -582,405 +138,55 @@ details[open] summary::after {
 
 .card-header_1 {
   font-weight: bold;
-  border-radius: 12px 12px 0 0 !important;
+  border-radius: 10px 10px 0 0 !important;
   background-color: #800000;
-  border-bottom: 2px solid #e9ecef;
+  color: white;
+  padding: 1rem;
 }
 
 .card-body {
-  padding: 1.25rem;
-}
-
-
-.h-100 {
-  height: 50%;
-}
-
-
-/* ============ BANNER IMAGE STYLING ============ */
-.banner-container {
-  margin: 0.5rem 0.5rem;
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.banner-img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  transition: transform 0.3s ease;
-}
-
-.banner-container:hover .banner-img {
-  transform: scale(1.02);
-}
-
-/* ============ UPCOMING TALK SECTION ============ */
-.upcoming-title {
-  font-size: 2.5rem !important;
-  font-weight: 700 !important;
-}
-
-.border-primary {
-  border: 2px solid #800000 !important;
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-.bg-primary {
-  background: linear-gradient(90deg, #800000 100%, #3498db 0%) !important;
-}
-
-.text-white {
-  color: white !important;
-}
-
-.bg-primary h3 {
-  margin: 1.25rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-/* ============ SPEAKER SECTION ============ */
-.speaker-column {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 0.1rem;
-}
-
-.speaker-profile {
-  display: flex;
-  flex-direction: column; /* Stacks Image, Name, Title, Affiliation vertically */
-  align-items: center;    /* Centers them */
-  gap: 0.2rem;            /* Adds small space between each text block */
-  text-align: center;     
-  width: 100%;
-}
-
-/* Optional: styling for the text to ensure it looks distinct */
-.speaker-profile strong {
-    font-size: 1.1rem;
-    margin-top: 0.5rem;
-    display: block; /* Ensures name is on its own line */
-}
-
-.speaker-profile em {
-    font-style: normal; /* Optional: removes italic if you want clean text */
-    color: #555;
-    font-size: 0.9rem;
-    line-height: 1.4; /* Fixes any remaining overlap within a single block */
-}
-
-.speaker-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #800000;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  margin-bottom: 0rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.speaker-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.speaker-profile strong {
-  display: block;
-  font-size: 1.05rem;
-  color: #2c3e50;
-  margin-bottom: 0rem;
-}
-
-.speaker-profile em {
-  display: block;
-  font-size: 1rem;
-  color: #6c757d;
-  font-style: normal;
-  line-height: 0;
-}
-
-/* ============ TALK DETAILS ============ */
-.card-body h3 {
-  color: #0B0B0D;
-  margin-bottom: 1.2rem;
-  font-size: 1.5rem;
-  padding-bottom: 0;
-  border-bottom: none;
-}
-
-/* ============ ABSTRACT SECTION ============ */
-.abstract-section {
-  background-color: #f8f9fa;
   padding: 1.5rem;
-  border-radius: 10px;
-  margin-bottom: 1.0rem;
 }
 
-.abstract-section h3 {
-  color: #0B0B0D;
-  margin-top: 0rem;
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
-  padding-bottom: 0;
-  border-bottom: none;
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+.btn-custom {
+  background-color: #800000; 
+  color: #FFFFFF !important;            
+  font-family: 'Lora', serif;         
+  font-weight: bold;         
+  text-decoration: none !important;     
+  padding: 10px 20px;        
+  display: inline-block;     
+  border: 1px solid #600000; 
+  border-radius: 8px;        
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
-.abstract-section p {
-  margin: 0;
-  line-height: 1.5;
+.btn-custom:hover {
+  background-color: #900030; 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px); 
 }
 
-/* ============ REGISTER BUTTON ============ */
-
-.btn-walrus {
-  /* Design */
-  background: linear-gradient(90deg, #2c3e50 0%, #3498db 100%);
-  color: white !important;
-  border-radius: 10px;
-  border: none;
-  
-  /* Size & Text */
-  padding: 15px 40px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  text-decoration: none !important; 
-  white-space: nowrap;
-  
-  /* Animation */
-  transition: all 0.3s ease;
-  display: inline-block;
+/* =========================================================
+   LISTS & LINKS IN MAIN BODY
+   ========================================================= */
+main ul li {
+    margin-bottom: 15px; 
+    line-height: 1.6;    
 }
 
-/* Hover Effect */
-.btn-walrus:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
-  color: white !important;
-}
-
-
-
-
-
-
-
-
-/* ============ ORGANIZERS SECTION ============ */
-.justify-content-center {
-  justify-content: margin-left;
-}
-
-.justify-content-center .card {
-  text-align: margin-left;
-}
-
-.justify-content-center .card:hover {
-  border-top-color: #2c3e50;
-}
-
-.justify-content-center .card-body {
-  padding: 0.5rem 1rem;
-}
-
-.justify-content-center .card-body strong {
-  display: block;
-  font-size: 1.1rem;
-  color: #2c3e50;
-  margin-bottom: 0rem;
-}
-
-.justify-content-center .card-body em {
-  display: block;
-  font-size: 1rem;
-  color: #6c757d;
-  font-style: normal;
-  line-height: 0.5;
-}
-
-/* ============ FOOTER CONTACT ============ */
-.text-center.mt-4:last-of-type {
-  background-color: #f8f9fa;
-  padding: 3rem;
-  border-radius: 12px;
-  margin-top: 2rem;
-}
-
-.text-center.mt-4:last-of-type em {
-  font-style: normal;
-  color: #6c757d;
-  font-size: 1rem;
-}
-
-/* ============ GRID & UTILITIES ============ */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 1.5rem;
-}
-
-.g-col-12 {
-  grid-column: span 12;
-}
-
-.gap-4 {
-  gap: 1.5rem;
-}
-
-.text-center {
-  text-align: left;
-}
-
-.mt-4 {
-  margin-top: 2rem;
-}
-
-.mb-4 {
-  margin-bottom: 2rem;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.align-items-center {
-  align-items: center;
-}
-
-@media (min-width: 768px) {
-  .g-col-md-3 {
-    grid-column: span 3;
-  }
-  .g-col-md-4 {
-    grid-column: span 4;
-  }
-  .g-col-md-5 {
-    grid-column: span 5;
-  }
-  .g-col-md-7 {
-    grid-column: span 7;
-  }
-  .g-col-md-8 {
-    grid-column: span 8;
-  }
-}
-
-/* ============ RESPONSIVE ============ */
-@media (max-width: 768px) {
-  .card-body h3 {
-    font-size: 1.5rem;
-  }
-  
-  .speaker-img {
-    width: 120px;
-    height: 120px;
-  }
-  
-  .g-col-md-3,
-  .g-col-md-4,
-  .g-col-md-5,
-  .g-col-md-7,
-  .g-col-md-8 {
-    grid-column: span 12;
-  }
-  
-  .speaker-column {
-    margin-bottom: 1rem;
-  }
-  
-  .banner-container {
-    margin: 1rem 0;
-    border-radius: 10px;
-  }
-  
-  .btn-primary {
-    padding: 12px 30px;
-    font-size: 1rem;
-  }
-  
-  .abstract-section {
-    padding: 1.25rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .speaker-img {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .card-body h3 {
-    font-size: 1.15rem;
-  }
-  
-  .btn-lg {
-    padding: 12px 25px;
-    font-size: 1rem;
-  }
-  
-  .justify-content-center .card-body {
-    padding: 1.5rem 1rem;
-  }
-}
-
-/* ============ CORE THEMES LEFT ALIGNMENT ============ */
-.card-body ul {
-  text-align: left;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.card-body li {
-  padding: 0 rem 0;
-  text-align: left;
-}
-
-.card-body li:last-child {
-  border-bottom: none;
-}
-
-
-/* --- Footer Alignment Fix --- */
-
-/* 1. Make the footer a Flexbox container */
-div.nav-footer {
-    display: flex !important;
-    align-items: center !important; /* Vertically centers Left, Center, and Right */
-    justify-content: space-between !important;
-}
-
-/* 2. Left & Right: Take equal width to force Center to true middle */
-div.nav-footer-left,
-div.nav-footer-right {
-    flex: 1;
-    display: flex;
-    align-items: center; /* Vertical center internal content */
-}
-
-/* 3. Center: Only takes necessary space */
-div.nav-footer-center {
-    flex: 0 0 auto;
-    text-align: center;
-}
-
-/* 4. Force Right section to align to the far right */
-div.nav-footer-right {
-    justify-content: flex-end; /* Pushes content to the right edge */
-    text-align: right;
-}
-
-/* 5. Fix for links in footer to stand out */
-div.nav-footer a {
-    color: white !important;
+main a {
+    color: #007bff;
+    font-weight: 500;
     text-decoration: none;
 }
-div.nav-footer a:hover {
+
+main a:hover {
     text-decoration: underline;
+    color: #800000;
 }
-
-

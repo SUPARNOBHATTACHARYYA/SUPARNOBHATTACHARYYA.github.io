@@ -25,7 +25,9 @@ format:
 **Description:**  
 This course (NMEC595 - Research Methodology and Statistics) introduces students to the fundamentals of scientific research, covering the entire research process from problem identification and hypothesis formulation to research design and execution. It emphasizes practical statistical tools including probability distributions, hypothesis testing, ANOVA, regression analysis, and sampling techniques necessary for data collection, analysis, and drawing meaningful conclusions from research data. The course also addresses critical aspects such as measurement scales, data presentation, report preparation, and ethical considerations like plagiarism in research.
 
-[**Access Materials**](https://indianinstituteoftechnol299-my.sharepoint.com/personal/suparno_iitism_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsuparno%5Fiitism%5Fac%5Fin%2FDocuments%2FIIT%5FISM%2FCOURSES%2FWinter%5F2026%2FMEC%5F595%5FResearch%5FMethodology%2Fpublic&ga=1){style="color:#E76F51; font-weight:bold;"}  
+[**Access Materials**](https://indianinstituteoftechnol299-my.sharepoint.com/personal/suparno_iitism_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsuparno%5Fiitism%5Fac%5Fin%2FDocuments%2FIIT%5FISM%2FCOURSES%2FWinter%5F2026%2FMEC%5F595%5FResearch%5FMethodology%2Fpublic&ga=1){style="color:#E76F51; font-weight:bold;"} 
+
+[**View more**](\course_1\index.qmd)
 :::
 :::
 

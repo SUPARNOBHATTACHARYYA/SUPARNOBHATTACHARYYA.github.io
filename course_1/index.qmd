@@ -1,0 +1,50 @@
+---
+title: "Research Methodology"
+sidebar: course-rm
+format: 
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false
+---
+
+
+
+## Course Information
+
+**Instructor:** Prof. Suparno Bhattacharyya  
+**Email:** [suparno@iitism.ac.in](mailto:suparno@iitism.ac.in)  
+**Office Location:** Room No - 224A, Mechanical Engineering Department  
+**Office Hours:** Virtual, by appointment  
+**Course Website:** This website  
+**Level:** Master’s  
+**Prerequisites:** Coursework in Research Methodology  
+
+**Course source code:** [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/suparnobhattacharyya)
+
+### In Slide Form
+
+![](/course_1/intro.pdf){width="600px" height="400px"}
+---
+
+## Course Content
+
+### Motivation
+How do we structure robust academic research? How do we ensure our experimental designs in mechanical engineering are statistically sound and replicable? 
+
+This course focuses on the design, implementation, and interpretation of research methodologies. It prepares Master's students to write rigorous theses, while equipping them with the skills to critically evaluate methods in diverse engineering contexts.
+
+### Key Contents
+This course covers the following points:
+* The role of literature reviews in defining research gaps.
+* Principles of well-designed experiments.
+* Context-specific applications in mechanical engineering and computational mechanics.
+
+## Course Policies
+
+### Grading and Evaluation
+The course grade is based on the final course project. Students will formulate a research problem, design an experiment, and draft a methodology section. Grading criteria include:
+* Rigorous interpretation of literature.
+* Organization and replicability of the proposed method.
+* Clarity of the presentation.

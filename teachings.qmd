@@ -1,15 +1,16 @@
 ---
 format: 
   html:
-    theme:
-      light: flatly
-      dark: darkly
     css: styles.css
     toc: true
     toc-title: "TABLE OF CONTENTS"
     page-layout: article  
 ---
-# Teaching
+
+::: page-header
+# TEACHING
+:::
+
 
 ## Courses with Materials
 

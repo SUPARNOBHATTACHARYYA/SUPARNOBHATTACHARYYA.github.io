@@ -10,7 +10,7 @@ format:
 ---
 
 ::: page-header
-# Collaborators
+# COLLABORATORS
 :::
 
 It has been an honor to collaborate with leading researchers and experts in the field.

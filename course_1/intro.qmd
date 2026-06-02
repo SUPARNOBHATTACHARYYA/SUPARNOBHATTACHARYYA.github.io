@@ -1,0 +1,250 @@
+---
+title: "Research Methodology"
+subtitle: "NMEC 595 — Winter 2026"
+author: "Suparno Bhattacharyya"
+
+format:
+  revealjs:
+    width: 1150
+    slide-number: true
+    incremental: true
+    footer: "Research Methodology — NMEC 595"
+    footer-logo-link: "https://people.iitism.ac.in"
+    theme: slides_theme.scss
+    toc: true
+    toc-depth: 2
+    toc-title: Contents
+    transition: convex
+    transition-speed: fast
+    include-in-header:
+      text: |
+        <meta name="description" content="Course outline for Research Methodology (NMEC 595) at IIT (ISM) Dhanbad."/>
+
+slide-level: 4
+title-slide-attributes:
+  data-background-color: "#3c165cff"
+  data-footer: " "
+
+embed-resources: true
+highlight-style: tango
+open-graph:
+  description: "Course outline for Research Methodology (NMEC 595) at IIT (ISM) Dhanbad."
+---
+
+## Course Overview {background="#00100F"}
+
+### Basic Information {background="#43464B"}
+
+#### Instructor and Contact
+
+- **Instructor:** Suparno Bhattacharyya  
+- **Email:** <suparno@iitism.ac.in>  
+- **Office:** 224A, ME  
+- **Office hours:** By appointment  
+
+#### Course Details
+
+- **Course code:** NMEC 595 — Research Methodology  
+- **Term:** Winter 2026  
+- **Credits:** 9  
+- **Meetings:** Wednesdays / Thursdays / Fridays  
+  - 15:00–15:50  
+  - 16:00–16:50  
+  - 17:00–17:50  
+- **Location:** MECH-G1  
+
+---
+
+### Course Description {background="#43464B"}
+
+#### Focus
+
+This course introduces foundational principles of research methodology in scientific and engineering contexts.  
+It covers research problem formulation, identification of research gaps, hypothesis development, study design, data collection, interpretation, and the use of key statistical tools for drawing evidence‑based conclusions.
+
+#### Aim
+
+The overarching goal is to help students understand not only what research methods exist, but also how to select, justify, and apply them rigorously in practice, leading to defensible and well‑communicated research outcomes.
+
+---
+
+## Learning Outcomes {background="#00100F"}
+
+### Research Foundations {background="#43464B"}
+
+#### Methodology and Design
+
+- Learn various types of **research processes and methodologies** to identify, design, and execute a research problem using scientific and statistical tools.  
+- Understand **sample design techniques**, including their classification, characteristics of a good sample design, and how to select sampling procedures for data collection.  
+
+#### Measurement and Data Quality
+
+- Study **measurement scales**, sources of error in measurement, and techniques for developing measurement tools to evaluate collected data.  
+- Learn various **methods of data collection** and the concepts of **reliability and validity** for the collected data.  
+
+---
+
+### Communication and Inference {background="#43464B"}
+
+#### Reporting and Presentation
+
+- Learn approaches to **prepare and present reports** to disseminate research outcomes effectively to technical audiences.  
+
+#### Statistical Reasoning
+
+- Become familiar with **statistical tools** necessary for designing samples, analyzing data, and making scientific conclusions from the collected data in order to arrive at a rigorous research outcome.  
+
+---
+
+## Materials and Software {background="#00100F"}
+
+### Core Textbooks {background="#43464B"}
+
+- C. R. Kothari and Gaurav Garg, *Research Methodology — Methods and Techniques*, 4th ed., New Age International (P) Limited, 2019.  
+- D. C. Montgomery and George C. Runger, *Applied Statistics and Probability for Engineers*, 6th ed., 2016.  
+- Ranjit Kumar, *Research Methodology: A Step-by-Step Guide for Beginners*, 5th ed., SAGE Publications, 2018.  
+
+---
+
+### Additional Materials {background="#43464B"}
+
+#### Software
+
+- **R / Python** — for statistical analysis, simulations, and implementation of research examples.  
+
+#### Course Format
+
+- The course combines **lectures** with **group work**, providing both conceptual grounding and collaborative practice on research‑oriented tasks.  
+
+---
+
+## Assessment and Grading {background="#00100F"}
+
+### Grade Components {background="#43464B"}
+
+:::: {.columns}
+
+::: {.column width="25%"}
+
+<div class="rounded-box">
+
+**30% — Midterm Exam**  
+
+- Multiple‑choice questions  
+- Assesses understanding of core research concepts and terminology  
+
+</div>
+
+:::
+
+::: {.column width="25%"}
+
+<div class="rounded-box">
+
+**50% — End‑Semester Examination**  
+
+- Long‑answer questions  
+- Evaluates ability to design, justify, and critique research approaches  
+
+</div>
+
+:::
+
+::: {.column width="25%"}
+
+<div class="rounded-box">
+
+**10% — Project Presentation**  
+
+- Group PowerPoint presentations  
+- Focus on research execution and communication  
+
+</div>
+
+:::
+
+::: {.column width="25%"}
+
+<div class="rounded-box">
+
+**10% — Quiz**  
+
+- Pre-midsem Quiz  
+
+</div>
+
+:::
+
+::::
+
+---
+
+### Project Component {background="#43464B"}
+
+#### Scope
+
+The project requires students to:
+
+- Formulate a **research problem**.  
+- Collect or **simulate data** relevant to the problem.  
+- Apply appropriate **statistical tools** to analyze the results.  
+
+#### Outcomes
+
+Students must interpret their findings correctly and justify conclusions using sound statistical reasoning.  
+The final output consists of a **structured research report** and an **oral presentation**, following standard scientific communication practices.
+
+---
+
+## Policies {background="#00100F"}
+
+### Academic Integrity {background="#43464B"}
+
+- Students are expected to uphold **academic integrity** in all coursework and research.  
+- All submissions must reflect the **student’s own understanding and effort**.  
+- Use of AI tools (e.g., ChatGPT, Copilot, Grammarly) is **permitted only if explicitly allowed** by the instructor.  
+- Any AI use must be **properly disclosed**, including the nature and extent of assistance.  
+- Unauthorized or undisclosed AI use (e.g., generating entire assignments, fabricating data, bypassing individual work requirements) constitutes **academic misconduct** and will be subject to institutional disciplinary action.
+
+---
+
+### Accessibility and Accommodations {background="#43464B"}
+
+- Students with documented disabilities, chronic medical conditions, or other special needs are encouraged to **inform the instructor at the beginning of the semester**.  
+- In cases of accidents, medical emergencies, or other unforeseen circumstances affecting attendance or coursework, students should **notify the instructor promptly** and provide official documentation (e.g., medical certificate, accident report, institutional approval) when requesting accommodations, extensions, or make‑up work.  
+- Reasonable efforts will be made to ensure academic continuity in consultation with relevant institutional offices.
+
+---
+
+### Communication {background="#43464B"}
+
+- WhatsApp may be used by the instructor **only for broadcasting** announcements.  
+- All other forms of course communication must occur **via email**; no alternative communication protocols will be entertained.  
+
+---
+
+## Key Dates {background="#00100F"}
+
+### Winter 2026 Timeline {background="#43464B"}
+
+- **Midterm examination window:** 27 February – 03 March 2026  
+- **Project due (presentations, tentative):** 11–12 April 2026  
+- **End‑semester examination window:** 26 April – 03 May 2026  
+- **Holidays / no class:** As per the institutional **Academic Calendar**  
+
+---
+
+## Contact {background="#00100F"}
+
+### Instructor Contact {background="#43464B"}
+
+- **Instructor:** Suparno Bhattacharyya  
+- **Email:** <suparno@iitism.ac.in>  
+- **Office:** 224A, ME  
+- **Office hours:** By appointment  
+
+#### Course Identification
+
+- **Course:** Research Methodology — NMEC 595  
+- **Term:** Winter 2026  
+- **Institute:** IIT (ISM) Dhanbad  

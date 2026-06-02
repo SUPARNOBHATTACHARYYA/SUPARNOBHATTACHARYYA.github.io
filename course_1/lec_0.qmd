@@ -1,0 +1,20 @@
+---
+sidebar: course-rm
+format: 
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false
+---
+
+::: page-header
+# Research Methodology
+:::
+
+
+## Lecture 0: Why Learn?
+
+---
+
+![](/course_1/Lectures/lec_0.pdf){width="800px" height="500px"}

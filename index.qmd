@@ -10,5 +10,17 @@ format:
 # ANNOUNCEMENT
 :::
 
+D2MMS 2026: Data-driven Modelling for Mechanical Systems  
+
+The Department of Mechanical Engineering, IIT (ISM) Dhanbad is organizing a five-day international summer school, **“Data-driven Modelling for Mechanical Systems (D2MMS 2026)”**, to be held in hybrid mode during **July 01–05, 2026** at IIT (ISM) Dhanbad.  
+
+The program will feature expert lectures and hands-on sessions covering CFD, computational mechanics, reduced-order modelling, digital twins, robotics, high-fidelity simulations, and scientific machine learning, with contributions from leading international and national researchers and industrial partners. The school is open to students, research scholars, postdoctoral fellows, faculty members, and industry professionals.  
+
+Early-bird registration closes on April 20, 2026. The final registration deadline is June 10, 2026, and the poster abstract submission deadline is June 15, 2026.  
+
+Further details and registration are available at: [https://people.iitism.ac.in/~d2mms/](Click Here)
+
+---
+
 
 ![](D2MMS.pdf){width="100%" height="1050px"}

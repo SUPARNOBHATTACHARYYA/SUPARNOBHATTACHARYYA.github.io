@@ -1,0 +1,19 @@
+---
+sidebar: course-rm
+format: 
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false
+---
+
+::: page-header
+# Research Methodology
+:::
+
+## Lecture 8: Data Analysis - Tabulation, Central Tendency & Dispersion
+
+---
+
+![](/course_1/Lectures/lec_8.pdf){width="800px" height="500px"}

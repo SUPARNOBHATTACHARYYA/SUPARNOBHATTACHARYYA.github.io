@@ -113,8 +113,8 @@
     "objectID": "course_1/index.html#course-information",
     "href": "course_1/index.html#course-information",
     "title": "Research Methodology",
-    "section": "",
-    "text": "Instructor: Prof. Suparno Bhattacharyya\nEmail: suparno@iitism.ac.in\nOffice Location: Room No - 224A, Mechanical Engineering Department\nOffice Hours: Virtual, by appointment\nCourse Website: This website\nLevel: Master’s\nPrerequisites: Coursework in Research Methodology\nCourse source code:",
+    "section": "Course Information",
+    "text": "Course Information\nInstructor: Prof. Suparno Bhattacharyya\nEmail: suparno@iitism.ac.in\nOffice Location: Room No - 224A, Mechanical Engineering Department\nOffice Hours: Virtual, by appointment\nCourse Website: This website\nLevel: Master’s\nPrerequisites: Coursework in Research Methodology\nCourse source code: \n\nIn Slide Form",
     "crumbs": [
       "Home",
       "Course Info",
@@ -185,7 +185,7 @@
     "href": "index.html",
     "title": "ANNOUNCEMENT",
     "section": "",
-    "text": "ANNOUNCEMENT"
+    "text": "ANNOUNCEMENT\n\nD2MMS 2026: Data-driven Modelling for Mechanical Systems\nThe Department of Mechanical Engineering, IIT (ISM) Dhanbad is organizing a five-day international summer school, “Data-driven Modelling for Mechanical Systems (D2MMS 2026)”, to be held in hybrid mode during July 01–05, 2026 at IIT (ISM) Dhanbad.\nThe program will feature expert lectures and hands-on sessions covering CFD, computational mechanics, reduced-order modelling, digital twins, robotics, high-fidelity simulations, and scientific machine learning, with contributions from leading international and national researchers and industrial partners. The school is open to students, research scholars, postdoctoral fellows, faculty members, and industry professionals.\nEarly-bird registration closes on April 20, 2026. The final registration deadline is June 10, 2026, and the poster abstract submission deadline is June 15, 2026.\nFurther details and registration are available at: https://people.iitism.ac.in/~d2mms/"
   },
   {
     "objectID": "media.html",
@@ -305,5 +305,276 @@
     "title": "TEACHING",
     "section": "All Teaching Experience",
     "text": "All Teaching Experience\n\nIndian Institute of Technology (Indian School of Mines) Dhanbad\n\n\n\nCourse\nRole\nLevel\nYear\n\n\n\n\nIntroduction to MATLAB and SIMULINK\nInstructor\nUG\n2025\n\n\nMechanics for Engineers\nInstructor\nUG\n2025\n\n\nResearch Methodology\nInstructor\nPG\n2025\n\n\nFinite Element Analyses Lab\nInstructor\nPG\n2025\n\n\n\n\n\nTexas A&M University\n\n\n\n\n\n\n\n\n\nCourse\nRole\nLevel\nYear\n\n\n\n\nWorkshop: Principal Component Analysis (PCA)\nInstructor\nUG/PG\n2025\n\n\nWorkshop: Dive into Reduced Order Modeling with pylibROM\nInstructor\nUG/PG\n2024\n\n\nPhysics-based and Data-Driven Reduced-Order Modeling for Engineering Systems\nGuest Lecturer\nPG\n2023\n\n\n\n\n\nPennsylvania State University\n\n\n\n\n\n\n\n\n\nCourse\nRole\nLevel\nYear\n\n\n\n\nStatics and Strength of Materials\nTA\nUG\n2020–2021\n\n\nDynamics\nTA/Instructor\nUG\n2015–2020\n\n\nExperimental Determination of Mechanical Response of Materials\nTA\nUG\n2014–2015\n\n\n\n."
+  },
+  {
+    "objectID": "course_1/lec_0.html",
+    "href": "course_1/lec_0.html",
+    "title": "lec_0",
+    "section": "",
+    "text": "#Lecture 01: Why Learn?\n\nIn Slide Form"
+  },
+  {
+    "objectID": "course_1/lec_1.html#lecture-02-introduction",
+    "href": "course_1/lec_1.html#lecture-02-introduction",
+    "title": "Research Methodology",
+    "section": "Lecture 02: Introduction?",
+    "text": "Lecture 02: Introduction?\n\nIn Slide Form",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_9.html#lecture-9-probablity",
+    "href": "course_1/lec_9.html#lecture-9-probablity",
+    "title": "Research Methodology",
+    "section": "Lecture 9: Probablity",
+    "text": "Lecture 9: Probablity",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Probablity"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_7.html#lecture-7-processing-and-analysis-of-data",
+    "href": "course_1/lec_7.html#lecture-7-processing-and-analysis-of-data",
+    "title": "Research Methodology",
+    "section": "Lecture 7: Processing and Analysis of Data",
+    "text": "Lecture 7: Processing and Analysis of Data",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Processing and Analysis of Data"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_5.html#lecture-5-sampling-design",
+    "href": "course_1/lec_5.html#lecture-5-sampling-design",
+    "title": "Research Methodology",
+    "section": "Lecture 5: Sampling Design",
+    "text": "Lecture 5: Sampling Design",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Sampling Design"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_3.html#lecture-3-defining-the-research-problem",
+    "href": "course_1/lec_3.html#lecture-3-defining-the-research-problem",
+    "title": "Research Methodology",
+    "section": "Lecture 3: Defining the Research Problem",
+    "text": "Lecture 3: Defining the Research Problem",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Defining the Research Problem"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_15.html#lecture-15-chi-square-tests-introduction-to-anova",
+    "href": "course_1/lec_15.html#lecture-15-chi-square-tests-introduction-to-anova",
+    "title": "Research Methodology",
+    "section": "Lecture 15: Chi-Square Tests & Introduction to ANOVA",
+    "text": "Lecture 15: Chi-Square Tests & Introduction to ANOVA",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Chi-Square Tests & Introduction to ANOVA"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_13.html#lecture-13-hypothesis-testing",
+    "href": "course_1/lec_13.html#lecture-13-hypothesis-testing",
+    "title": "Research Methodology",
+    "section": "Lecture 13: Hypothesis Testing",
+    "text": "Lecture 13: Hypothesis Testing",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Hypothesis Testing"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_11.html#lecture-11-sampling-distribution",
+    "href": "course_1/lec_11.html#lecture-11-sampling-distribution",
+    "title": "Research Methodology",
+    "section": "Lecture 11: Sampling Distribution",
+    "text": "Lecture 11: Sampling Distribution",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Sampling Distribution"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_1.html#lecture-1-introduction",
+    "href": "course_1/lec_1.html#lecture-1-introduction",
+    "title": "Research Methodology",
+    "section": "Lecture 1: Introduction",
+    "text": "Lecture 1: Introduction",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_0.html#lecture-0-why-learn",
+    "href": "course_1/lec_0.html#lecture-0-why-learn",
+    "title": "Research Methodology",
+    "section": "Lecture 0: Why Learn?",
+    "text": "Lecture 0: Why Learn?",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Why Learn?"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_10.html#lecture-10-probablity-distribution",
+    "href": "course_1/lec_10.html#lecture-10-probablity-distribution",
+    "title": "Research Methodology",
+    "section": "Lecture 10: Probablity Distribution",
+    "text": "Lecture 10: Probablity Distribution",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Probablity Distribution"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_12.html#lecture-12-confidence-intervals",
+    "href": "course_1/lec_12.html#lecture-12-confidence-intervals",
+    "title": "Research Methodology",
+    "section": "Lecture 12: Confidence Intervals",
+    "text": "Lecture 12: Confidence Intervals",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Confidence Intervals"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_14.html#lecture-14-comparing-two-population-parameters",
+    "href": "course_1/lec_14.html#lecture-14-comparing-two-population-parameters",
+    "title": "Research Methodology",
+    "section": "Lecture 14: Comparing Two Population Parameters",
+    "text": "Lecture 14: Comparing Two Population Parameters",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Comparing Two Population Parameters"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_2.html#lecture-2a-types-of-research-articles-and-journal-metrics",
+    "href": "course_1/lec_2.html#lecture-2a-types-of-research-articles-and-journal-metrics",
+    "title": "Research Methodology",
+    "section": "Lecture 2a: Types of Research Articles and Journal Metrics",
+    "text": "Lecture 2a: Types of Research Articles and Journal Metrics",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Types of Research Articles and Journal Metrics"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_4.html#lecture-4-research-design",
+    "href": "course_1/lec_4.html#lecture-4-research-design",
+    "title": "Research Methodology",
+    "section": "Lecture 4: Research Design",
+    "text": "Lecture 4: Research Design",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Research Design"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_6.html#lecture-6-measurement-and-scaling-techniques",
+    "href": "course_1/lec_6.html#lecture-6-measurement-and-scaling-techniques",
+    "title": "Research Methodology",
+    "section": "Lecture 6: Measurement and Scaling Techniques",
+    "text": "Lecture 6: Measurement and Scaling Techniques",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Measurement and Scaling Techniques"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_8.html#lecture-8-data-analysis---tabulation-central-tendency-dispersion",
+    "href": "course_1/lec_8.html#lecture-8-data-analysis---tabulation-central-tendency-dispersion",
+    "title": "Research Methodology",
+    "section": "Lecture 8: Data Analysis - Tabulation, Central Tendency & Dispersion",
+    "text": "Lecture 8: Data Analysis - Tabulation, Central Tendency & Dispersion",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Data Analysis - Tabulation, Central Tendency & Dispersion"
+    ]
+  },
+  {
+    "objectID": "course_1/index.html#description",
+    "href": "course_1/index.html#description",
+    "title": "Research Methodology",
+    "section": "Course Content",
+    "text": "Course Content\nThis course introduces students to the foundational principles of research methodology, with a focus on scientific and engineering contexts. It covers the essential stages of conducting research, beginning with the formulation of a clear and structured research problem. Students learn how to identify research gaps, develop hypotheses, and design strategies to investigate their questions systematically.\nEmphasis is placed on understanding how to plan and execute a research study, including the collection and interpretation of data. The course also provides an introduction to the key statistical tools necessary for analyzing empirical findings and drawing meaningful conclusions, thereby preparing students to engage in rigorous, evidence-based inquiry.\n\nLearning Outcomes\nOn successful completion of the course, students will be able to:\n\nIdentify, design, and execute a research problem using various research processes and methodologies grounded in scientific and statistical tools.\nApply various sample design techniques and their classification, recognise the characteristics of a good sample design, and select a sampling procedure for data collection.\nDistinguish among types of measurement scales, identify sources of error in measurement, and develop measurement tools to evaluate collected data.\nUse various methods of data collection while assessing the reliability and validity of the collected data.\nPrepare and present reports through different approaches for the dissemination of research outcomes.\nEmploy the statistical tools necessary for designing a sample, analyzing data, and drawing scientific conclusions to arrive at a research outcome.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "course_1/index.html#textbooks",
+    "href": "course_1/index.html#textbooks",
+    "title": "Research Methodology",
+    "section": "Course Materials",
+    "text": "Course Materials\n\nTextbooks\n\nKothari, C. R., and Gaurav Garg. 2019. Research Methodology — Methods and Techniques. 4th ed. New Delhi: New Age International (P) Limited Publishers.\nMontgomery, Douglas C., and George C. Runger. 2016. Applied Statistics and Probability for Engineers. 6th ed.\nKumar, Ranjit. 2018. Research Methodology: A Step-by-Step Guide for Beginners. 5th ed. SAGE Publications Ltd.\n\n\n\nSoftware\nAnalyses and assignments use R and/or Python. Either environment is acceptable for the statistical components and the course project.\n\n\nCourse Format\nThe course is delivered through lectures combined with group work.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "course_1/index.html#grading",
+    "href": "course_1/index.html#grading",
+    "title": "Research Methodology",
+    "section": "Assessment & Grading",
+    "text": "Assessment & Grading\n\nGrade Components\n\n\n\n\n\n\n\n\nComponent\nWeight\nFormat\n\n\n\n\nMidterm Exam\n30%\nMultiple-choice questions (MCQ)\n\n\nEnd-Semester Examination\n50%\nLong-answer type\n\n\nProject Presentation\n20%\nPowerPoint presentations in groups\n\n\n\n\n\nProjects\nThe project requires students to formulate a research problem, collect or simulate data, and apply appropriate statistical tools to analyze the results. Emphasis is placed on correct interpretation of data and justification of conclusions using sound statistical reasoning. Students must present their work in the form of a structured research report and an oral presentation, following standard scientific communication practices.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "course_1/index.html#integrity",
+    "href": "course_1/index.html#integrity",
+    "title": "Research Methodology",
+    "section": "Course Policies",
+    "text": "Course Policies\n\nAcademic Integrity\nStudents are expected to uphold academic integrity in all coursework and research. All submissions must reflect the student’s own understanding and effort.\n\n\n\n\n\n\nImportantUse of AI Tools\n\n\n\nThe use of AI tools (e.g., ChatGPT, Copilot, Grammarly) is permitted only if explicitly allowed by the instructor. Any use must be properly disclosed, including the nature and extent of assistance. Unauthorized or undisclosed AI use — such as generating entire assignments, fabricating data, or bypassing individual work requirements — constitutes academic misconduct and is subject to disciplinary action per institutional guidelines. When in doubt, consult the instructor before using AI tools.\n\n\n\n\nAccessibility & Accommodations\nStudents with documented disabilities, chronic medical conditions, or other special needs are encouraged to inform the instructor at the beginning of the semester to arrange appropriate accommodations. In the event of accidents, medical emergencies, or other unforeseen circumstances affecting attendance or coursework, students must notify the instructor promptly and provide official documentation (e.g., medical certificate, accident report, or institutional approval) to support requests for accommodations, extensions, or make-up work. Reasonable efforts will be made to ensure academic continuity in consultation with relevant institutional offices.\n\n\nCommunication\n\n\n\n\n\n\nWarningEmail is the official channel\n\n\n\nWhatsApp may be used by the instructor for broadcasting only. All other communication must happen via email — no other communication protocol will be entertained.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "course_1/index.html#dates",
+    "href": "course_1/index.html#dates",
+    "title": "Research Methodology",
+    "section": "Key Dates",
+    "text": "Key Dates\n\n\n\nEvent\nDate\n\n\n\n\nMidterm\n27 February – 03 March, 2026\n\n\nProject due\n11th & 12th April, 2026 (tentative)\n\n\nEnd-Sem Examination\n26 April – 03 May, 2026\n\n\nHolidays / No class\nConsult the Academic Calendar",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Introduction"
+    ]
   }
 ]

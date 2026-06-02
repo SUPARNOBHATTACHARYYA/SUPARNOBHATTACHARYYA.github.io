@@ -1,0 +1,19 @@
+---
+sidebar: course-rm
+format: 
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false
+---
+
+::: page-header
+# Research Methodology
+:::
+
+## Lecture 7: Processing and Analysis of Data
+
+---
+
+![](/course_1/Lectures/lec_7.pdf){width="800px" height="500px"}

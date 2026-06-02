@@ -92,7 +92,7 @@ website:
 # ADD THIS NEW SECTION BELOW THE NAVBAR:
   sidebar:
     - id: course-rm
-      style: "docked"
+      style: "floating"
       search: true
       collapse-level: 1
       contents:
@@ -100,14 +100,41 @@ website:
           contents:
             - text: "Course Introduction"
               href: course_1/index.qmd  # Make sure this path matches your folder structure!
-            - text: "Introductory Slides"
-              href: course_1/slides/intro.qmd
-        - section: "Course Modules"
+        - section: "Course Material"
           contents:
-            - text: "Literature Review"
-              href: course_1/modules/literature.qmd
-            - text: "Experimental Design"
-              href: course_1/modules/experimental.qmd
+            - text: "Why Learn?"
+              href: course_1/lec_0.qmd
+            - text: "Introduction"
+              href: course_1/lec_1.qmd
+            - text: "Types of Research Articles and Journal Metrics"
+              href: course_1/lec_2.qmd
+            - text: "Defining the Research Problem"
+              href: course_1/lec_3.qmd
+            - text: "Research Design"
+              href: course_1/lec_4.qmd
+            - text: "Sampling Design"
+              href: course_1/lec_5.qmd
+            - text: "Measurement and Scaling Techniques"
+              href: course_1/lec_6.qmd
+            - text: "Processing and Analysis of Data"
+              href: course_1/lec_7.qmd
+            - text: "Data Analysis - Tabulation, Central Tendency & Dispersion"
+              href: course_1/lec_8.qmd
+            - text: "Probablity"
+              href: course_1/lec_9.qmd
+            - text: "Probablity Distribution"
+              href: course_1/lec_10.qmd
+            - text: "Sampling Distribution"
+              href: course_1/lec_11.qmd
+            - text: "Confidence Intervals"
+              href: course_1/lec_12.qmd
+            - text: "Hypothesis Testing"
+              href: course_1/lec_13.qmd
+            - text: "Comparing Two Population Parameters"
+              href: course_1/lec_14.qmd
+            - text: "Chi-Square Tests & Introduction to ANOVA"
+              href: course_1/lec_15.qmd
+
   
 format:
   html:

@@ -1,0 +1,19 @@
+---
+sidebar: course-rm
+format: 
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false
+---
+
+::: page-header
+# Research Methodology
+:::
+
+## Lecture 12: Confidence Intervals
+
+---
+
+![](/course_1/Lectures/lec_12.pdf){width="800px" height="500px"}

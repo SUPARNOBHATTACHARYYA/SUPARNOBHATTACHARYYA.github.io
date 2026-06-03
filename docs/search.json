@@ -575,5 +575,12 @@
       "Course Info",
       "Course Introduction"
     ]
+  },
+  {
+    "objectID": "course_1/intro.html",
+    "href": "course_1/intro.html",
+    "title": "Research Methodology",
+    "section": "",
+    "text": "Instructor: Suparno Bhattacharyya\n\nEmail: suparno@iitism.ac.in\n\nOffice: 224A, ME\n\nOffice hours: By appointment\n\n\n\n\n\nCourse code: NMEC 595 — Research Methodology\n\nTerm: Winter 2026\n\nCredits: 9\n\nMeetings: Wednesdays / Thursdays / Fridays\n\n15:00–15:50\n\n16:00–16:50\n\n17:00–17:50\n\n\nLocation: MECH-G1\n\n\n\n\n\n\n\n\nThis course introduces foundational principles of research methodology in scientific and engineering contexts.\nIt covers research problem formulation, identification of research gaps, hypothesis development, study design, data collection, interpretation, and the use of key statistical tools for drawing evidence‑based conclusions.\n\n\n\nThe overarching goal is to help students understand not only what research methods exist, but also how to select, justify, and apply them rigorously in practice, leading to defensible and well‑communicated research outcomes."
   }
 ]

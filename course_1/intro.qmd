@@ -9,7 +9,6 @@ format:
     slide-number: true
     incremental: true
     footer: "Research Methodology — NMEC 595"
-    footer-logo-link: "https://people.iitism.ac.in"
     theme: slides_theme.scss
     toc: true
     toc-depth: 2
@@ -120,56 +119,64 @@ The overarching goal is to help students understand not only what research metho
 
 ## Assessment and Grading {background="#00100F"}
 
-### Grade Components {background="#43464B"}
+### Grade Components I {background="#43464B"}
 
 :::: {.columns}
 
-::: {.column width="25%"}
+::: {.column width="50%"}
 
 <div class="rounded-box">
 
-**30% — Midterm Exam**  
+**30% — Midterm Exam**
 
-- Multiple‑choice questions  
-- Assesses understanding of core research concepts and terminology  
+- Multiple-choice questions
+- Assesses core research concepts and terminology
 
 </div>
 
 :::
 
-::: {.column width="25%"}
+::: {.column width="50%"}
 
 <div class="rounded-box">
 
-**50% — End‑Semester Examination**  
+**50% — End-Semester Examination**
 
-- Long‑answer questions  
-- Evaluates ability to design, justify, and critique research approaches  
+- Long-answer questions
+- Evaluates research design and critical reasoning
 
 </div>
 
 :::
 
-::: {.column width="25%"}
+::::
+
+---
+
+### Grade Components II {background="#43464B"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
 
 <div class="rounded-box">
 
-**10% — Project Presentation**  
+**10% — Project Presentation**
 
-- Group PowerPoint presentations  
-- Focus on research execution and communication  
+- Group PowerPoint presentations
+- Focus on research execution and communication
 
 </div>
 
 :::
 
-::: {.column width="25%"}
+::: {.column width="50%"}
 
 <div class="rounded-box">
 
-**10% — Quiz**  
+**10% — Quiz**
 
-- Pre-midsem Quiz  
+- Pre-midsem quiz
 
 </div>
 
@@ -200,19 +207,18 @@ The final output consists of a **structured research report** and an **oral pres
 
 ### Academic Integrity {background="#43464B"}
 
-- Students are expected to uphold **academic integrity** in all coursework and research.  
-- All submissions must reflect the **student’s own understanding and effort**.  
-- Use of AI tools (e.g., ChatGPT, Copilot, Grammarly) is **permitted only if explicitly allowed** by the instructor.  
-- Any AI use must be **properly disclosed**, including the nature and extent of assistance.  
-- Unauthorized or undisclosed AI use (e.g., generating entire assignments, fabricating data, bypassing individual work requirements) constitutes **academic misconduct** and will be subject to institutional disciplinary action.
+- Students must uphold academic integrity in all coursework and research.  
+- All submissions must represent the student’s own understanding and effort.  
+- AI tools (e.g., ChatGPT, Copilot, Grammarly) may be used only when explicitly permitted and clearly disclosed.  
+- Undisclosed or unauthorized AI use (such as generating full assignments or fabricating data) constitutes academic misconduct and may lead to disciplinary action.
 
 ---
 
 ### Accessibility and Accommodations {background="#43464B"}
 
-- Students with documented disabilities, chronic medical conditions, or other special needs are encouraged to **inform the instructor at the beginning of the semester**.  
-- In cases of accidents, medical emergencies, or other unforeseen circumstances affecting attendance or coursework, students should **notify the instructor promptly** and provide official documentation (e.g., medical certificate, accident report, institutional approval) when requesting accommodations, extensions, or make‑up work.  
-- Reasonable efforts will be made to ensure academic continuity in consultation with relevant institutional offices.
+- Students with documented disabilities or other special needs should inform the instructor at the start of the semester.  
+- In case of accidents, medical issues, or other unforeseen events affecting attendance or coursework, students must promptly notify the instructor and provide appropriate documentation when requesting accommodations, extensions, or make‑up work.  
+
 
 ---
 

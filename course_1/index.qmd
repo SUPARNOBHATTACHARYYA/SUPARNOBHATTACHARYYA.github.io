@@ -80,7 +80,8 @@ The course is delivered through lectures combined with group work.
 |---|:---:|---|
 | Midterm Exam | 30% | Multiple-choice questions (MCQ) |
 | End-Semester Examination | 50% | Long-answer type |
-| Project Presentation | 20% | PowerPoint presentations in groups |
+| Project Presentation | 10% | PowerPoint presentations in groups |
+| Quiz | 10% | Pre-midsem quiz |
 
 ### Projects {#projects}
 

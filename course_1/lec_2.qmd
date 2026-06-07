@@ -12,7 +12,7 @@ format:
 # Research Methodology
 :::
 
-## Lecture 2a: Types of Research Articles and Journal Metrics
+## Lecture 2: Types of Research Articles and Journal Metrics
 
 ---
 

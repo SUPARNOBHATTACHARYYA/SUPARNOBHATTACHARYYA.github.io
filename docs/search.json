@@ -261,7 +261,7 @@
     "href": "collaborators.html",
     "title": "COLLABORATORS",
     "section": "",
-    "text": "COLLABORATORS\n\nIt has been an honor to collaborate with leading researchers and experts in the field.\n\n\n\n\nJoseph Cusumano\nProfessor, Engineering Science and Mechanics Pennsylvania State University\n\n\n\nAnindya Chatterjee\nProfessor, Department of Mechanical Engineering, IIT Kanpur\n\n\n\nGary Dargush\nProfessor, Department of Mechanical and Aerospace Engineering, University at Buffalo\n\n\n\nJian Tao\nDirector, Digital Twin Lab, Texas A&M Institute of Data Science\nTexas A&M University College of Engineering\n\n\n\nJean Ragusa\nProfessor, Nuclear Engineering\nAssociate Director, Institute for Scientific Computation (ISC)\nTexas A&M University College of Engineering\n\n\n\nEduardo Gildin\nAssociate Department Head, Graduate Studies, Petroleum Engineering\nTexas A&M University College of Engineering\n\n\n\nSatish Bukkapatnam\nProfessor, Industrial & Systems Engineering\nTexas A&M University College of Engineering\n\n\n\nYoungsoo Choi\nResearch Scientist Staff Lawrence Livermore National Laboratory\n\n\n\nTuhin Mukherjee\nAssistant Professor, Department of Mechanical Engineering, Iowa State University\n\n\n\nG.L. Samuel\nProfessor, Department of Mechanical Engineering, IIT Madras"
+    "text": "COLLABORATORS\n\nIt has been an honor to collaborate with leading researchers and experts in the field.\n\n\n\n\nJoseph Cusumano\nProfessor, Engineering Science and Mechanics Pennsylvania State University\n\n\n\nAnindya Chatterjee\nProfessor, Department of Mechanical Engineering, IIT Kanpur\n\n\n\nGary Dargush\nProfessor, Department of Mechanical and Aerospace Engineering, University at Buffalo\n\n\n\nJian Tao\nDirector, Digital Twin Lab, Texas A&M Institute of Data Science\nTexas A&M University College of Engineering\n\n\n\nJean Ragusa\nProfessor, Nuclear Engineering\nAssociate Director, Institute for Scientific Computation (ISC)\nTexas A&M University College of Engineering\n\n\n\nEduardo Gildin\nAssociate Department Head, Graduate Studies, Petroleum Engineering\nTexas A&M University College of Engineering\n\n\n\nSatish Bukkapatnam\nProfessor, Industrial & Systems Engineering\nTexas A&M University College of Engineering\n\n\n\nYoungsoo Choi\nResearch Scientist Staff Lawrence Livermore National Laboratory\n\n\n\nTuhin Mukherjee\nAssistant Professor, Department of Mechanical Engineering, Iowa State University\n\n\n\nG.L. Samuel\nProfessor, Department of Mechanical Engineering, IIT Madras\n\n\n\nSabareesh Geetha Rajasekharan\nHead & Professor, Department of Mechanical Engineering, Birla Institute of Technology & Science, Hyderabad Campus"
   },
   {
     "objectID": "course_1/index.html#course-information",
@@ -594,5 +594,26 @@
       "Course Material",
       "Types of Research Articles and Journal Metrics"
     ]
+  },
+  {
+    "objectID": "labgroup.html",
+    "href": "labgroup.html",
+    "title": "Lab Group",
+    "section": "",
+    "text": "Lab Group\n\n\nPhD. Candidate\n\n\n\n\nGajavada Sanjeevkumar\n\n\n\n\nUndergraduate Candidates\n\n\n\n\nDivansh\n\n\n\nChaxu Patel\n\n\n\nHarikesh Pratap Verma"
+  },
+  {
+    "objectID": "labgroup.html#phd.-candidate",
+    "href": "labgroup.html#phd.-candidate",
+    "title": "Lab Group",
+    "section": "### PhD. Candidate",
+    "text": "### PhD. Candidate\n\n\n\n\nGajavada Sanjeevkumar"
+  },
+  {
+    "objectID": "labgroup.html#undergraduate-candidates",
+    "href": "labgroup.html#undergraduate-candidates",
+    "title": "Lab Group",
+    "section": "### Undergraduate Candidates",
+    "text": "### Undergraduate Candidates\n\n\n\n\nDivansh\n\n\n\nChaxu Patel\n\n\n\nHarikesh Pratap Verma"
   }
 ]

@@ -58,8 +58,12 @@ website:
         text: "Research"
       - href: teachings.qmd
         text: "Teaching"
-      - href: collaborators.qmd
-        text: "Collaborators"
+      - text: "People"
+        menu:
+          - text: "Lab group"
+            href: labgroup.qmd
+          - text: "Collaborators"
+            href: collaborators.qmd
       - text: "Others"
         menu: 
           - text: "Media"

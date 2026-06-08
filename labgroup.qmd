@@ -1,0 +1,59 @@
+---
+format: 
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    page-layout: full
+    css: collab.css
+    toc: false
+---
+
+::: page-header
+# Lab Group
+:::
+
+### PhD. Candidate
+
+
+::::::::::::::: collaborator-grid
+<!-- To add a new Candidates, copy one of these blocks -->
+
+::: {.g-col .collaborator-card}
+![](/images/Phd_1.jpg)
+
+**Gajavada Sanjeevkumar**
+
+:::
+
+:::::::::::::::
+
+### Undergraduate Candidates
+
+
+::::::::::::::: collaborator-grid
+<!-- To add a new Candidates, copy one of these blocks -->
+
+::: {.g-col .collaborator-card}
+![](/images/Ug_1.jpg)
+
+**Divansh**
+
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Ug_2.jpg)
+
+**Chaxu Patel**
+
+:::
+
+::: {.g-col .collaborator-card}
+![](/images/Ug_3.jpg)
+
+**Harikesh Pratap Verma**
+
+:::
+
+
+:::::::::::::::

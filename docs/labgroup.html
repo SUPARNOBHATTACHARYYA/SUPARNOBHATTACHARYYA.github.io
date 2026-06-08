@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>teachings – Suparno Bhattacharyya</title>
+<title>labgroup – Suparno Bhattacharyya</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -39,10 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4b806f5054f15890e4a7167ebd834cd5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4b806f5054f15890e4a7167ebd834cd5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-66ed4f903c5ea92d1354576ce094a65f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-4b806f5054f15890e4a7167ebd834cd5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,9 +77,172 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="collab.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -109,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teachings.html" aria-current="page"> 
+    <a class="nav-link" href="./teachings.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -178,229 +345,73 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">TABLE OF CONTENTS</h2>
-   
-  <ul>
-  <li><a href="#teaching" id="toc-teaching" class="nav-link active" data-scroll-target="#teaching">TEACHING</a></li>
-  <li><a href="#courses-with-materials" id="toc-courses-with-materials" class="nav-link" data-scroll-target="#courses-with-materials">Courses with Materials</a></li>
-  <li><a href="#workshops-with-materials" id="toc-workshops-with-materials" class="nav-link" data-scroll-target="#workshops-with-materials">Workshops with Materials</a></li>
-  <li><a href="#all-teaching-experience" id="toc-all-teaching-experience" class="nav-link" data-scroll-target="#all-teaching-experience">All Teaching Experience</a>
-  <ul class="collapse">
-  <li><a href="#indian-institute-of-technology-indian-school-of-mines-dhanbad" id="toc-indian-institute-of-technology-indian-school-of-mines-dhanbad" class="nav-link" data-scroll-target="#indian-institute-of-technology-indian-school-of-mines-dhanbad">Indian Institute of Technology (Indian School of Mines) Dhanbad</a></li>
-  <li><a href="#texas-am-university" id="toc-texas-am-university" class="nav-link" data-scroll-target="#texas-am-university">Texas A&amp;M University</a></li>
-  <li><a href="#pennsylvania-state-university" id="toc-pennsylvania-state-university" class="nav-link" data-scroll-target="#pennsylvania-state-university">Pennsylvania State University</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="teaching" class="level1 page-header">
-<h1>TEACHING</h1>
+
+<section id="lab-group" class="level1 page-header">
+<h1>Lab Group</h1>
 </section>
-<section id="courses-with-materials" class="level2">
-<h2 class="anchored" data-anchor-id="courses-with-materials">Courses with Materials</h2>
-<div class="list-item-spaced1">
-<div class="card" style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;">
-<p><img src="\images\course_3.png" class="img-fluid" style="width:100%; height:270px; object-fit:cover; border-radius:8px; margin-bottom:1rem;"></p>
-<p><strong>Course:</strong> Research Methodology<br>
-<strong>Level:</strong> Postgraduate</p>
-<p><strong>Description:</strong><br>
-This course (NMEC595 - Research Methodology and Statistics) introduces students to the fundamentals of scientific research, covering the entire research process from problem identification and hypothesis formulation to research design and execution. It emphasizes practical statistical tools including probability distributions, hypothesis testing, ANOVA, regression analysis, and sampling techniques necessary for data collection, analysis, and drawing meaningful conclusions from research data. The course also addresses critical aspects such as measurement scales, data presentation, report preparation, and ethical considerations like plagiarism in research.</p>
-<p><a href="./course_1/index.html"><strong>Access Materials</strong></a></p>
-</div>
-</div>
-<div class="list-item-spaced1">
-<div class="card" style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;">
-<p><img src="\images\course_4.png" class="img-fluid" style="width:100%; height:270px; object-fit:cover; border-radius:8px; margin-bottom:1rem;"></p>
-<p><strong>Course:</strong> Finite Element Analyses Lab<br>
-<strong>Level:</strong> Postgraduate</p>
-<p><strong>Description:</strong><br>
-This lab course (NMEC535 - Finite Element Analyses Lab) provides hands-on training in developing algorithms and MATLAB codes for classical Finite Element Analysis of structural systems. Students learn to program various element types including linear and quadratic bar elements, plane trusses, plane frames, and Euler-Bernoulli beams for analyzing 1D, 2D, and 3D structures under static and dynamic loading conditions. The course emphasizes mesh convergence studies, error analysis, and culminates in a mini-project applying FEA to real-life structural problems.</p>
-<p><a href="https://indianinstituteoftechnol299-my.sharepoint.com/personal/suparno_iitism_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsuparno%5Fiitism%5Fac%5Fin%2FDocuments%2FIIT%5FISM%2FCOURSES%2FWinter%5F2026%2FNMEC%5F535%5FFEA%5FLAB%2Fpublic&amp;ga=1" style="color:#E76F51; font-weight:bold;"><strong>Access Materials</strong></a></p>
-</div>
-</div>
-<div class="list-item-spaced1">
-<div class="card" style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;">
-<p><img src="banner.png" class="img-fluid" style="width:100%; height:270px; object-fit:cover; border-radius:8px; margin-bottom:1rem;"></p>
-<p><strong>Course:</strong> Introduction to MATLAB and SIMULINK<br>
-<strong>Level:</strong> Undergraduate</p>
-<p><strong>Description:</strong><br>
-This course introduces students to MATLAB programming and Simulink modeling.<br>
-It covers fundamental numerical methods, system simulation, and visualization.<br>
-Students learn practical applications through engineering case studies.</p>
-<p><a href="https://indianinstituteoftechnol299-my.sharepoint.com/:f:/g/personal/suparno_iitism_ac_in/EoO7WevgmKBGhhE5KyBICZwB0EftstNKs91oXcZEOIAglg?e=lQMe1b" style="color:#E76F51; font-weight:bold;"><strong>Access Materials</strong></a></p>
-</div>
-</div>
-<div class="list-item-spaced1">
-<div class="card" style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;">
-<p><img src="\images\course_21.png" class="img-fluid" style="width:100%; height:270px; object-fit:cover; border-radius:8px; margin-bottom:1rem;"></p>
-<p><strong>Course:</strong> Mechanics for Engineers<br>
-<strong>Level:</strong> Undergraduate</p>
-<p><strong>Description:</strong><br>
-Mechanics for Engineers (NMEE101) introduces students to the principles of statics and dynamics, building a strong analytical foundation to tackle real-life engineering challenges. The course emphasizes solving equilibrium problems, analyzing forces and moments in structures, and understanding kinematics and kinetics of particles and rigid bodies. By the end, students will confidently apply mechanics concepts in a structured and logical manner to practical engineering problems.</p>
-<p><a href="https://indianinstituteoftechnol299-my.sharepoint.com/:f:/g/personal/suparno_iitism_ac_in/EqpeY_3wk8pEihOZAZg9U6IBZzWWo57eiP9aKh74aBPMpw?e=aHn9ph" style="color:#E76F51; font-weight:bold;"><strong>Access Materials</strong></a></p>
+<section id="phd.-candidate" class="level3">
+<h3 class="anchored" data-anchor-id="phd.-candidate">PhD. Candidate</h3>
+<div class="collaborator-grid">
+<!-- To add a new Candidates, copy one of these blocks -->
+<div class="g-col collaborator-card">
+<p><img src=".\images/Phd_1.jpg" class="img-fluid"></p>
+<p><strong>Gajavada Sanjeevkumar</strong></p>
 </div>
 </div>
 </section>
-<section id="workshops-with-materials" class="level2">
-<h2 class="anchored" data-anchor-id="workshops-with-materials">Workshops with Materials</h2>
-<div class="list-item-spaced1">
-<div class="card" style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;">
-<p><img src="course_DTL.png" class="img-fluid" style="width:100%; height:250px; border-radius: 8px; margin-bottom: 1rem;"> <strong>Workshop:</strong> Dive into Reduced Order Modeling with pylibROM – April 2024</p>
-<p><strong>Description:</strong> Reduced-order modeling (ROM) is a computational strategy for approximating high-fidelity numerical models with significantly reduced computational cost. Instead of solving large-scale systems—often with millions of unknowns—ROM techniques construct low-dimensional surrogates that retain the dominant physics of the system, enabling efficient and repeated evaluations. In this workshop I demonstrate the use of popular open-source software called pylibrom, which was developed at the Lawrence Livermore National Lab, for performing model reduction of Large-scale FEA models.</p>
-<p><a href="https://dtl.tamids.tamu.edu/2024/03/13/dive-into-reduced-order-modeling-with-pylibrom/" style="color:#E76F51; font-weight:bold;"><strong>Access Materials</strong></a></p>
+<section id="undergraduate-candidates" class="level3">
+<h3 class="anchored" data-anchor-id="undergraduate-candidates">Undergraduate Candidates</h3>
+<div class="collaborator-grid">
+<!-- To add a new Candidates, copy one of these blocks -->
+<div class="g-col collaborator-card">
+<p><img src=".\images/Ug_1.jpg" class="img-fluid"></p>
+<p><strong>Divansh</strong></p>
+</div>
+<div class="g-col collaborator-card">
+<p><img src=".\images/Ug_2.jpg" class="img-fluid"></p>
+<p><strong>Chaxu Patel</strong></p>
+</div>
+<div class="g-col collaborator-card">
+<p><img src=".\images/Ug_3.jpg" class="img-fluid"></p>
+<p><strong>Harikesh Pratap Verma</strong></p>
 </div>
 </div>
-<div class="list-item-spaced1">
-<div class="card" style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); padding: 1rem;">
-<p><img src="pca_image.png" class="img-fluid" style="width:100%; height:250px; border-radius: 8px; margin-bottom: 1rem;"> <strong>Workshop:</strong> Principal Component analysis</p>
-<p><strong>Description:</strong> PCA reduces high-dimensional data into uncorrelated components that capture most variance, simplifying analysis and visualization. It is widely used in areas like image compression, genomics/population genetics, microbiome studies, atmospheric science, finance risk factors, feature preprocessing for ML, noise reduction, and visualization of clusters in 2D. This GitHub repo offers a comprehensive PCA introduction with intuition and practical examples for real datasets.</p>
-<p><a href="https://github.com/TAMIDS-WORKSHOPS/pca_tutorial_tamids" style="color:#E76F51; font-weight:bold;"><strong>Access Materials</strong></a></p>
-</div>
-</div>
-</section>
-<section id="all-teaching-experience" class="level2">
-<h2 class="anchored" data-anchor-id="all-teaching-experience">All Teaching Experience</h2>
-<section id="indian-institute-of-technology-indian-school-of-mines-dhanbad" class="level3">
-<h3 class="anchored" data-anchor-id="indian-institute-of-technology-indian-school-of-mines-dhanbad">Indian Institute of Technology (Indian School of Mines) Dhanbad</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Course</th>
-<th style="text-align: left;">Role</th>
-<th style="text-align: left;">Level</th>
-<th style="text-align: right;">Year</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Introduction to MATLAB and SIMULINK</td>
-<td style="text-align: left;">Instructor</td>
-<td style="text-align: left;">UG</td>
-<td style="text-align: right;">2025</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Mechanics for Engineers</td>
-<td style="text-align: left;">Instructor</td>
-<td style="text-align: left;">UG</td>
-<td style="text-align: right;">2025</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Research Methodology</td>
-<td style="text-align: left;">Instructor</td>
-<td style="text-align: left;">PG</td>
-<td style="text-align: right;">2025</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Finite Element Analyses Lab</td>
-<td style="text-align: left;">Instructor</td>
-<td style="text-align: left;">PG</td>
-<td style="text-align: right;">2025</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="texas-am-university" class="level3">
-<h3 class="anchored" data-anchor-id="texas-am-university">Texas A&amp;M University</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 72%">
-<col style="width: 14%">
-<col style="width: 6%">
-<col style="width: 5%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Course</th>
-<th style="text-align: left;">Role</th>
-<th style="text-align: left;">Level</th>
-<th style="text-align: right;">Year</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Workshop: Principal Component Analysis (PCA)</td>
-<td style="text-align: left;">Instructor</td>
-<td style="text-align: left;">UG/PG</td>
-<td style="text-align: right;">2025</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Workshop: Dive into Reduced Order Modeling with pylibROM</td>
-<td style="text-align: left;">Instructor</td>
-<td style="text-align: left;">UG/PG</td>
-<td style="text-align: right;">2024</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Physics-based and Data-Driven Reduced-Order Modeling for Engineering Systems</td>
-<td style="text-align: left;">Guest Lecturer</td>
-<td style="text-align: left;">PG</td>
-<td style="text-align: right;">2023</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="pennsylvania-state-university" class="level3">
-<h3 class="anchored" data-anchor-id="pennsylvania-state-university">Pennsylvania State University</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 65%">
-<col style="width: 15%">
-<col style="width: 7%">
-<col style="width: 11%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Course</th>
-<th style="text-align: left;">Role</th>
-<th style="text-align: left;">Level</th>
-<th style="text-align: right;">Year</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Statics and Strength of Materials</td>
-<td style="text-align: left;">TA</td>
-<td style="text-align: left;">UG</td>
-<td style="text-align: right;">2020–2021</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Dynamics</td>
-<td style="text-align: left;">TA/Instructor</td>
-<td style="text-align: left;">UG</td>
-<td style="text-align: right;">2015–2020</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Experimental Determination of Mechanical Response of Materials</td>
-<td style="text-align: left;">TA</td>
-<td style="text-align: left;">UG</td>
-<td style="text-align: right;">2014–2015</td>
-</tr>
-</tbody>
-</table>
-<p>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

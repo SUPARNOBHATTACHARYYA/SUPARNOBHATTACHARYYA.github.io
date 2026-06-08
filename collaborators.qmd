@@ -110,4 +110,12 @@ Professor, Department of Mechanical Engineering, IIT Madras
 :::
 
 
+::: {.g-col .collaborator-card}
+![](/images/Co_13.webp){fig-alt="Alt text for Image 1"}
+
+[Sabareesh Geetha Rajasekharan](https://www.bits-pilani.ac.in/hyderabad/prof-sabareesh-geetha-rajasekharan/)
+
+Head & Professor, Department of Mechanical Engineering, BITS-Hyderabad Campus
+:::
+
 :::::::::::::::

@@ -32,25 +32,6 @@ format:
 
 
 
-## PhD. Candidate
-
-
-::::::::::::::: collaborator-grid
-<!-- To add a new Candidates, copy one of these blocks -->
-
-::: {.g-col .collaborator-card}
-![](/images/Phd_1.jpg)
-
-**Gajavada Sanjeevkumar**
-
-*Composites for flutter control*
-
-:::
-
-:::::::::::::::
-
-
-
 ## Undergraduate Candidates
 
 
@@ -83,5 +64,26 @@ format:
 
 :::
 
+
+:::::::::::::::
+
+
+
+
+
+## PhD. Candidate
+
+
+::::::::::::::: collaborator-grid
+<!-- To add a new Candidates, copy one of these blocks -->
+
+::: {.g-col .collaborator-card}
+![](/images/Phd_1.jpg)
+
+**Gajavada Sanjeevkumar**
+
+*Composites for flutter control*
+
+:::
 
 :::::::::::::::

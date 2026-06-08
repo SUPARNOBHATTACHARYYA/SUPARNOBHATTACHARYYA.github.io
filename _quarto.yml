@@ -74,6 +74,8 @@ website:
             href: resources.qmd
           - text: "Webinar"
             href: Webinar.qmd
+          - text: "Announcement"
+            href: index.qmd
       - href: opportunities.qmd
         text: "Opportunities"
       - href: cv.qmd

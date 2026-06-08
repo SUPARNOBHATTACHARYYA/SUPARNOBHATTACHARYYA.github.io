@@ -84,184 +84,121 @@
     "text": "Lattice metamaterials\n\nAIMS-META: AI-enhanced designing of Manufacturability-aware and Symmetry-driven METAmaterials for enhanced mechanical performance Lattice metamaterials with exceptional mechanical properties present significant potential for diverse applications. This proposed research seeks to address key challenges in the design and fabrication of these materials through a comprehensive approach. By employing mathematical frameworks and advanced computational techniques, the study aims to explore novel design spaces that could uncover unprecedented possibilities. Machine learning models are proposed to further refine the generation and optimization of designs, ensuring both innovation and manufacturability. Additionally, integrating real-time monitoring systems during fabrication is expected to enhance precision and reduce defects. The goal is to establish a systematic methodology for advancing material design and broadening its practical applicability across various domains. Keywords: Mechanical metamaterials, group symmetry, 3D printing, periodic structures Data-driven modeling has transformed simulation capabilities in recent years. This project develops advanced computational methods for complex systems where traditional analysis approaches face significant computational challenges. While reduced-order modeling provides efficient alternatives, current methods often neglect various sources of uncertainty, potentially affecting reliability. This project will create modeling strategies that balance computational efficiency with consideration of uncertainties, validated through appropriate case studies with broader applications in system monitoring and control."
   },
   {
-    "objectID": "home.html",
-    "href": "home.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ANNOUNCEMENT",
     "section": "",
-    "text": "At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates computational mechanics, topology optimization, and data-driven modeling, with an emphasis on capturing mechanical and dynamical behavior across scales and applications.\nA core theme of our work is the development of intrusive and nonintrusive data-driven methods that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.\n\nOur contributions span:\n\nData-driven ROMs for systems with discontinuities and nonlinearities\nEnergy-based closure strategies for improved accuracy in low-dimensional models\nTopology optimization frameworks for periodic and lattice structures with tailored dynamic properties\nIntegration of neural ODEs and machine learning into physics-based modeling pipelines\n\nAs a natural extension, we are increasingly applying these methods to support digital twin technologies, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.\nOur long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.\n\nNews →\nAnnouncement →\nWebinar →"
+    "text": "ANNOUNCEMENT\n\nD2MMS 2026: Data-driven Modelling for Mechanical Systems\nThe Department of Mechanical Engineering, IIT (ISM) Dhanbad is organizing a five-day international summer school, “Data-driven Modelling for Mechanical Systems (D2MMS 2026)”, to be held in hybrid mode during July 01–05, 2026 at IIT (ISM) Dhanbad.\nThe program will feature expert lectures and hands-on sessions covering CFD, computational mechanics, reduced-order modelling, digital twins, robotics, high-fidelity simulations, and scientific machine learning, with contributions from leading international and national researchers and industrial partners. The school is open to students, research scholars, postdoctoral fellows, faculty members, and industry professionals.\nEarly-bird registration closes on April 20, 2026. The final registration deadline is June 10, 2026, and the poster abstract submission deadline is June 15, 2026.\nFurther details and registration are available at: https://people.iitism.ac.in/~d2mms/"
   },
   {
-    "objectID": "data-driven-modeling.html",
-    "href": "data-driven-modeling.html",
-    "title": "Data-Driven Modeling (DDM) of Dynamical & Parametric System",
+    "objectID": "digital-twin.html",
+    "href": "digital-twin.html",
+    "title": "Digital Twin",
     "section": "",
-    "text": "Data-Driven Modeling (DDM) of Dynamical & Parametric System\n\nData-driven modeling has transformed simulation capabilities in recent years. This project develops advanced computational methods for complex systems where traditional analysis approaches face significant computational challenges. While reduced-order modeling provides efficient alternatives, current methods often neglect various sources of uncertainty, potentially affecting reliability. This project will create modeling strategies that balance computational efficiency with consideration of uncertainties, validated through appropriate case studies with broader applications in system monitoring and control."
+    "text": "Digital Twin\n\nThis research aims to develop physics-informed, data-driven model reduction strategies for high-dimensional mechanical systems with a focus on computational efficiency. Existing approaches struggle with nonlinearities and often neglect physical structure, leading to instability and limited speedups. The plan is to employ both intrusive and non-intrusive data-driven modeling, integrating governing principles and conservation properties to ensure accuracy and robustness. By addressing nonlinear evaluations and stability through improved reduction and closure techniques, the approach targets rapid, reliable simulations for structural and thermal applications."
   },
   {
-    "objectID": "course_1/lec_9.html#lecture-9-probablity",
-    "href": "course_1/lec_9.html#lecture-9-probablity",
-    "title": "Research Methodology",
-    "section": "Lecture 9: Probablity",
-    "text": "Lecture 9: Probablity",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Probablity"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_7.html#lecture-7-processing-and-analysis-of-data",
-    "href": "course_1/lec_7.html#lecture-7-processing-and-analysis-of-data",
-    "title": "Research Methodology",
-    "section": "Lecture 7: Processing and Analysis of Data",
-    "text": "Lecture 7: Processing and Analysis of Data",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Processing and Analysis of Data"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_5.html#lecture-5-sampling-design",
-    "href": "course_1/lec_5.html#lecture-5-sampling-design",
-    "title": "Research Methodology",
-    "section": "Lecture 5: Sampling Design",
-    "text": "Lecture 5: Sampling Design",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Sampling Design"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_3.html#lecture-3-defining-the-research-problem",
-    "href": "course_1/lec_3.html#lecture-3-defining-the-research-problem",
-    "title": "Research Methodology",
-    "section": "Lecture 3: Defining the Research Problem",
-    "text": "Lecture 3: Defining the Research Problem",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Defining the Research Problem"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_15.html#lecture-15-chi-square-tests-introduction-to-anova",
-    "href": "course_1/lec_15.html#lecture-15-chi-square-tests-introduction-to-anova",
-    "title": "Research Methodology",
-    "section": "Lecture 15: Chi-Square Tests & Introduction to ANOVA",
-    "text": "Lecture 15: Chi-Square Tests & Introduction to ANOVA",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Chi-Square Tests & Introduction to ANOVA"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_13.html#lecture-13-hypothesis-testing",
-    "href": "course_1/lec_13.html#lecture-13-hypothesis-testing",
-    "title": "Research Methodology",
-    "section": "Lecture 13: Hypothesis Testing",
-    "text": "Lecture 13: Hypothesis Testing",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Hypothesis Testing"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_11.html#lecture-11-sampling-distribution",
-    "href": "course_1/lec_11.html#lecture-11-sampling-distribution",
-    "title": "Research Methodology",
-    "section": "Lecture 11: Sampling Distribution",
-    "text": "Lecture 11: Sampling Distribution",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Sampling Distribution"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_1.html#lecture-1-introduction",
-    "href": "course_1/lec_1.html#lecture-1-introduction",
-    "title": "Research Methodology",
-    "section": "Lecture 1: Introduction",
-    "text": "Lecture 1: Introduction",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "course_1/intro.html#course-overview",
-    "href": "course_1/intro.html#course-overview",
-    "title": "Research Methodology",
-    "section": "Course Overview",
-    "text": "Course Overview"
-  },
-  {
-    "objectID": "course_1/intro.html#learning-outcomes",
-    "href": "course_1/intro.html#learning-outcomes",
-    "title": "Research Methodology",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes"
-  },
-  {
-    "objectID": "course_1/intro.html#materials-and-software",
-    "href": "course_1/intro.html#materials-and-software",
-    "title": "Research Methodology",
-    "section": "Materials and Software",
-    "text": "Materials and Software"
-  },
-  {
-    "objectID": "course_1/intro.html#assessment-and-grading",
-    "href": "course_1/intro.html#assessment-and-grading",
-    "title": "Research Methodology",
-    "section": "Assessment and Grading",
-    "text": "Assessment and Grading"
-  },
-  {
-    "objectID": "course_1/intro.html#policies",
-    "href": "course_1/intro.html#policies",
-    "title": "Research Methodology",
-    "section": "Policies",
-    "text": "Policies"
-  },
-  {
-    "objectID": "course_1/intro.html#key-dates",
-    "href": "course_1/intro.html#key-dates",
-    "title": "Research Methodology",
-    "section": "Key Dates",
-    "text": "Key Dates"
-  },
-  {
-    "objectID": "course_1/intro.html#contact",
-    "href": "course_1/intro.html#contact",
-    "title": "Research Methodology",
-    "section": "Contact",
-    "text": "Contact"
-  },
-  {
-    "objectID": "courses/course_2.html",
-    "href": "courses/course_2.html",
-    "title": "Course 2: Lecture Materials",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV (June, 2026)",
     "section": "",
-    "text": "Course 2: Lecture Materials"
+    "text": "CV (June, 2026)"
   },
   {
-    "objectID": "Contact.html#suparno-bhattacharyya",
-    "href": "Contact.html#suparno-bhattacharyya",
-    "title": "CONTACT",
-    "section": "SUPARNO BHATTACHARYYA",
-    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparno@iitism.ac.in\nLinkedIn: Suparno Bhattacharyya, Ph.D.\n\nDept. of Mechanical Engineering, IIT (ISM) Dhanbad"
+    "objectID": "course_1/lec_8.html#lecture-8-data-analysis---tabulation-central-tendency-dispersion",
+    "href": "course_1/lec_8.html#lecture-8-data-analysis---tabulation-central-tendency-dispersion",
+    "title": "Research Methodology",
+    "section": "Lecture 8: Data Analysis - Tabulation, Central Tendency & Dispersion",
+    "text": "Lecture 8: Data Analysis - Tabulation, Central Tendency & Dispersion",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Data Analysis - Tabulation, Central Tendency & Dispersion"
+    ]
   },
   {
-    "objectID": "collaborators.html",
-    "href": "collaborators.html",
-    "title": "COLLABORATORS",
-    "section": "",
-    "text": "COLLABORATORS\n\nIt has been an honor to collaborate with leading researchers and experts in the field.\n\n\n\n\nJoseph Cusumano\nProfessor, Engineering Science and Mechanics Pennsylvania State University\n\n\n\nAnindya Chatterjee\nProfessor, Department of Mechanical Engineering, IIT Kanpur\n\n\n\nGary Dargush\nProfessor, Department of Mechanical and Aerospace Engineering, University at Buffalo\n\n\n\nJian Tao\nDirector, Digital Twin Lab, Texas A&M Institute of Data Science\nTexas A&M University College of Engineering\n\n\n\nJean Ragusa\nProfessor, Nuclear Engineering\nAssociate Director, Institute for Scientific Computation (ISC)\nTexas A&M University College of Engineering\n\n\n\nEduardo Gildin\nAssociate Department Head, Graduate Studies, Petroleum Engineering\nTexas A&M University College of Engineering\n\n\n\nSatish Bukkapatnam\nProfessor, Industrial & Systems Engineering\nTexas A&M University College of Engineering\n\n\n\nYoungsoo Choi\nResearch Scientist Staff Lawrence Livermore National Laboratory\n\n\n\nTuhin Mukherjee\nAssistant Professor, Department of Mechanical Engineering, Iowa State University\n\n\n\nG.L. Samuel\nProfessor, Department of Mechanical Engineering, IIT Madras\n\n\n\nSabareesh Geetha Rajasekharan\nHead & Professor, Department of Mechanical Engineering, Birla Institute of Technology & Science, Hyderabad Campus"
+    "objectID": "course_1/lec_6.html#lecture-6-measurement-and-scaling-techniques",
+    "href": "course_1/lec_6.html#lecture-6-measurement-and-scaling-techniques",
+    "title": "Research Methodology",
+    "section": "Lecture 6: Measurement and Scaling Techniques",
+    "text": "Lecture 6: Measurement and Scaling Techniques",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Measurement and Scaling Techniques"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_4.html#lecture-4-research-design",
+    "href": "course_1/lec_4.html#lecture-4-research-design",
+    "title": "Research Methodology",
+    "section": "Lecture 4: Research Design",
+    "text": "Lecture 4: Research Design",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Research Design"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_2.html#lecture-2-types-of-research-articles-and-journal-metrics",
+    "href": "course_1/lec_2.html#lecture-2-types-of-research-articles-and-journal-metrics",
+    "title": "Research Methodology",
+    "section": "Lecture 2: Types of Research Articles and Journal Metrics",
+    "text": "Lecture 2: Types of Research Articles and Journal Metrics",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Types of Research Articles and Journal Metrics"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_14.html#lecture-14-comparing-two-population-parameters",
+    "href": "course_1/lec_14.html#lecture-14-comparing-two-population-parameters",
+    "title": "Research Methodology",
+    "section": "Lecture 14: Comparing Two Population Parameters",
+    "text": "Lecture 14: Comparing Two Population Parameters",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Comparing Two Population Parameters"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_12.html#lecture-12-confidence-intervals",
+    "href": "course_1/lec_12.html#lecture-12-confidence-intervals",
+    "title": "Research Methodology",
+    "section": "Lecture 12: Confidence Intervals",
+    "text": "Lecture 12: Confidence Intervals",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Confidence Intervals"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_10.html#lecture-10-probablity-distribution",
+    "href": "course_1/lec_10.html#lecture-10-probablity-distribution",
+    "title": "Research Methodology",
+    "section": "Lecture 10: Probablity Distribution",
+    "text": "Lecture 10: Probablity Distribution",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Probablity Distribution"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_0.html#lecture-0-why-learn",
+    "href": "course_1/lec_0.html#lecture-0-why-learn",
+    "title": "Research Methodology",
+    "section": "Lecture 0: Why Learn?",
+    "text": "Lecture 0: Why Learn?",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Why Learn?"
+    ]
   },
   {
     "objectID": "course_1/index.html#course-information",
@@ -269,6 +206,18 @@
     "title": "Research Methodology",
     "section": "Course Information",
     "text": "Course Information\nInstructor: Prof. Suparno Bhattacharyya\nEmail: suparno@iitism.ac.in\nOffice Location: Room No. 224A, Mechanical Engineering Department\nOffice Hours: Virtual, by appointment\nCourse Website: This website\nLevel: Master’s/Ph.D\nPrerequisites: Coursework in Research Methodology\nCourse source code:",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "course_1/index.html#in-slide-form",
+    "href": "course_1/index.html#in-slide-form",
+    "title": "Research Methodology",
+    "section": "In Slide Form",
+    "text": "In Slide Form",
     "crumbs": [
       "Home",
       "Course Info",
@@ -336,121 +285,205 @@
     ]
   },
   {
-    "objectID": "course_1/lec_0.html#lecture-0-why-learn",
-    "href": "course_1/lec_0.html#lecture-0-why-learn",
-    "title": "Research Methodology",
-    "section": "Lecture 0: Why Learn?",
-    "text": "Lecture 0: Why Learn?",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Why Learn?"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_10.html#lecture-10-probablity-distribution",
-    "href": "course_1/lec_10.html#lecture-10-probablity-distribution",
-    "title": "Research Methodology",
-    "section": "Lecture 10: Probablity Distribution",
-    "text": "Lecture 10: Probablity Distribution",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Probablity Distribution"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_12.html#lecture-12-confidence-intervals",
-    "href": "course_1/lec_12.html#lecture-12-confidence-intervals",
-    "title": "Research Methodology",
-    "section": "Lecture 12: Confidence Intervals",
-    "text": "Lecture 12: Confidence Intervals",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Confidence Intervals"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_14.html#lecture-14-comparing-two-population-parameters",
-    "href": "course_1/lec_14.html#lecture-14-comparing-two-population-parameters",
-    "title": "Research Methodology",
-    "section": "Lecture 14: Comparing Two Population Parameters",
-    "text": "Lecture 14: Comparing Two Population Parameters",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Comparing Two Population Parameters"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_2.html#lecture-2a-types-of-research-articles-and-journal-metrics",
-    "href": "course_1/lec_2.html#lecture-2a-types-of-research-articles-and-journal-metrics",
-    "title": "Research Methodology",
-    "section": "Lecture 2a: Types of Research Articles and Journal Metrics",
-    "text": "Lecture 2a: Types of Research Articles and Journal Metrics",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Types of Research Articles and Journal Metrics"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_4.html#lecture-4-research-design",
-    "href": "course_1/lec_4.html#lecture-4-research-design",
-    "title": "Research Methodology",
-    "section": "Lecture 4: Research Design",
-    "text": "Lecture 4: Research Design",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Research Design"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_6.html#lecture-6-measurement-and-scaling-techniques",
-    "href": "course_1/lec_6.html#lecture-6-measurement-and-scaling-techniques",
-    "title": "Research Methodology",
-    "section": "Lecture 6: Measurement and Scaling Techniques",
-    "text": "Lecture 6: Measurement and Scaling Techniques",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Measurement and Scaling Techniques"
-    ]
-  },
-  {
-    "objectID": "course_1/lec_8.html#lecture-8-data-analysis---tabulation-central-tendency-dispersion",
-    "href": "course_1/lec_8.html#lecture-8-data-analysis---tabulation-central-tendency-dispersion",
-    "title": "Research Methodology",
-    "section": "Lecture 8: Data Analysis - Tabulation, Central Tendency & Dispersion",
-    "text": "Lecture 8: Data Analysis - Tabulation, Central Tendency & Dispersion",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Data Analysis - Tabulation, Central Tendency & Dispersion"
-    ]
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV (June, 2026)",
+    "objectID": "collaborators.html",
+    "href": "collaborators.html",
+    "title": "COLLABORATORS",
     "section": "",
-    "text": "CV (June, 2026)"
+    "text": "COLLABORATORS\n\nIt has been an honor to collaborate with leading researchers and experts in the field.\n\n\n\n\nJoseph Cusumano\nProfessor, Engineering Science and Mechanics Pennsylvania State University\n\n\n\nAnindya Chatterjee\nProfessor, Department of Mechanical Engineering, IIT Kanpur\n\n\n\nGary Dargush\nProfessor, Department of Mechanical and Aerospace Engineering, University at Buffalo\n\n\n\nJian Tao\nDirector, Digital Twin Lab, Texas A&M Institute of Data Science\nTexas A&M University College of Engineering\n\n\n\nJean Ragusa\nProfessor, Nuclear Engineering\nAssociate Director, Institute for Scientific Computation (ISC)\nTexas A&M University College of Engineering\n\n\n\nEduardo Gildin\nAssociate Department Head, Graduate Studies, Petroleum Engineering\nTexas A&M University College of Engineering\n\n\n\nSatish Bukkapatnam\nProfessor, Industrial & Systems Engineering\nTexas A&M University College of Engineering\n\n\n\nYoungsoo Choi\nResearch Scientist Staff Lawrence Livermore National Laboratory\n\n\n\nTuhin Mukherjee\nAssistant Professor, Department of Mechanical Engineering, Iowa State University\n\n\n\nG.L. Samuel\nProfessor, Department of Mechanical Engineering, IIT Madras\n\n\n\nSabareesh Geetha Rajasekharan\nHead & Professor, Department of Mechanical Engineering, BITS-Hyderabad Campus"
   },
   {
-    "objectID": "digital-twin.html",
-    "href": "digital-twin.html",
-    "title": "Digital Twin",
-    "section": "",
-    "text": "Digital Twin\n\nThis research aims to develop physics-informed, data-driven model reduction strategies for high-dimensional mechanical systems with a focus on computational efficiency. Existing approaches struggle with nonlinearities and often neglect physical structure, leading to instability and limited speedups. The plan is to employ both intrusive and non-intrusive data-driven modeling, integrating governing principles and conservation properties to ensure accuracy and robustness. By addressing nonlinear evaluations and stability through improved reduction and closure techniques, the approach targets rapid, reliable simulations for structural and thermal applications."
+    "objectID": "Contact.html#suparno-bhattacharyya",
+    "href": "Contact.html#suparno-bhattacharyya",
+    "title": "CONTACT",
+    "section": "SUPARNO BHATTACHARYYA",
+    "text": "SUPARNO BHATTACHARYYA\nEmail: suparno.bhattacharyya@gmail.com / suparno@iitism.ac.in\nLinkedIn: Suparno Bhattacharyya, Ph.D.\n\nDept. of Mechanical Engineering, IIT (ISM) Dhanbad"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ANNOUNCEMENT",
+    "objectID": "courses/course_2.html",
+    "href": "courses/course_2.html",
+    "title": "Course 2: Lecture Materials",
     "section": "",
-    "text": "ANNOUNCEMENT\n\nD2MMS 2026: Data-driven Modelling for Mechanical Systems\nThe Department of Mechanical Engineering, IIT (ISM) Dhanbad is organizing a five-day international summer school, “Data-driven Modelling for Mechanical Systems (D2MMS 2026)”, to be held in hybrid mode during July 01–05, 2026 at IIT (ISM) Dhanbad.\nThe program will feature expert lectures and hands-on sessions covering CFD, computational mechanics, reduced-order modelling, digital twins, robotics, high-fidelity simulations, and scientific machine learning, with contributions from leading international and national researchers and industrial partners. The school is open to students, research scholars, postdoctoral fellows, faculty members, and industry professionals.\nEarly-bird registration closes on April 20, 2026. The final registration deadline is June 10, 2026, and the poster abstract submission deadline is June 15, 2026.\nFurther details and registration are available at: https://people.iitism.ac.in/~d2mms/"
+    "text": "Course 2: Lecture Materials"
+  },
+  {
+    "objectID": "course_1/intro.html#course-overview",
+    "href": "course_1/intro.html#course-overview",
+    "title": "Research Methodology",
+    "section": "Course Overview",
+    "text": "Course Overview"
+  },
+  {
+    "objectID": "course_1/intro.html#learning-outcomes",
+    "href": "course_1/intro.html#learning-outcomes",
+    "title": "Research Methodology",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes"
+  },
+  {
+    "objectID": "course_1/intro.html#materials-and-software",
+    "href": "course_1/intro.html#materials-and-software",
+    "title": "Research Methodology",
+    "section": "Materials and Software",
+    "text": "Materials and Software"
+  },
+  {
+    "objectID": "course_1/intro.html#assessment-and-grading",
+    "href": "course_1/intro.html#assessment-and-grading",
+    "title": "Research Methodology",
+    "section": "Assessment and Grading",
+    "text": "Assessment and Grading"
+  },
+  {
+    "objectID": "course_1/intro.html#policies",
+    "href": "course_1/intro.html#policies",
+    "title": "Research Methodology",
+    "section": "Policies",
+    "text": "Policies"
+  },
+  {
+    "objectID": "course_1/intro.html#key-dates",
+    "href": "course_1/intro.html#key-dates",
+    "title": "Research Methodology",
+    "section": "Key Dates",
+    "text": "Key Dates"
+  },
+  {
+    "objectID": "course_1/intro.html#contact",
+    "href": "course_1/intro.html#contact",
+    "title": "Research Methodology",
+    "section": "Contact",
+    "text": "Contact"
+  },
+  {
+    "objectID": "course_1/lec_1.html#lecture-1-introduction",
+    "href": "course_1/lec_1.html#lecture-1-introduction",
+    "title": "Research Methodology",
+    "section": "Lecture 1: Introduction",
+    "text": "Lecture 1: Introduction",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_11.html#lecture-11-sampling-distribution",
+    "href": "course_1/lec_11.html#lecture-11-sampling-distribution",
+    "title": "Research Methodology",
+    "section": "Lecture 11: Sampling Distribution",
+    "text": "Lecture 11: Sampling Distribution",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Sampling Distribution"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_13.html#lecture-13-hypothesis-testing",
+    "href": "course_1/lec_13.html#lecture-13-hypothesis-testing",
+    "title": "Research Methodology",
+    "section": "Lecture 13: Hypothesis Testing",
+    "text": "Lecture 13: Hypothesis Testing",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Hypothesis Testing"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_15.html#lecture-15-chi-square-tests-introduction-to-anova",
+    "href": "course_1/lec_15.html#lecture-15-chi-square-tests-introduction-to-anova",
+    "title": "Research Methodology",
+    "section": "Lecture 15: Chi-Square Tests & Introduction to ANOVA",
+    "text": "Lecture 15: Chi-Square Tests & Introduction to ANOVA",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Chi-Square Tests & Introduction to ANOVA"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_3.html#lecture-3-defining-the-research-problem",
+    "href": "course_1/lec_3.html#lecture-3-defining-the-research-problem",
+    "title": "Research Methodology",
+    "section": "Lecture 3: Defining the Research Problem",
+    "text": "Lecture 3: Defining the Research Problem",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Defining the Research Problem"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_5.html#lecture-5-sampling-design",
+    "href": "course_1/lec_5.html#lecture-5-sampling-design",
+    "title": "Research Methodology",
+    "section": "Lecture 5: Sampling Design",
+    "text": "Lecture 5: Sampling Design",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Sampling Design"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_7.html#lecture-7-processing-and-analysis-of-data",
+    "href": "course_1/lec_7.html#lecture-7-processing-and-analysis-of-data",
+    "title": "Research Methodology",
+    "section": "Lecture 7: Processing and Analysis of Data",
+    "text": "Lecture 7: Processing and Analysis of Data",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Processing and Analysis of Data"
+    ]
+  },
+  {
+    "objectID": "course_1/lec_9.html#lecture-9-probablity",
+    "href": "course_1/lec_9.html#lecture-9-probablity",
+    "title": "Research Methodology",
+    "section": "Lecture 9: Probablity",
+    "text": "Lecture 9: Probablity",
+    "crumbs": [
+      "Home",
+      "Course Material",
+      "Probablity"
+    ]
+  },
+  {
+    "objectID": "data-driven-modeling.html",
+    "href": "data-driven-modeling.html",
+    "title": "Data-Driven Modeling (DDM) of Dynamical & Parametric System",
+    "section": "",
+    "text": "Data-Driven Modeling (DDM) of Dynamical & Parametric System\n\nData-driven modeling has transformed simulation capabilities in recent years. This project develops advanced computational methods for complex systems where traditional analysis approaches face significant computational challenges. While reduced-order modeling provides efficient alternatives, current methods often neglect various sources of uncertainty, potentially affecting reliability. This project will create modeling strategies that balance computational efficiency with consideration of uncertainties, validated through appropriate case studies with broader applications in system monitoring and control."
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "About",
+    "section": "",
+    "text": "At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates computational mechanics, topology optimization, and data-driven modeling, with an emphasis on capturing mechanical and dynamical behavior across scales and applications.\nA core theme of our work is the development of intrusive and nonintrusive data-driven methods that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.\n\nOur contributions span:\n\nData-driven ROMs for systems with discontinuities and nonlinearities\nEnergy-based closure strategies for improved accuracy in low-dimensional models\nTopology optimization frameworks for periodic and lattice structures with tailored dynamic properties\nIntegration of neural ODEs and machine learning into physics-based modeling pipelines\n\nAs a natural extension, we are increasingly applying these methods to support digital twin technologies, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.\nOur long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.\n\nNews →\nAnnouncement →\nWebinar →"
+  },
+  {
+    "objectID": "labgroup.html#internship-candidate",
+    "href": "labgroup.html#internship-candidate",
+    "title": "Lab Group",
+    "section": "Internship Candidate",
+    "text": "Internship Candidate\n\n\n\n\nSri Varsha Dodda\nTime-series transformer models for predicting Green House Gas Emission"
+  },
+  {
+    "objectID": "labgroup.html#undergraduate-candidates",
+    "href": "labgroup.html#undergraduate-candidates",
+    "title": "Lab Group",
+    "section": "Undergraduate Candidates",
+    "text": "Undergraduate Candidates\n\n\n\n\nDivansh\nVibration isolation with Metamaterials\n\n\n\nChaxu Patel\nGenAI for Design\n\n\n\nHarikesh Pratap Verma\nNeural Control"
+  },
+  {
+    "objectID": "labgroup.html#phd.-candidate",
+    "href": "labgroup.html#phd.-candidate",
+    "title": "Lab Group",
+    "section": "PhD. Candidate",
+    "text": "PhD. Candidate\n\n\n\n\nGajavada Sanjeevkumar\nComposites for flutter control"
   },
   {
     "objectID": "media.html",
@@ -563,64 +596,5 @@
     "title": "TEACHING",
     "section": "All Teaching Experience",
     "text": "All Teaching Experience\n\nIndian Institute of Technology (Indian School of Mines) Dhanbad\n\n\n\nCourse\nRole\nLevel\nYear\n\n\n\n\nResearch Methodology\nInstructor\nPG\n2026\n\n\nFinite Element Analyses Lab\nInstructor\nPG\n2026\n\n\nIntroduction to MATLAB and SIMULINK\nInstructor\nUG\n2025\n\n\nMechanics for Engineers\nInstructor\nUG\n2025\n\n\n\n\n\nTexas A&M University\n\n\n\n\n\n\n\n\n\nCourse\nRole\nLevel\nYear\n\n\n\n\nWorkshop: Principal Component Analysis (PCA)\nInstructor\nUG/PG\n2025\n\n\nWorkshop: Dive into Reduced Order Modeling with pylibROM\nInstructor\nUG/PG\n2024\n\n\nPhysics-based and Data-Driven Reduced-Order Modeling for Engineering Systems\nGuest Lecturer\nPG\n2023\n\n\n\n\n\nPennsylvania State University\n\n\n\n\n\n\n\n\n\nCourse\nRole\nLevel\nYear\n\n\n\n\nStatics and Strength of Materials\nTA\nUG\n2020–2021\n\n\nDynamics\nTA/Instructor\nUG\n2015–2020\n\n\nExperimental Determination of Mechanical Response of Materials\nTA\nUG\n2014–2015\n\n\n\n."
-  },
-  {
-    "objectID": "course_1/index.html#in-slide-form",
-    "href": "course_1/index.html#in-slide-form",
-    "title": "Research Methodology",
-    "section": "In Slide Form",
-    "text": "In Slide Form",
-    "crumbs": [
-      "Home",
-      "Course Info",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "course_1/intro.html",
-    "href": "course_1/intro.html",
-    "title": "Research Methodology",
-    "section": "",
-    "text": "Instructor: Suparno Bhattacharyya\n\nEmail: suparno@iitism.ac.in\n\nOffice: 224A, ME\n\nOffice hours: By appointment\n\n\n\n\n\nCourse code: NMEC 595 — Research Methodology\n\nTerm: Winter 2026\n\nCredits: 9\n\nMeetings: Wednesdays / Thursdays / Fridays\n\n15:00–15:50\n\n16:00–16:50\n\n17:00–17:50\n\n\nLocation: MECH-G1\n\n\n\n\n\n\n\n\nThis course introduces foundational principles of research methodology in scientific and engineering contexts.\nIt covers research problem formulation, identification of research gaps, hypothesis development, study design, data collection, interpretation, and the use of key statistical tools for drawing evidence‑based conclusions.\n\n\n\nThe overarching goal is to help students understand not only what research methods exist, but also how to select, justify, and apply them rigorously in practice, leading to defensible and well‑communicated research outcomes."
-  },
-  {
-    "objectID": "course_1/lec_2.html#lecture-2-types-of-research-articles-and-journal-metrics",
-    "href": "course_1/lec_2.html#lecture-2-types-of-research-articles-and-journal-metrics",
-    "title": "Research Methodology",
-    "section": "Lecture 2: Types of Research Articles and Journal Metrics",
-    "text": "Lecture 2: Types of Research Articles and Journal Metrics",
-    "crumbs": [
-      "Home",
-      "Course Material",
-      "Types of Research Articles and Journal Metrics"
-    ]
-  },
-  {
-    "objectID": "labgroup.html",
-    "href": "labgroup.html",
-    "title": "Lab Group",
-    "section": "",
-    "text": "Lab Group\n\n\nPhD. Candidate\n\n\n\n\nGajavada Sanjeevkumar\n\n\n\n\nUndergraduate Candidates\n\n\n\n\nDivansh\n\n\n\nChaxu Patel\n\n\n\nHarikesh Pratap Verma"
-  },
-  {
-    "objectID": "labgroup.html#phd.-candidate",
-    "href": "labgroup.html#phd.-candidate",
-    "title": "Lab Group",
-    "section": "PhD. Candidate",
-    "text": "PhD. Candidate\n\n\n\n\nGajavada Sanjeevkumar\nComposites for flutter control"
-  },
-  {
-    "objectID": "labgroup.html#undergraduate-candidates",
-    "href": "labgroup.html#undergraduate-candidates",
-    "title": "Lab Group",
-    "section": "Undergraduate Candidates",
-    "text": "Undergraduate Candidates\n\n\n\n\nDivansh\nVibration isolation with Metamaterials\n\n\n\nChaxu Patel\nGenAI for Design\n\n\n\nHarikesh Pratap Verma\nNeural Control"
-  },
-  {
-    "objectID": "labgroup.html#internship-candidate",
-    "href": "labgroup.html#internship-candidate",
-    "title": "Lab Group",
-    "section": "Internship Candidate",
-    "text": "Internship Candidate\n\n\n\n\nSri Varsha Dodda\nTime-series transformer models for predicting Green House Gas Emission"
   }
 ]

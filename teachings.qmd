@@ -124,10 +124,10 @@ PCA reduces high-dimensional data into uncorrelated components that capture most
 
 | Course                                | Role       | Level | Year |
 |:--------------------------------------|:-----------|:------|-----:|
+| Research Methodology                  | Instructor | PG    | 2026 |
+| Finite Element Analyses Lab           | Instructor | PG    | 2026 |
 | Introduction to MATLAB and SIMULINK   | Instructor | UG    | 2025 |
 | Mechanics for Engineers               | Instructor | UG    | 2025 |
-| Research Methodology                  | Instructor | PG    | 2025 |
-| Finite Element Analyses Lab           | Instructor | PG    | 2025 |
 
 
 ### Texas A&M University

@@ -7,7 +7,7 @@ format:
 ---
 
 ::: page-header
-# CV (September, 2025)
+# CV (June, 2026)
 :::
 
 ![](CV_Bhattacharyya.pdf){width="100%" height="1000px"}

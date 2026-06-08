@@ -434,9 +434,9 @@
   {
     "objectID": "cv.html",
     "href": "cv.html",
-    "title": "CV (September, 2025)",
+    "title": "CV (June, 2026)",
     "section": "",
-    "text": "CV (September, 2025)"
+    "text": "CV (June, 2026)"
   },
   {
     "objectID": "digital-twin.html",
@@ -606,14 +606,21 @@
     "objectID": "labgroup.html#phd.-candidate",
     "href": "labgroup.html#phd.-candidate",
     "title": "Lab Group",
-    "section": "### PhD. Candidate",
-    "text": "### PhD. Candidate\n\n\n\n\nGajavada Sanjeevkumar"
+    "section": "PhD. Candidate",
+    "text": "PhD. Candidate\n\n\n\n\nGajavada Sanjeevkumar\nComposites for flutter control"
   },
   {
     "objectID": "labgroup.html#undergraduate-candidates",
     "href": "labgroup.html#undergraduate-candidates",
     "title": "Lab Group",
-    "section": "### Undergraduate Candidates",
-    "text": "### Undergraduate Candidates\n\n\n\n\nDivansh\n\n\n\nChaxu Patel\n\n\n\nHarikesh Pratap Verma"
+    "section": "Undergraduate Candidates",
+    "text": "Undergraduate Candidates\n\n\n\n\nDivansh\nVibration isolation with Metamaterials\n\n\n\nChaxu Patel\nGenAI for Design\n\n\n\nHarikesh Pratap Verma\nNeural Control"
+  },
+  {
+    "objectID": "labgroup.html#internship-candidate",
+    "href": "labgroup.html#internship-candidate",
+    "title": "Lab Group",
+    "section": "Internship Candidate",
+    "text": "Internship Candidate\n\n\n\n\nSri Varsha Dodda\nTime-series transformer models for predicting Green House Gas Emission"
   }
 ]

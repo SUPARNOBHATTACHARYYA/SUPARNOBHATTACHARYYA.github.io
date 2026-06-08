@@ -13,7 +13,26 @@ format:
 # Lab Group
 :::
 
-### PhD. Candidate
+## Internship Candidate
+
+
+::::::::::::::: collaborator-grid
+<!-- To add a new Candidates, copy one of these blocks -->
+
+::: {.g-col .collaborator-card}
+![](/images/intern_1.jpg)
+
+**Sri Varsha Dodda**
+
+*Time-series transformer models for predicting Green House Gas Emission*
+
+:::
+
+:::::::::::::::
+
+
+
+## PhD. Candidate
 
 
 ::::::::::::::: collaborator-grid
@@ -24,11 +43,15 @@ format:
 
 **Gajavada Sanjeevkumar**
 
+*Composites for flutter control*
+
 :::
 
 :::::::::::::::
 
-### Undergraduate Candidates
+
+
+## Undergraduate Candidates
 
 
 ::::::::::::::: collaborator-grid
@@ -39,6 +62,8 @@ format:
 
 **Divansh**
 
+*Vibration isolation with Metamaterials*
+
 :::
 
 ::: {.g-col .collaborator-card}
@@ -46,12 +71,15 @@ format:
 
 **Chaxu Patel**
 
+*GenAI for Design*
 :::
 
 ::: {.g-col .collaborator-card}
 ![](/images/Ug_3.jpg)
 
 **Harikesh Pratap Verma**
+
+*Neural Control*
 
 :::
 

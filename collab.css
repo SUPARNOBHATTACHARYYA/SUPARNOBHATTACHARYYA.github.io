@@ -47,18 +47,20 @@
 
 /* Link styling for the name */
 .collaborator-card h3 a {
+    font-family: 'Lora', sans-serif;
     color: #111827; /* dark gray */
     text-decoration: none;
     transition: color 0.2s;
 }
 
 .collaborator-card h3 a:hover {
+    font-family: 'Lora', sans-serif;
     color: #1d4ed8; /* blue-700 */
 }
 
 /* Collaborator affiliation (paragraph after the h3) */
 .collaborator-card h3 + p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-size: 0.875rem; /* 14px */
     font-weight: 500;
     color: #1d4ed8; /* blue-700 */

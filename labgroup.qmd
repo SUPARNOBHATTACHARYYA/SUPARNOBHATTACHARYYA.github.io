@@ -13,7 +13,7 @@ format:
 # Lab Group
 :::
 
-## Internship Candidate
+## Intern
 
 
 ::::::::::::::: collaborator-grid
@@ -22,9 +22,9 @@ format:
 ::: {.g-col .collaborator-card}
 ![](/images/intern_1.jpg)
 
-**Sri Varsha Dodda**
+**Sri Varsha Dodda**, IIT Indore
 
-*Time-series transformer models for predicting Green House Gas Emission*
+Time-series transformer models for predicting Green House Gas Emission
 
 :::
 
@@ -32,7 +32,7 @@ format:
 
 
 
-## Undergraduate Candidates
+## UG Researchers
 
 
 ::::::::::::::: collaborator-grid
@@ -41,26 +41,26 @@ format:
 ::: {.g-col .collaborator-card}
 ![](/images/Ug_1.jpg)
 
-**Divansh**
+**Divansh**, IIT(ISM) Dhanbad
 
-*Vibration isolation with Metamaterials*
+Vibration isolation with Metamaterials
 
 :::
 
 ::: {.g-col .collaborator-card}
 ![](/images/Ug_2.jpg)
 
-**Chaxu Patel**
+**Chaxu Patel**, IIT(ISM) Dhanbad
 
-*GenAI for Design*
+GenAI for Design
 :::
 
 ::: {.g-col .collaborator-card}
 ![](/images/Ug_3.jpg)
 
-**Harikesh Pratap Verma**
+**Harikesh Pratap Verma**, IIT(ISM) Dhanbad
 
-*Neural Control*
+Neural Control
 
 :::
 
@@ -80,9 +80,9 @@ format:
 ::: {.g-col .collaborator-card}
 ![](/images/Phd_1.jpg)
 
-**Gajavada Sanjeevkumar**
+**Gajavada Sanjeevkumar**, IIT(ISM) Dhanbad
 
-*Composites for flutter control*
+Composites for flutter control
 
 :::
 

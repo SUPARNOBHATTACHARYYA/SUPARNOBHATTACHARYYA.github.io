@@ -27,6 +27,41 @@ resources:
 [📄]{.pub-icon}
 
 ::::: pub-content
+**Suparno Bhattacharyya** (2026J).\
+*Computer Applications in Engineering Education*\
+[A 99-Line FEM Code for Simulating a Moving Point Heat Source Over a Domain](publications/99-Line FEM.qmd)
+
+<a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_7">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_7">Abstract</a> <a href="https://doi.org/10.1002/cae.70226" class="btn btn-outline btn-sm" target="_blank">URL</a>
+
+::: {#cite-bhattacharyya_7 .d-none}
+```{=html}
+<pre><code>@article{Bhattacharyya2026,
+  title = {A 99‐Line FEM Code for Simulating a Moving Point Heat Source Over a Domain},
+  volume = {34},
+  ISSN = {1099-0542},
+  url = {http://dx.doi.org/10.1002/cae.70226},
+  DOI = {10.1002/cae.70226},
+  number = {4},
+  journal = {Computer Applications in Engineering Education},
+  publisher = {Wiley},
+  author = {Bhattacharyya,  Suparno},
+  year = {2026},
+  month = July 
+}</code></pre>
+```
+:::
+
+::: {#abs-bhattacharyya_7 .d-none}
+<p>Simulating transient heat transfer is crucial for computational thermal analysis in manufacturing processes such as arc welding, laser powder bed fusion, and directed energy deposition. These processes feature moving heat sources that generate steep spatial and temporal temperature gradients, which in turn strongly influence microstructure formation, residual stress development, distortion, and final mechanical properties. As a result, accurate and efficient simulation tools are invaluable for both research and industrial applications. This tutorial presents a streamlined, Python-based finite element (FE) framework for simulating three-dimensional transient heat conduction with a moving Gaussian heat source over a parallelepiped domain. Distinct from complex commercial or open-source FE codes, this approach uses the lightweight and transparent scikit-fem library for spatial discretization. This enables efficient assembly of system matrices and clear correspondence between mathematical formulation and code implementation. Time integration is handled using the generalized 𝜃-method, covering Forward Euler, Backward Euler, and Crank–Nicolson schemes; the Crank–Nicolson option (𝜃=0.5) is chosen for its unconditional stability and second-order accuracy. Nonlinear boundary conditions due to combined convective and radiative heat losses are included via Newton–Raphson iteration with an analytically derived Jacobian. Each Newton linear system is solved using a conjugate gradient algorithm preconditioned by algebraic multigrid (AMG), ensuring efficiency for moderately fine three-dimensional meshes. The complete simulation code is concise, at roughly 99 lines, making it well-suited for teaching, self-study, or rapid prototyping. The resulting temperature fields are benchmarked against published FEniCS results for the same moving heat source scenario, exhibiting a relative field difference of only 1.5%.</p>
+:::
+:::::
+::::::
+
+
+:::::: {.pub-item data-year="2025" data-type="Journal"}
+[📄]{.pub-icon}
+
+::::: pub-content
 **Bhattacharyya S.**, and Cusumano J. (2025J).\
 *Journal of Nonlinear Mechanics*\
 [Model reduction of a flexible nonsmooth oscillator recovers its entire bifurcation structure](publications/model_reduction.qmd)

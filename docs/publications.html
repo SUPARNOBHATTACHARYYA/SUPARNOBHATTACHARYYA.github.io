@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,9 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-4b806f5054f15890e4a7167ebd834cd5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -391,6 +391,35 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="journals" class="level2">
 <h2 class="anchored" data-anchor-id="journals">Journals</h2>
+<div class="pub-item" data-year="2025" data-type="Journal">
+<p><span class="pub-icon">📄</span></p>
+<div class="pub-content">
+<p><strong>Suparno Bhattacharyya</strong> (2026J).<br>
+<em>Computer Applications in Engineering Education</em><br>
+<a href="./publications/99-Line FEM.html">A 99-Line FEM Code for Simulating a Moving Point Heat Source Over a Domain</a></p>
+<p><a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_7">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_7">Abstract</a> <a href="https://doi.org/10.1002/cae.70226" class="btn btn-outline btn-sm" target="_blank">URL</a></p>
+<div id="cite-bhattacharyya_7" class="d-none">
+<pre><code>@article{Bhattacharyya2026,
+  title = {A 99‐Line FEM Code for Simulating a Moving Point Heat Source Over a Domain},
+  volume = {34},
+  ISSN = {1099-0542},
+  url = {http://dx.doi.org/10.1002/cae.70226},
+  DOI = {10.1002/cae.70226},
+  number = {4},
+  journal = {Computer Applications in Engineering Education},
+  publisher = {Wiley},
+  author = {Bhattacharyya,  Suparno},
+  year = {2026},
+  month = July 
+}</code></pre>
+</div>
+<div id="abs-bhattacharyya_7" class="d-none">
+<p>
+Simulating transient heat transfer is crucial for computational thermal analysis in manufacturing processes such as arc welding, laser powder bed fusion, and directed energy deposition. These processes feature moving heat sources that generate steep spatial and temporal temperature gradients, which in turn strongly influence microstructure formation, residual stress development, distortion, and final mechanical properties. As a result, accurate and efficient simulation tools are invaluable for both research and industrial applications. This tutorial presents a streamlined, Python-based finite element (FE) framework for simulating three-dimensional transient heat conduction with a moving Gaussian heat source over a parallelepiped domain. Distinct from complex commercial or open-source FE codes, this approach uses the lightweight and transparent scikit-fem library for spatial discretization. This enables efficient assembly of system matrices and clear correspondence between mathematical formulation and code implementation. Time integration is handled using the generalized 𝜃-method, covering Forward Euler, Backward Euler, and Crank–Nicolson schemes; the Crank–Nicolson option (𝜃=0.5) is chosen for its unconditional stability and second-order accuracy. Nonlinear boundary conditions due to combined convective and radiative heat losses are included via Newton–Raphson iteration with an analytically derived Jacobian. Each Newton linear system is solved using a conjugate gradient algorithm preconditioned by algebraic multigrid (AMG), ensuring efficiency for moderately fine three-dimensional meshes. The complete simulation code is concise, at roughly 99 lines, making it well-suited for teaching, self-study, or rapid prototyping. The resulting temperature fields are benchmarked against published FEniCS results for the same moving heat source scenario, exhibiting a relative field difference of only 1.5%.
+</p>
+</div>
+</div>
+</div>
 <div class="pub-item" data-year="2025" data-type="Journal">
 <p><span class="pub-icon">📄</span></p>
 <div class="pub-content">

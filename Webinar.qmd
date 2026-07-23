@@ -60,6 +60,58 @@ We explore the frontiers of data-informed and physics-based modeling for mechani
 
 ## 🎙️ Upcoming Talk {.text-center .mt-4}
 
+
+:::::::::::: {.card .border-primary .mb-4}
+::: {.card-header_1 .bg-primary .text-white}
+### 📅 July 28, 2026 \| 🕢 07:30 PM IST
+:::
+
+:::::::::: card-body
+::::::::: grid
+:::: {.g-col-12 .g-col-md-3 .speaker-column}
+::: speaker-profile
+![](images/Speaker_5.png){.speaker-img}
+
+**Prof. Sid Kumar**
+:::
+::::
+
+::::: {.g-col-12 .g-col-md-8}
+### Neural Constitutive Models: Unsupervised Training, Hyper-Generalization, and Lightning-Fast Deployment
+
+::: abstract-section
+### Abstract
+
+Neural constitutive models (NCMs) are emerging as a powerful alternative to traditional material models in solid mechanics, offering expressive, physics-aware representations of complex material behavior. This talk presents three advances that move NCMs closer to practical, scalable, and broadly applicable deployment. First, I will introduce an unsupervised training strategy (NN-EUCLID) for NCMs that eliminates the need for stress data by leveraging realistically measurable full-field kinematics and physics-motivated loss functions based on momentum conservation. Second, I will show how hypernetworks, i.e., networks that control NCMs, can be used to build foundation material models (HyperCAN) that generalize across unseen microstructures and loading scenarios. Third, I will discuss how NCMs can be deployed at scale through a ground-up finite element architecture (COMMET) with batch-vectorization and compute graph optimization. This framework achieves orders-of-magnitude speedup relative to traditional simulators, making large-scale simulations with complex neural material models computationally practical. Together, these developments push NCMs toward unsupervised learning in realistic settings, hyper-generalization across material families, and lightning-fast deployment in high-fidelity simulations.
+
+**Bio:** Sid Kumar is an Associate Professor at TU Delft in the Department of Material Science and Engineering and Faculty of Mechanical Engineering, where he leads the Mechanics, Materials, and Computing group. He obtained his Ph.D. in Aeronautics from Caltech followed by a postdoc position at ETH Zürich. Previously, he obtained a dual M.S. from Caltech and Ecole Polytechnique (France). Sid has been awarded the Dutch Research Council (NWO) Veni award, the Foster and Coco Stanback fellowship in Engineering and Applied Science at Caltech, and the University of Paris Saclay fellowship at Ecole Polytechnique. His research interests lie at the intersection of mechanics of materials, computational modeling, and machine learning — with a focus on inverse problems in materials design and modeling.
+:::
+
+::: text-center
+[**Webinar Link**](https://teams.microsoft.com/meet/47447891637913?p=bJkBkqTqYrGzlrHV89){.btn-walrus}
+
+[**Register Here**](https://forms.gle/pJA89hAoiBz44Rts9){.btn-walrus}
+:::
+:::::
+
+::: {.g-col-12 .g-col-md-4 .d-flex .align-items-center .justify-content-center}
+:::
+:::::::::
+::::::::::
+::::::::::::
+
+::: banner-container
+![](images/Banner_6.jpg){.banner-img}
+:::
+
+
+
+
+
+
+
+
+
 :::::::::::: {.card .border-primary .mb-4}
 ::: {.card-header_1 .bg-primary .text-white}
 ### 📅 April 22, 2026 \| 🕢 07:30 PM IST

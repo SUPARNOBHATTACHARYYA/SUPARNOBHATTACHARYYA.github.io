@@ -10,26 +10,18 @@ format:
 # LATEST NEWS
 :::
 
+::: {.news-container}
+Our work titled **"Time-series Transformer Models For Predicting Transient Greenhouse Gas Emissions"** (Control/Tracking Number: 26ATCE-P-626-SPE), has been recently accepted for presentation at the upcoming Society of Petroleum Engineers Annual Technical Conference and Exhibition (SPE ATCE), taking place in Houston, Texas, USA, from October 21–23, 2026 ([www.atce.org](https://www.atce.org)). 
+
+This is a joint effort by Varsha Dodda (Indian Institute of Technology Indore), A. Roy (Baker Hughes), and the D-cubed lab. This project focuses on cutting-edge predictive modeling to track and forecast greenhouse gas emissions, applying advanced transformer models to transient time-series.
+:::
+
+
 ::: {.list-item-spaced} 
 <iframe class="embed-container iframe-embed"
   src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7450423180051001344"
   title="Embedded post"></iframe>
 :::
-
-
-
-::: {.list-item-spaced} 
-Recent Research Acceptances at ASTRA 2026 and SPE ATCE 2026
-
-I am pleased to announce that two of my recent research papers have been accepted for presentation at upcoming conferences later this year.
-
-The paper titled "Design Optimization of Automotive Seat Vibration Isolators for Improved Ride Comfort" (Paper ID: 181) has been officially accepted for an oral presentation at ASTRA 2026. This event will take place at the Indian Institute of Space Science and Technology (IIST).
-
-Additionally, my work on predictive modeling, titled "Time-series Transformer Models For Predicting Transient Greenhouse Gas Emissions" (Paper Number: SPE-234073-MS), has been accepted as a Knowledge Sharing Electronic Poster (ePoster). I will be presenting this research at the 2026 SPE Annual Technical Conference and Exhibition, which will be held from October 21–23, 2026, in Houston, Texas, USA. The final manuscript for this proceeding is scheduled for submission by August 24, 2026.
-
-I look forward to sharing these findings and engaging with fellow researchers and industry professionals at both events.
-:::
-
 
 
 ::: {.list-item-spaced} 

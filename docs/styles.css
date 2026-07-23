@@ -243,6 +243,35 @@ p {
 }
 
 
+
+/* =========================================================
+   NEWS & ANNOUNCEMENT CONTAINER (Matched to Embed Style)
+   ========================================================= */
+.news-container {
+  max-width: 100%;
+  margin: 0 auto 3rem;           /* Matches the embed margin */
+  padding: 1.5rem 2rem;          /* Adds internal breathing room for text */
+  border: 2px solid #800000;     /* Maroon color */
+  border-radius: 5px;            /* Matches the 5px embed radius */
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Matches the subtle embed shadow */
+  background-color: #ffffff;     /* Keeps the background crisp and clean */
+}
+
+/* Ensures the text inside is perfectly justified */
+.news-container p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Removes the extra margin at the bottom of the last paragraph */
+.news-container p:last-child {
+  margin-bottom: 0;
+}
+
+
 .list-item-spaced {
   border-bottom: none !important; /* Removes the line */
   padding-bottom: 0 !important;   /* Removes any default space inside the border */

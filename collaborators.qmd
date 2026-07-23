@@ -118,4 +118,13 @@ Professor, Department of Mechanical Engineering, IIT Madras
 Head & Professor, Department of Mechanical Engineering, BITS-Hyderabad Campus
 :::
 
+
+::: {.g-col .collaborator-card}
+![](/images/Co_14.jpg){fig-alt="Alt text for Image 1"}
+
+[Arjun Roy](https://www.linkedin.com/in/arjun-roy-29ab8857/)
+
+Director Data Science, Baker Hughes (Bently Nevada)
+:::
+
 :::::::::::::::

@@ -107,11 +107,6 @@ Neural constitutive models (NCMs) are emerging as a powerful alternative to trad
 
 
 
-
-
-
-
-
 :::::::::::: {.card .border-primary .mb-4}
 ::: {.card-header_1 .bg-primary .text-white}
 ### 📅 April 22, 2026 \| 🕢 07:30 PM IST

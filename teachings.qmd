@@ -43,7 +43,7 @@ This course (NMEC595 - Research Methodology and Statistics) introduces students 
 **Description:**  
 This lab course (NMEC535 - Finite Element Analyses Lab) provides hands-on training in developing algorithms and MATLAB codes for classical Finite Element Analysis of structural systems. Students learn to program various element types including linear and quadratic bar elements, plane trusses, plane frames, and Euler-Bernoulli beams for analyzing 1D, 2D, and 3D structures under static and dynamic loading conditions. The course emphasizes mesh convergence studies, error analysis, and culminates in a mini-project applying FEA to real-life structural problems.
 
-[**Access Materials**](https://indianinstituteoftechnol299-my.sharepoint.com/personal/suparno_iitism_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsuparno%5Fiitism%5Fac%5Fin%2FDocuments%2FIIT%5FISM%2FCOURSES%2FWinter%5F2026%2FNMEC%5F535%5FFEA%5FLAB%2Fpublic&ga=1){style="color:#E76F51; font-weight:bold;"}  
+[**Access Materials**](https://indianinstituteoftechnol299-my.sharepoint.com/:f:/g/personal/suparno_iitism_ac_in/IgBnRj5IXnqjQpGoGc_AqZy7AQuKCMtCIe67D3iU4F76Wp8?e=7MQBhK){style="color:#E76F51; font-weight:bold;"}  
 :::
 :::
 

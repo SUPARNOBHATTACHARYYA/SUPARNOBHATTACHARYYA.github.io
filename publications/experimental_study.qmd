@@ -4,7 +4,6 @@ format:
   html:
     theme:
       light: cosmo
-      dark: darkly
     toc: false
     page-layout: article  
 ---

@@ -4,12 +4,11 @@ format:
   html:
     theme:
       light: flatly
-      dark: darkly
     toc: false
     page-layout: article  
 ---
 
-<iframe src="/videos/99-line.mp4" width="800px" height="400px" style="border: 1px solid #ddd;"></iframe>
+<video src="/videos/99-line.mp4" width="800px" height="400px" style="border: 1.5px solid #500000; margin-bottom: 30px;" autoplay muted loop playsinline></video>
 
 ### Abstract
 

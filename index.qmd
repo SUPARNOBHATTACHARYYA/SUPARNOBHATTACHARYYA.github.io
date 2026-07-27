@@ -13,7 +13,9 @@ about:
 ![](images/D3_logo.png){width=30% height=50% fig-align="center"}
 
 
-<iframe src="/videos/99-line.mp4" width="800px" height="400px" style="border: 1px solid #ddd;"></iframe>
+<video src="/videos/99-line.mp4" width="800px" height="400px" style="border: 1.5px solid #500000; margin-bottom: 30px;" autoplay muted loop playsinline></video>
+
+
 
 At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates **computational mechanics, topology optimization, and data-driven modeling,** with an emphasis on capturing mechanical and dynamical behavior across scales and applications.
 

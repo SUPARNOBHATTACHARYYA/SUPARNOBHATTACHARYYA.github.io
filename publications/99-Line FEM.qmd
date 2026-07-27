@@ -8,7 +8,7 @@ format:
     page-layout: article  
 ---
 
-<video src="/videos/99-line.mp4" width="800px" height="400px" style="border: 1.5px solid #500000; margin-bottom: 30px;" autoplay muted loop playsinline></video>
+<video src="/videos/99-line.mp4" width="800px" height="400px" style="border: 1.5px solid #fff; margin-bottom: 30px;" autoplay muted loop playsinline></video>
 
 ### Abstract
 

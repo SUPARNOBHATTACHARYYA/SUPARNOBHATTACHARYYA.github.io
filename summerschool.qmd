@@ -1,0 +1,56 @@
+---
+format:
+  html:
+    css: styles.css
+    toc: false
+    page-layout: article
+---
+
+::: {.page-header}
+# Summer School
+:::
+
+
+### Data-driven Modelling for Mechanical Systems (D2MS2 2026)
+**July 01–05, 2026 | IIT (ISM) Dhanbad (Hybrid)**
+
+We successfully hosted the five-day international summer school, **D2MS2 2026**, bringing together students, research scholars, postdoctoral fellows, and industry professionals. Hosted by the Department of Mechanical Engineering, the program focused on bridging foundational engineering with advanced computational techniques. 
+
+Participants engaged in intensive hands-on sessions and expert lectures led by prominent national and international researchers alongside our industrial partners. The comprehensive curriculum provided deep dives into cutting-edge domains, including: Computational Fluid Dynamics (CFD) & Computational Mechanics, Reduced-Order Modelling & Digital Twins, Robotics & High-Fidelity Simulations, Scientific Machine Learning
+
+Thank you to all our speakers and attendees for contributing to a vibrant and successful exchange of ideas. 
+
+---
+
+#### Brochure
+
+![](D2MMS.pdf){width="100%" height="1050px"}
+
+---
+
+#### Event Gallery
+
+<!-- The layout-ncol=3 command automatically arranges these 6 images into 3 columns -->
+::: {layout-ncol=3}
+![](/images/d2ms2/Pic_1.jpeg)
+
+![](/images/d2ms2/Pic_2.JPG)
+
+![](/images/d2ms2/Pic_3.jpeg)
+
+![](/images/d2ms2/Pic_4.jpg)
+
+![](/images/d2ms2/Pic_5.JPG)
+
+![](/images/d2ms2/Pic_6.jpg)
+:::
+
+<!-- This pushes the "view more..." link to the right side -->
+::: {.text-end}
+[view more...](https://people.iitism.ac.in/~d2mms/gallery.html)
+:::
+
+---
+
+
+> **Event Archive:** Comprehensive details regarding the original schedule, expert speakers, and poster presentations remain available at the [official D²MS² 2026 website](https://people.iitism.ac.in/~d2mms/).

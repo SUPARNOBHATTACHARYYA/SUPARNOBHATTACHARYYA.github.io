@@ -4,7 +4,6 @@ format:
   html:
     theme:
       light: flatly
-      dark: darkly
     css: styles.css
     include-in-header: head.html
     include-after-body: publications-script.html # We will put the modal code here

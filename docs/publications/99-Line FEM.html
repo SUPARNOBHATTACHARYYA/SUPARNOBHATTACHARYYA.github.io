@@ -263,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../home.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -294,6 +294,29 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-outreach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Outreach</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-outreach">    
+        <li>
+    <a class="dropdown-item" href="../Webinar.html">
+ <span class="dropdown-text">Webinar</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../summerschool.html">
+ <span class="dropdown-text">Summer School</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../opportunities.html"> 
+<span class="menu-text">Opportunities</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-others" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Others</span>
     </a>
@@ -310,24 +333,8 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../resources.html">
  <span class="dropdown-text">Resources</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../Webinar.html">
- <span class="dropdown-text">Webinar</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../index.html">
- <span class="dropdown-text">Announcement</span></a>
-  </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../opportunities.html"> 
-<span class="menu-text">Opportunities</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -381,6 +388,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<iframe src="../videos/99-line.mp4" width="800px" height="400px" style="border: 1px solid #ddd;">
+</iframe>
 <section id="abstract" class="level3">
 <h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
 <p>Simulating transient heat transfer is crucial for computational thermal analysis in manufacturing processes such as arc welding, laser powder bed fusion, and directed energy deposition. These processes feature moving heat sources that generate steep spatial and temporal temperature gradients, which in turn strongly influence microstructure formation, residual stress development, distortion, and final mechanical properties. As a result, accurate and efficient simulation tools are invaluable for both research and industrial applications. This tutorial presents a streamlined, Python-based finite element (FE) framework for simulating three-dimensional transient heat conduction with a moving Gaussian heat source over a parallelepiped domain. Distinct from complex commercial or open-source FE codes, this approach uses the lightweight and transparent scikit-fem library for spatial discretization. This enables efficient assembly of system matrices and clear correspondence between mathematical formulation and code implementation. Time integration is handled using the generalized 𝜃-method, covering Forward Euler, Backward Euler, and Crank–Nicolson schemes; the Crank–Nicolson option (𝜃=0.5) is chosen for its unconditional stability and second-order accuracy. Nonlinear boundary conditions due to combined convective and radiative heat losses are included via Newton–Raphson iteration with an analytically derived Jacobian. Each Newton linear system is solved using a conjugate gradient algorithm preconditioned by algebraic multigrid (AMG), ensuring efficiency for moderately fine three-dimensional meshes. The complete simulation code is concise, at roughly 99 lines, making it well-suited for teaching, self-study, or rapid prototyping. The resulting temperature fields are benchmarked against published FEniCS results for the same moving heat source scenario, exhibiting a relative field difference of only 1.5%.</p>

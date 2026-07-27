@@ -13,6 +13,11 @@ about:
 ---
 ![](images/D3_logo.png){width=30% height=50% fig-align="center"}
 
+
+
+
+<iframe src="/videos/99-line.mp4" width="800px" height="400px" style="border: 1px solid #ddd;"></iframe>
+
 At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates **computational mechanics, topology optimization, and data-driven modeling,** with an emphasis on capturing mechanical and dynamical behavior across scales and applications.
 
 A core theme of our work is the development of **intrusive and nonintrusive data-driven methods** that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.
@@ -35,6 +40,7 @@ Our contributions span:
 As a natural extension, we are increasingly applying these methods to support **digital twin technologies**, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.
 
 Our long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.
+
 
 
 ::: {.button-container}

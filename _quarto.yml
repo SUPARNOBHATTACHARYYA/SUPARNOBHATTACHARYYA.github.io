@@ -50,7 +50,7 @@ website:
     title-href: index.qmd  # Text redirects to Home
  
     left:
-      - href: home.qmd
+      - href: index.qmd
         text: "Home"
       - href: publications.qmd
         text: "Publications"

@@ -51,6 +51,12 @@ The upper age limit is 32 years as of 1st January 2026 for UR candidates. Age re
 ### How to Apply
 Interested and eligible candidates must apply by **August 27, 2026, at 11:55 PM**.
 
+Apply using the job link: [Click here](https://forms.gle/Yap2J8Uyzb8tJ4Fk8)
+
+
+OR
+
+
 **1. Prepare your documents**
 Create a single folder containing the following documents in PDF format: Biodata/CV, self-attested mark sheets/certificates from graduation onward, proof of age, caste certificate (if applicable), and work-experience certificates (if applicable). Upload this folder to Google Drive and ensure the link is set to "view-accessible".
 
@@ -66,5 +72,10 @@ Create a single folder containing the following documents in PDF format: Biodata
 
 <br>
 <div style="text-align: center;">
-<a href="/Advertisement/ANRF.pdf" target="_blank" class="btn-custom">📄 Download Official Advertisement PDF</a>
+<a href="https://people.iitism.ac.in/~download/projectOpening//uploads/pdfprj/1749/Project%20JRF_2026-07-29_17-22-47.pdf" target="_blank" class="btn-custom">📄 Download Official Advertisement PDF</a>
 </div>
+
+
+::: {.button-container}
+<a href="home.qmd" class="btn-custom">Home →</a>
+:::

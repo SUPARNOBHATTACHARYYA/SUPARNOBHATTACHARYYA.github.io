@@ -45,26 +45,56 @@ p {
 }
 
 
+
+
 /* =========================================================
-   LOGO ROW ALIGNMENT (Updated Size & Spacing)
+   LOGO ROW ALIGNMENT
    ========================================================= */
-.logo-container {
+
+/* TOP ROW: Spreads 5 logos across full width */
+.logo-container-spread {
   display: flex;
-  justify-content: center;   
-  align-items: center;       
-  flex-wrap: wrap;           
-  gap: 80px;                 /* INCREASED: This controls the space between logos (was 40px) */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.logo-container-spread p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+/* BOTTOM ROW: Centers the single logo */
+.logo-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
   margin-bottom: 3rem;
 }
 
-.logo-container img {
-  max-width: 135px;          /* INCREASED: Allows wider logos like Penn State to grow (was 120px) */
-  height: auto;
-  max-height: 100px;         /* INCREASED: Allows taller/circular logos to grow (was 80px) */
-  object-fit: contain;       
+.logo-container-center p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
 }
 
+/* Base image sizes */
+.logo-container-spread img,
+.logo-container-center img {
+  max-width: 135px;
+  height: auto;
+  max-height: 100px;
+  object-fit: contain;
+}
 
 
 

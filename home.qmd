@@ -17,16 +17,25 @@ My research centers on computational solid mechanics and data-driven modeling, w
 
 
 
-
-
-::: {.logo-container}
-![](images/home/JU_logo.jpg)
+::: {.logo-container-spread}
+![](images/home/JU_logo.png)
 ![](images/home/IITK_logo.png)
-![](images/home/Penn_logo.webp)
+![](images/home/Penn_logo.png)
 ![](images/home/Clemson_logo.png)
 ![](images/home/TAMU_logo.png)
-![](images/home/ISM_logo.png)
 :::
+
+<!-- BOTTOM ROW: IIT Dhanbad Logo centered -->
+::: {.logo-container-center}
+![](images/home/ISM_logo.png){style="max-width: 250px; max-height: 200px;"}
+:::
+
+
+
+
+
+
+
 
 
 

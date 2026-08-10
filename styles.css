@@ -26,22 +26,49 @@ p {
   text-justify: inter-word; /* even word spacing */
 }
 
+.center-heading {
+  text-align: center !important;
+}
+
 /* =========================================================
-   ABOUT PAGE IMAGE
+   CIRCULAR PROFILE IMAGE
    ========================================================= */
-.about-image,
-.about-image.rounded-circle,
-.about-photo {
-  width: 300px !important;
-  height: 300px !important;
-  object-fit: cover;
-  border-radius: 50% !important;
-  border: 3px solid #800000;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin: 0 auto 1rem;
+.profile-circle {
+  width: 300px !important;      /* Adjust size as needed */
+  height: 300px !important;     /* Must be exactly the same as width */
+  object-fit: cover !important; /* Crops the image to fit the square before rounding */
+  border-radius: 50% !important;/* Turns the square into a perfect circle */
+  border: 4px solid #800000;    /* Your D-cubed maroon color */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Soft drop shadow */
+  margin: 0 auto 2rem;          /* Centers it and adds space below */
   display: block;
 }
+
+
+/* =========================================================
+   LOGO ROW ALIGNMENT (Updated Size & Spacing)
+   ========================================================= */
+.logo-container {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  flex-wrap: wrap;           
+  gap: 80px;                 /* INCREASED: This controls the space between logos (was 40px) */
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.logo-container img {
+  max-width: 135px;          /* INCREASED: Allows wider logos like Penn State to grow (was 120px) */
+  height: auto;
+  max-height: 100px;         /* INCREASED: Allows taller/circular logos to grow (was 80px) */
+  object-fit: contain;       
+}
+
+
+
+
+
 
 
 /* --- Utility Class for Centering --- */

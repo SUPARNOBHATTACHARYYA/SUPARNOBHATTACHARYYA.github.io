@@ -52,3 +52,7 @@ Students from across the nation are welcome to apply for internships at the D-Cu
 </div>
 
 :::
+
+::: {.button-container}
+<a href="index.qmd" class="btn-custom">Latest Advertisement →</a>
+:::

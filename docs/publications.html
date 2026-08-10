@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./home.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -166,6 +166,10 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="./news.html">
  <span class="dropdown-text">News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">Advertisement</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./resources.html">
@@ -458,11 +462,29 @@ The paper presents a method of trajectory planning and motion characteristics of
 </section>
 <section id="preprints" class="level2">
 <h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
-<div class="pub-item" data-year="2025" data-type="Preprint">
+<div class="pub-item" data-year="2026" data-type="Preprint">
 <p><span class="pub-icon">📄</span></p>
 <div class="pub-content">
-<p><em>{No Preprints Available Right Now }</em><br>
+<p><strong>Suparno Bhattacharyya</strong>, Ali Syed, Jian Tao, Jean C. Ragusa (2026).<br>
+<em>Computational Engineering, Finance, and Science (cs.CE)</em><br>
+<a href="#" target="_blank">scikit-rom: An Open-Source Python Platform for Teaching and Prototyping Projection-Based Reduced-Order Modeling</a></p>
+<p><a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite_pre">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abstract_pre">Abstract</a> <a href="https://arxiv.org/abs/2608.04960" class="btn btn-outline btn-sm" target="_blank">URL</a></p>
+<div id="cite_pre" class="d-none">
+<pre><code>@misc{bhattacharyya2026scikitromopensourcepythonplatform,
+      title={scikit-rom: An Open-Source Python Platform for Teaching and Prototyping Projection-Based Reduced-Order Modeling}, 
+      author={Suparno Bhattacharyya and Ali Syed and Jian Tao and Jean C. Ragusa},
+      year={2026},
+      eprint={2608.04960},
+      archivePrefix={arXiv},
+      primaryClass={cs.CE},
+      url={https://arxiv.org/abs/2608.04960}, 
+}</code></pre>
+</div>
+<div id="abstract_pre" class="d-none">
+<p>
+Projection-based reduced-order modeling (ROM) has become a cornerstone technique for accelerating parameter-intensive engineering simulations, yet the methodology remains challenging to teach and prototype. The difficulty stems from its multi-stage workflow, which encompasses snapshot generation, SVD/POD basis construction, Galerkin projection, offline-online decomposition, hyper-reduction, and error assessment. Existing software frameworks either abstract these stages behind high-level interfaces or depend on compiled, monolithic solver stacks that are difficult for students and early-stage researchers to inspect or modify. This paper introduces scikit-rom, an open-source Python library designed to make the complete projection-based ROM pipeline transparent, modifiable, and suitable for interactive notebook-based exploration. Built on the lightweight finite element backend scikit-fem, scikit-rom provides modular problem templates and dedicated facilities for snapshot generation, reduced-basis construction, reduced-operator assembly, online ROM solution, hyper-reduction, and quantitative accuracy assessment within a unified workflow. Hyper-reduction is supported through four strategies: the Discrete Empirical Interpolation Method (DEIM), S-OPT sampling, the Energy-Conserving Sampling and Weighting (ECSW) scheme, and ECM-style cubature construction. Four progressive worked examples guide the reader from full-order simulation to ROM and hyper-reduced model construction across linear, nonlinear, static, and transient problem classes. The library is intended for graduate-level instruction, intensive workshops, and research prototyping in the reduced-order modeling community.
 </p>
+</div>
 </div>
 </div>
 </section>

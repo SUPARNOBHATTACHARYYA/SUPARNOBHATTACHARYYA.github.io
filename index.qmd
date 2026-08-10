@@ -1,80 +1,70 @@
 ---
-title: "About"
 format:
   html:
-    theme:
-      light: flatly
     css: styles.css
-    include-in-header: analytics.html
-image: profile.jpg
-about:
-  template: jolla
+    toc: false
+    page-layout: article
 ---
-![](images/D3_logo.png){width=30% height=50% fig-align="center"}
 
-
-<video src="/videos/99-line.mp4" width="800px" height="400px" style="border: 1.5px solid #fff; margin-bottom: 30px;" autoplay muted loop playsinline></video>
-
-
-
-At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates **computational mechanics, topology optimization, and data-driven modeling,** with an emphasis on capturing mechanical and dynamical behavior across scales and applications.
-
-A core theme of our work is the development of **intrusive and nonintrusive data-driven methods** that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.
-
-
-
-![](images/home_banner.jpg){width="100%" style="margin: 40px auto;"}
-
-
-Our contributions span:
-
-• Data-driven ROMs for systems with discontinuities and nonlinearities
-
-• Energy-based closure strategies for improved accuracy in low-dimensional models
-
-• Topology optimization frameworks for periodic and lattice structures with tailored dynamic properties
-
-• Integration of neural ODEs and machine learning into physics-based modeling pipelines
-
-As a natural extension, we are increasingly applying these methods to support **digital twin technologies**, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.
-
-Our long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.
-
-
-::: {.button-container}
-<a href="news.qmd" class="btn-custom">News →</a>
-
-
-<a href="labgroup.qmd" class="btn-custom">Lab group →</a>
-
-
-<a href="Webinar.qmd" class="btn-custom">Webinar →</a>
+::: {.page-header}
+# Advertisement
 :::
 
 
+### Junior Research Fellow (JRF) in Data-Driven Modeling and Structural Twins
 
+Applications are invited for one (1) Junior Research Fellow (JRF) position under the ANRF-ECRG sponsored project at the Department of Mechanical Engineering, IIT (ISM) Dhanbad. 
 
+**Project Title:** π-DUST: Physics-Informed Data-driven Modeling and Uncertainty Quantification with application to Structural Twins
 
+**Principal Investigator:** Prof. Suparno Bhattacharyya
 
+**Funding Agency:** ANRF-ECRG (Project No: PFMS/SRDP/1348/G)
 
+**Project Tenure:** 3 years
 
+**Fellowship:** INR 37,000 (Basic) + 20% HRA
 
-```{=html}
-<style>
+#### **Job Description**
+The selected candidate will contribute to π-DUST, a research program developing data-driven technologies for engineering systems. The project combines computational mechanics, artificial intelligence, uncertainty quantification, and digital-twin technology. The candidate will work within an interdisciplinary team and engage with collaborators from institutions such as Texas A&M University and Penn State University. This role offers opportunities to contribute to research publications, open-source software, experimental validation, and industry-relevant solutions while building an international research network.
 
-/* Ensure paragraphs, headings, and lists are left-aligned */
-h1, h2, h3, h4, h5, h6, ul, ol {
-  text-align: left !important;
-}
+#### **Essential Qualifications**
+**I.** A First-Class B.Tech/B.E. (GATE qualified) or a First-class M.E./M.Tech./M.Sc. in Mechanical Engineering, Applied Mathematics, Applied Mechanics, Civil Engineering, Aerospace Engineering, Computational Engineering, or a related discipline.
 
-/* Remove Bootstrap's default centering */
-.container, .main-content {
-  text-align: left !important;
-}
+**II.** Knowledge of solid mechanics, structural dynamics, or finite element methods.
 
-/* Optional: Fix alignment for specific sections */
-#about, #research-focus, #certifications {
-  text-align: left !important;
-}
-</style>
-```
+#### **Desirable Qualifications**
+**I.** Prior research experience in the application of AI/ML in structural systems is highly desirable.
+
+**II.** Proficiency in Python and advanced computational/numerical tools (ANSYS Fluent, COMSOL Multiphysics, MATLAB, image-processing software).
+
+**III.** Background in control systems.
+
+**IV.** Candidates holding a Master's degree in relevant research areas or possessing peer-reviewed journal publications will be given preference.
+
+#### **Age Limit**
+
+The upper age limit is 32 years as of 1st January 2026 for UR candidates. Age relaxation for SC/ST/OBC and women candidates will be applicable as per GoI norms.
+
+---
+
+### How to Apply
+Interested and eligible candidates must apply by **August 27, 2026, at 11:55 PM**.
+
+**1. Prepare your documents**
+Create a single folder containing the following documents in PDF format: Biodata/CV, self-attested mark sheets/certificates from graduation onward, proof of age, caste certificate (if applicable), and work-experience certificates (if applicable). Upload this folder to Google Drive and ensure the link is set to "view-accessible".
+
+**2. Email your application**
+
+* **To:** suparno@iitism.ac.in
+
+* **Subject:** Application for JRF (PI-DUST) - [Applicant's Full Name]
+
+* **Body:** The email body should serve as your cover letter (maximum 400 words). Explain in your own words why you wish to join the project and how your education, projects, technical skills, or research experience support your interest. 
+
+> **⚠️ IMPORTANT:** Do NOT attach any files directly to the email, as emails containing large attachments may be rejected by the IIT email system. AI-generated, generic, or templated emails are strictly discouraged. Long emails, incomplete applications, inaccessible Google Drive folders, or emails without the specified subject line may be discarded.
+
+<br>
+<div style="text-align: center;">
+<a href="/Advertisement/ANRF.pdf" target="_blank" class="btn-custom">📄 Download Official Advertisement PDF</a>
+</div>

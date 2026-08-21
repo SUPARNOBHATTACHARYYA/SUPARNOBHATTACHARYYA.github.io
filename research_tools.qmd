@@ -1,0 +1,31 @@
+---
+format: 
+  html:
+    theme:
+      light: flatly
+    page-layout: full
+    css: collab.css
+    toc: false
+---
+
+::: page-header
+# Research Tools
+:::
+
+## 1. Data-Driven Modelling
+
+### Scikit-rom
+
+[Link:](https://scikitrom.github.io/)
+
+*scikit-rom* is a lightweight, Python-based platform designed for projection-based model reduction of finite element models with moderate to large problem sizes (up to approximately 600,000 degrees of freedom). Built on top of scikit-fem, an easy-to-use finite element assembly library, this repository demonstrates reduced-order modeling (ROM) techniques for a range of linear and nonlinear problems, including time-dependent ones. Current examples primarily focus on thermal and mechanical systems, with extensions to fluid dynamics planned for future releases.
+Beyond its application to real-world finite element problems, the library also serves as a valuable testing ground for new model reduction algorithms and as a tutorial resource for those new to the field.
+
+
+
+## 2. Mechanics of meta-materials
+
+### Curved Beam Element
+[Link](/curved-beam/index.html)
+
+This web application provides an interactive tool for computing the (12\times12) stiffness and consistent mass matrices of open three-dimensional Timoshenko beams with straight, analytically defined, or point-based curved centerlines. Point-defined geometries can be reconstructed using Chebyshev or cubic-spline interpolation and inspected through an interactive 3D visualization. For validation, the stiffness matrix is compared with the analytical straight-beam solution or, for curved geometries, with a refined assembly of conventional straight Timoshenko beam elements whose internal degrees of freedom are statically condensed to the two beam endpoints.

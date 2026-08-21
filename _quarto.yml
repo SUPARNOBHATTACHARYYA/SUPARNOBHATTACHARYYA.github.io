@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - curved-beam/**
   output-dir: docs
 
 website:
@@ -59,7 +61,7 @@ website:
           - text: "Areas"
             href: research.qmd
           - text: "Tools"
-            href: /curved-beam/index.html
+            href: research_tools.qmd
       - href: teachings.qmd
         text: "Teaching"
       - text: "People"

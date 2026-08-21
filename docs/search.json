@@ -610,5 +610,19 @@
     "title": "TEACHING",
     "section": "All Teaching Experience",
     "text": "All Teaching Experience\n\nIndian Institute of Technology (Indian School of Mines) Dhanbad\n\n\n\nCourse\nRole\nLevel\nYear\n\n\n\n\nResearch Methodology\nInstructor\nPG\n2026\n\n\nFinite Element Analyses Lab\nInstructor\nPG\n2026\n\n\nIntroduction to MATLAB and SIMULINK\nInstructor\nUG\n2025\n\n\nMechanics for Engineers\nInstructor\nUG\n2025\n\n\n\n\n\nTexas A&M University\n\n\n\n\n\n\n\n\n\nCourse\nRole\nLevel\nYear\n\n\n\n\nWorkshop: Principal Component Analysis (PCA)\nInstructor\nUG/PG\n2025\n\n\nWorkshop: Dive into Reduced Order Modeling with pylibROM\nInstructor\nUG/PG\n2024\n\n\nPhysics-based and Data-Driven Reduced-Order Modeling for Engineering Systems\nGuest Lecturer\nPG\n2023\n\n\n\n\n\nPennsylvania State University\n\n\n\n\n\n\n\n\n\nCourse\nRole\nLevel\nYear\n\n\n\n\nStatics and Strength of Materials\nTA\nUG\n2020–2021\n\n\nDynamics\nTA/Instructor\nUG\n2015–2020\n\n\nExperimental Determination of Mechanical Response of Materials\nTA\nUG\n2014–2015\n\n\n\n."
+  },
+  {
+    "objectID": "research_tools.html#data-driven-modelling",
+    "href": "research_tools.html#data-driven-modelling",
+    "title": "Research Tools",
+    "section": "1. Data-Driven Modelling",
+    "text": "1. Data-Driven Modelling\n\nScikit-rom\nLink:\nscikit-rom is a lightweight, Python-based platform designed for projection-based model reduction of finite element models with moderate to large problem sizes (up to approximately 600,000 degrees of freedom). Built on top of scikit-fem, an easy-to-use finite element assembly library, this repository demonstrates reduced-order modeling (ROM) techniques for a range of linear and nonlinear problems, including time-dependent ones. Current examples primarily focus on thermal and mechanical systems, with extensions to fluid dynamics planned for future releases. Beyond its application to real-world finite element problems, the library also serves as a valuable testing ground for new model reduction algorithms and as a tutorial resource for those new to the field."
+  },
+  {
+    "objectID": "research_tools.html#mechanics-of-meta-materials",
+    "href": "research_tools.html#mechanics-of-meta-materials",
+    "title": "Research Tools",
+    "section": "2. Mechanics of meta-materials",
+    "text": "2. Mechanics of meta-materials\n\nCurved Beam Element\nLink\nThis web application provides an interactive tool for computing the (12) stiffness and consistent mass matrices of open three-dimensional Timoshenko beams with straight, analytically defined, or point-based curved centerlines. Point-defined geometries can be reconstructed using Chebyshev or cubic-spline interpolation and inspected through an interactive 3D visualization. For validation, the stiffness matrix is compared with the analytical straight-beam solution or, for curved geometries, with a refined assembly of conventional straight Timoshenko beam elements whose internal degrees of freedom are statically condensed to the two beam endpoints."
   }
 ]

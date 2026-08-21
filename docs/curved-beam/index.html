@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Curved Timoshenko Beam</title>
+<script src="plotly.min.js"></script>
+<script src="config.js"></script>
+<style>
+:root{font-family:Segoe UI,Arial,sans-serif;color:#202124;background:#f6f7f9}*{box-sizing:border-box}body{margin:0}.app{display:grid;grid-template-columns:360px 1fr;height:100vh}.side{padding:14px;background:#fff;border-right:1px solid #dfe3e8;overflow:auto}.main{padding:14px;min-width:0;display:flex;flex-direction:column}.group{border:1px solid #dfe3e8;border-radius:8px;padding:10px;margin-bottom:10px}.group h3{font-size:14px;margin:0 0 8px}.row{display:grid;grid-template-columns:1fr 140px;gap:10px;align-items:center;margin:6px 0}label{font-size:13px}input,select,textarea,button{font:inherit}input,select,textarea{width:100%;padding:6px 8px;border:1px solid #c7ccd1;border-radius:5px;background:#fff}textarea{height:130px;resize:vertical;font-family:Consolas,monospace;font-size:12px}input:disabled,select:disabled,textarea:disabled{background:#eceff2;color:#8a9096}button{padding:8px 10px;border:1px solid #b8bec5;border-radius:6px;background:#fff;cursor:pointer}button.primary{background:#1669c1;color:#fff;border-color:#1669c1;font-weight:600}button:disabled{opacity:.55;cursor:default}.actions{display:grid;gap:7px}.top{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:10px}.top h1{font-size:20px;margin:0}.dof{font-size:11px;color:#5f6368;text-align:right}.tabs{display:flex;gap:2px;border-bottom:1px solid #cfd4da}.tab{border:0;border-radius:6px 6px 0 0;padding:9px 14px;background:transparent}.tab.active{background:#fff;border:1px solid #cfd4da;border-bottom-color:#fff;margin-bottom:-1px}.panel{display:none;flex:1;min-height:0;background:#fff;border:1px solid #cfd4da;border-top:0}.panel.active{display:block}.viz-wrap{height:100%;display:flex;flex-direction:column}.viz-head{padding:8px 12px;border-bottom:1px solid #e1e4e8;font-size:13px;display:flex;justify-content:space-between}.plot{flex:1;min-height:420px}.matrix{height:100%;margin:0;padding:12px;overflow:auto;white-space:pre;font:12px Consolas,monospace}.diag{padding:16px;font:13px Consolas,monospace;white-space:pre-wrap}.status{font-size:12px;color:#5f6368;margin-top:8px}.error{color:#b3261e}.ok{color:#176b34}@media(max-width:900px){.app{grid-template-columns:320px 1fr}.dof{display:none}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="side">
+  <div class="group"><h3>Centerline</h3>
+    <div class="row"><label>Definition</label><select id="kind"><option>Straight</option><option selected>Planar sine</option><option>Helix</option><option>Lissajous</option><option>Points</option></select></div>
+    <div class="row"><label>Reference length / x-span (m)</label><input id="length" value="1.0"></div>
+    <div class="row"><label>Amplitude / helix radius (m)</label><input id="amplitude" value="0.10"></div>
+    <div class="row"><label>Turns / wave count</label><input id="turns" value="0.5"></div>
+    <hr>
+    <div class="row"><label>Point interpolation</label><select id="interpolation"><option>Chebyshev</option><option>Cubic spline</option></select></div>
+    <div class="row"><label>Chebyshev degree (0 = n-1)</label><input id="fit_degree" value="0"></div>
+    <label>Points (x, y, z), metres</label>
+    <textarea id="points"># x, y, z
+0.0, 0.0, 0.0
+0.25, 0.05, 0.0
+0.50, 0.10, 0.03
+0.75, 0.04, 0.02
+1.00, 0.0, 0.0</textarea>
+    <button id="preview" style="width:100%;margin-top:7px">Update visualization</button>
+    <div style="margin-top:8px;font-size:12px;color:#b3261e"><strong>Limitation:</strong> Closed centerlines are not supported. The beam must have distinct start and end points.</div>
+  </div>
+  <div class="group"><h3>Material + circular section</h3>
+    <div class="row"><label>Young's modulus E (GPa)</label><input id="E" value="210.0"></div>
+    <div class="row"><label>Poisson ratio</label><input id="nu" value="0.30"></div>
+    <div class="row"><label>Density (kg/m³)</label><input id="rho" value="7850.0"></div>
+    <div class="row"><label>Solid radius (mm)</label><input id="radius" value="10.0"></div>
+    <div class="row"><label>Shear correction kappa</label><input id="kappa" value="0.8571428571428571"></div>
+  </div>
+  <div class="group"><h3>Numerical integration</h3>
+    <div class="row"><label>Gauss points / panel</label><input id="ngauss" value="16"></div>
+    <div class="row"><label>Panels</label><input id="npan" value="1"></div>
+    <div class="row"><label>Print precision</label><input id="precision" value="8"></div>
+  </div>
+  <div class="group"><h3>Validation</h3>
+    <div class="row"><label>Straight reference beams</label><input id="validation_segments" type="number" min="2" step="1" value="80"></div>
+  </div>
+  <div class="actions"><button id="compute" class="primary">Compute K and M</button><button id="save" disabled>Download K / M files</button></div>
+</aside>
+<main class="main">
+  <div class="top"><h1>12 × 12 element matrices</h1><div class="dof">DOF order: [u_Ax, u_Ay, u_Az, θ_Ax, θ_Ay, θ_Az, u_Bx, u_By, u_Bz, θ_Bx, θ_By, θ_Bz]</div></div>
+  <div class="tabs"><button class="tab active" data-panel="viz">Visualization</button><button class="tab" data-panel="K">Stiffness K</button><button class="tab" data-panel="M">Mass M</button><button class="tab" data-panel="diag">Diagnostics</button><button class="tab" data-panel="validation">Validation</button></div>
+  <section id="viz" class="panel active"><div class="viz-wrap"><div class="viz-head"><span id="vizLabel">Loading...</span><span>Drag: rotate · Modebar: pan/zoom · Wheel: zoom</span></div><div id="plot" class="plot"></div></div></section>
+  <section id="K" class="panel"><pre id="Ktext" class="matrix">Compute K and M.</pre></section>
+  <section id="M" class="panel"><pre id="Mtext" class="matrix">Compute K and M.</pre></section>
+  <section id="diag" class="panel"><div id="diagText" class="diag">Compute K and M.</div></section>
+  <section id="validation" class="panel"><div id="validationText" class="diag">Validation compares K against an independent reference.</div></section>
+  <div id="status" class="status">Ready.</div>
+</main>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const API=(window.BEAM_API_URL||'').replace(/\/$/,'');
+const ids=['kind','length','amplitude','turns','interpolation','fit_degree','points','E','nu','rho','radius','kappa','ngauss','npan','validation_segments'];
+let lastResult=null;
+function payload(){const p={};ids.forEach(id=>p[id]=$(id).value);['length','amplitude','turns','E','nu','rho','radius','kappa'].forEach(id=>p[id]=Number(p[id]));['fit_degree','ngauss','npan','validation_segments'].forEach(id=>p[id]=parseInt(p[id]));return p}
+function mode(){const pts=$('kind').value==='Points';['length','amplitude','turns'].forEach(id=>$(id).disabled=pts);$('points').disabled=!pts;$('interpolation').disabled=!pts;$('fit_degree').disabled=!(pts&&$('interpolation').value==='Chebyshev');$('validation_segments').disabled=$('kind').value==='Straight'}
+function xyz(a,i){return a.map(r=>r[i])}
+function draw(data){const traces=[{x:xyz(data.curve,0),y:xyz(data.curve,1),z:xyz(data.curve,2),type:'scatter3d',mode:'lines',name:'Centerline',line:{width:6}}];if(data.points)traces.push({x:xyz(data.points,0),y:xyz(data.points,1),z:xyz(data.points,2),type:'scatter3d',mode:'markers',name:'Supplied points',marker:{size:5}});Plotly.react('plot',traces,{margin:{l:0,r:0,b:0,t:0},scene:{aspectmode:'data',dragmode:'orbit',xaxis:{title:'x (m)'},yaxis:{title:'y (m)'},zaxis:{title:'z (m)'}},legend:{orientation:'h',y:1.02,x:0}},{responsive:true,displaylogo:false,scrollZoom:true});$('vizLabel').textContent=data.label}
+function setStatus(text,error=false){$('status').textContent=text;$('status').className='status '+(error?'error':'')}
+async function call(path,data){if(!API)throw new Error('Backend URL is not configured. Set BEAM_API_URL in config.js.');const r=await fetch(API+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});const body=await r.json().catch(()=>({detail:r.statusText}));if(!r.ok)throw new Error(body.detail||'Request failed.');return body}
+async function preview(){try{setStatus('Updating visualization...');draw(await call('/preview',payload()));setStatus('Ready.')}catch(e){setStatus(e.message||String(e),true)}}
+function fmt(A,name){const p=Math.max(4,Math.min(16,parseInt($('precision').value||8)));return name+' = np.array([\n'+A.map(r=>'  ['+r.map(v=>Number(v).toExponential(p)).join(', ')+']').join(',\n')+'\n])'}
+async function compute(){try{$('compute').disabled=true;setStatus('Computing K and M...');const r=await call('/compute',payload());lastResult=r;$('Ktext').textContent=fmt(r.K,'K');$('Mtext').textContent=fmt(r.M,'M');$('diagText').textContent=`Geometry representation: ${r.representation}\nArc length: ${r.arc_length.toExponential(12)} m\nChord length: ${r.chord_length.toExponential(12)} m\nTotal mass: ${r.total_mass.toExponential(12)} kg\nQuadrature points: ${r.quadrature_points}\nBishop ODE function evaluations: ${r.bishop_nfev}\nJacobian min/max: ${r.jacobian_min.toExponential(12)} / ${r.jacobian_max.toExponential(12)}\nK symmetry rel. error: ${r.K_sym.toExponential(3)}\nM symmetry rel. error: ${r.M_sym.toExponential(3)}`;const v=r.validation;if(v.type==='straight'){$('validationText').textContent=`STRAIGHT TIMOSHENKO BEAM — CLOSED-FORM STIFFNESS CHECK\n\nStatus: ${v.pass?'PASS':'FAIL'}\nRelative Frobenius error: ${v.relative_frobenius_error.toExponential(6)}\nNormalized maximum error: ${v.normalized_max_error.toExponential(6)}\n\nReference: standard 3D two-node Timoshenko beam using the same E, G, A, I, J, kappa and L.\n\n${fmt(v.K_ref,'K_reference')}\n\n${fmt(v.difference,'K - K_reference')}`;}else{$('validationText').textContent=`CURVED BEAM — REFINED TIMOSHENKO REFERENCE\n\nThe same centerline is discretized into ${v.segments} conventional straight 3D Timoshenko elements. All internal nodal DOFs are statically condensed, leaving the 12 endpoint DOFs.\n\nReference beams: ${v.segments}\nV7 relative Frobenius error: ${v.relative_frobenius_error.toExponential(6)}\nNormalized maximum error: ${v.normalized_max_error.toExponential(6)}\n\n${fmt(v.K_ref,'K_reference_condensed')}\n\n${fmt(v.difference,'K - K_reference_condensed')}`;}$('save').disabled=false;setStatus(`Done. K and M computed using ${r.quadrature_points} quadrature points.`)}catch(e){setStatus(e.message||String(e),true)}finally{$('compute').disabled=false}}
+function csv(A){return A.map(r=>r.map(v=>Number(v).toExponential(16)).join(',')).join('\n')+'\n'}
+function download(name,text,type='text/plain'){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
+function save(){if(!lastResult)return;download('K.csv',csv(lastResult.K),'text/csv');setTimeout(()=>download('M.csv',csv(lastResult.M),'text/csv'),150);setTimeout(()=>download('K.txt',fmt(lastResult.K,'K')),300);setTimeout(()=>download('M.txt',fmt(lastResult.M,'M')),450)}
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));b.classList.add('active');$(b.dataset.panel).classList.add('active');if(b.dataset.panel==='viz')setTimeout(()=>Plotly.Plots.resize('plot'),0)}));
+$('kind').addEventListener('change',()=>{mode();preview()});$('interpolation').addEventListener('change',()=>{mode();preview()});$('preview').addEventListener('click',preview);$('compute').addEventListener('click',compute);$('save').addEventListener('click',save);
+mode();preview();
+</script>
+</body>
+</html>

@@ -54,8 +54,12 @@ website:
         text: "Home"
       - href: publications.qmd
         text: "Publications"
-      - href: research.qmd
-        text: "Research"
+      - text: "Research"
+        menu:
+          - text: "Areas"
+            href: research.qmd
+          - text: "Tools"
+            href: /curved-beam/index.html
       - href: teachings.qmd
         text: "Teaching"
       - text: "People"

@@ -29,3 +29,13 @@ Beyond its application to real-world finite element problems, the library also s
 [Link](/curved-beam/index.html)
 
 This web application provides an interactive tool for computing the (12x12) stiffness and consistent mass matrices of open three-dimensional Timoshenko beams with straight, analytically defined, or point-based curved centerlines. Point-defined geometries can be reconstructed using Chebyshev or cubic-spline interpolation and inspected through an interactive 3D visualization. For validation, the stiffness matrix is compared with the analytical straight-beam solution or, for curved geometries, with a refined assembly of conventional straight Timoshenko beam elements whose internal degrees of freedom are statically condensed to the two beam endpoints.
+
+
+
+
+## 3. Writing tool
+
+### Pub Assist
+[Link](https://github.com/suparnob100/pub_assist)
+
+A workflow tool for preparing LaTeX manuscripts for journal submission, revision, and reviewer response. Pub Assist provides a local web app for browser-based access and a set of Jupyter notebooks for cell-by-cell control.

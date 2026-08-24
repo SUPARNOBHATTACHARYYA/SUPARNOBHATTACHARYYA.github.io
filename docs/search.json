@@ -624,5 +624,12 @@
     "title": "Research Tools",
     "section": "2. Mechanics of meta-materials",
     "text": "2. Mechanics of meta-materials\n\nCurved Beam Element\nLink\nThis web application provides an interactive tool for computing the (12x12) stiffness and consistent mass matrices of open three-dimensional Timoshenko beams with straight, analytically defined, or point-based curved centerlines. Point-defined geometries can be reconstructed using Chebyshev or cubic-spline interpolation and inspected through an interactive 3D visualization. For validation, the stiffness matrix is compared with the analytical straight-beam solution or, for curved geometries, with a refined assembly of conventional straight Timoshenko beam elements whose internal degrees of freedom are statically condensed to the two beam endpoints."
+  },
+  {
+    "objectID": "research_tools.html#writing-tool",
+    "href": "research_tools.html#writing-tool",
+    "title": "Research Tools",
+    "section": "3. Writing tool",
+    "text": "3. Writing tool\n\nPub Assist\nLink\nA workflow tool for preparing LaTeX manuscripts for journal submission, revision, and reviewer response. Pub Assist provides a local web app for browser-based access and a set of Jupyter notebooks for cell-by-cell control."
   }
 ]

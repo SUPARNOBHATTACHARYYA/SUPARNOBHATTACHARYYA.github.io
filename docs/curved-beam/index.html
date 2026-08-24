@@ -7,7 +7,61 @@
 <script src="plotly.min.js"></script>
 <script src="config.js"></script>
 <style>
-:root{font-family:Segoe UI,Arial,sans-serif;color:#202124;background:#f6f7f9}*{box-sizing:border-box}body{margin:0}.app{display:grid;grid-template-columns:360px 1fr;height:100vh}.side{padding:14px;background:#fff;border-right:1px solid #dfe3e8;overflow:auto}.main{padding:14px;min-width:0;display:flex;flex-direction:column}.group{border:1px solid #dfe3e8;border-radius:8px;padding:10px;margin-bottom:10px}.group h3{font-size:14px;margin:0 0 8px}.row{display:grid;grid-template-columns:1fr 140px;gap:10px;align-items:center;margin:6px 0}label{font-size:13px}input,select,textarea,button{font:inherit}input,select,textarea{width:100%;padding:6px 8px;border:1px solid #c7ccd1;border-radius:5px;background:#fff}textarea{height:130px;resize:vertical;font-family:Consolas,monospace;font-size:12px}input:disabled,select:disabled,textarea:disabled{background:#eceff2;color:#8a9096}button{padding:8px 10px;border:1px solid #b8bec5;border-radius:6px;background:#fff;cursor:pointer}button.primary{background:#1669c1;color:#fff;border-color:#1669c1;font-weight:600}button:disabled{opacity:.55;cursor:default}.actions{display:grid;gap:7px}.top{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:10px}.top h1{font-size:20px;margin:0}.dof{font-size:11px;color:#5f6368;text-align:right}.tabs{display:flex;gap:2px;border-bottom:1px solid #cfd4da}.tab{border:0;border-radius:6px 6px 0 0;padding:9px 14px;background:transparent}.tab.active{background:#fff;border:1px solid #cfd4da;border-bottom-color:#fff;margin-bottom:-1px}.panel{display:none;flex:1;min-height:0;background:#fff;border:1px solid #cfd4da;border-top:0}.panel.active{display:block}.viz-wrap{height:100%;display:flex;flex-direction:column}.viz-head{padding:8px 12px;border-bottom:1px solid #e1e4e8;font-size:13px;display:flex;justify-content:space-between}.plot{flex:1;min-height:420px}.matrix{height:100%;margin:0;padding:12px;overflow:auto;white-space:pre;font:12px Consolas,monospace}.diag{padding:16px;font:13px Consolas,monospace;white-space:pre-wrap}.status{font-size:12px;color:#5f6368;margin-top:8px}.error{color:#b3261e}.ok{color:#176b34}@media(max-width:900px){.app{grid-template-columns:320px 1fr}.dof{display:none}}
+:root{
+  font-family:Segoe UI,Arial,sans-serif;
+  color:#2b2119;
+  background:#fcfbf7;
+  --maroon:#7b2230;
+  --maroon-dark:#641927;
+  --gold:#8c6d3f;
+  --gold-soft:#b7a98c;
+  --cream:#fcfbf7;
+  --cream-2:#f5f1e9;
+  --paper:#fffefa;
+  --border:#d8c9aa;
+  --muted:#725f4e;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream)}
+.app{display:grid;grid-template-columns:360px 1fr;height:100vh;background:var(--cream)}
+.side{padding:14px;background:var(--cream);border-right:1px solid var(--gold-soft);overflow:auto}
+.main{padding:14px;min-width:0;display:flex;flex-direction:column;background:#fff}
+.group{border:1px solid var(--border);border-radius:7px;padding:10px;margin-bottom:10px;background:var(--paper)}
+.group h3{font-size:13px;margin:0 0 8px;color:var(--gold);letter-spacing:.08em;text-transform:uppercase}
+.row{display:grid;grid-template-columns:1fr 140px;gap:10px;align-items:center;margin:6px 0}
+label{font-size:13px}
+input,select,textarea,button{font:inherit}
+input,select,textarea{width:100%;padding:6px 8px;border:1px solid #c8b994;border-radius:4px;background:#fff;color:#2b2119}
+input:focus,select:focus,textarea:focus{outline:2px solid rgba(123,34,48,.18);border-color:var(--maroon)}
+textarea{height:130px;resize:vertical;font-family:Consolas,monospace;font-size:12px}
+input:disabled,select:disabled,textarea:disabled{background:#eee9df;color:#948777}
+button{padding:8px 10px;border:1px solid #bda77c;border-radius:3px;background:#fffdf8;color:#4a3829;cursor:pointer}
+button:hover:not(:disabled){border-color:var(--gold);background:#fbf4e6}
+button.primary{background:var(--maroon);color:#fff;border-color:var(--maroon);font-weight:600}
+button.primary:hover:not(:disabled){background:var(--maroon-dark)}
+button:disabled{opacity:.55;cursor:default}
+.actions{display:grid;gap:7px}
+.top{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:8px}
+.top h1{font-size:20px;margin:0;color:var(--maroon)}
+.description{margin:0 0 12px;padding:10px 12px;border:1px solid var(--border);border-left:4px solid var(--maroon);border-radius:5px;background:var(--cream);font-size:13px;line-height:1.45;color:#463628}
+.dof{font-size:11px;color:var(--muted);text-align:right}
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--border)}
+.tab{border:0;border-radius:4px 4px 0 0;padding:9px 14px;background:transparent;color:#513f30}
+.tab:hover{background:#f7f0e3}
+.tab.active{background:var(--paper);color:var(--maroon);border:1px solid var(--border);border-bottom-color:var(--paper);margin-bottom:-1px;font-weight:600}
+.panel{display:none;flex:1;min-height:0;background:var(--paper);border:1px solid var(--border);border-top:0}
+.panel.active{display:block}
+.viz-wrap{height:100%;display:flex;flex-direction:column}
+.viz-head{padding:8px 12px;border-bottom:1px solid #e7dcc7;font-size:13px;display:flex;justify-content:space-between;color:#594635}
+.plot{flex:1;min-height:420px}
+.matrix{height:100%;margin:0;padding:12px;overflow:auto;white-space:pre;font:12px Consolas,monospace;background:#fffefa;color:#2b2119}
+.diag{padding:16px;font:13px Consolas,monospace;white-space:pre-wrap}
+.status{font-size:12px;color:var(--muted);margin-top:8px}
+.error{color:var(--maroon)}
+.ok{color:#536b3f}
+.limit{margin-top:8px;font-size:12px;color:var(--maroon)}
+hr{border:0;border-top:1px solid #e2d7c2;margin:10px 0}
+@media(max-width:900px){.app{grid-template-columns:320px 1fr}.dof{display:none}}
 </style>
 </head>
 <body>
@@ -29,7 +83,7 @@
 0.75, 0.04, 0.02
 1.00, 0.0, 0.0</textarea>
     <button id="preview" style="width:100%;margin-top:7px">Update visualization</button>
-    <div style="margin-top:8px;font-size:12px;color:#b3261e"><strong>Limitation:</strong> Closed centerlines are not supported. The beam must have distinct start and end points.</div>
+    <div class="limit"><strong>Limitation:</strong> Closed centerlines are not supported. The beam must have distinct start and end points.</div>
   </div>
   <div class="group"><h3>Material + circular section</h3>
     <div class="row"><label>Young's modulus E (GPa)</label><input id="E" value="210.0"></div>
@@ -50,6 +104,7 @@
 </aside>
 <main class="main">
   <div class="top"><h1>12 × 12 element matrices</h1><div class="dof">DOF order: [u_Ax, u_Ay, u_Az, θ_Ax, θ_Ay, θ_Az, u_Bx, u_By, u_Bz, θ_Bx, θ_By, θ_Bz]</div></div>
+  <div class="description">Compute the 12 × 12 stiffness and consistent mass matrices of open three-dimensional Timoshenko beams with analytic or point-defined centerlines. Point data can be reconstructed using Chebyshev or cubic-spline interpolation and inspected in 3D; stiffness validation uses the analytical straight-beam solution or a refined straight-element model statically condensed to the two beam endpoints.</div>
   <div class="tabs"><button class="tab active" data-panel="viz">Visualization</button><button class="tab" data-panel="K">Stiffness K</button><button class="tab" data-panel="M">Mass M</button><button class="tab" data-panel="diag">Diagnostics</button><button class="tab" data-panel="validation">Validation</button></div>
   <section id="viz" class="panel active"><div class="viz-wrap"><div class="viz-head"><span id="vizLabel">Loading...</span><span>Drag: rotate · Modebar: pan/zoom · Wheel: zoom</span></div><div id="plot" class="plot"></div></div></section>
   <section id="K" class="panel"><pre id="Ktext" class="matrix">Compute K and M.</pre></section>
@@ -67,7 +122,7 @@ let lastResult=null;
 function payload(){const p={};ids.forEach(id=>p[id]=$(id).value);['length','amplitude','turns','E','nu','rho','radius','kappa'].forEach(id=>p[id]=Number(p[id]));['fit_degree','ngauss','npan','validation_segments'].forEach(id=>p[id]=parseInt(p[id]));return p}
 function mode(){const pts=$('kind').value==='Points';['length','amplitude','turns'].forEach(id=>$(id).disabled=pts);$('points').disabled=!pts;$('interpolation').disabled=!pts;$('fit_degree').disabled=!(pts&&$('interpolation').value==='Chebyshev');$('validation_segments').disabled=$('kind').value==='Straight'}
 function xyz(a,i){return a.map(r=>r[i])}
-function draw(data){const traces=[{x:xyz(data.curve,0),y:xyz(data.curve,1),z:xyz(data.curve,2),type:'scatter3d',mode:'lines',name:'Centerline',line:{width:6}}];if(data.points)traces.push({x:xyz(data.points,0),y:xyz(data.points,1),z:xyz(data.points,2),type:'scatter3d',mode:'markers',name:'Supplied points',marker:{size:5}});Plotly.react('plot',traces,{margin:{l:0,r:0,b:0,t:0},scene:{aspectmode:'data',dragmode:'orbit',xaxis:{title:'x (m)'},yaxis:{title:'y (m)'},zaxis:{title:'z (m)'}},legend:{orientation:'h',y:1.02,x:0}},{responsive:true,displaylogo:false,scrollZoom:true});$('vizLabel').textContent=data.label}
+function draw(data){const traces=[{x:xyz(data.curve,0),y:xyz(data.curve,1),z:xyz(data.curve,2),type:'scatter3d',mode:'lines',name:'Centerline',line:{width:6,color:'#7b2230'}}];if(data.points)traces.push({x:xyz(data.points,0),y:xyz(data.points,1),z:xyz(data.points,2),type:'scatter3d',mode:'markers',name:'Supplied points',marker:{size:5,color:'#8c6d3f'}});Plotly.react('plot',traces,{paper_bgcolor:'#fffefa',plot_bgcolor:'#fffefa',font:{color:'#463628'},margin:{l:0,r:0,b:0,t:0},scene:{aspectmode:'data',dragmode:'orbit',bgcolor:'#fffefa',xaxis:{title:'x (m)',gridcolor:'#e4d9c5',zerolinecolor:'#c8b994'},yaxis:{title:'y (m)',gridcolor:'#e4d9c5',zerolinecolor:'#c8b994'},zaxis:{title:'z (m)',gridcolor:'#e4d9c5',zerolinecolor:'#c8b994'}},legend:{orientation:'h',y:1.02,x:0}},{responsive:true,displaylogo:false,scrollZoom:true});$('vizLabel').textContent=data.label}
 function setStatus(text,error=false){$('status').textContent=text;$('status').className='status '+(error?'error':'')}
 async function call(path,data){if(!API)throw new Error('Backend URL is not configured. Set BEAM_API_URL in config.js.');const r=await fetch(API+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});const body=await r.json().catch(()=>({detail:r.statusText}));if(!r.ok)throw new Error(body.detail||'Request failed.');return body}
 async function preview(){try{setStatus('Updating visualization...');draw(await call('/preview',payload()));setStatus('Ready.')}catch(e){setStatus(e.message||String(e),true)}}

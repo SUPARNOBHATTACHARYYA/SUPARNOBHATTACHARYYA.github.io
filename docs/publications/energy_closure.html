@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-430d067dfc30e340c1f39584cdf938ce.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4b806f5054f15890e4a7167ebd834cd5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,6 +73,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -97,17 +98,28 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../home.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../research.html"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../research.html">
+ <span class="dropdown-text">Areas</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../research_tools.html">
+ <span class="dropdown-text">Tools</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../teachings.html"> 
 <span class="menu-text">Teaching</span></a>
@@ -164,6 +176,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../index.html">
+ <span class="dropdown-text">Advertisement</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../resources.html">
  <span class="dropdown-text">Resources</span></a>
   </li>  
@@ -189,7 +205,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -226,12 +241,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="abstract" class="level3">
 <h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
 <p>Reduced order models (ROMs) can be simulated with lower computational cost while being more amenable to theoretical analysis. Here, we examine the performance of the proper orthogonal decomposition (POD), a data-driven model reduction technique. We show that the accuracy of ROMs obtained using POD depends on the type of data used and, more crucially, on the criterion used to select the number of proper orthogonal modes (POMs) used for the model. Simulations of a simply supported Euler–Bernoulli beam subjected to periodic impulsive loads are used to generate ROMs via POD, which are then simulated for comparison with the full system. We assess the accuracy of ROMs obtained using steady-state displacement, velocity, and strain fields, tuning the spatiotemporal localization of applied impulses to control the number of excited modes in, and hence the dimensionality of, the system’s response. We show that conventional variance-based mode selection leads to inaccurate models for sufficiently impulsive loading and that this poor performance is explained by the energy imbalance on the reduced subspace. Specifically, the subspace of POMs capturing a fixed amount (say, 99.9%) of the total variance underestimates the energy input and dissipated in the ROM, yielding inaccurate reduced-order simulations. This problem becomes more acute as the loading becomes more spatio-temporally localized (more impulsive). Thus, energy closure analysis provides an improved method for generating ROMs with energetics that properly reflect that of the full system, resulting in simulations that accurately represent the system’s true behavior.</p>
-<hr>
-</section>
-<section id="article-pdf" class="level3">
-<h3 class="anchored" data-anchor-id="article-pdf">Article PDF</h3>
-<iframe src="energy_closure.pdf" width="100%" height="800px" style="border: 1px solid #ddd;">
-</iframe>
+<!-- ------------------------------------------------------------------------ -->
+<!-- ### Article PDF -->
+<!-- <iframe src="energy_closure.pdf" width="100%" height="800px" style="border: 1px solid #ddd;"></iframe> -->
 
 
 </section>

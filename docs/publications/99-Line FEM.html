@@ -73,6 +73,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -97,17 +98,28 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../home.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../research.html"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../research.html">
+ <span class="dropdown-text">Areas</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../research_tools.html">
+ <span class="dropdown-text">Tools</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../teachings.html"> 
 <span class="menu-text">Teaching</span></a>
@@ -164,6 +176,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../index.html">
+ <span class="dropdown-text">Advertisement</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../resources.html">
  <span class="dropdown-text">Resources</span></a>
   </li>  
@@ -189,7 +205,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -226,12 +241,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="abstract" class="level3">
 <h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
 <p>Simulating transient heat transfer is crucial for computational thermal analysis in manufacturing processes such as arc welding, laser powder bed fusion, and directed energy deposition. These processes feature moving heat sources that generate steep spatial and temporal temperature gradients, which in turn strongly influence microstructure formation, residual stress development, distortion, and final mechanical properties. As a result, accurate and efficient simulation tools are invaluable for both research and industrial applications. This tutorial presents a streamlined, Python-based finite element (FE) framework for simulating three-dimensional transient heat conduction with a moving Gaussian heat source over a parallelepiped domain. Distinct from complex commercial or open-source FE codes, this approach uses the lightweight and transparent scikit-fem library for spatial discretization. This enables efficient assembly of system matrices and clear correspondence between mathematical formulation and code implementation. Time integration is handled using the generalized 𝜃-method, covering Forward Euler, Backward Euler, and Crank–Nicolson schemes; the Crank–Nicolson option (𝜃=0.5) is chosen for its unconditional stability and second-order accuracy. Nonlinear boundary conditions due to combined convective and radiative heat losses are included via Newton–Raphson iteration with an analytically derived Jacobian. Each Newton linear system is solved using a conjugate gradient algorithm preconditioned by algebraic multigrid (AMG), ensuring efficiency for moderately fine three-dimensional meshes. The complete simulation code is concise, at roughly 99 lines, making it well-suited for teaching, self-study, or rapid prototyping. The resulting temperature fields are benchmarked against published FEniCS results for the same moving heat source scenario, exhibiting a relative field difference of only 1.5%.</p>
-<hr>
-</section>
-<section id="article-pdf" class="level3">
-<h3 class="anchored" data-anchor-id="article-pdf">Article PDF</h3>
-<iframe src="99-Line FEM.pdf" width="100%" height="800px" style="border: 1px solid #ddd;">
-</iframe>
+<!-- ------------------------------------------------------------------------ -->
+<!-- ### Article PDF -->
+<!-- <iframe src="99-Line FEM.pdf" width="100%" height="800px" style="border: 1px solid #ddd;"></iframe> -->
 
 
 </section>

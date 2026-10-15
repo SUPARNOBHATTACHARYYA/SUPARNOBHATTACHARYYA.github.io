@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4b806f5054f15890e4a7167ebd834cd5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0ffc9e12179eabf507ea5938d61e0b47.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -235,7 +238,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="mechanics-of-meta-materials">2. Mechanics of meta-materials</h2>
 <section id="curved-beam-element" class="level3">
 <h3 class="anchored" data-anchor-id="curved-beam-element">Curved Beam Element</h3>
-<p><a href=".\curved-beam/index.html">Link</a></p>
+<p><a href="./curved-beam/index.html">Link</a></p>
 <p>This web application provides an interactive tool for computing the (12x12) stiffness and consistent mass matrices of open three-dimensional Timoshenko beams with straight, analytically defined, or point-based curved centerlines. Point-defined geometries can be reconstructed using Chebyshev or cubic-spline interpolation and inspected through an interactive 3D visualization. For validation, the stiffness matrix is compared with the analytical straight-beam solution or, for curved geometries, with a refined assembly of conventional straight Timoshenko beam elements whose internal degrees of freedom are statically condensed to the two beam endpoints.</p>
 </section>
 </section>
@@ -255,6 +258,11 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="pubq-studio">PubQ Studio</h3>
 <p><a href="https://pubq-studio.onrender.com/">Link</a></p>
 <p>PubQ Studio is a browser-based publication-quality scientific figure editor built with Python and Jupyter. It allows researchers and engineers to import data or create mathematical equations, then build highly customizable 1D, 2D, and 3D plots, multi-panel figures, scalar/vector/tensor field visualizations, annotations, curve fits, smoothing, and animations. The platform emphasizes publication-ready output, offering precise control over typography, axes, layouts, colors, legends, camera views, figure dimensions, DPI, and export settings. Figures can be exported in formats such as PDF, SVG, EPS, PNG, MP4, and GIF, with tools such as publication preflight, templates, and style controls to help produce consistent scientific graphics.</p>
+</section>
+<section id="zen" class="level3">
+<h3 class="anchored" data-anchor-id="zen">Zen</h3>
+<p><a href="https://writemind.github.io/WriteMind/">Link</a></p>
+<p>Zen is a radically minimalist, browser-based text editor designed to be the digital equivalent of a quiet room. By stripping away traditional word-processor clutter like toolbars, menus, and sidebars, it presents writers with a clean, blank canvas. The focus is entirely on the words themselves. Essential features like text formatting only appear when you highlight a word, and subtle tools like word counts stay out of the way, creating a completely distraction-free environment meant to protect your creative flow.</p>
 
 
 </section>

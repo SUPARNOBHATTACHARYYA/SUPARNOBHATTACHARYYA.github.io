@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4b806f5054f15890e4a7167ebd834cd5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0ffc9e12179eabf507ea5938d61e0b47.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -251,8 +254,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Suparno Bhattacharyya</strong> (2026J).<br>
 <em>Computer Applications in Engineering Education</em><br>
 <a href="./publications/99-Line FEM.html">A 99-Line FEM Code for Simulating a Moving Point Heat Source Over a Domain</a></p>
-<p><a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_7">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_7">Abstract</a> <a href="https://doi.org/10.1002/cae.70226" class="btn btn-outline btn-sm" target="_blank">URL</a></p>
-<div id="cite-bhattacharyya_7" class="d-none">
+<p><a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Cite" data-modal-content="#cite-bhattacharyya_8">Cite</a> <a href="#" class="btn btn-outline btn-sm" data-bs-toggle="modal" data-bs-target="#publication-modal" data-modal-title="Abstract" data-modal-content="#abs-bhattacharyya_8">Abstract</a> <a href="https://doi.org/10.1002/cae.70226" class="btn btn-outline btn-sm" target="_blank">URL</a></p>
+<div id="cite-bhattacharyya_8" class="d-none">
 <pre><code>@article{Bhattacharyya2026,
   title = {A 99‐Line FEM Code for Simulating a Moving Point Heat Source Over a Domain},
   volume = {34},
@@ -267,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
   month = July 
 }</code></pre>
 </div>
-<div id="abs-bhattacharyya_7" class="d-none">
+<div id="abs-bhattacharyya_8" class="d-none">
 <p>
 Simulating transient heat transfer is crucial for computational thermal analysis in manufacturing processes such as arc welding, laser powder bed fusion, and directed energy deposition. These processes feature moving heat sources that generate steep spatial and temporal temperature gradients, which in turn strongly influence microstructure formation, residual stress development, distortion, and final mechanical properties. As a result, accurate and efficient simulation tools are invaluable for both research and industrial applications. This tutorial presents a streamlined, Python-based finite element (FE) framework for simulating three-dimensional transient heat conduction with a moving Gaussian heat source over a parallelepiped domain. Distinct from complex commercial or open-source FE codes, this approach uses the lightweight and transparent scikit-fem library for spatial discretization. This enables efficient assembly of system matrices and clear correspondence between mathematical formulation and code implementation. Time integration is handled using the generalized 𝜃-method, covering Forward Euler, Backward Euler, and Crank–Nicolson schemes; the Crank–Nicolson option (𝜃=0.5) is chosen for its unconditional stability and second-order accuracy. Nonlinear boundary conditions due to combined convective and radiative heat losses are included via Newton–Raphson iteration with an analytically derived Jacobian. Each Newton linear system is solved using a conjugate gradient algorithm preconditioned by algebraic multigrid (AMG), ensuring efficiency for moderately fine three-dimensional meshes. The complete simulation code is concise, at roughly 99 lines, making it well-suited for teaching, self-study, or rapid prototyping. The resulting temperature fields are benchmarked against published FEniCS results for the same moving heat source scenario, exhibiting a relative field difference of only 1.5%.
 </p>
@@ -297,7 +300,7 @@ Simulating transient heat transfer is crucial for computational thermal analysis
 </div>
 <div id="abs-bhattacharyya_7" class="d-none">
 <p>
-We study the reduced order modeling of a nonlinear flexible oscillator in which a Bernoulli-Euler beam is subjected to a position-triggered kick force and a piecewise restoring force at its tip. The resulting nonsmooth boundary conditions can generally be expected to excite many degrees of freedom. The system is modeled as piecewise linear with different boundary conditions determining different regions of a hybrid phase space. With kick strength as parameter, its bifurcation diagram is found to exhibit a range of periodic and chaotic behaviors. Proper orthogonal decomposition (POD) is used to estimate the system’s intrinsic dimensionality. However, conventional POD’s purely statistical analysis of spatial covariance does not guarantee accuracy of reduced order models (ROMs). We therefore augment POD by employing a previously-developed energy closure criterion that selects ROM dimension by ensuring approximate energy balance on the reduced subspace. This physics-based criterion yields accurate ROMs with 8 degrees of freedom. Remarkably, we find that ROMs formulated at particular values of the kick strength can nevertheless reconstruct the entire bifurcation structure of the original nonlinear structural system. We thus show that energy closure analysis reliably yields effective dimension estimates and, thereby, ROMs that are robust across stability transitions, including even period doubling cascades to chaos.
+We study the reduced order modeling of a piecewise-linear, globally nonlinear flexible oscillator in which a Bernoulli–Euler beam is subjected to a position-triggered kick force and a piecewise restoring force at its tip. The nonsmooth boundary conditions, which determine different regions of a hybrid phase space, can generally be expected to excite many degrees of freedom. With kick strength as parameter, the system’s bifurcation diagram is found to exhibit a range of periodic and chaotic behaviors. Proper orthogonal decomposition (POD) is used to obtain a single set of global basis functions spanning all of the hybrid regions. The reduced order model (ROM) dimension is chosen using previously developed energy closure analysis, ensuring approximate energy balance on the reduced subspace. This yields accurate ROMs with 8 degrees of freedom. Remarkably, we find that ROMs formulated using data from individual periodic steady states can nevertheless be used to reconstruct the entire bifurcation structure of the original system without updating. This demonstrates that, despite being constructed with steady state data, the ROMs model sufficiently small transients with enough accuracy to permit using simple continuation for the bifurcation diagram. We also find ROM subspaces obtained for different values of the bifurcation parameter are essentially identical. Thus, POD augmented with energy closure analysis is found to reliably yield effective dimension estimates and ROMs for this nonlinear, nonsmooth system that are robust across stability transitions, including even period doubling cascades to chaos, thereby greatly reducing data requirements and computational costs.
 </p>
 </div>
 </div>

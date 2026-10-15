@@ -54,3 +54,11 @@ PubQ Studio is a browser-based publication-quality scientific figure editor buil
 The platform emphasizes publication-ready output, offering precise control over typography, axes, layouts, colors, legends, camera views, figure dimensions, DPI, and export settings. Figures can be exported in formats such as PDF, SVG, EPS, PNG, MP4, and GIF, with tools such as publication preflight, templates, and style controls to help produce consistent scientific graphics.
 
 
+
+### Zen
+[Link](https://writemind.github.io/WriteMind/)
+
+
+Zen is a radically minimalist, browser-based text editor designed to be the digital equivalent of a quiet room. By stripping away traditional word-processor clutter like toolbars, menus, and sidebars, it presents writers with a clean, blank canvas.
+The focus is entirely on the words themselves. Essential features like text formatting only appear when you highlight a word, and subtle tools like word counts stay out of the way, creating a completely distraction-free environment meant to protect your creative flow.
+

@@ -87,7 +87,7 @@ website:
           - text: "News"
             href: news.qmd
           - text: "Advertisement"
-            href: index.qmd
+            href: advertisement.qmd
           - text: "Resources"
             href: resources.qmd
             

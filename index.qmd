@@ -11,19 +11,16 @@ format:
 
 ![](images/home/D3_logo.png){width=30% height=50% fig-align="center"}
 
-<!-- FULL WIDTH VIDEO CONTAINER -->
-::: {.column-screen style="display: flex; justify-content: center; gap: 10%; padding: 0 10px; margin-bottom: 20px;"}
 
-<!-- FULL WIDTH VIDEO CONTAINER -->
-::: {.column-screen style="display: flex; justify-content: center; gap: 5%; padding: 0 20px; margin-bottom: 40px;"}
+<!-- TEXT-WIDTH VIDEO CONTAINER -->
+::: {.column-body style="display: flex; justify-content: space-between; margin-bottom: 40px;"}
 
-<!-- Video 1 (Speed: 4x) -->
-<video src="videos/99-line.mp4" style="width: 47%; border: 1.5px solid #800000;" autoplay muted loop playsinline onloadedmetadata="this.playbackRate = 4;"></video>
+<!-- Video 1 (Speed: 1x) -->
+<video src="videos/99-line.mp4" style="width: 48.5%; border: 1.5px solid #800000;" autoplay muted loop playsinline onloadedmetadata="this.playbackRate = 1;"></video>
 
 <!-- Video 2 (Speed: 4x) -->
-<video src="videos/metamat_demo_4min.mp4" style="width: 47%; border: 1.5px solid #800000;" autoplay muted loop playsinline onloadedmetadata="this.playbackRate = 4;"></video>
+<video src="videos/metamat_demo_4min.mp4" style="width: 48.5%; border: 1.5px solid #800000;" autoplay muted loop playsinline onloadedmetadata="this.playbackRate = 4;"></video>
 
-:::
 :::
 
 

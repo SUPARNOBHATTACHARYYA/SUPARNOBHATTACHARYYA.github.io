@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4b806f5054f15890e4a7167ebd834cd5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0ffc9e12179eabf507ea5938d61e0b47.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -214,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -232,15 +235,25 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/home/ISM_logo.png" class="img-fluid" style="max-width: 250px; max-height: 200px;"></p>
 </div>
 </section>
-<section id="about-d-cubed-lab" class="level1 center-heading">
+<section id="about-d-cubed-lab" class="level1 center-heading page-columns page-full">
 <h1 class="center-heading">About D-cubed Lab</h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/home/D3_logo.png" class="quarto-figure quarto-figure-center figure-img" style="width:30.0%;height:50.0%"></p>
 </figure>
 </div>
-<video src="/videos/99-line.mp4" width="800px" height="400px" style="border: 1.5px solid #fff; margin-bottom: 30px;" autoplay="" muted="" loop="" playsinline="">
+<!-- FULL WIDTH VIDEO CONTAINER -->
+<div class="column-screen page-columns page-full" style="display: flex; justify-content: center; gap: 10%; padding: 0 10px; margin-bottom: 20px;">
+<!-- FULL WIDTH VIDEO CONTAINER -->
+<div class="column-screen" style="display: flex; justify-content: center; gap: 5%; padding: 0 20px; margin-bottom: 40px;">
+<!-- Video 1 -->
+<video src="videos/99-line.mp4" style="width: 47%; border: 1.5px solid #800000;" autoplay="" muted="" loop="" playsinline="">
 </video>
+<!-- Video 2 -->
+<video src="videos/metamat_demo_4min.mp4" style="width: 47%; border: 1.5px solid #800000;" autoplay="" muted="" loop="" playsinline="">
+</video>
+</div>
+</div>
 <p>At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates <strong>computational mechanics, topology optimization, and data-driven modeling,</strong> with an emphasis on capturing mechanical and dynamical behavior across scales and applications.</p>
 <p>A core theme of our work is the development of <strong>intrusive and nonintrusive data-driven methods</strong> that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.</p>
 <p><img src="images/home_banner.jpg" class="img-fluid" style="margin: 40px auto;;width:100.0%"></p>
@@ -251,6 +264,10 @@ ul.task-list li input[type="checkbox"] {
 <p>• Integration of neural ODEs and machine learning into physics-based modeling pipelines</p>
 <p>As a natural extension, we are increasingly applying these methods to support <strong>digital twin technologies</strong>, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.</p>
 <p>Our long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.</p>
+<!-- HIRING ALERT BUTTON -->
+<div style="text-align: center; margin-bottom: 40px; margin-top: 10px;">
+<p><a href="./news.html" class="btn-hiring">🚨 We are hiring! Click here for open positions</a></p>
+</div>
 <div class="button-container">
 <p><a href="./news.html" class="btn-custom">News →</a></p>
 <p><a href="./labgroup.html" class="btn-custom">Lab group →</a></p>

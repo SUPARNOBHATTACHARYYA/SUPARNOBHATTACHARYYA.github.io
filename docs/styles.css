@@ -401,8 +401,7 @@ body {
 main ul li {
     margin-bottom: 25px; /* Adds breathing room between tools */
     line-height: 1.6;    /* Makes text easier to read */
-    list-style-type: none; /* Removes the default bullet points for a cleaner look */
-    padding-left: 0;
+
 }
 
 /* Style the Bold Titles (e.g., "Slack", "Notion") */
@@ -1245,4 +1244,6 @@ h1, h2, h3, h4, h5, h6, ul, ol {
 .close-modal:hover {
   color: #800000;
 }
+
+
 

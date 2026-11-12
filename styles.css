@@ -1104,3 +1104,145 @@ div.nav-footer a:hover {
   100% { box-shadow: 0 0 0 0 rgba(128, 0, 0, 0); }
 }
 
+
+
+
+
+/* =========================================================
+   GLOBAL LEFT ALIGNMENT OVERRIDES
+   ========================================================= */
+h1, h2, h3, h4, h5, h6, ul, ol {
+  text-align: left !important;
+}
+
+.container, .main-content {
+  text-align: left !important;
+}
+
+#about, #research-focus, #certifications {
+  text-align: left !important;
+}
+
+/* =========================================================
+   HIRING ALERT BUTTON (Pulsing Animation)
+   ========================================================= */
+.btn-hiring {
+  display: inline-block;
+  background-color: #800000;
+  color: #ffffff !important;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: pulse-maroon 2s infinite;
+  transition: all 0.3s ease;
+}
+
+.btn-hiring:hover {
+  background-color: #5a0000;
+  transform: translateY(-2px);
+}
+
+@keyframes pulse-maroon {
+  0% { box-shadow: 0 0 0 0 rgba(128, 0, 0, 0.7); }
+  70% { box-shadow: 0 0 0 15px rgba(128, 0, 0, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(128, 0, 0, 0); }
+}
+
+/* =========================================================
+   LOGO ROW ALIGNMENT
+   ========================================================= */
+.logo-container-spread {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.logo-container-spread p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.logo-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.logo-container-center p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.logo-container-spread img,
+.logo-container-center img {
+  max-width: 135px;
+  height: auto;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+/* =========================================================
+   VIDEO MODAL (POP-UP) STYLES
+   ========================================================= */
+.clickable-video {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.clickable-video:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(128, 0, 0, 0.3);
+}
+
+.video-modal {
+  display: none; 
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(5px);
+  justify-content: center;
+  align-items: center;
+}
+
+.video-modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  border: 3px solid #800000;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.close-modal {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-modal:hover {
+  color: #800000;
+}
+

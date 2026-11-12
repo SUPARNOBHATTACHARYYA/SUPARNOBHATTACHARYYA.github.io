@@ -222,6 +222,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<!-- HIRING ALERT BUTTON (Forced Center) -->
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 40px;">
+<p><a href="./advertisement.html" class="btn-hiring">🚨 We are hiring! Click here for open positions</a></p>
+</div>
 <section id="about-d-cubed-lab" class="level1 center-heading page-columns page-full">
 <h1 class="center-heading">About D-cubed Lab</h1>
 <div class="quarto-figure quarto-figure-center">
@@ -232,26 +236,24 @@ ul.task-list li input[type="checkbox"] {
 <!-- TEXT-WIDTH VIDEO CONTAINER -->
 <div class="column-body" style="display: flex; justify-content: space-between; margin-bottom: 40px;">
 <!-- Video 1 (Speed: 1x) -->
-<video src="videos/99-line.mp4" style="width: 48.5%; border: 1.5px solid #800000;" autoplay="" muted="" loop="" playsinline="" onloadedmetadata="this.playbackRate = 1;">
+<video src="videos/99-line.mp4" class="clickable-video" style="width: 48.5%; border: 1.5px solid #800000;" autoplay="" muted="" loop="" playsinline="" onloadedmetadata="this.playbackRate = 1;" onclick="openModal('videos/99-line.mp4', 1)">
 </video>
 <!-- Video 2 (Speed: 4x) -->
-<video src="videos/metamat_demo_4min.mp4" style="width: 48.5%; border: 1.5px solid #800000;" autoplay="" muted="" loop="" playsinline="" onloadedmetadata="this.playbackRate = 4;">
+<video src="videos/metamat_demo_4min.mp4" class="clickable-video" style="width: 48.5%; border: 1.5px solid #800000;" autoplay="" muted="" loop="" playsinline="" onloadedmetadata="this.playbackRate = 4;" onclick="openModal('videos/metamat_demo_4min.mp4', 4)">
 </video>
 </div>
 <p>At the D-cubed Lab, we investigate and develop efficient modeling techniques for the simulation and design of complex engineering systems. Our research integrates <strong>computational mechanics, topology optimization, and data-driven modeling,</strong> with an emphasis on capturing mechanical and dynamical behavior across scales and applications.</p>
 <p>A core theme of our work is the development of <strong>intrusive and nonintrusive data-driven methods</strong> that retain physical accuracy while enabling significant computational speed-ups. These tools are critical for simulating nonlinear, multiphysics phenomena efficiently—whether in structural dynamics, materials design, or energy systems.</p>
 <p><img src="images/home_banner.jpg" class="img-fluid" style="margin: 40px auto;;width:100.0%"></p>
 <p>Our contributions span:</p>
-<p>• Data-driven ROMs for systems with discontinuities and nonlinearities</p>
-<p>• Energy-based closure strategies for improved accuracy in low-dimensional models</p>
-<p>• Topology optimization frameworks for periodic and lattice structures with tailored dynamic properties</p>
-<p>• Integration of neural ODEs and machine learning into physics-based modeling pipelines</p>
+<ul>
+<li>Data-driven ROMs for systems with discontinuities and nonlinearities</li>
+<li>Energy-based closure strategies for improved accuracy in low-dimensional models</li>
+<li>Topology optimization frameworks for periodic and lattice structures with tailored dynamic properties</li>
+<li>Integration of neural ODEs and machine learning into physics-based modeling pipelines</li>
+</ul>
 <p>As a natural extension, we are increasingly applying these methods to support <strong>digital twin technologies</strong>, where real-time simulation and decision-making are essential. By enabling rapid yet accurate predictions in domains such as neutron transport, combustion, and manufacturing, our models help make digital twins a practical tool for engineering insight and control.</p>
 <p>Our long-term goal is to push the limits of simulation-driven design, combining physics, computation, and data to tackle emerging challenges in modern engineering.</p>
-<!-- HIRING ALERT BUTTON (Forced Center) -->
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 40px;">
-<p><a href="./advertisement.html" class="btn-hiring">🚨 We are hiring! Click here for open positions</a></p>
-</div>
 <p><img src="profile.jpg" class="profile-circle img-fluid"></p>
 </section>
 <section id="about-me" class="level1 center-heading">
@@ -270,23 +272,36 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="./labgroup.html" class="btn-custom">Lab group →</a></p>
 <p><a href="./Webinar.html" class="btn-custom">Webinar →</a></p>
 </div>
-<style>
-
-/* Ensure paragraphs, headings, and lists are left-aligned */
-h1, h2, h3, h4, h5, h6, ul, ol {
-  text-align: left !important;
+<!-- VIDEO MODAL CONTAINER & JAVASCRIPT -->
+<div id="videoModal" class="video-modal" onclick="closeModal(event)">
+<p><span class="close-modal" onclick="closeModal(event)">×</span> <video id="modalVideo" class="video-modal-content" controls="" autoplay="" loop="" playsinline=""></video></p>
+</div>
+<script>
+// Open pop-up and set video speed
+function openModal(videoSrc, speed) {
+  const modal = document.getElementById('videoModal');
+  const modalVid = document.getElementById('modalVideo');
+  
+  modalVid.src = videoSrc;
+  modalVid.onloadedmetadata = function() { 
+    this.playbackRate = speed; 
+  };
+  
+  modal.style.display = 'flex';
 }
 
-/* Remove Bootstrap's default centering */
-.container, .main-content {
-  text-align: left !important;
+// Close pop-up
+function closeModal(event) {
+  if (event.target.id === 'videoModal' || event.target.className === 'close-modal') {
+    const modal = document.getElementById('videoModal');
+    const modalVid = document.getElementById('modalVideo');
+    
+    modalVid.pause();
+    modalVid.src = '';
+    modal.style.display = 'none';
+  }
 }
-
-/* Optional: Fix alignment for specific sections */
-#about, #research-focus, #certifications {
-  text-align: left !important;
-}
-</style>
+</script>
 
 
 </section>
